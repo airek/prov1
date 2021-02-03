@@ -1,0 +1,290 @@
+#include "backend.h"
+#include "auxclass/dbinterface.h"
+
+Backend::Backend(QObject *parent) : QObject(parent)
+{
+    cntr=new Counters;
+    connect(cntr,&Counters::countersInZero,
+            this,&Backend::setCntrZero);
+
+    cntr->setHourCounter(Global::mResH.toUInt());
+    cntr->setShiftCounter(Global::mResS.toUInt());
+
+
+    target=new Target;
+    connect(target,&Target::targetsIncreased,
+            this,&Backend::targetIncreased);
+    connect(target,&Target::targetsZero,
+            this,&Backend::setTargetsZero);
+
+    target->setHourTarget(Global::mTargetH.toUInt());
+    target->setShiftTarget(Global::mTargetS.toUInt());
+
+}
+/*!
+ * \brief Backend::Listen
+ * \param ipAddr
+ * \param portNr
+ * \param name
+ * \return
+ */
+bool Backend::listen(QString serverName, QString IPAddr, int portNr)
+{
+
+    //
+    mServer=new IpServer;
+    bool isListening;
+    qDebug()<<"ip "<<IPAddr<<"portNr "<<portNr<<"serverName  "<<serverName;
+    if(mServer->listen(IPAddr,portNr,serverName))
+    {
+        isListening=true;
+
+    }else {
+        isListening=false;
+    }
+
+    return isListening;
+
+}
+/*!
+ * \brief Backend::startServer
+ */
+void Backend::startServer()
+{
+   QString strQry;
+   QStringList devList;
+   QString temp;
+   dbInterface dbi(Global::mDbConnection);
+   QStringList tempList;
+
+   strQry="select devName,ipAddr,portNr,status from devices "
+           "where line='"+Global::mLine+"'";
+   qDebug()<<"strQry "<<strQry;
+   devList=dbi.returnCompressedQueryResult(strQry,"@");
+
+   // jezeli lista nie jest pusta
+   if(!devList.isEmpty())
+   {
+       temp=devList.at(0);
+       qDebug()<<temp;
+       tempList=temp.split("@");
+       if(startListening(tempList.at(1),tempList.at(2).toInt()))
+       {
+           emit serverListening();
+       }
+
+   }
+}
+
+uint Backend::getShiftCntr()
+{
+    return cntr->shiftCounter();
+}
+
+uint Backend::getHourCntr()
+{
+    return  cntr->hourCounter();
+}
+/*!
+ * \brief Backend::getTarget
+ * \param partNr
+ * \return
+ */
+QString Backend::getTarget(QString partNr)
+{
+    dbInterface dbi(Global::mDbConnection);
+    uint shiftTarget;
+    uint targetPerHour;
+    float shiftFactor;
+    QString strTargetPerHour;
+
+    // strQry
+    QString strQry("Select shiftTarget from targets where "
+                   " partNr='"+partNr+"'");
+    QString res=dbi.returnOneColumn(strQry);
+
+    qDebug()<<"Otrzymany res "<<res;
+    shiftTarget=res.toUInt();
+    shiftFactor=Global::mShiftFactor.toFloat();
+    qDebug()<<"Shift Factor "<<shiftFactor;
+
+    // setting targetPerHour in target to calculate interval
+    targetPerHour=shiftTarget/shiftFactor;
+    target->setInterval(targetPerHour);
+
+    //
+    qDebug()<<"target per Hour "<<targetPerHour;
+    strTargetPerHour=strTargetPerHour.setNum(targetPerHour);
+    return strTargetPerHour;
+
+}
+/*!
+ * \brief Backend::status
+ * \param status
+ * setting current status
+ */
+void Backend::status(QString status)
+{
+    mStatus=status;
+    target->stop();
+}
+
+uint Backend::getTargetPerH()
+{
+    return target->hourTarget();
+}
+
+uint Backend::getTargetPers()
+{
+    return target->shiftTarget();
+}
+
+
+bool Backend::execQry(QString strQry)
+{
+    Global global;
+
+    if(global.execQuery(strQry))
+        return true;
+
+    return false;
+}
+
+void Backend::writeSettings(QString partNr, QString targetH,
+                            QString targetS, QString resH, QString resS, QString status)
+{
+    Global global;
+    global.writeAppSettings(partNr,targetH,targetS,resH,resS,status);
+}
+
+QString Backend::getPartNr()
+{
+    return Global::mPartNr;
+}
+
+QString Backend::getStatus()
+{
+    return Global::mStatus;
+}
+
+QString Backend::getLine()
+{
+    return Global::mLine;
+}
+
+QString Backend::getDevName()
+{
+    return Global::mDevName;
+}
+
+QString Backend::getIpAddr()
+{
+    return Global::mIpAddr;
+}
+
+QString Backend::getPortNr()
+{
+    return Global::mPortNr;
+}
+
+bool Backend::getServerStatus()
+{
+    return Global::mServerStatus;
+}
+
+
+
+/*!
+ * \brief Backend::socketConnected
+ * \param ipAddres
+ */
+void Backend::socketConnected(QString ipAddres)
+{
+    qDebug()<<"Client from Ip connected "<<ipAddres;
+    emit clientServerConnected();
+}
+
+void Backend::clientDisconnected(QString ipAddres)
+{
+    qDebug()<<"Client from IP disconnected "<<ipAddres;
+    emit clientServerDisconnected();
+}
+/*!
+ * \brief Backend::countersIncreased
+ */
+void Backend::countersIncreased()
+{
+    cntr->increaseCounter();
+    qDebug()<<"cntr "<<cntr->hourCounter();
+    qDebug()<<"shift cntr "<<cntr->shiftCounter();
+
+    if(!target->isRunning)
+    {
+        target->start();
+    }
+
+    emit cntrIncreased();
+}
+/*!
+ * \brief Backend::targetIncreased
+ */
+void Backend::targetIncreased()
+{
+    //qDebug()<<"Backend targetIncreased ";
+    emit targetsIncreased();
+}
+/*!
+ * \brief Backend::setCntrZero
+ * cntr value was set zero getting data
+ */
+void Backend::setCntrZero()
+{
+    emit cntrZero();
+}
+/*!
+ * \brief Backend::setTargetsZero
+ */
+void Backend::setTargetsZero()
+{
+    emit targetsZero();
+}
+
+/*!
+ * \brief Backend::writeLog
+ * \param msg
+ */
+void Backend::writeLog(QString msg)
+{
+    Global global;
+    global.setFileName(Global::mFileName);
+    global.writeLog(msg);
+}
+/*!
+ * \brief Backend::createDevices
+ */
+void Backend::createDevices()
+{
+
+}
+/*!
+ * \brief Backend::startListening
+ */
+bool Backend::startListening(QString ipA, int portNr)
+{
+    mServer=new IpServer;
+    connect(mServer,SIGNAL(clientConnected(QString)),
+            this,SLOT(socketConnected(QString)));
+    connect(mServer,SIGNAL(clientDisconnected(QString)),
+            this,SLOT(clientDisconnected(QString)));
+    connect(mServer,SIGNAL(partOK()),this,
+            SLOT(countersIncreased()));
+
+
+    if(mServer->startListening(ipA,portNr))
+    {
+        return true;
+    }else
+    {
+        return false;
+    }
+}

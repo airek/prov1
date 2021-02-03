@@ -1,0 +1,966 @@
+ID;nr_wyrobu;nazwa_wyrobu;ilosc_na_zmiane_ke
+1;5831,00;Lindor Geschenk Milch;13632
+2;5841,00;Lindor Geschenk Dark 60%;13632
+3;5931,00;Lindor Kissen Milch Valent.;15740
+4;5941,00;Lindor Tube Milch Muttertag;9642
+5;5961,00;Lindor Kissen Milch ;7052
+6;5981,00;Lindor Tube ASS Mischung;9642
+7;8641,00;Lindor Beutel 1 kg gemischt-Wagi;4550
+8;8647,00;EX FR,DE,UK,NL Lindor Bag Ass-Wagi;4550
+9;8651,00;Lindor Beutel 1 kg Vollmilch;6282
+10;8656,00;EX FR, DE, UK, NL Lindor Bag ;6282
+11;8657,00;EX DE Lindor Bag Milk;6282
+12;9421,00;Lindor Blechdose Wint Milch;9642
+13;9427,00;EX GE Lindor Tin Milk;9642
+14;9441,10;Lindor PrÑsent Caramel;13632
+15;9441,00;Lindor PrÑsent Caramel;13632
+16;9451,00;Lindor Herzbox 325 g Milch;9968
+17;9471,00;Lindor kl. Herz 50g Milch;12320
+18;9471,10;Lindor kl. Herz 50g Milch;12320
+19;9771,00;Lindor Kissenp. Mischung;9184
+20;9777,00;EX GE Lindor Assorted Pillow Box;9184
+21;9781,00;Lindor Kissenp. Milch;9660
+22;9787,00;EX DE Lindor Milk Pillow Box;9660
+23;9789,00;EXˇ SE,FI,DK,NO,DE,UK Lindor M. ;9660
+24;9791,00;Lindor Kissenp. Dark;9660
+25;9797,00;EX DE Lindor Dark Pillow Box;9660
+26;9901,00;Fioretto Misch. 253g Kissp.;10496
+27;10091,00;Lindor PrÑsent Mischung;13632
+28;10091,10;Lindor PrÑsent Mischung;13632
+29;10481,00;FK und Lindor 225g;8112
+30;10487,00;EX GE Frog Prince & Lindor;8112
+31;10521,00;Kissenpackungen I mog Di ;11760
+32;10551,00;Lindor Vday Pras. ;12000
+33;10561,00;Lindor Vday Rosenbox;8100
+34;10571,00;Lindor Mini Gift ;11160
+35;10574,00;EX IT Lindor Mini Heart Box;11160
+36;10577,00;EX GE Lindor Little Presents;11160
+37;10641,00;Lindor Champagner Box ;8400
+38;10647,00;EX De Lindor Silvester Present;8400
+39;10661,00; Lindor Design Mini Gift ;15930
+40;10667,00;EX DE Lindor Love Box;15930
+41;10671,00; Lindor Design Tin 225 g;9642
+42;10681,00;Lindor Design ;10632
+43;10687,00;EX DE Lindor Love Present Box;10632
+44;11511,00;Herz TÑfelchen I mog Di;130000
+45;11671,00;Lindor Glitzerbox Assorted;10720
+46;11681,00;Lindor Glitzerkîcher Milk;9224
+47;70693,00;Lindor Gold Tasche;8688
+48;70699,00;Lindor Gold Box;10070
+49;922051,00;Z VP Lindor Gold Box 70699;10070
+50;70197,00;Lindor Gold PrÑsent;10800
+51;76254,00;EX DE Lindor Gold PrÑsent;10800
+52;70903,10;Hello AK EV;6000
+53;75441,10;Kl. Weihn - Freunde;25056
+54;75441,20;Kl. Weihn - Freunde;25056
+55;78521,10;Alk. FlÑschchen Williams;27624
+56;78521,20;Alk. FlÑschchen Williams;27624
+57;70917,00;Schneefl.Bonbon klein;7440
+58;70885,10;Black-White Tischkal.;11000
+59;70969,00;Black-White Gru·k.Engel;12720
+60;78527,10;EX DE Xmas Alcohol Bottles;27624
+61;78527,20;EX DE Xmas Alcohol Bottles;27624
+62;72767,10;EX DE Teddy Friends;25056
+63;72767,20;EX DE Teddy Friends;25056
+64;70905,10;Hello Santa AK EV;4300
+65;70895,00;Frohes Fest AK EV;7000
+66;70865,00;Black - White Kissenp.Klein;11760
+67;920702,10;Z VP Teddy -Freunde 72761;25056
+68;920702,20;Z VP Teddy-Freunde 72761;25056
+69;922052,00;Z VP Lindor Gold Etui 70703;4860
+70;70703,00;Lindor Gold Etui;4860
+71;23731,00;Hello Hearts 30 er;180000
+72;70889,00;Black-White Tischkal. EV;11000
+73;76253,00;EX DE Lindor Gold Box;4860
+74;70947,10;Weihnachtskugel Tischkal.;11000
+75;70853,00;Kalender PÑrchen;3300
+76;70863,00;Black-White Kissenp.Gro·;8784
+77;70919,00;Schneefl. Gru·k. Santa;12720
+78;70965,00;Am. Xmas AK EV;8400
+79;922008,00;Z VP Hello K. Mini Emoti 70657;6500
+80;70675,00;Hello Kalender Mini Emoti;6500
+81;60177,10;EX US Bugs&Bees;27728
+82;60177,20;EX US Bugs&Bees;27728
+83;90613,00;Blister GlÅcks-Kleeblatt;12720
+84;76272,00;EX DE, FR Hello Emoti Calendar;6500
+85;70955,10;Weihnachtsmarkt T-AK EV;11000
+86;737240,10;Z VP KL. WEIH. FREUNDE 75441;25056
+87;737240,20;Z VP KL. WEIH. FREUNDE 75441;25056
+88;66172,10;EX US Frogs (Frîsche);27728
+89;66172,20;EX US Frogs (Frîsche);27728
+90;70899,10;GoldstÅcke AK EV;8400
+91;78511,10;Alkohol-FlÑschchen;27624
+92;78511,20;Alkohol-FlÑschchen;27624
+93;733587,10;Z VP ALK. FLASCHEN;27624
+94;733587,20;Z VP ALK.FLASCHEN;27624
+95;72761,10;Teddy - Freunde;25056
+96;72761,20;Teddy - Freunde;25056
+97;75443,10;EX CA PCW Polar Beer Friends;25056
+98;75443,20;EX CA PCW Polar Beer Friends;25056
+99;78517,10;EX GE Xmas Alcohol Bottles;27624
+100;78517,20;EX GE Xmas Alcohol Bottles;27624
+101;78561,10;Eierlikîr FlÑschchen;27624
+102;78561,20;Eierlikîr FlÑschchen;27624
+103;78567,10;EX GE Xmas Egg Brandy Bottles;27624
+104;78567,20;EX GE Xmas Egg Brandy Bottles;27624
+105;76276,00;EX DE Gold Nuggets Calendar;8400
+106;23781,00;Hello Taler 30 er;180000
+107;23771,00;Hello Emoti 30 er;180000
+108;68056,00;EX IT Carrot Thaler Milk;180000
+109;70949,00;Weihnachtskug.Tischkal.EV;7000
+110;71403,00;L-Nostalgie FVB-ETYKIECIARKA;8640
+111;70957,10;Weihnachtszauber T-AK EV;11000
+112;739467,10;Z VP Doppelmilch Freunde 66841;25056
+113;739467,20;Z VP Doppelmich Freunde 66841;25056
+114;66171,10;Kleine Oster Freunde;25056
+115;66171,20;Kleine Oster Freunde;25056
+116;66177,10;EX DE,FR,UK Easter Fun Friends;25056
+117;66177,20;EX DE,FR,UK Easter Fun Friends;25056
+118;66845,10;EX CA Double Milk Friends;25056
+119;66845,20;EX CA Double Milk Friends;25056
+120;66847,10;EX DE Easter Fun Double Friends;25056
+121;66847,20;EX DE Easter Fun Double Friends;25056
+122;66841,10;Doppelmilch Osterfreunde;25056
+123;66841,20;Doppelmilch Osterfreunde;25056
+124;736522,10;Z VP Kl. Osterfreunde 66171;25056
+125;736522,20;Z VP Kl. Osterfreunde 66171;25056
+126;99993,00;SM Lindor Gratisgeschenk;15930
+127;71005,10;Lindor AK gold EV;7075
+128;71007,00;Lindor AK gold;7075
+129;70975,00;Rot Tannenbaum AK;4636
+130;70939,00;Schneefl. Tannenbaum AK;4636
+131;70915,00;Schneefl.Bonbon gro·;3840
+132;68035,00;EX DE Lindor Cornet Milk;7800
+133;71297,00;AK poster XXL Liliput Quer;9060
+134;68036,00;EX DE Lindor Cornet Assorted;7800
+135;71295,00;AK poster XXL 23+1;4840
+136;99987,00;SM Lindor gratis Kissen;15000
+137;71123,00;AK Kaufhof Gutschein;8400
+138;12797,00;EX DE Lindor Heart Box Milk;9600
+139;68029,00;EX DE Gold Bunny Tube Flower;15120
+140;76265,00;EX DE Snowman Tin - Etykieciarka;11000
+141;68053,00;EX DE,FR,UK,NL Hello Emoti Egg;9240
+142;922120,00;Z VP O.Gold M.Ballotin 60533;9600
+143;43778,00;EX ID (Arab) Hello Emoti;189360
+144;68012,00;EX DE Mega Carrot;9600
+145;12827,00;EX DE Lindor Valentin Milk;12000
+146;12837,00;EX DE Lindor Valentin Milk;15930
+147;60528,10;EX UK Bugs&Bees Flowpack;27720
+148;60528,20;EX DE Bugs&Bees Flowpack;27720
+149;922083,00;Z VP Hello Emoti Stange 60143;9240
+150;922106,00;Z VP Macarons Kl.Gesch. 60463;9590
+151;922104,00;Z VP Macarons Gr.Gesch. 60453;7200
+152;60433,00;Lindor Edition Cornet Mix;7800
+153;922119,00;Z VP Blumen Ed.Rîhrchen 60523;15120
+154;60529,10;TT EX CA Bugs&Bees;27720
+155;60529,20;TT EX CA Bugs&Bees;27720
+156;68034,00;EX DE Easter Gold Ballotin;9600
+157;922100,00;Z VP Lindor Cornet Mix 60433;7800
+158;922099,00;Z VP Lindor Mini Cornet 60429;7800
+159;67177,10;EX DE Kirsch Eggs;33195
+160;67177,20;EX DE Kirsch Eggs;33195
+161;67151,10;Eierlikîr Eier;33195
+162;67151,20;Eierlikîr Eier;33195
+163;12241,00;Lindor Glamour Kissen Mix;11760
+164;68096,00;EX FR Gold Bunny Carrot Vehicle;10800
+165;12777,00;EX DE Lindor Valentin Pillow Milk;11760
+166;67157,10;EX DE Egg Brandy Eggs;33195
+167;67157,20;EX DE Egg Brandy Eggs;33195
+168;90903,00;Lindt Taler;180000
+169;921938,00;Z VP Hello Oster Emotis 60325;180000
+170;922105,00;Z VP Macarons Rîhrchen 60459;8352
+171;67167,10;EX DE Cognac Eggs;33195
+172;67167,20;EX DE Cognac Eggs;33195
+173;67161,10;Cognac Eier;33195
+174;67161,20;Cognac Eier;33195
+175;68049,00;EX DE Macarons Tube;8352
+176;60459,00;Macarons Rîhrchen;8352
+177;68048,00;EX DE Macarons Egg Present;9590
+178;60463,00;Macarons kleines Geschenk;9590
+179;68052,00;EX DE Macarons Present;7200
+180;736525,10;Z VP Eierlikîr Eier 67151;33195
+181;736525,20;Z VP Eierlikîr Eier 67151;33195
+182;67187,10;EX DE Acohol Eggs;33195
+183;67187,20;EX DE Acohol Eggs;33195
+184;63087,10;EX DE Alcohol Eggs Irish Cream;33195
+185;63087,20;EX DE Alcohol Eggs Irish Cream;33195
+186;60523,00;Blumen Edition Rîhrchen;15120
+187;736526,10;Z VP Alkohol Eier 67181;33195
+188;736526,20;Z VP Alkohol Eier 67181;33195
+189;60429,00;Lindor Edition Cornet Milch;7800
+190;67181,10;Alkohol SpezialitÑten Eier;33195
+191;67181,20;Alkohol SpezialitÑten Eier;33195
+192;67171,10;Kirschwasser Eier;33195
+193;67171,20;Kirschwasser Eier;33195
+194;63081,10;Irish Cream Eier;33195
+195;63081,20;Irish Cream Eier;33195
+196;922136,00;Z VP Hello Hearts 30er 23731;180000
+197;60453,00;Macarons gro·es Geschenk;7200
+198;13791,00;Chocoladenherzen;130000
+199;60533,00;Oster-Gold Mini-Ballotin;9600
+200;12761,00;Lindor Vday Kis.Milk 325 g;9660
+201;85484,00;PW Hochfein Geschenk;5816
+202;13986,10;EX FR,DE Lindor Milk Multip.;27600
+203;13986,20;EX FR,DE Lindor Milk Multip.;27600
+204;13986,00;EX FR,DE Lindor Milk Multip.;27600
+205;922242,00;Z VP Lind.Kissen Krokus 9781;9660
+206;60975,00;Kissenpackung bunt;6800
+207;61005,00;Mini Kissen Lindor gold;9000
+208;23821,00;Hello Gift Card Emoti;10500
+209;60989,00;Kissenpackung gro· gold;8784
+210;61013,00;Osternest bunt;7800
+211;61015,00;Osternest gold;7800
+212;922180,00;Z VP Lind.Krokus Kissen 13671;11760
+213;61029,00;Oster-M.Metall Klee o.P.;16260
+214;13671,00;Lindor Krokus Kissen Milk;11760
+215;61003,00;Mini Kissen Lindor bunt;9000
+216;90275,00;Lufthansa Lindor-Gift rot;25000
+217;23827,00;EX DE Hello Gift Card Emoti;10500
+218;922200,00;Z VP Chocoladenherzen 13791;130000
+219;13677,00;EX DE Lindor Milk Pillow Crocus;11760
+220;61045,00;GH Nest Dschungel Kaufhof;10624
+221;9783,00;EX DE Lindor Pillow Box Milk Crocus;9660
+222;99975,00;SM Kissen Dschungel Kaufhof;11000
+223;61133,00;Kl.Geschenk Ostern;25000
+224;23911,00;Hello To Go Cup;5600
+225;922151,00;Z VP Hello Card Emoti 23821;10500
+226;78243,00;EX CA PCW Calendar Xmas 2018-Rentgen;6250
+227;78242,00;EX (CA) US PCW Calendar;6250
+228;78244,00;EX CA Calendar Montreal;6250
+229;78249,00;EX UK Children Calendar-Rentgen;6250
+230;922311,00;Z VP Kinder Kalender 71959;6250
+231;71889,00;Santa im Mini-Schornstein;12100
+232;85944,00;HELLO Emoti Kalender PW;6500
+233;71333,00;Santa im Tannenzweig;9600
+234;922216,00;Z VP HAND-CRA.KL.TASCHE 71317;8520
+235;76322,00;EX DE Hand Crafted Pr.Bag Small;8520
+236;922155,00;Z VP HELLO CARD EMOTI 71013;10500
+237;71345,00;Hand-crafted Tasche;8760
+238;922227,00;Z VP HAND-CRAFTED TASCHE 74345;8760
+239;76328,00;EX DE Hello Xmas Card Emoti;10500
+240;71883,00;Weihnachts -Zauber PrÑsent;8808
+241;71013,00;Hello Xmas Emoti Messages;10500
+242;71337,00;Teddy Haus;5400
+243;76299,00;EX DE Xmas Magic Present;8808
+244;71957,00;EDEKA AK mit Gutschein-Rentgen;7700
+245;72912,00;EX SE,FI,DK,NO,UK,PL Calendar;10780
+246;922217,00;Z  VP HAND-CRA.KL.KISSEN 71319;10080
+247;922282,00;Z VP Kalend. Edelbitter 71873;7075
+248;70913,10;Hello Tower AK EV;4184
+249;76302,00;EX DE Calendar Dark Chocolate;7075
+250;71873,00;Kalender Edelbitter;7075
+251;76298,00;EX DE Teddy in the House;5400
+252;76323,00;EX DE Hand Crafted Pillow Praline;10080
+253;71349,00;Santa im Schornstein;8400
+254;71317,00;Hand-crafted kl.Tasche;8520
+255;71959,00;Kinder Kalender;6250
+256;76318,00;EX DE Hand Crafted Pr.Bag;8760
+257;71967,00;Weihnachtskugel Silber AK;8400
+258;76317,00;EX DE Hand Crafted Pralines;8400
+259;71969,10;Weihnachtskugel Silber EV;8400
+260;71969,20;Weihnachtskugel Silber EV;6000
+261;922215,00;Z VP Hand-Crafted Pral.71315;8400
+262;71953,00;Netto MD AK mit Gutschein;7700
+263;71949,00;Santa Tanne 150 g;8400
+264;70909,20;Hello Tanne AK EV;3500
+265;70909,10;Hello Tanne AK EV+RENTGEN;5000
+266;10193,00;Fioretto Tasche;7800
+267;10185,10;Lindor Milch Multip. 3+1;27600
+268;10185,20;Lindor Milch Multip. 3+1;27600
+269;71315,00;Hand-crafted Pralinen;8400
+270;71933,00;Wunderbox Cl. Xmas;7200
+271;71935,00;Wunderbox gr. Petrol;7200
+272;922307,00;Z VP Santa Schornstein 71889;12100
+273;71319,00;Hand-crafted kl.Kissen;10080
+274;71309,00;Dunkle Kassette;10000
+275;922213,00;Z VP Dunkle Kassette 71309;10000
+276;922235,00;Z VP Hand Craf.Rîhrchen 71379;7320
+277;71923,00;Mini-Kissenpackung Petrol;9000
+278;76319,00;EX DE Hand Crafted Tube;7320
+279;71379,00;Hand-crafted Rîhrchen;7320
+280;922205,00;Z VP Lindor Kissen 70% 13821;9660
+281;71893,00;Bonbon klein Cl.Xmas;7440
+282;71919,00;Mini-Kissenpackung Xmas;9000
+283;37039,00;EX ID (Duty Free) Mini Pralines;6840
+284;71979,10;AK Thomas Sabo EH EV;7704
+285;71899,00;Kissenpackung gr. Petrol;8784
+286;72919,00;EX ES Teddy Calendar Ikea;9780
+287;71983,00;AK Thomas Sabo EH;7704
+288;738573,10;Z VP Williams Flasch. 78521;27624
+289;738573,20;Z VP Williams Flasch. 78521;27624
+290;71979,20;AK Thomas Sabo EH EV;5208
+291;71985,00;AK Thomas Sabo GH;7704
+292;71895,00;Grusskarte Kugel Cl.Xmas;9000
+293;71909,00;Kleines Geschenk Petrol;15930
+294;71963,00;Weihnachtspost;7500
+295;71903,00;Kissenpackung kl.Petrol;11760
+296;738573,00;Z VP Williams Flasch. 78521;27624
+297;71995,00;Gutschein Kaufhof AK;6720
+298;922231,10;Z VP Marille FlÑschchen 71355;27624
+299;922231,20;Z VP Marille FlÑschchen 71355;27624
+300;76314,10;EX DE Marille Bottle;27624
+301;76314,20;EX DE Marille Bottle;27624
+302;71355,10;Marille-FlÑschchen;27624
+303;71355,20;Marille-Flaschchen;27624
+304;922231,00;Z VP Marille FlÑschchen 71355;27624
+305;76314,00;EX DE Marille Bottle;27624
+306;71355,00;Marille-FlÑschchen;27624
+307;737212,10;Z VP Eierlikîr Flasch 78561;27624
+308;737212,20;Z VP Eierlikîr Flasch 78561;27624
+309;737212,00;Z VP Eierlikîr Flasch 78561;27624
+310;71965,00;Grusskarte Herz Silber;12720
+311;13821,00;Lindor Kissen 70%;9660
+312;72283,00;Xmas Mix DEP;6270
+313;8653,00;EX FR,DE,UK,NL Lindor M;6282
+314;922209,10;Z VP Lindt .W.Gift Dark 70% 13881;13632
+315;13901,10;Lindor Winter Gift Mix;13632
+316;922211,10;Z VP LIND.W.GIFT MIX 13901;13632
+317;922208,10;Z VP LIND.W.GIFT DARK 60% 13871;13632
+318;922210,10;Z VP LIND.W.GIFT MILK 13891;13632
+319;68112,00;EX DE Gold Bunny Mini Nest;12320
+320;922211,00; Z VP LIND.W.GIFT MIX 13901;13632
+321;13901,00;Lindor Winter Gift Mix;13632
+322;922210,00;Z VP LIND.W.GIFT MILK 13891;13632
+323;922208,00;Z VP LIND.W.GIFT DARK 60% 13871;13632
+324;922209,00;Z VP LIND.W.GIFT DARK 70% 13881;13632
+325;13891,10;Lindor Winter Gift Milk;13632
+326;13891,00;Lindor Winter Gift Milk;13632
+327;70899,20;GoldstÅcke AK EV;6000
+328;49993,00;Lindor Beutel Wei· 1 KG;6282
+329;71519,00;Hello Emotis o.P.;180000
+330;13881,10;Lindor Winter Gift Dark 70%;13632
+331;13871,10;Lindor Winter Gift Dark 60%;13632
+332;80534,00;PW Lindor Haselnuss;6282
+333;13871,00;Lindor Winter Gift Dark 60%;13632
+334;13881,00;Lindor Winter Gift Dark 70%;13632
+335;49995,00;Lindor Dark 70%;6282
+336;72469,00;Teddy Kalender X-Mas;10780
+337;72477,00;Teddy Kalender Schlitten;10780
+338;68109,00;EX DE Lindor Edition Egg Mix;9760
+339;80564,00;PW Lindor Caramel;6282
+340;72349,00;Santa Lindor Geschenk;11200
+341;60919,00;Goldhase Mini Nest;12320
+342;922342,00;Z VP Lindor Milch PrÑs 10237;12000
+343;62168,00;EX UK Double Milk Eggs Counter;75600
+344;922343,00;Z VP Lindor Misch PrÑs 10239;12000
+345;81814,00;PW Mini Stick Mix 1;8800
+346;76343,00;EX DE B/B Santa Lindor Geschenk;9000
+347;91459,00;AK Hello Mini Emotis Xmas;7200
+348;87801,00;PW Fioretto Nougat 1;8800
+349;10237,00;Lindor Milch PrÑsent Edel;12000
+350;87811,00;PW Fioretto Marzipan 1;8800
+351;10239,00;Lindor Misch PrÑsent Edel;12000
+352;10253,00;Lindor 3er Stange;11600
+353;39025,00;EX DE Mini Pr.Wrapper (Pink);7200
+354;39023,00;EX DE Mini Pr.Wrapper (Turquoise);8000
+355;922265,00;Z VP GH Blumen Im Kranz 60923;8400
+356;60923,00;Goldhase Blumen im Kranz;8400
+357;68113,00;EX DE GB Flower Floral Wreath;8400
+358;68106,00;EX DE Egg Brand Box (15);14312
+359;68106,10;EX DE Egg Brand Box (18);14312
+360;922296,10;Z VP Cognac Eier 67161;33195
+361;922296,20;Z VP Cognac Eier 67161;33195
+362;922259,00;Z VP Eierlikîr Eier Kass. 60865 (16 );14312
+363;922296,00;Z VP Cognac Eier 67161;33195
+364;922259,10;Z VP Eierlikîr Eier Kass. 60865 (19);14312
+365;72533,00;Santa Tanne VOLKSWAGEN FS;8400
+366;72523,00;Santa Tanne Audi FS;8400
+367;72519,00;Santa Tanne Volkswagen FS;8400
+368;72527,00;Santa Tanne Skoda FS;8400
+369;72537,00;Santa Tanne Auto Europa FS;8400
+370;72525,00;Santa Tanne Seat FS;8400
+371;72529,00;Santa Tanne Ducati FS;8400
+372;60873,00;Lindor Edittion Ei Mix;9760
+373;61227,00;Goldhase Korb 150 g;8040
+374;13441,00;Lindor Mini-Kissen;8900
+375;39012,00;EX DE Lindor Milk Heart;8000
+376;922124,00;Z VP Lindor Mini Kissen 13441;8900
+377;922339,00;Z VP Lindor Herz Milch 10229;8000
+378;10229,00;Lindor Herzpackung Milch;8000
+379;10233,00;Lindor Herzpackung Milch;8001
+380;922340,00;Z VP Lindor Herz Milch 10233;8001
+381;68108,00;EX DE Lindor Edition Tube Mix;8352
+382;60869,00;Lindor Edition Rîhrchen Mix;8352
+383;61249,00;Mini Kissen FrÅhlingsgr.;9000
+384;10235,00;Lindor Valentinskalender;5920
+385;90159,00;Lindor Beutel 1KG Nuss;6282
+386;60865,00;Eierlikîr Eier Kassette (16);14312
+387;60865,10;Eierlikîr Eier Kassette (19);14312
+388;922261,00;Z VP Lindor Ed. Rîhrchen 60869;8352
+389;10033,10;Lindor Milch Multipack;27600
+390;10033,20;Lindor Milch Multipack;27600
+391;10033,00;Lindor Milch Multipack;27600
+392;13983,00;EX US Lindor Multipack Milk;27576
+393;13983,10;EX US Lindor Multipack Milk;27576
+394;13983,20;EX US Lindor Multipack Milk;27576
+395;922262,00;Z VP Lindor Ed. Ei Mix 60873;9760
+396;922201,00;Z VP GH NEST LINDOR DARK 60855;10624
+397;68105,00;EX DE GB Nest Lindor Dark;10624
+398;61681,00;Nougat-Eier C+C;9000
+399;922361,00;Z VP LINDOR 3ER STANGE 10253;11600
+400;920375,10;Z VP KIRSCHWASSER EI 67171;33195
+401;920375,20;Z VP KIRSCHWASSER EI 67171;33195
+402;61191,00;Lindor Eier Mischung C+C;9000
+403;920375,00;Z VP Kirschwasser Ei 67171;33195
+404;922293,00;Z VP Hello To Go Cup 61043;7650
+405;61181,00;Spez.Eier Mischung C+C;9000
+406;61043,00;Hello To Go Cup;7650
+407;60855,00;GH Nest mit Lindor Dark;10624
+408;61245,00;Box gro· FrÅhlingsgrÅ·e;8004
+409;61239,00;Box klein FrÅhlingsgrÅ·e;8040
+410;61243,00;Box mittel FrÅhlingsgrÅ·e;8000
+411;61237,00;Kissen gro· FrÅhlingsgrÅ·e;6000
+412;61581,00;Lindor-Ei, Vollmilch C+C;9000
+413;61035,10;Dunkle SpezialitÑten (17);10000
+414;922280,10;Z VP Dunkle Spezial. 61035 (17);10000
+415;68115,10;EX DE Dark SpezalitÑten (16);10000
+416;921204,10;"Z VP Lindor Mischkass 68851 (23; Box)";11340
+417;68851,00;Lindor Mischkassette (20);11340
+418;86094,00;PW Lindor 70%-Nawaæarka Lindor;5520
+419;38771,30;Lindor PrÑsent Milch-z kokard•;13632
+420;38771,20;Lindor PrÑsent Milch-z kokard•;13632
+421;86054,00;PW HELLO Doorhanger;11144
+422;86074,00;PW HELLO Emoti Egg Stange;9240
+423;10091,20;Lindor PrÑsent Mischung-z kokard•;13632
+424;10091,30;Lindor PrÑsent Mischung-z kokard•;13632
+425;10373,10;Lindor PrÑsent Krokus VD3;13632
+426;10373,00;Lindor PrÑsent Krokus VD3;13632
+427;85471,00;Hochfein Geschenkpapier;7254
+428;921134,10;Z VP Lindor Geschenk Milch (5831);13632
+429;5831,10;Lindor Geschenk Milch;13632
+430;38911,00;Lindor PrÑsent 60%;13632
+431;38917,10;SE Lindor Pr. Dark 60%;13632
+432;738616,10;Z VP Lindor PrÑsent 38911;13632
+433;921135,00;Z VP Lindor Geschenk Dark 60% (5841);13632
+434;5841,10;Lindor Geschenk Dark 60%;13632
+435;41627,10;EX DE Lindor Pr.-Box Dark 60%;13632
+436;10185,00;Lindor Milch Multip. 3+1;27600
+437;78245,00;EX CA Tor.maple leafs Adv.Cal.;6250
+438;76382,00;EX DE Teddy Calendar;11104
+439;76354,00;EX DE Lindor Mini Adv.Calendar;7000
+440;922401,00;Z VP Mini AK Lindor 72313;7000
+441;922401,10;Z VP Mini AK Lindor 72313;10000
+442;72313,00;Mini Adventskal. Lindor;7000
+443;72313,10;Mini Adventskal. Lindor;10000
+444;76367,00;EX SE,FI,DK,NO.GB,Cal.Lindor;11104
+445;77177,00;EX IT Lindor Milk Ornaments;336000
+446;76354,10;EX DE Lindor Mini Adv. Calendar;10000
+447;72913,00;EX US Holiday Bear Calendar-rentgen;10780
+448;76377,10;EX UK Merry Christm.Calendar;11000
+449;78621,10;Weih.-Markt Kal.;11000
+450;70831,00;Exxon Mobil Mini Tisch AK;7000
+451;920885,10;Z VP Weih.-Markt Kal. 78621;11000
+452;78627,10;EX DE Xmas Market Calendar;11000
+453;922483,00;Z VP Teddy Gesch.Tasche 72829;8640
+454;72829,00;Teddy Geschenktasche;8640
+455;70885,00;Black-White Tischkal.;7000
+456;70947,00;Weihnachtskugel Tischkal.;7000
+457;70291,00;Mini Tisch Kalender W-Zauber;7000
+458;70297,00;Mini Table Calender;7000
+459;920648,00;Z VP Mini Tisch Kalender W-Zauber;7000
+460;75541,00;SchiebetÑfelchen;9840
+461;76387,00;EX DE Teddy Bag;8640
+462;72847,10;Mini Tisch Kal. Tanne;11000
+463;921925,00;Z VP BlÑtterkrokant 70435;9000
+464;70435,00;BlÑtterkrokant C+C 450 g;9000
+465;72847,00;Mini Tisch Kal. Tanne;7000
+466;70342,00;EX UK Lindor Snowf.Double Milk;172689
+467;76377,00;EX UK Merry Christm.Calendar;7000
+468;921087,00;Z VP Fr. Fest Kal. 70551;7000
+469;70551,00;Frohes Fest Adventskalender;7000
+470;70557,00;EX GE Merry Christmas Calendar;7000
+471;70757,00;Fr. Fest AK Main Post;7000
+472;70767,00;Frohes Fest AK Blume;7000
+473;70833,00;Tchibo Frohes Fest AK;7000
+474;738987,00;Z VP Nougat Figuren 71151;9000
+475;71151,00;Nougat-Figuren C+C;9000
+476;72849,00;Mini-Kissenp.X-Mas braun;9000
+477;71189,00;Hello Xmas To Go Cup;7650
+478;922189,00;Z VP Hello Xmas To Go Cup 71189;7650
+479;71171,00;Lindor-Baumbehang C+C;9000
+480;738988,00;Z VP CRESTA BBH 71211;9000
+481;72247,00;Hello AK Emoti Blau;6500
+482;72249,00;Hello AK Emoti Rosa;6500
+483;71211,00;Cresta BBH C+C;9000
+484;72853,00;Mini Kissenp. X-Mas creme;9000
+485;72939,00;Santa Geschenk GrÅn;9000
+486;72943,00;Santa Geschenk Br.;9000
+487;72845,00;Mini Tisch Kal. Tanne EV;7000
+488;72845,20;Mini Tisch Kal. Tanne EV;7000
+489;72833,00;Lindor 70% Kassette;10070
+490;738990,00;Z VP Lindor BBH 71171;9000
+491;920865,00;Z VP Lindor Kass. Kug. Mix 78171;10680
+492;922553,00;Z VP FR.WEIH.KISSEN 72967;15000
+493;72855,00;Mini-Kissenp.X-Mas weiss;9000
+494;72945,00;Santa Geschenk Blau;9000
+495;72918,00;EX FR Teddy Calendar IKEA;9780
+496;77171,00;Lindor Baumbehang lose;336000
+497;77151,00;Nougat Baumbehang lose;336000
+498;71641,00;Lindor Kug.Milch C+C;7500
+499;72293,00;Lindor Kugeln lose;300000
+500;77211,00;Cresta Baumbehang lose;336000
+501;70957,20;Weihnachtszauber T-AK EV;7000
+502;70955,20;Weihnachtsmarkt T-AK EV;7000
+503;70955,00;Weihnachtsmarkt T-AK EV;7000
+504;70957,00;Weihnachtszauber T-AK EV;7000
+505;71005,20;Lindor AK gold EV;5200
+506;94761,20;Lindor AK EV;5200
+507;70953,20;Weihnachtsmarkt AK EV;4000
+508;70945,20;Wihnachtshelfer AK EV;3300
+509;70895,10;Frohes Fest AK EV;11000
+510;70895,20;Frohes Fest AK EV;7000
+511;72845,10;Mini Tisch Kal. Tanne EV;11000
+512;70905,20;Hello Santa AK EV;3500
+513;734611,00; Z VP SchiebetÑfel. 75541;9840
+514;72989,00;Kaufland Mini Kissen;15000
+515;70913,20;Hello Tower AK EV;3500
+516;70903,20;Hello AK EV;4500
+517;922267,00;Z VP Lindor M.Multipack 10033;27600
+518;922267,10;Z VP Lindor M.Multipack 10033;27600
+519;922267,20;Z VP Lindor M.Multipack 10033;27600
+520;72967,00;Frohe Weihn.Kissen;15000
+521;72885,00;Grussk. Kugel grÅn;9000
+522;72835,00;Teddy Kl. Adventskalender-KULECZARKA;7760
+523;72985,00;Kaufland Adventskalender;7700
+524;72949,00;Marzipan Doppeldreh lose;230000
+525;13871,20;Lindor Winter Gift Dark 60% - kleiki;13632
+526;13871,30;Lindor Winter Gift Dark 60% - kleiki;13632
+527;922208,20;Z VP Lind. W.Gift Dark 60% - kleiki;13632
+528;922208,30;Z VP Lind.W.Gift Dark 60% - kleiki;13632
+529;13881,20;Lindor Winter Gift Dark 70% - kleiki;13632
+530;13881,30;Lindor Winter Gift Dark 70% - kleiki;13632
+531;922209,20;Z VP Lind.W.Gift Dark 70% 13881 - kleiki;13632
+532;922209,30;Z VP Lind.W.Gift Dark 70% 13881 - kleiki;13632
+533;13891,20;Lindor Winter Gift Milk - kleiki;13632
+534;13891,30;Lindor Winter Gift Milk - kleiki;13632
+535;922210,20;Z VP Lind.W.Gift Milk 13891 - kleiki;13632
+536;922210,30;Z VP Lind.W.Gift Milk 13891 - kleiki;13632
+537;13901,20;Lindor Winter Gift Mix - kleiki;13632
+538;13901,30;Lindor Winter Gift Mix - kleiki;13632
+539;922211,20;Z VP Lind.Gift Mix 13901 - kleiki;13632
+540;922211,30;Z VP Lind.Gift Mix 13901 - kleiki;13632
+541;72875,00;Lindor Xmas Tanne klein;9140
+542;921087,40;Z VP Fr. Fest Kal. 70551;11200
+543;72899,00;Lindor Tanne Elem. GrÅn;10800
+544;922704,00;Z VP Kaufland Adv.Kal. 72985-Rentgen;7700
+545;72935,00;Bonbon Tanne;7440
+546;72929,00;Bonbon Black & White;7440
+547;72897,00;Lindor PrÑsent Stern;13632
+548;72897,10;Lindor PrÑsent Stern;13632
+549;72905,00;Lindor Tanne Elem.Blau;10800
+550;76285,00;EX DE,UK Teddy Milk Ornaments;6900
+551;72889,00;Kissenp.Elements Kugel;7500
+552;70475,00;BlÑtterkrokant lose;336000
+553;72993,00;HELLO AK Tower Retail;4184
+554;72837,00;Kissenpackung gr.Zapfen;8784
+555;72909,10;Mini Tisch Kal.Flocke EV;11000
+556;72909,20;Mini Tisch Kal.Flocke EV;7000
+557;72915,10;Mini Tisch Kal.Flocke;11000
+558;72983,00;Lindor Gold AK;7075
+559;72903,00;Lindor Tanne Elem.Rot;10800
+560;72969,00;Xmas Weihnachtspost rot;7500
+561;71734,00;CA Calendar Children's-KULECZARKA;7760
+562;71735,00;"CA Calendar Mini Lindt Teddy-KULECZARKA
+CA Calendar Mini Lindt Teddy";7760
+563;922578,00;Z VP EX SK KAUFL.PRO CAL 79803;7700
+564;922577,00;Z VP EX PL KAUFL.PRO.CAL 79802;7700
+565;76355,00;EX DE Alcohol Box;8744
+566;72999,00;HELLO AK Tanne Retail;5000
+567;72303,00;Alkohol-Spez.Kassette;8744
+568;72973,00;Gru·karte Gold-Wei·;12720
+569;72887,00;Grussk.Kugel rot;9000
+570;72933,00;Bonbon Petrol;7440
+571;922395,00; Z VP ALK.SPEZ.KASSETTE 72303;8744
+572;10509,00;Fioretto Kissen Mischung;10496
+573;76283,00;EX UK Lindor Milk Ornaments;6900
+574;72915,00;Mini Tisch Kal.Flocke;7000
+575;72909,00;Mini Tisch Kal. Flocke EV;7000
+576;86394,00;Retail AK m.Gutschein;7700
+577;72995,00;Hello AK Retail;6000
+578;99905,00;SM Lindor Gratisgeschenk;15000
+579;920648,30;Z VP Mini Tisch Kalender W-Zauber;11200
+580;922570,00;Z VP Lindor XL Beutel Milch 10569-Nawaæarka Lindor;6000
+581;922505,00;Z VP Teddy Kl. Adv.Kal. 72835-KULECZARKA;7760
+582;922579,00;Z VP EX CZ KAUFL.PRO.CAL 79804;7700
+583;72997,00;HELLO AK Santa Retail;4300
+584;922571,00;Z VP Lindor XL Beutel Misch 10579;7980
+585;39525,00;EX DE Mini Pr.Wrapper Turquoise;8000
+586;10579,00;Lindor XL Beutel Mischung;7980
+587;10405,00;Hochfein GP Winter 200 g;7254
+588;10403,00;Hochfein GP Winter 350 g;5816
+589;10569,00;Lindor XL Beutel Milch-Nawaæarka Lindor;6000
+590;73035,00;Weihnachtsm.Geschenkbox;7200
+591;70949,10;Weihnachtskugel Tischkal. EV;11000
+592;70949,20;Weihnachtskugel Tischkal. EV;7000
+593;922454,00;Z VP HOCHFEIN GP WINTER 10405;7254
+594;922453,00;Z VP HOCHFEIN GP WINTER 10403;5816
+595;922452,00;Z VP HOCHFEIN GP WINTER 10399;4683
+596;10399,00;Hochfein GP Winter 500g;4683
+597;73159,00;Santa Geschenk VW;9000
+598;73167,00;Santa Geschenk Seat;9000
+599;73169,00;Santa Geschenk EU;9000
+600;73157,00;Santa Geschenk Audi;9000
+601;73165,00;Santa Geschenk Ducati;9000
+602;73377,00;Santa Geschenk VW Finan.;9000
+603;73163,00;Santa Geschenk Skoda;9000
+604;39529,00;EX DE Mini Pr.Wrapper (Pink);7200
+605;60137,00;EX DE, FR Lindor Drum M. Eggs;2100
+606;39506,00;EX DE Spring Hochfein Box;5816
+607;10237,10;Lindor Milch PrÑsent Edel - kleiki;12000
+608;10239,10;Lindor Misch PrÑsent Edel - kleiki;12000
+609;922342,10;Z VP Lindor Milch PrÑs 10237 - kleiki;12000
+610;922343,10;Z VP Lindor Misch PrÑs 10239 - kleiki;12000
+611;24101,00;Hello Mini Stick Mix Box;12000
+612;69367,00;EX CH (DE, FR) Coop Lindor Ei Ass;7500
+613;921433,10;Z VP Lindor Kissen Milch 9781-bez wag;9660
+614;9787,10;EX DE Lindor Milk Pillow Box-bez wag;9660
+615;9789,10;EX SE,FI,DK,NO,DE,UK Lindor M.-bez wag;9660
+616;9791,10;Lindor Kissenp. Dark-bez wag;9660
+617;9797,10;EX DE Lindor Dark Pillow Box-bez wag;9660
+618;68891,10;Lindor Kissen Ostern-bez wag;9660
+619;68897,10;Lindor Pillow Pack-bez wag;9660
+620;9781,10;Lindor Kissenp. Milch-bez wag;9660
+621;921251,10;Z VP Lindor Kissen O. 68891-bez wag;9660
+622;13821,10;Lindor Kissen 70%-bez wag;9660
+623;921434,10;Z VP Lindor Kissen Dark 9791-bez wag;9660
+624;921762,10;Z VP Lindor Kissen 9781 Love-bez wag;9660
+625;922147,10;Z VP Lind.Kiss.VM M.Schl.9781-bez wag;9660
+626;922148,10;Z VP Lind.Kiss.60% O.Schl.9791-bez wag;9660
+627;922242,10;Z VP Lind.Kissen Krokus 9781-bez wag;9660
+628;9783,10;EX DE Lindor Pillow Box Milk Crocus-bez wag;9660
+629;922205,10;Z VP Lindor Kissen 70% 13821-bez wag;9660
+630;70111,10;Lindor Kissenpackung-bez wag;9660
+631;10569,10;Lindor XL Beutel Milch-Wagi;7980
+632;922570,10;Z VP Lindor XL Beutel Milch 10569-Wagi;7980
+633;69357,00;EX CH (DE,FR) Denner Lindor Ass;9000
+634;82054,00;PW Hello Kugelmix 1;8800
+635;73669,00;Lindor Box Depesche;7860
+636;922540,00;Z VP HOCHF.GP WINTER LEH 10387;7254
+637;922541,00;Z VP HOCHF.GP WINTER LEH 10387;7254
+638;922544,00;Z VP HOCHF.GP WINTER LEH 10389;5816
+639;922542,00;Z VP HOCHF.WINTER LEH 10387;7254
+640;68148,00;EX DE Lindor Ed.Tube Ass.;8352
+641;86364,00;PW Lindor Dark Mix 1;6800
+642;68152,00;EX DE Lindor Mini Tube Milk;7800
+643;68149,00;EX DE Lindor Mini Tube Spring;7800
+644;68157,00;EX DE Gold Bunny Kids Bucket;7680
+645;68158,00;EX DE Gold Bunny Kids Suitcase;8400
+646;68163,00;EX DE ,FR,IT Gold Bunny Plush;7980
+647;61259,00;Goldhase Mîhrenflugzeug;7000
+648;922442,00;Z VP GH MôHRENFLUGZEUG 61259;7000
+649;83844,00;PW Marzipan Riegel 1;8000
+650;61415,00;Goldhase Spieleimer;7680
+651;68156,00;EX DE Gold Bunny Colouring Book;5704
+652;68143,00;EX DE Gold Bunny Big & Small;7200
+653;922549,00;Z VP Goldh. Malbuch 61417;5704
+654;61265,00;Goldhase Hasen-ôhrchen;7980
+655;922466,00;Z VP LINDOR RôHR.MILCH 61285;7800
+656;68146,00;EX DE Lindor Mini Tube Ass.;7800
+657;922550,00;Z VP Goldhase Spielkoffer 61419;8400
+658;922465,00;Z VP LINDOR RôHR.FR.MIX 61283;7800
+659;61269,00;Goldhasen Go·&Klein;7200
+660;68125,00;EX DE Gold Bunny Balloon;8700
+661;76265,10;EX DE Snowman Tin;11000
+662;70709,10;Schneemann Metalldose;11000
+663;922055,10;Z VP Schneemann M.Dose 70709;11000
+664;921821,00;Z VP Lind.Nost.Runddose 70263-Etykieciarka;6840
+665;76206,00;EX DE Lindor Nostalgia Tin-Etykieciarka;6840
+666;70263,00;Lindor Nostalgie Runddose-Etykieciarka;6840
+667;922422,00;Z VP IM LUFTBALLON 61253;8700
+668;922548,00;Z VP GOLDH.SPIELEIMER 61415;7680
+669;61253,00;Goldhase im Luftballon;8700
+670;68188,00;EX FR Gold Bunny Kids Bucket;7680
+671;61283,00;Lindor Rîhrchen FrÅhl.Mix;7800
+672;68176,00;EX IT Gold Bunny Kids Bucket;7680
+673;922443,00;Z VP SIMPLICITY GRöSSE 61263;7200
+674;86464,00;PW Lindor wei·;6282
+675;922444,00;Z VP GH HASEN ôHRCHEN 61265;7980
+676;922461,00;Z VP G.HASE VERSTECKT 61273;7920
+677;61279,00;Lindor Rîhrchen FrÅhl.Mix;8352
+678;38036,00;EX FR Val./Spring Lindor Pillow;11760
+679;922463,00;Z VP LINDOR ED RôHR.MIX 61277;7800
+680;922570,20;Z VP Lindor XL Beutel Milch 10569-Bez wag;7980
+681;10569,20;Lindor XL Beutel Milch-Bez wag;7980
+682;61277,00;Lindor Edit Rîhrchen Mix;7800
+683;84164,10;PW Lindorkugel rot AH-Wagi;8800
+684;84154,10;PW Lindorkugel schwarz AH-Wagi;8800
+685;80474,10;PW lindorkugeln wei· AH-Wagi;8800
+686;49985,00;Lindor Beutel Stracciat.;6282
+687;91739,10;Hello XXL Beutel;6282
+688;86454,00;PW Lindor 70%;6282
+689;87821,10;PW Lindorkugeln rot-Wagi;8800
+690;87831,10;PW Lindorkugeln schwarz-Wagi;8800
+691;80894,10;PW Lindorkugeln wei·-Wagi;8800
+692;86094,10;PW Lindor 70%-Wagi;8800
+693;80584,10;PW Lindorkugeln noisette-Wagi;8800
+694;61545,00;HELLO Easter Gift;9424
+695;68174,00;EX IT Gold Bunny Kids Suitcase;8400
+696;922563,00;Z VP HELLO EAST.BEAU.BAG 61543;7266
+697;91739,00;Hello XXL Beutel-Wagi;6282
+698;922564,00;Z VP HELLO EAST.GIFT 61545;9424
+699;13831,00;Lindor PrÑsent 70%;13632
+700;13831,10;Lindor PrÑsent 70%;13632
+701;68129,00;EX DE Simplicity Spring Greeting;7200
+702;739014,00;Z VP EIER MISCHUNG 1 61181;9000
+703;61285,00;Lindor Rîhrchen Milch;7800
+704;922464,00;Z VP LINDOR RôHR.FR.MIX 61279;8352
+705;739021,00;Z VP LINDOR EI MILCH 61581;9000
+706;66581,00;Lindor-Ei Milch lose;336000
+707;61035,00;Dunkle SpezialitÑten (14);10000
+708;922280,00;Z VP Dunkle Spezial. 61035 (14);10000
+709;68115,00;EX DE Dark SpezialitÑten (13);10000
+710;42108,10;EX ID (Arab / GB) Hello Tin Heart;12180
+711;22103,10;TT EX CH (DE, FR) Hello Heart;12230
+712;22104,10;TT EX IT Hello Tin Heart;12230
+713;22106,10;TT EX FR Hello Tin Heart;12230
+714;22107,10;EX DE, FR Hello Tin Heart;12230
+715;22108,10;EX UK Hello Tin Heart;12230
+716;22901,10;Hello Herz (2x5);12230
+717;22101,10;TT Hello, Herz;12230
+718;42106,10;EX ES, PO Hello Tin;12230
+719;921563,10;Z VP Hello Herz 22901;12230
+720;48971,10;T&C Hello Herz;12230
+721;90185,10;Hello Herz ratiopharm;12230
+722;94471,10;Hello Herzdose;12230
+723;921051,10;TT Z VP Hello Herz 22101;12230
+724;921175,10;TT Z VP Hello Heart 22107;12230
+725;921267,10;TT Z VP Hello Heart 22103;12230
+726;42105,10;TT EX ZA Hello Tin Heart;12180
+727;921723,00;Z VP LINDOR EIER WEISS 63341;9000
+728;63341,00;Lindor Eier weiss C+C;9000
+729;61419,00;Goldhase Spielkoffer;8400
+730;36501,10;Lindor Herzdose;13700
+731;36157,10;TT ôS Lindor Heart Dark;13700
+732;36148,10;TT NE (SE,FI,DK) L.Heart Dark;13700
+733;36144,10;TT NE (RUS,H)L.Heart Dark;13700
+734;36128,10;EX UK Lindor Milk Heart;13700
+735;36127,10;EX DE Lindor Milk Heart;13700
+736;36124,10;TT NE (RUS,BULG)L. Heart;13700
+737;36118,10;TT NE (SE,FI,DK)L. Heart;13700
+738;36115,10;TT EX CA Lindor Heart;13700
+739;36114,10;EX FR,NL Lindor Milk Heart;13700
+740;35351,10;Lindor Dark 60% Blechherz;13700
+741;66681,00;Nougat-Ei lose;336000
+742;61273,00;Goldhase versteckt;7920
+743;61571,00;Champ.-Trueffel-Ei C+C;9000
+744;739022,00;Z VP NOUGAT EI 61681;9000
+745;61263,00;Simplicity FrÅhligsgrÅ·e;7200
+746;66551,00;Lindor-Ei 60% lose;336000
+747;61417,00;Goldhase Malbuch;5704
+748;921253,00;Z VP LINDOR KôCHER 68901;9000
+749;68901,00;Lindor Kîch PlÅsch GH C+C;9000
+750;8641,10;Lindor Beutel 1 kg gemischt;4550
+751;922264,00;Z VP GH MINI NEST 60919;12320
+752;61551,00;Lindor Eier 60% C+C;9000
+753;738733,00;Z VP LINDOR EI 60% 61551;9000
+754;82254,10;PW Lindor gemischt 1 KG;4550
+755;8647,10;EX FR,DE,UK,NL Lindor Bag Ass;4550
+756;61543,00;HELLO Easter Beauty Bag;7266
+757;739087,00;Z VP CHAMP.TR.EI 61571;9000
+758;61747,00;Bunter GH-Ostermix;6840
+759;61685,00;Oster-Korb beige;7800
+760;922538,00;Z VP HOCHF.GP FRöH LEH 10389;5816
+761;922482,00;MARZIPAN EIER DD C+C 61309;9000
+762;61649,00;Lindor Mix Eier Kîcher;7500
+763;61677,00;Mini Kissen beige;9000
+764;61309,00;Marzipan Eier DD C+C;9000
+765;922536,00;Z VP HOCHF.GP FRöH LEH 10387;7254
+766;61679,00;Mini Kissen tÅrkis;9000
+767;921669,00;Z VP GH NEST/LINDOR 62051;10624
+768;61639,00;Lindor Eier Kîcher;2100
+769;61669,00;Kissen mittel beige;6800
+770;61663,00;GH schîn verpackt beige;7200
+771;61665,00;GH schîn verpackt tÅrkis;7200
+772;61667,00;Kissen gro· tÅrkis;8784
+773;922457,00;Z VP HOCHFEIN GP FRöHJ. 10413;7254
+774;10413,00;Hochfein GP FJ 200g;7254
+775;61749,00;Bunter GH-Ostermix Wei·;6840
+776;922456,00;Z VP HOCHFEIN GP FRöHJ. 10409;5816
+777;922455,00;Z VP HOCHFEIN GP FRöHJ. 10407;4683
+778;10407,00;Hochfein GP FJ 500 g;4683
+779;10409,00;Hochfein GP FJ 350 g;5816
+780;61629,00;Doppelmilch Eier Display;75600
+781;93127,00;Kissen von Herzen;11200
+782;39557,00;EX DE Lindor Bag Caramel;6282
+783;922321,00;Z VP Lindor M.Multip. 3+1 10185;27600
+784;922321,10;Z VP Lindor M.Multi 3+1 10185;27600
+785;922321,20;Z VP Lindor M.Multi 3+1 10185;27600
+786;922443,50;Z VP SIMPLICITY GRöSSE 61263;7200
+787;11751,00;Lindor It Bag Pad Box Erd.Sah.;11760
+788;39569,00;EX DE Lindor Present Milk;9000
+789;922818,00;Z VP MUTTER.PR.AUSMAL.10879;8550
+790;10879,00;Muttert. Pral. Z Ausmalen;8550
+791;71738,00;EX CA Calendar Lindor-KULECZARKA;7760
+792;71743,00;EX CA Calendar Vancouver-KULECZARKA;7760
+793;71742,00;EX CA Calendar Toronto-KULECZARKA;7760
+794;71739,00;EX CA Calendar Montreal-KULECZARKA;7760
+795;73305,00;Lindor Xmas Tasche Milch;11000
+796;922815,00;Z VP HL.STR.C.MULTI 3+1 21321;27600
+797;922816,00;Z VP HL CHR.N.MULTI 3+1 21331;27600
+798;922813,00;Z VP HL COO&C MULTI 3+1 21301;27600
+799;73317,00;Lindor Xmas Tasche Mschg;11000
+800;72835,10;Teddy Kl. Adventskalender;11104
+801;72835,60;Teddy Kl. Adventskalender-ETYKIECIARKA;11104
+802;72835,70;Teddy Kl.Adventskalender-ETYKIECIARKA+KULECZARKA;7760
+803;922505,10;Z VP Teddy Kl.Adv.Kal. 72835;11104
+804;922505,60;Z VP Teddy Kl.Adv.Kal. 72835-ETYKIECIARKA;11104
+805;922505,70;Z VP Teddy Kl.Adv.Kal. 72835-ETYKIECIARKA+KULECZARKA;7760
+806;70497,00;Rose GoldstÅcke Kalender-KULECZARKA;7770
+807;70497,60;Rose GoldstÅcke Kalender-ETYKIECIARKA;8400
+808;70497,70;Rose GolstÅcke Kalender-ETYKIECIARKA+KULECZARKA;7770
+809;71735,60;CA Calendar Mini Lindt Teddy-ETYKIECIARKA;11104
+810;71735,70;CA Calendar Mini Lindt Teddy-ETYKIECIARKA+KULECZARKA;7760
+811;921087,60;Z VP Fr. Fest Kal. 70551-ETYKIECIARKA;11000
+812;921087,70;Z VP Fr. Fest Kal. 70551-ETYKIECIARKA+KULECZARKA;7000
+813;921951,00;Z VP Rose Goldst. Kalen. 70497-KULECZARKA;7700
+814;921951,60;Z VP Rose Goldst. Kalen. 70497-ETYKIECIARKA;8400
+815;921951,70;Z VP Rose Goldst. Kalen. 704197-ETYKIECIARKA+KULECZARKA;7700
+816;922651,00;Z VP LIN.XM.TASC.MISCH 73317;11000
+817;71734,60;CA Calendar Children's-ETYKIECIARKA+Rentgen;11104
+818;71734,70;CA Calendar Children's-ETYKIECIARKA+KULECZARKA;7760
+819;922646,00;Z VP LIN.XM.TASCH.MILCH 73305;11000
+820;10935,00;J.Li-Nostal .-D ROT;6000
+821;10945,00;J.Li-Nostal.D.Blau;6000
+822;922647,00;Z VP LIN.XMA WöRF.MILCH 73307;8800
+823;922648,00;Z VP LIND.XM.WöRF.MISCH 73309;8800
+824;73309,00;Lindor Xmas WÅrfel Mschg;8800
+825;922644,00;Z VP LIND.XMAS PRé.MILCH 73299;9000
+826;71734,80;CA Calendar Children's-ETYKIECIARKA+KULECZARKA+PODEST;7760
+827;71735,80;CA Calendar Mini Lindt Teddy-ETYKIECIARKA+KULECZARKA+PODEST;7760
+828;73313,00;Kaligrafie Xmas Pralines;8400
+829;922702,00;Z VP KALLIGR.XMAS PRAL. 73313;8400
+830;921086,10;Z VP GoldstÅcke Kal. 70541;8400
+831;921086,60;Z VP GoldstÅcke Kal. 70541-ETYKIECIARKA;8400
+832;921086,70;Z VP GoldstÅcke Kal. 70541-ETYKIECIARKA+KULECZARKA;7770
+833;922645,00;Z VP LIND.XM.PRéS.MISCH. 73303;9000
+834;72638,00;EX UK Lindor Adv.Calendar-KULECZARKA;7760
+835;922643,00;Lindor Xmas Kissen Misch 73297;7980
+836;72638,10;EX UK Lindor Adv.Calendar;11104
+837;72638,90;EX UK Lindor Adv.Calendar-KULECZARKA+PODEST;7760
+838;922642,00;Z VP LIND.XMAS KIS.MILCH 73295;7980
+839;922639,60;Z VP TEDDY SCHLITTEN KAL 73287-Rentgen+ETYKIECIARKA;5200
+840;70331,00;Hello Tannenbaum A. Kalender+RENTGEN;5000
+841;70337,00;EX GE Hello Calendar Tree+RENTGEN;5000
+842;921513,00;Z VP Hello Tannen Kal. 70331+RENTGEN;5000
+843;78621,70;Weih.-Markt Kal.-ETYKIECIARKA+KULECZARKA;7000
+844;920885,70;Z VP Weih.-Markt Kal. 78621-ETYKIECIARKA+KULECZARKA;7000
+845;73287,11;;0
+846;73287,60;Teddy Schlitten Kalender-Rentgen+etykieciarka;5200
+847;76407,00;EX DE Teddy Adv. Calendar Sleigh-Rentgen;5200
+848;76394,00;EX DE Calligraphy XS Pralines;8400
+849;922609,00;Z VP HELLO KALENDER 73193-Rentgen;7000
+850;73193,00;Hello Kalender-Rentgen;7000
+851;10635,00;Lindor 60% Multipack;27600
+852;922756,00;Z VP 60% Multi 3+1 10803;27600
+853;10803,00;Lindor 60% Multip. 3+1;27600
+854;922759,00;Z VP Lind C.Salz Mul 3+1 10795;27600
+855;10795,00;Lindor Car.- Salz MP 3+1;27600
+856;70557,70;EX GE Merry Christmas Calendar-ETYKIECIARKA+KULECZARKA;7000
+857;70297,70;Mini Table Calender-ETYKIECIARKA+KULECZARKA;7000
+858;73295,00;Lindor Xmas Kissen Milch;7980
+859;78246,00;EX US PCW Calendar Living Room;6250
+860;73195,00;HELLO Xmas Sharing Box;7700
+861;71953,60;Netto MD AK mit Gutschein-Rentgen+etykieciarka;7700
+862;922849,60;Z VP Netto MD AK M.Gutsch.-Rentgen+etykieciarka;7700
+863;73277,00;Glamour kl.Geschenke;8250
+864;920648,70;Z VP Mini Tisch Kalender W-Zauber-ETYKIECIARKA+KULECZARKA;7000
+865;70291,70;Mini Tisch Kalender W-Zauber-ETYKIECIARKA+KULECZARKA;7000
+866;72915,70;Mini Tisch Kal. Flocke-ETYKIECIARKA+KULECZARKA;7000
+867;70831,70;Exxon Mobil Mini Tisch AK-ETYKIECIARKA+KULECZARKA;7000
+868;78627,70;EX DE Xmas Market Calendar-ETYKIECIARKA+KULECZARKA;7000
+869;72847,70;Mini Tisch Kal. Tanne-ETYKIECIARKA+KULECZARKA;7000
+870;70551,70;Frohes Fest Adventskalender-ETYKIECIARKA+KULECZARKA;7000
+871;71403,10;L-Nostalgie FVB;8640
+872;921922,10;Z VP Lindor Nostalgie Kaffedose 70425;8640
+873;70425,10;Lindor Nostalgie Kaffedose;8640
+874;73275,00;Teddy kl. Geschenke;8640
+875;76455,00;EX FR Bear Cal. XS Tree-rentgen;10780
+876;76418,00;EX DE Lindor Xmas Cube Ass;8800
+877;922631,00;Z VP Fio Kassette Mix 10707;7500
+878;73865,00;Teddy Malbuch;5704
+879;922736,00;Z VP Teddy Malbuch 73865;5704
+880;73297,00;Lindor Xmas Kissen Mschg;7980
+881;922657,00;Z VP Teddy PlÅschfigur 73329;8000
+882;76434,00;EX DE Teddy Malbuch/Colour Book;5704
+883;73307,00;Lindor Xmas WÅrfel Milch;8800
+884;10707,00;Fioretto Kassette Mix;7500
+885;70541,10;GoldstÅcke Adventskalender;8400
+886;70541,60;GoldstÅcke Adventskalender-ETYKIECIARKA;8400
+887;70541,70;GoldstÅcke Adventskalender-ETYKIECIARKA+KULECZARKA;7770
+888;73299,00;Lindor Xmas PrÑsent Milch;9000
+889;76409,00;EX DE Lindor XS Present Milk;9000
+890;922633,00;Z VP TEDDY KL.GESCHENKE 73275;8640
+891;922573,20;Z VP Lindor XL Beutel Dark Mix 10585;7980
+892;76416,00;EX DE Lindor XS Bag Assorted;11000
+893;76413,00;EX DE Lindor XS Cube Milk;8800
+894;76454,00;EX DE,FR,IT,UK,NL Teddy Calendar;10780
+895;74145,00;Teddy im Schlitten;6720
+896;922615,00; Z VP Teddy im Schlitten 74145;6720
+897;73303,00;Lindor Xmas PrÑsent Mschg;9000
+898;10799,00;Lindor Car.Salz Multip.;27600
+899;76475,00;EX CZ Kaufland Promo Cal.-Rentgen;7700
+900;76476,00;EX PL Kaufland Promo Cal.-Rentgen;7700
+901;76415,00;EX DE Lindor Xmas Pr.Ass.;9000
+902;76463,00;EX ID Calendar Lindor-Rentgen;7075
+903;70957,60;Weihnachtszauber T-AK EV-ETYKIECIARKA;11000
+904;74049,00;Gru·k.Taler Gold Zapfen;12720
+905;70955,60;Weihnachtsmarkt T-AK EV-ETYKIECIARKA;11000
+906;72845,60;Mini Tisch Kal. Tanne EV-ETYKIECIARKA;11000
+907;72909,60;Mini Tisch Kal. Flocke EV-ETYKIECIARKA;11000
+908;73329,00;Teddy mit PlÅschfigur;8000
+909;76425,00;EX SE,FI,DK,NO UK Lindor Calend.-Rentgen;7075
+910;76465,30;EX UK Lindor Mini Adv.Calendar-2 MATRYCE (KULECZARKA);9000
+911;74085,00;Gru·k.Taler Rot Classic;12720
+912;74065,00;Gru·karte m.Taler Gold;12720
+913;74103,00;Gru·karte m.Taler Silber;12720
+914;74099,00;Gru·karte m.Taler Rot;12720
+915;74109,00;Gru·k.Herz Modern XMAS;12720
+916;74167,00;Edeka DIY Beutel;6000
+917;922829,00;Z VP Edeka DIY Beutel 74167;6000
+918;73469,00;Glamour Weihn.mann-MÅtze;6300
+919;73927,00;Mini Tanne Mod. Xmas;10800
+920;76412,00;EX DE Lidor Xmas Bag Milk;11000
+921;73907,00;Santa 200 g vers.Bl.Ed.;7520
+922;922650,00;Z VP Kalligr. Xmas Tanne 73315;8640
+923;922640,00;Z VP Kalligr. Xmas Tasche 73289;7980
+924;74165,10;Lindor AK gold EV 290 g;7075
+925;10955,10;Lindor Kassette 70%;10068
+926;74165,20;Lindor AK gold EV 290 g;5200
+927;73289,00;Kalligrafie Xmas Tasche;7980
+928;74115,00;Lindor Santa Gesch.Blau;9000
+929;922641,00;Z VP Kallig. Xmas WÅrfel 73293;9400
+930;73912,00;EX DE,FR IT,UK Teddy Calendar;10780
+931;10957,10;Lindor Kassette Milch;10068
+932;10959,00;Lindor Kassette Mischung-z maszyn•;10068
+933;922610,00;Z VP HELLO Xmas Sharing Box 73195;7700
+934;76414,00;EX DE Lindor XS Pillov Ass.;7980
+935;74125,00;Lindor Santa Gesch.Wei·;9000
+936;76403,00;EX DE Teddy Plush Boy&Girl;8000
+937;73923,00;M-Kiss. Mod. Xmas 1;9000
+938;73315,00;Kalligrafie Xmas Tanne;8640
+939;73293,00;Kalligrafie Xmas WÅrfel;9400
+940;76408,00;EX DE Lindor XS Pillow Milk;7980
+941;73897,00;Kissenp. Black Edition;11760
+942;922638,60;Z VP Kalend.Filz Edit. 73285-Rentgen+ETYKIECIARKA;4800
+943;10955,00;Lindor Kassette 70%- z maszyn•;10068
+944;10959,10;Lindor Kassette Mischung;10068
+945;10957,00;Lindor Kassette Milch-z maszyn•;10068
+946;73285,60;Kalender Filz Edition-Rentgen+ETYKIECIARKA;4800
+947;73929,00;Mini Tisch Kal.Mod. Xmas;1000
+948;922638,00;Z VP Kalend.Filz Edit. 73285-Rentgen;4800
+949;73285,00;Kalender Filz Edition-Rentgen;4800
+950;73895,00;Blister Taler Black Ed.;12720
+951;73955,00;Grussk. Kgl. Black Edi. 1;9000
+952;73957,00;Grussk. Kgl. Black Edi. 2;9000
+953;76426,00;EX DE Hand Crafted Calendar-Rentgen;4800
+954;93123,00;Champ-Flasche Viel GlÅck;9000
+955;76404,00;EX DE Teddy /Plush Ears;7980
+956;73333,00;Teddy mit PlÅschohren;7980
+957;73893,10;AK XMAS Black Edition EV;8400
+958;73893,20;AK XMAS Black Edition EV;6000
+959;74113,00;Weihnachtspost Black Edi.;7500
+960;39586,00;EX DE Lindor Festive Ass.;1000
+961;39585,00;EX DE Lindor Festive Milk;1000
+962;39587,00;EX DE Lindor Pillow 70%;1000
+963;73915,00;XMAS-Box Black Edition;5500
+964;70551,30;Frohes Fest Adventskalender-2 MATRYCE (KULECZARKA)+ETYKIECIARKA;8000

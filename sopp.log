@@ -1,0 +1,128 @@
+2020-09-22	19:20:35.2020	Server nasłuchuje 127.0.0.1 port 6101
+2020-09-22	19:20:39.2020	Klient 127.0.0.1 podłączony
+2020-09-22	19:50:09.5050	Klient  rozłączony
+2020-09-22	19:51:47.5151	Server nasłuchuje 127.0.0.1 port 6101
+2020-09-22	19:51:51.5151	Klient 127.0.0.1 podłączony
+2020-09-24	20:22:26.2222	Server nasłuchuje 127.0.0.1 port 6101
+2020-09-24	20:24:55.2424	Server nasłuchuje 127.0.0.1 port 6101
+2020-09-24	20:26:12.2626	Server nasłuchuje 127.0.0.1 port 6101
+2020-09-27	18:42:47.4242	Server nasłuchuje 127.0.0.1 port 6101
+2020-09-28	20:57:25.5757	Zostałem wywołany 
+2020-09-28	20:57:25.5757	Server nasłuchuje 127.0.0.1 port 5000
+2020-09-28	20:57:25.5757	Otwarto port ipAddr 127.0.01 portNr 5000server name  DDdDD
+2020-09-28	20:57:26.5757	Zostałem wywołany 
+2020-10-05	21:10:49.1010	Zostałem wywołany 
+2020-10-05	21:10:49.1010	Server nasłuchuje 127.0.0.1 port 6101
+2020-10-05	21:10:49.1010	Otwarto port ipAddr  portNr 0server name  ggsggs
+2020-10-05	21:10:54.1010	Zostałem wywołany 
+2020-10-05	21:10:59.1010	Zostałem wywołany 
+2020-10-05	21:14:00.1414	Zostałem wywołany 
+2020-10-05	21:14:00.1414	Server nasłuchuje 127.0.0.1 port 6101
+2020-10-05	21:14:00.1414	Otwarto port ipAddr  portNr 0server name  ggsgs
+2020-10-05	21:14:06.1414	Zostałem wywołany 
+2020-10-05	21:17:15.1717	Zostałem wywołany 
+2020-10-05	21:17:15.1717	Server nasłuchuje 127.0.0.1 port 6101
+2020-10-05	21:17:15.1717	Otwarto port ipAddr 127.0.0.1 portNr 6101server name  fsdfsgsg
+2020-10-05	21:17:15.1717	Zostałem wywołany 
+2020-10-05	21:17:18.1717	Zostałem wywołany 
+2020-10-05	21:17:20.1717	Zostałem wywołany 
+2020-10-05	21:18:33.1818	Zostałem wywołany 
+2020-10-05	21:18:33.1818	Server nasłuchuje 127.0.0.1 port 6101
+2020-10-05	21:18:33.1818	Otwarto port ipAddr 127.0.0.1 portNr 6101server name  asdsadad
+2020-10-05	21:18:35.1818	Zostałem wywołany 
+2020-10-05	21:18:37.1818	Zostałem wywołany 
+2020-10-05	21:18:38.1818	Zostałem wywołany 
+2020-10-06	21:16:59.1616	Zostałem wywołany 
+2020-10-06	21:16:59.1616	Server nasłuchuje 127.0.0.1 port 6101
+2020-10-06	21:16:59.1616	Otwarto port ipAddr 127.0.0.1 portNr 6101server name  okpok
+2020-10-06	21:17:00.1717	Zostałem wywołany 
+2020-10-06	21:19:17.1919	Zostałem wywołany 
+2020-10-06	21:19:17.1919	Server nasłuchuje 127.0.0.1 port 6101
+2020-10-06	21:19:17.1919	Otwarto port ipAddr 127.0.0.1 portNr 6101server name  afgaf
+2020-10-06	21:19:19.1919	Zostałem wywołany 
+2020-10-06	21:19:42.1919	Zostałem wywołany 
+2020-10-06	21:19:44.1919	Zostałem wywołany 
+2020-10-06	21:19:46.1919	Zostałem wywołany 
+2020-10-06	21:20:14.2020	Zostałem wywołany 
+2020-10-07	20:10:51.1010	Zostałem wywołany 
+2020-10-07	20:10:51.1010	Server nasłuchuje  port 6102
+2020-10-07	20:10:51.1010	Otwarto port ipAddr 19.16.8.1.254 portNr 6102server name  afaf
+2020-10-07	20:10:52.1010	Zostałem wywołany 
+2020-10-10	17:40:44.4040	Zostałem wywołany 
+2020-10-10	17:40:44.4040	Server nasłuchuje 127.0.0.1 port 6101
+2020-10-10	17:40:44.4040	Otwarto port ipAddr 127.0.0.1 portNr 6101server name  zaliczanieSztuk
+2020-10-10	17:40:46.4040	Zostałem wywołany 
+2020-10-10	17:41:05.4141	Zostałem wywołany 
+2020-10-10	18:00:20.000	Server nasłuchuje 127.0.0.1 port 5201
+2020-10-10	18:00:47.000	Server nasłuchuje 127.0.0.1 port 6101
+2020-12-09	20:07:56.077	magic kod jest nok
+2020-12-09	20:10:55.1010	magic kod jest nok
+2020-12-09	20:11:42.1111	magic kod jest nok
+2020-12-09	20:12:00.1212	magic kod jest nok
+2020-12-09	20:12:35.1212	magic kod jest nok
+2020-12-09	20:14:11.1414	magic kod jest nok
+2020-12-09	20:14:44.1414	magic kod jest nok
+2020-12-09	20:17:24.1717	magic kod jest nok
+2020-12-09	20:18:51.1818	magic kod jest nok
+2020-12-09	20:19:35.1919	Magic number is cool
+2020-12-09	20:20:48.2020	Magic number is cool
+2020-12-09	20:22:34.2222	magic kod jest nok
+2021-01-31	10:12:39.1212	magic kod jest nok
+2021-01-31	10:13:14.1313	magic kod jest nok
+2021-01-31	10:13:40.1313	magic kod jest nok
+2021-01-31	10:19:08.1919	Magic number is cool
+2021-01-31	10:25:50.2525	Magic number is cool
+2021-01-31	10:26:34.2626	Magic number is cool
+2021-01-31	10:27:25.2727	Magic number is cool
+2021-01-31	10:29:53.2929	Magic number is cool
+2021-01-31	10:30:35.3030	Magic number is cool
+2021-01-31	10:33:25.3333	Magic number is cool
+2021-01-31	10:35:18.3535	Magic number is cool
+2021-01-31	10:36:03.3636	Magic number is cool
+2021-01-31	10:37:18.3737	Magic number is cool
+2021-01-31	10:57:39.5757	Magic number is cool
+2021-01-31	10:58:20.5858	Magic number is cool
+2021-01-31	11:01:32.011	Magic number is cool
+2021-01-31	11:01:55.011	Magic number is cool
+2021-01-31	11:03:24.033	Magic number is cool
+2021-01-31	11:04:05.044	Magic number is cool
+2021-01-31	11:04:33.044	Magic number is cool
+2021-01-31	11:05:35.055	Magic number is cool
+2021-01-31	11:06:32.066	Magic number is cool
+2021-01-31	11:07:13.077	Magic number is cool
+2021-01-31	11:08:06.088	Magic number is cool
+2021-01-31	11:08:31.088	Magic number is cool
+2021-01-31	11:09:19.099	Magic number is cool
+2021-01-31	11:09:44.099	Magic number is cool
+2021-01-31	11:10:30.1010	Magic number is cool
+2021-01-31	11:11:33.1111	Magic number is cool
+2021-01-31	11:12:25.1212	Magic number is cool
+2021-01-31	11:15:23.1515	Magic number is cool
+2021-01-31	11:16:00.1616	Magic number is cool
+2021-01-31	11:17:42.1717	Magic number is cool
+2021-01-31	11:27:30.2727	Magic number is cool
+2021-01-31	11:31:15.3131	Magic number is cool
+2021-01-31	11:32:09.3232	Magic number is cool
+2021-01-31	11:32:51.3232	Magic number is cool
+2021-01-31	11:36:44.3636	Magic number is cool
+2021-01-31	11:37:20.3737	Magic number is cool
+2021-01-31	11:38:50.3838	Magic number is cool
+2021-01-31	11:41:59.4141	Magic number is cool
+2021-01-31	11:42:53.4242	Magic number is cool
+2021-01-31	11:44:27.4444	Magic number is cool
+2021-01-31	11:45:47.4545	Magic number is cool
+2021-01-31	11:46:45.4646	Magic number is cool
+2021-01-31	11:47:15.4747	Magic number is cool
+2021-01-31	11:49:23.4949	Magic number is cool
+2021-01-31	11:54:14.5454	Magic number is cool
+2021-01-31	11:54:32.5454	Magic number is cool
+2021-01-31	14:54:41.5454	Magic number is cool
+2021-01-31	15:01:24.011	Magic number is cool
+2021-01-31	15:04:14.044	Magic number is cool
+2021-01-31	15:06:14.066	Magic number is cool
+2021-01-31	15:13:17.1313	Magic number is cool
+2021-01-31	15:21:14.2121	Magic number is cool
+2021-01-31	15:39:22.3939	Magic number is cool
+2021-01-31	18:12:57.1212	Magic number is cool
+2021-01-31	18:13:36.1313	Magic number is cool
+2021-01-31	18:14:27.1414	Magic number is cool

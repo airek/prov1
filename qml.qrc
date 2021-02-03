@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>img/back.png</file>
+        <file>img/back@2x.png</file>
+        <file>img/back@3x.png</file>
+        <file>img/back@4x.png</file>
+        <file>img/drawer.png</file>
+        <file>img/drawer@2x.png</file>
+        <file>img/drawer@3x.png</file>
+        <file>img/drawer@4x.png</file>
+        <file>img/menu.png</file>
+        <file>Counters.qml</file>
+        <file>TCPConf.qml</file>
+        <file>TCPServer.qml</file>
+        <file>MsgDialog.qml</file>
+        <file>myJsScripts.js</file>
+        <file>DlgStatus.qml</file>
+        <file>DlgPartNo.qml</file>
+        <file>img/graph.png</file>
+        <file>Settings.qml</file>
+        <file>DlgPartNoN.qml</file>
+    </qresource>
+</RCC>
