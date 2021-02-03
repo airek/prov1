@@ -6,6 +6,8 @@
 #include <global.h>
 #include <counters.h>
 #include <target.h>
+#include <QTimer>
+
 
 /*!
  * \brief The Backend class
@@ -51,6 +53,7 @@ public slots:
     void targetIncreased();
     void setCntrZero();
     void setTargetsZero();
+    void checkIfsetZero();
 
 
 signals:
@@ -70,7 +73,7 @@ private:
     Counters *cntr;
     Target *target;
     QString mStatus;
-
+    QTimer *timer;
     void writeLog(QString msg);
     void createDevices();
     bool startListening(QString ipA,int portNr);

@@ -17,8 +17,9 @@ Target::Target(QObject *parent) : QObject(parent)
     clockTimer=new QTimer;
     connect(clockTimer,&QTimer::timeout,
             this,&Target::checkClockTimer);
+    if(!Global::mBackendTimer)
+        clockTimer->start(1000);
 
-    clockTimer->start(1000);
 
 
 }
@@ -109,7 +110,7 @@ void Target::checkClockTimer()
 
         if(strHour==Global::fshft or strHour==Global::sshft or strHour==Global::tshft)
         {
-            qDebug()<<"Zerujemy targety koniec zmiany ";
+            //qDebug()<<"Zerujemy targety koniec zmiany ";
 
             mTargetPerS=0;
 

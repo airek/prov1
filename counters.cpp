@@ -13,7 +13,8 @@ Counters::Counters(QObject *parent) : QObject(parent)
     connect(timer,SIGNAL(timeout()),
             this,SLOT(checkIfReset()));
     timer->setInterval(1000);
-    timer->start();
+    if(!Global::mBackendTimer)
+        timer->start();
 }
 /*!
  * \brief Counters::increaseCounter

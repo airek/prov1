@@ -1,5 +1,6 @@
 #include "backend.h"
 #include "auxclass/dbinterface.h"
+#include <QTime>
 
 Backend::Backend(QObject *parent) : QObject(parent)
 {
@@ -19,6 +20,21 @@ Backend::Backend(QObject *parent) : QObject(parent)
 
     target->setHourTarget(Global::mTargetH.toUInt());
     target->setShiftTarget(Global::mTargetS.toUInt());
+
+    if(Global::mBackendTimer)
+    {
+        qDebug()<<"backendtimer is true";
+        timer=new QTimer;
+
+        connect(timer,&QTimer::timeout,
+                this,&Backend::checkIfsetZero);
+        timer->start(1000);
+
+
+    }else
+    {
+        qDebug()<<"backendtimer is false";
+    }
 
 }
 /*!
@@ -248,6 +264,47 @@ void Backend::setTargetsZero()
 {
     emit targetsZero();
 }
+
+void Backend::checkIfsetZero()
+{
+    QTime curTime=QTime::currentTime();
+    QString strMinutes,strSeconds,strHour;
+    //qDebug()<<"Check if Zero backend ";
+    strMinutes=curTime.toString("mm");
+    strSeconds=curTime.toString("ss");
+    strHour=curTime.toString("hh");
+    //qDebug()<<strMinutes<<" "<<strSeconds;
+
+    if(strMinutes=="00" and strSeconds=="00")
+    {
+        if(target->isRunning)
+        {
+            target->stop();
+            target->setHourTarget(0);
+
+            cntr->setHourCounter(0);
+
+
+            if(strHour==Global::fshft or strHour==Global::sshft or strHour==Global::tshft)
+            {
+
+                target->setShiftTarget(0);
+                cntr->setShiftCounter(0);
+
+
+            }
+
+
+            emit cntrZero();
+            emit targetsZero();
+
+            target->start();
+
+        }
+    }
+}
+
+
 
 /*!
  * \brief Backend::writeLog

@@ -34,6 +34,7 @@ QString Global::mPortNr;
 bool Global::mServerStatus;
 int Global::mTargetInterval;
 int Global::mCntrInterval;
+bool Global::mBackendTimer;
 
 Global::Global()
 {
@@ -123,6 +124,7 @@ void Global::readSettings()
     mResS=settings.value("resS").toString();
     mCntrInterval=settings.value("cntrInterval").toInt();
     mTargetInterval=settings.value("targetInterval").toInt();
+    mBackendTimer=settings.value("backendtimer").toBool();
 
     settings.endGroup();
 
