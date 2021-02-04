@@ -279,7 +279,7 @@ void Backend::checkIfsetZero()
     {
         if(target->isRunning)
         {
-            target->stop();
+            //target->stop();
             target->setHourTarget(0);
 
             cntr->setHourCounter(0);
@@ -298,7 +298,7 @@ void Backend::checkIfsetZero()
             emit cntrZero();
             emit targetsZero();
 
-            target->start();
+            //target->start();
 
         }
     }
