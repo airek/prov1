@@ -36,6 +36,7 @@ public:
     static int mTargetInterval;
     static int mCntrInterval;
     static bool mBackendTimer;
+    bool isDebug;
     //
     QString dbError();
     bool isDbConnected();
@@ -50,6 +51,9 @@ public:
     static bool execQuery(QString strQry);
     static QStringList returnCompressedResults(QString separator,QString strQry);
     bool checkMagicNumber();
+    void writeSettingsLog();
+    void writeDataSettings();
+
 private:
 
     void readSettings();
@@ -59,6 +63,8 @@ private:
     QString mDbUser;
     QString mdbDriver;
     QString mMagicNumber;
+
+
 
 
 };

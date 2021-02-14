@@ -7,7 +7,9 @@
 class Target : public QObject
 {
     Q_OBJECT
+
 public:
+
     explicit Target(QObject *parent = nullptr);
     void start();
     void setInterval(uint tPhr);

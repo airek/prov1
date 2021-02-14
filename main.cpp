@@ -16,19 +16,30 @@ int main(int argc, char *argv[])
 
     QGuiApplication app(argc, argv);
     Global  global;
+    global.writeLog("**** Start Aplikacji ****");
+    global.writeLog(Global::mFileName);
 
 
 
     if(global.connectToDb())
     {
-        qDebug()<<"Polączono z bazą danych";
+        //qDebug()<<"Polączono z bazą danych";
+        global.writeLog("Połączono z bazą danych ");
         global.readDataSettings();
         global.getDeviceStatus();
+
+        if(global.isDebug)
+        {
+            global.writeLog("***** Ustawienia *****");
+            global.writeSettingsLog();
+            global.writeDataSettings();
+        }
 
 
     }else
     {
-        qDebug()<<"Nie połączono z db raportowany błąd "<<global.dbError();
+        global.writeLog("nie połączono z bazdą danych błąd "+global.dbError());
+        //qDebug()<<"Nie połączono z db raportowany błąd "<<global.dbError();
     }
 
     qmlRegisterType<Backend>("com.Backend", 1, 0, "Backend");

@@ -112,6 +112,7 @@ void Global::readSettings()
     //mDbServer=settings.value("dbHost").toString();
     mMagicNumber=settings.value("magic").toString();
 
+
     settings.endGroup();
 
     settings.beginGroup("appData");
@@ -125,8 +126,50 @@ void Global::readSettings()
     mCntrInterval=settings.value("cntrInterval").toInt();
     mTargetInterval=settings.value("targetInterval").toInt();
     mBackendTimer=settings.value("backendtimer").toBool();
+    isDebug=settings.value("debug").toBool();
 
     settings.endGroup();
+
+
+}
+/*!
+ * \brief Global::writeSettingsLog
+ *
+ * writing app setting to log file
+ */
+void Global::writeSettingsLog()
+{
+
+    writeLog("dbDriver "+mdbDriver);
+    writeLog("dbConnection "+mDbConnection);
+    writeLog("dbName "+mDbName);
+    writeLog("Line name "+mLine);
+    writeLog("log name "+mFileName);
+    writeLog("magic nr "+mMagicNumber);
+    writeLog("Part nr "+mPartNr);
+    writeLog("target per H "+mTargetH);
+    writeLog("target per shift "+mTargetS);
+    writeLog("Status "+mStatus);
+    writeLog("result per H "+mResH);
+    writeLog("result per shift "+mResS);
+    if(mBackendTimer)
+        writeLog("backend is true");
+
+
+}
+/*!
+ * \brief Global::writeDataSettings
+ */
+void Global::writeDataSettings()
+{
+    writeLog("signal ok "+mSignal);
+    writeLog("shiftFactor "+mShiftFactor);
+    writeLog("minVal "+minVal);
+    writeLog("midVal "+midVal);
+    writeLog("maxVal "+maxVal);
+    writeLog("firstShift "+fshft);
+    writeLog("second shift "+sshft);
+    writeLog("third shift "+tshft);
 
 }
 
@@ -163,6 +206,8 @@ void Global::readDataSettings()
         mAckSignal=record.value("ackSignal").toBool();
 
     }
+
+
 }
 /*!
  * \brief Global::getDeviceStatus

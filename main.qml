@@ -198,7 +198,7 @@ ApplicationWindow{
         var currentDate=getDate()
         var qry="insert into events values('"+currentDate+"','"+getCurrentTime()+"'"
         +",'"+eventName+"',"+init.hourCntr+","+init.shiftCounter+","+init.hrTargetText+","
-        +init.shTargetText+")";
+        +init.shTargetText+",'"+partNr.text+"')";
 
         console.log("qry before insert "+qry);
 
@@ -219,11 +219,13 @@ ApplicationWindow{
         init.shiftCounter=backend.getShiftCntr();
         init.hrTargetText=backend.getTargetPerH();
         init.shTargetText=backend.getTargetPers();
-        lineStat.text=backend.getStatus();
-        setStatus(lineStat.text);
+
         partNr.text=backend.getPartNr();
         getTarget()
         lineNr.text=backend.getLine();
+
+        lineStat.text=backend.getStatus();
+        setStatus(lineStat.text);
 
     }
 

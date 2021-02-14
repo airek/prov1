@@ -13,6 +13,7 @@ Backend::Backend(QObject *parent) : QObject(parent)
 
 
     target=new Target;
+
     connect(target,&Target::targetsIncreased,
             this,&Backend::targetIncreased);
     connect(target,&Target::targetsZero,
@@ -23,7 +24,7 @@ Backend::Backend(QObject *parent) : QObject(parent)
 
     if(Global::mBackendTimer)
     {
-        qDebug()<<"backendtimer is true";
+        writeLog("backendtime jest true ");
         timer=new QTimer;
 
         connect(timer,&QTimer::timeout,
@@ -33,6 +34,7 @@ Backend::Backend(QObject *parent) : QObject(parent)
 
     }else
     {
+        writeLog("backendtimer false ");
         qDebug()<<"backendtimer is false";
     }
 
@@ -142,7 +144,11 @@ QString Backend::getTarget(QString partNr)
 void Backend::status(QString status)
 {
     mStatus=status;
-    target->stop();
+    qDebug()<<mStatus;
+    if(mStatus=="PRODUKCJA")
+        target->start();
+    else
+        target->stop();
 }
 
 uint Backend::getTargetPerH()
@@ -281,9 +287,7 @@ void Backend::checkIfsetZero()
         {
             //target->stop();
             target->setHourTarget(0);
-
             cntr->setHourCounter(0);
-
 
             if(strHour==Global::fshft or strHour==Global::sshft or strHour==Global::tshft)
             {
