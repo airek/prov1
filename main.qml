@@ -131,7 +131,7 @@ ApplicationWindow{
         }
 
         if(strHour.length===1)
-            strHour="0"+strHours
+            strHour="0"+strHour
 
         if(strMinute.length===1)
             strMinute="0"+strMinute

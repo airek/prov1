@@ -237,8 +237,8 @@ void Backend::clientDisconnected(QString ipAddres)
 void Backend::countersIncreased()
 {
     cntr->increaseCounter();
-    qDebug()<<"cntr "<<cntr->hourCounter();
-    qDebug()<<"shift cntr "<<cntr->shiftCounter();
+    //qDebug()<<"cntr "<<cntr->hourCounter();
+    //qDebug()<<"shift cntr "<<cntr->shiftCounter();
 
     if(!target->isRunning)
     {
@@ -275,36 +275,76 @@ void Backend::checkIfsetZero()
 {
     QTime curTime=QTime::currentTime();
     QString strMinutes,strSeconds,strHour;
+    QString tshf;
+
+    tshf=Global::tshft;
+
+
+
     //qDebug()<<"Check if Zero backend ";
     strMinutes=curTime.toString("mm");
     strSeconds=curTime.toString("ss");
     strHour=curTime.toString("hh");
-    //qDebug()<<strMinutes<<" "<<strSeconds;
+
+    //qDebug()<<strHour<<" "<<strMinutes<<" "<<strSeconds;
 
     if(strMinutes=="00" and strSeconds=="00")
     {
-        if(target->isRunning)
-        {
+
             //target->stop();
             target->setHourTarget(0);
             cntr->setHourCounter(0);
+            emit cntrZero();
+            emit targetsZero();
 
-            if(strHour==Global::fshft or strHour==Global::sshft or strHour==Global::tshft)
+            if(Global::isDebug)
+            {
+
+                writeLog("Zerujemy liczniki na pełną godzinę ");
+                writeLog("Czas "+strHour+strMinutes+strSeconds);
+            }
+
+            if(strHour==Global::fshft)
             {
 
                 target->setShiftTarget(0);
                 cntr->setShiftCounter(0);
-
+                emit cntrZero();
+                emit targetsZero();
+                if(Global::isDebug)
+                    writeLog("Zerujemy liczniki na zmianę 1 ");
 
             }
 
+            if(strHour==Global::sshft)
+            {
+                target->setShiftTarget(0);
+                cntr->setShiftCounter(0);
+                emit cntrZero();
+                emit targetsZero();
+                if(Global::isDebug)
+                    writeLog("Zerujemy liczniki na zmianę 2 ");
+            }
 
-            emit cntrZero();
-            emit targetsZero();
+            // checking third shift
+            if(tshf.length()<2)
+            {
+                tshf="0"+tshf;
 
-            //target->start();
+                if(strHour==tshf)
+                {
+                    target->setShiftTarget(0);
+                    cntr->setShiftCounter(0);
+                    emit cntrZero();
+                    emit targetsZero();
+                    if(Global::isDebug)
+                        writeLog("Zerujemy liczniki na zmianę 3 ");
+                }
+            }
 
-        }
+
+
+
     }
 }
 

@@ -36,7 +36,7 @@ public:
     static int mTargetInterval;
     static int mCntrInterval;
     static bool mBackendTimer;
-    bool isDebug;
+    static bool isDebug;
     //
     QString dbError();
     bool isDbConnected();

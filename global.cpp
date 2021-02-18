@@ -35,6 +35,7 @@ bool Global::mServerStatus;
 int Global::mTargetInterval;
 int Global::mCntrInterval;
 bool Global::mBackendTimer;
+bool Global::isDebug;
 
 Global::Global()
 {

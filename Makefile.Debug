@@ -1082,7 +1082,9 @@ debug/backend.o: backend.cpp backend.h \
 		auxclass/dbinterface.h \
 		C:/Qt/5.9/mingw53_32/include/QtSql/QSqlDatabase \
 		C:/Qt/5.9/mingw53_32/include/QtSql/qsqldatabase.h \
-		C:/Qt/5.9/mingw53_32/include/QtSql/qtsqlglobal.h
+		C:/Qt/5.9/mingw53_32/include/QtSql/qtsqlglobal.h \
+		C:/Qt/5.9/mingw53_32/include/QtCore/QTime \
+		C:/Qt/5.9/mingw53_32/include/QtCore/qdatetime.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\backend.o backend.cpp
 
 debug/counters.o: counters.cpp counters.h \
