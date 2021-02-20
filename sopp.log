@@ -711,3 +711,194 @@
 2021-02-18	21:00:00.000	Zerujemy liczniki na pełną godzinę 
 2021-02-18	21:00:00.000	Czas 210000
 2021-02-18	21:00:00.000	Zerujemy liczniki na zmianę 2 
+2021-02-20	18:49:07.4949	**** Start Aplikacji ****
+2021-02-20	18:49:07.4949	sopp.log
+2021-02-20	18:49:07.4949	Połączono z bazą danych 
+2021-02-20	18:49:07.4949	***** Ustawienia *****
+2021-02-20	18:49:07.4949	dbDriver QSQLITE
+2021-02-20	18:49:07.4949	dbConnection prov
+2021-02-20	18:49:07.4949	dbName C:/airek/software/SOPP/sopp.db
+2021-02-20	18:49:07.4949	Line name 10032-15
+2021-02-20	18:49:07.4949	log name sopp.log
+2021-02-20	18:49:07.4949	magic nr 077528
+2021-02-20	18:49:07.4949	Part nr 78521,10
+2021-02-20	18:49:07.4949	target per H 0
+2021-02-20	18:49:07.4949	target per shift 0
+2021-02-20	18:49:07.4949	Status KONIEC ZLECENIA
+2021-02-20	18:49:07.4949	result per H 0
+2021-02-20	18:49:07.4949	result per shift 0
+2021-02-20	18:49:07.4949	backend is true
+2021-02-20	18:49:07.4949	signal ok BOK
+2021-02-20	18:49:07.4949	shiftFactor 7.75
+2021-02-20	18:49:07.4949	minVal 80
+2021-02-20	18:49:07.4949	midVal 80
+2021-02-20	18:49:07.4949	maxVal 90
+2021-02-20	18:49:07.4949	firstShift 11
+2021-02-20	18:49:07.4949	second shift 21
+2021-02-20	18:49:07.4949	third shift 6
+2021-02-20	18:49:08.4949	backendtime jest true 
+2021-02-20	18:49:09.4949	Magic number is cool
+2021-02-20	19:06:56.066	**** Start Aplikacji ****
+2021-02-20	19:06:56.066	sopp.log
+2021-02-20	19:06:56.066	Połączono z bazą danych 
+2021-02-20	19:06:56.066	***** Ustawienia *****
+2021-02-20	19:06:56.066	dbDriver QSQLITE
+2021-02-20	19:06:56.066	dbConnection prov
+2021-02-20	19:06:56.066	dbName C:/airek/software/SOPP/sopp.db
+2021-02-20	19:06:56.066	Line name 10032-15
+2021-02-20	19:06:56.066	log name sopp.log
+2021-02-20	19:06:56.066	magic nr 077528
+2021-02-20	19:06:56.066	Part nr 78521,10
+2021-02-20	19:06:56.066	target per H 0
+2021-02-20	19:06:56.066	target per shift 0
+2021-02-20	19:06:56.066	Status KONIEC ZLECENIA
+2021-02-20	19:06:56.066	result per H 0
+2021-02-20	19:06:56.066	result per shift 0
+2021-02-20	19:06:56.066	backend is true
+2021-02-20	19:06:56.066	signal ok BOK
+2021-02-20	19:06:56.066	shiftFactor 7.75
+2021-02-20	19:06:56.066	minVal 80
+2021-02-20	19:06:56.066	midVal 80
+2021-02-20	19:06:56.066	maxVal 90
+2021-02-20	19:06:56.066	firstShift 11
+2021-02-20	19:06:56.066	second shift 21
+2021-02-20	19:06:56.066	third shift 6
+2021-02-20	19:06:57.066	backendtime jest true 
+2021-02-20	19:06:57.066	Magic number is cool
+2021-02-20	19:07:20.077	**** Start Aplikacji ****
+2021-02-20	19:07:20.077	sopp.log
+2021-02-20	19:07:20.077	Połączono z bazą danych 
+2021-02-20	19:07:20.077	***** Ustawienia *****
+2021-02-20	19:07:20.077	dbDriver QSQLITE
+2021-02-20	19:07:20.077	dbConnection prov
+2021-02-20	19:07:20.077	dbName C:/airek/software/SOPP/sopp.db
+2021-02-20	19:07:20.077	Line name 10032-15
+2021-02-20	19:07:20.077	log name sopp.log
+2021-02-20	19:07:20.077	magic nr 077528
+2021-02-20	19:07:20.077	Part nr 78521,10
+2021-02-20	19:07:20.077	target per H 0
+2021-02-20	19:07:20.077	target per shift 0
+2021-02-20	19:07:20.077	Status KONIEC ZLECENIA
+2021-02-20	19:07:20.077	result per H 0
+2021-02-20	19:07:20.077	result per shift 0
+2021-02-20	19:07:20.077	backend is true
+2021-02-20	19:07:20.077	signal ok BOK
+2021-02-20	19:07:20.077	shiftFactor 7.75
+2021-02-20	19:07:20.077	minVal 80
+2021-02-20	19:07:20.077	midVal 80
+2021-02-20	19:07:20.077	maxVal 90
+2021-02-20	19:07:20.077	firstShift 11
+2021-02-20	19:07:20.077	second shift 21
+2021-02-20	19:07:20.077	third shift 6
+2021-02-20	19:07:21.077	backendtime jest true 
+2021-02-20	19:07:21.077	Magic number is cool
+2021-02-20	19:07:34.077	**** Start Aplikacji ****
+2021-02-20	19:07:34.077	sopp.log
+2021-02-20	19:07:35.077	Połączono z bazą danych 
+2021-02-20	19:07:35.077	***** Ustawienia *****
+2021-02-20	19:07:35.077	dbDriver QSQLITE
+2021-02-20	19:07:35.077	dbConnection prov
+2021-02-20	19:07:35.077	dbName C:/airek/software/SOPP/sopp.db
+2021-02-20	19:07:35.077	Line name 10032-15
+2021-02-20	19:07:35.077	log name sopp.log
+2021-02-20	19:07:35.077	magic nr 077528
+2021-02-20	19:07:35.077	Part nr 78521,10
+2021-02-20	19:07:35.077	target per H 0
+2021-02-20	19:07:35.077	target per shift 0
+2021-02-20	19:07:35.077	Status KONIEC ZLECENIA
+2021-02-20	19:07:35.077	result per H 0
+2021-02-20	19:07:35.077	result per shift 0
+2021-02-20	19:07:35.077	backend is true
+2021-02-20	19:07:35.077	signal ok BOK
+2021-02-20	19:07:35.077	shiftFactor 7.75
+2021-02-20	19:07:35.077	minVal 80
+2021-02-20	19:07:35.077	midVal 80
+2021-02-20	19:07:35.077	maxVal 90
+2021-02-20	19:07:35.077	firstShift 11
+2021-02-20	19:07:35.077	second shift 21
+2021-02-20	19:07:35.077	third shift 6
+2021-02-20	19:07:35.077	backendtime jest true 
+2021-02-20	19:07:36.077	Magic number is cool
+2021-02-20	19:15:02.1515	**** Start Aplikacji ****
+2021-02-20	19:15:02.1515	sopp.log
+2021-02-20	19:15:02.1515	Połączono z bazą danych 
+2021-02-20	19:15:02.1515	***** Ustawienia *****
+2021-02-20	19:15:02.1515	dbDriver QSQLITE
+2021-02-20	19:15:02.1515	dbConnection prov
+2021-02-20	19:15:02.1515	dbName C:/airek/software/SOPP/sopp.db
+2021-02-20	19:15:02.1515	Line name 10032-15
+2021-02-20	19:15:02.1515	log name sopp.log
+2021-02-20	19:15:02.1515	magic nr 077528
+2021-02-20	19:15:02.1515	Part nr 78521,10
+2021-02-20	19:15:02.1515	target per H 0
+2021-02-20	19:15:02.1515	target per shift 0
+2021-02-20	19:15:02.1515	Status KONIEC ZLECENIA
+2021-02-20	19:15:02.1515	result per H 0
+2021-02-20	19:15:02.1515	result per shift 0
+2021-02-20	19:15:02.1515	backend is true
+2021-02-20	19:15:02.1515	signal ok BOK
+2021-02-20	19:15:02.1515	shiftFactor 7.75
+2021-02-20	19:15:02.1515	minVal 80
+2021-02-20	19:15:02.1515	midVal 80
+2021-02-20	19:15:02.1515	maxVal 90
+2021-02-20	19:15:02.1515	firstShift 11
+2021-02-20	19:15:02.1515	second shift 21
+2021-02-20	19:15:02.1515	third shift 6
+2021-02-20	19:15:03.1515	backendtime jest true 
+2021-02-20	19:15:03.1515	Magic number is cool
+2021-02-20	19:17:30.1717	**** Start Aplikacji ****
+2021-02-20	19:17:30.1717	sopp.log
+2021-02-20	19:17:39.1717	**** Start Aplikacji ****
+2021-02-20	19:17:39.1717	sopp.log
+2021-02-20	19:17:39.1717	Połączono z bazą danych 
+2021-02-20	19:17:39.1717	***** Ustawienia *****
+2021-02-20	19:17:39.1717	dbDriver QSQLITE
+2021-02-20	19:17:39.1717	dbConnection prov
+2021-02-20	19:17:39.1717	dbName C:/airek/software/SOPP/sopp.db
+2021-02-20	19:17:39.1717	Line name 10032-15
+2021-02-20	19:17:39.1717	log name sopp.log
+2021-02-20	19:17:39.1717	magic nr 077528
+2021-02-20	19:17:39.1717	Part nr 78521,10
+2021-02-20	19:17:39.1717	target per H 0
+2021-02-20	19:17:39.1717	target per shift 0
+2021-02-20	19:17:39.1717	Status KONIEC ZLECENIA
+2021-02-20	19:17:39.1717	result per H 0
+2021-02-20	19:17:39.1717	result per shift 0
+2021-02-20	19:17:39.1717	backend is true
+2021-02-20	19:17:39.1717	signal ok BOK
+2021-02-20	19:17:39.1717	shiftFactor 7.75
+2021-02-20	19:17:39.1717	minVal 80
+2021-02-20	19:17:39.1717	midVal 80
+2021-02-20	19:17:39.1717	maxVal 90
+2021-02-20	19:17:39.1717	firstShift 11
+2021-02-20	19:17:39.1717	second shift 21
+2021-02-20	19:17:39.1717	third shift 6
+2021-02-20	19:17:40.1717	backendtime jest true 
+2021-02-20	19:17:40.1717	Magic number is cool
+2021-02-20	19:17:46.1717	**** Start Aplikacji ****
+2021-02-20	19:17:46.1717	sopp.log
+2021-02-20	19:17:46.1717	Połączono z bazą danych 
+2021-02-20	19:17:46.1717	***** Ustawienia *****
+2021-02-20	19:17:46.1717	dbDriver QSQLITE
+2021-02-20	19:17:46.1717	dbConnection prov
+2021-02-20	19:17:46.1717	dbName C:/airek/software/SOPP/sopp.db
+2021-02-20	19:17:46.1717	Line name 10032-15
+2021-02-20	19:17:46.1717	log name sopp.log
+2021-02-20	19:17:46.1717	magic nr 077528
+2021-02-20	19:17:46.1717	Part nr 78521,10
+2021-02-20	19:17:46.1717	target per H 0
+2021-02-20	19:17:46.1717	target per shift 0
+2021-02-20	19:17:46.1717	Status KONIEC ZLECENIA
+2021-02-20	19:17:46.1717	result per H 0
+2021-02-20	19:17:46.1717	result per shift 0
+2021-02-20	19:17:46.1717	backend is true
+2021-02-20	19:17:46.1717	signal ok BOK
+2021-02-20	19:17:46.1717	shiftFactor 7.75
+2021-02-20	19:17:46.1717	minVal 80
+2021-02-20	19:17:46.1717	midVal 80
+2021-02-20	19:17:46.1717	maxVal 90
+2021-02-20	19:17:46.1717	firstShift 11
+2021-02-20	19:17:46.1717	second shift 21
+2021-02-20	19:17:46.1717	third shift 6
+2021-02-20	19:17:47.1717	backendtime jest true 
+2021-02-20	19:17:47.1717	Magic number is cool
