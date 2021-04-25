@@ -92,6 +92,7 @@ ApplicationWindow{
                 console.log("Ustawiamy Koniec zmiany")
                 lineStat.text="KONIEC ZLECENIA"
                 setStatus("KONIEC ZLECENIA")
+                insertEvent("KONIEC ZLECENIA");
 
             }
 
@@ -151,7 +152,7 @@ ApplicationWindow{
     {
         var targetpH;
         targetpH=backend.getTarget(partNr.text)
-        console.log("Target per hour "+target)
+        console.log("Target per hour "+targetpH)
 
         target.text=targetpH+" szt./h"
     }
@@ -223,7 +224,6 @@ ApplicationWindow{
         partNr.text=backend.getPartNr();
         getTarget()
         lineNr.text=backend.getLine();
-
         lineStat.text=backend.getStatus();
         setStatus(lineStat.text);
 
@@ -435,7 +435,7 @@ ApplicationWindow{
                 Label
                 {
                     id:partNr
-                    text:"5831,00"
+                    text:"5831"
                     font.pixelSize: header.height*0.3
                     font.bold: false
                     horizontalAlignment: Qt.AlignHCenter

@@ -85,8 +85,8 @@ bool IpServer::startListening(QString ipAddr, int portNr)
     QHostAddress hostAd(mIpaddr);
     QString temp;
 
-    dbInterface dbi(Global::mDbConnection);
-    qDebug()<<hostAd.toString();
+    //dbInterface dbi(Global::mDbConnection);
+    //qDebug()<<hostAd.toString();
 
     if(mServer.listen(hostAd,mPortnr))
     {

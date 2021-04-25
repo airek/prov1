@@ -35,7 +35,7 @@ Backend::Backend(QObject *parent) : QObject(parent)
     }else
     {
         writeLog("backendtimer false ");
-        qDebug()<<"backendtimer is false";
+        //qDebug()<<"backendtimer is false";
     }
 
 }
@@ -75,7 +75,7 @@ void Backend::startServer()
    dbInterface dbi(Global::mDbConnection);
    QStringList tempList;
 
-   strQry="select devName,ipAddr,portNr,status from devices "
+   strQry="select ipAddr,portNr,conStatus from lineCom "
            "where line='"+Global::mLine+"'";
    qDebug()<<"strQry "<<strQry;
    devList=dbi.returnCompressedQueryResult(strQry,"@");
@@ -86,7 +86,7 @@ void Backend::startServer()
        temp=devList.at(0);
        qDebug()<<temp;
        tempList=temp.split("@");
-       if(startListening(tempList.at(1),tempList.at(2).toInt()))
+       if(startListening(tempList.at(0),tempList.at(1).toInt()))
        {
            emit serverListening();
        }
@@ -119,6 +119,8 @@ QString Backend::getTarget(QString partNr)
     // strQry
     QString strQry("Select shiftTarget from targets where "
                    " partNr='"+partNr+"'");
+
+    qDebug()<<"backend get Target "<<strQry;
     QString res=dbi.returnOneColumn(strQry);
 
     qDebug()<<"Otrzymany res "<<res;
@@ -223,6 +225,7 @@ bool Backend::getServerStatus()
 void Backend::socketConnected(QString ipAddres)
 {
     qDebug()<<"Client from Ip connected "<<ipAddres;
+
     emit clientServerConnected();
 }
 
@@ -372,7 +375,10 @@ void Backend::createDevices()
  */
 bool Backend::startListening(QString ipA, int portNr)
 {
+    QString strQry;
+    QString temp;
     mServer=new IpServer;
+    dbInterface dbi(Global::mDbConnection);
     connect(mServer,SIGNAL(clientConnected(QString)),
             this,SLOT(socketConnected(QString)));
     connect(mServer,SIGNAL(clientDisconnected(QString)),
@@ -383,7 +389,18 @@ bool Backend::startListening(QString ipA, int portNr)
 
     if(mServer->startListening(ipA,portNr))
     {
+        strQry="update lineCom set conStatus=1 where ipAddr='"+ipA+"'"
+                " and line='"+Global::mLine+"'";
+
+        qDebug()<<strQry;
+        if(!dbi.execQuery(strQry))
+            writeLog("Server linii "+Global::mLine+"na IP "+ipA+" nasłuchuje");
+        else
+            writeLog("Nie wprowadzono danych dla kwerendy "+strQry);
+
+
         return true;
+
     }else
     {
         return false;

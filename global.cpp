@@ -47,12 +47,14 @@ Global::Global()
  */
 bool Global::connectToDb()
 {
+    qDebug()<<"driver "<<mdbDriver<<"\nConnection "<<mDbConnection
+           <<"\nhostName "<<mDbServer<<"\nUser "<<mDbUser<<"\ndbName "<<mDbName;
 
     QSqlDatabase db=QSqlDatabase::addDatabase(mdbDriver,mDbConnection);
     db.setHostName(mDbServer);
     db.setUserName(mDbUser);
     db.setDatabaseName(mDbName);
-    db.setPassword("Takata1!");
+    db.setPassword("@ccess.PL_s0pp");
 
     bool ok=db.open();
 
@@ -109,8 +111,8 @@ void Global::readSettings()
     mDbName=settings.value("dbName").toString();
     mLine=settings.value("line").toString();
     mFileName=settings.value("logFile").toString();
-    ///mDbUser=settings.value("dbuser").toString();
-    //mDbServer=settings.value("dbHost").toString();
+    mDbUser=settings.value("dbuser").toString();
+    mDbServer=settings.value("dbHost").toString();
     mMagicNumber=settings.value("magic").toString();
 
 
@@ -191,6 +193,7 @@ void Global::readDataSettings()
     QSqlDatabase db=QSqlDatabase::database(mDbConnection);
     QSqlQuery qry(db);
     qry.prepare("Select * from settings");
+
     qry.exec();
 
     while(qry.next())
@@ -216,17 +219,26 @@ void Global::readDataSettings()
 void Global::getDeviceStatus()
 {
     QSqlDatabase db=QSqlDatabase::database(mDbConnection);
+    qDebug()<<db;
     QSqlQuery qry(db);
-    qry.prepare("Select devName,ipAddr,portNr,status from devices where line ='"+mLine+"'");
-    qry.exec();
+    QString strQry;
+
+    strQry="Select ipAddr,portNr,conStatus,descript from lineCom where line ='"+mLine+"'";
+    qDebug()<<strQry;
+    //qry.prepare("Select devName,ipAddr,portNr,status from devices where line ='"+mLine+"'");
+    //qry.prepare("Select ipAddr,portNr,conStatus from lineCom where line ='"+mLine+"'");
+
+    qry.exec(strQry);
 
     while(qry.next())
     {
         QSqlRecord record=qry.record();
-        mDevName=record.value("devName").toString();
+        mDevName=record.value("descript").toString();
         mIpAddr=record.value("ipAddr").toString();
         mPortNr=record.value("portNr").toString();
-        mServerStatus=record.value("status").toBool();
+        mServerStatus=record.value("conStatus").toInt();
+
+        qDebug()<<mIpAddr<<"\n"<<mPortNr<<"\n"<<mServerStatus;
     }
 }
 /*!

@@ -7,7 +7,7 @@ SqlQueryModel::SqlQueryModel(QObject *parent) :
     QSqlQueryModel(parent)
 {
     //qDebug()<<"Start qry Model";
-    setQuery("Select partnr from targets");
+    setQuery("Select partNr from partNumbers");
     //qDebug()<<"sqlQueryModel";
 
 
@@ -41,7 +41,7 @@ void SqlQueryModel::generateRoleNames()
     m_roleNames.clear();
     for( int i = 0; i < record().count(); i ++) {
         m_roleNames.insert(Qt::UserRole + i + 1, record().fieldName(i).toUtf8());
-        //qDebug()<<m_roleNames;
+        qDebug()<<m_roleNames;
     }
 }
 

@@ -66,6 +66,7 @@ int main(int argc, char *argv[])
     {
         //qDebug()<<"Polączono z bazą danych";
         global.writeLog("Połączono z bazą danych ");
+        qDebug()<<"Połączono z bazą danych ";
         global.readDataSettings();
         global.getDeviceStatus();
 
@@ -80,7 +81,7 @@ int main(int argc, char *argv[])
     }else
     {
         global.writeLog("nie połączono z bazdą danych błąd "+global.dbError());
-        //qDebug()<<"Nie połączono z db raportowany błąd "<<global.dbError();
+        qDebug()<<"Nie połączono z db raportowany błąd "<<global.dbError();
     }
 
     qmlRegisterType<Backend>("com.Backend", 1, 0, "Backend");

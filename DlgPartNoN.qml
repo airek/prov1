@@ -133,7 +133,7 @@ Dialog {
 
             delegate: ItemDelegate
             {
-                    width: parent.width
+                    //width: parent.width
                     text:partNr
                     font.pixelSize:14
                     highlighted:partListView.currentIndex
@@ -146,129 +146,8 @@ Dialog {
 
             }
 
-            /*MouseArea
-            {
-                id:mousaA
-                anchors.fill: parent
-                onClicked:
-                {
-                    onActivated()
-                }
-
-            }*/
         }
     }
-
-
-           /*ColumnLayout
-           {
-             id:mainRect
-             spacing: 20
-             anchors.fill: parent
-
-
-             RowLayout
-             {
-
-                 id:rowLa
-                 spacing: 20
-                 anchors.top:mainRect.top
-                 anchors.horizontalCenter: parent.horizontalCenter
-                 //anchors.verticalCenter: parent.verticalCenter
-
-             ComboBox
-             {
-                 id:cmbR
-
-                 Material.accent: Material.Orange
-                 Layout.preferredWidth: 300
-
-                 Layout.minimumWidth: 250
-
-                 font.pixelSize: width/8
-                 editable: true
-                 //model:qryModel
-                 displayText: "Podaj numer"
-
-
-                 /*delegate: ItemDelegate
-                 {
-                     text:partNr
-                     font.pixelSize:22
-                     Material.foreground:Material.Indigo
-                 }
-
-
-             }
-
-
-             Button
-             {
-                 id:searchButton
-                 Material.background: "white"
-
-
-                 Layout.minimumWidth: 100
-                 Layout.preferredWidth: 110
-
-                 text: "Szukaj"
-
-                 onClicked:
-                 {
-                    console.log("searching")
-                    number=cmbR.currentText
-                    searchNumbers()
-
-
-                 }
-
-             }
-
-
-             }
-
-             ListView
-             {
-                 id:listView
-                 Layout.alignment: Qt.AlignHCenter
-
-                 Layout.minimumWidth: 100
-                 Layout.preferredWidth: 110
-
-
-                 model:qryModel
-
-
-                 delegate: ItemDelegate
-                 {
-                     width: parent.width
-                     text:partNr
-
-                 }
-               }
-
-             Button
-             {
-                 id:mainButton
-
-                 Material.background: "white"
-                 Layout.alignment: Qt.AlignHCenter
-
-                 Layout.minimumWidth: 100
-                 Layout.preferredWidth: 110
-
-                 text: "OK"
-
-                 onClicked:
-                 {
-                    console.log(cmbR.currentText)
-                    activated(cmbR.currentText)
-                    close()
-                 }
-             }
-
-           }*/
-
 
 
 
