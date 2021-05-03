@@ -1,18 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'backenddbcon.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "../auxclass/backenddbcon.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'backenddbcon.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.9.0. It"
+#error "This file was generated using the moc from 5.15.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -21,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_BackendDbCon_t {
-    QByteArrayData data[22];
-    char stringdata0[217];
+    QByteArrayData data[25];
+    char stringdata0[242];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -52,7 +53,10 @@ QT_MOC_LITERAL(17, 162, 10), // "getDevName"
 QT_MOC_LITERAL(18, 173, 9), // "getIpAddr"
 QT_MOC_LITERAL(19, 183, 9), // "getPortNr"
 QT_MOC_LITERAL(20, 193, 15), // "getServerStatus"
-QT_MOC_LITERAL(21, 209, 7) // "getLine"
+QT_MOC_LITERAL(21, 209, 7), // "getLine"
+QT_MOC_LITERAL(22, 217, 9), // "getDbData"
+QT_MOC_LITERAL(23, 227, 9), // "separator"
+QT_MOC_LITERAL(24, 237, 4) // "sqry"
 
     },
     "BackendDbCon\0execQry\0\0strQry\0getMinVal\0"
@@ -61,17 +65,17 @@ QT_MOC_LITERAL(21, 209, 7) // "getLine"
     "getETShift\0getAckSignal\0listen\0"
     "serverName\0IPAddr\0portNr\0getDevName\0"
     "getIpAddr\0getPortNr\0getServerStatus\0"
-    "getLine"
+    "getLine\0getDbData\0separator\0sqry"
 };
 #undef QT_MOC_LITERAL
 
 static const uint qt_meta_data_BackendDbCon[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
-      16,   14, // methods
+      17,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -79,22 +83,23 @@ static const uint qt_meta_data_BackendDbCon[] = {
        0,       // signalCount
 
  // methods: name, argc, parameters, tag, flags
-       1,    1,   94,    2, 0x02 /* Public */,
-       4,    0,   97,    2, 0x02 /* Public */,
-       5,    0,   98,    2, 0x02 /* Public */,
-       6,    0,   99,    2, 0x02 /* Public */,
-       7,    0,  100,    2, 0x02 /* Public */,
-       8,    0,  101,    2, 0x02 /* Public */,
-       9,    0,  102,    2, 0x02 /* Public */,
-      10,    0,  103,    2, 0x02 /* Public */,
-      11,    0,  104,    2, 0x02 /* Public */,
-      12,    0,  105,    2, 0x02 /* Public */,
-      13,    3,  106,    2, 0x02 /* Public */,
-      17,    0,  113,    2, 0x02 /* Public */,
-      18,    0,  114,    2, 0x02 /* Public */,
-      19,    0,  115,    2, 0x02 /* Public */,
-      20,    0,  116,    2, 0x02 /* Public */,
-      21,    0,  117,    2, 0x02 /* Public */,
+       1,    1,   99,    2, 0x02 /* Public */,
+       4,    0,  102,    2, 0x02 /* Public */,
+       5,    0,  103,    2, 0x02 /* Public */,
+       6,    0,  104,    2, 0x02 /* Public */,
+       7,    0,  105,    2, 0x02 /* Public */,
+       8,    0,  106,    2, 0x02 /* Public */,
+       9,    0,  107,    2, 0x02 /* Public */,
+      10,    0,  108,    2, 0x02 /* Public */,
+      11,    0,  109,    2, 0x02 /* Public */,
+      12,    0,  110,    2, 0x02 /* Public */,
+      13,    3,  111,    2, 0x02 /* Public */,
+      17,    0,  118,    2, 0x02 /* Public */,
+      18,    0,  119,    2, 0x02 /* Public */,
+      19,    0,  120,    2, 0x02 /* Public */,
+      20,    0,  121,    2, 0x02 /* Public */,
+      21,    0,  122,    2, 0x02 /* Public */,
+      22,    2,  123,    2, 0x02 /* Public */,
 
  // methods: parameters
     QMetaType::Bool, QMetaType::QString,    3,
@@ -113,6 +118,7 @@ static const uint qt_meta_data_BackendDbCon[] = {
     QMetaType::QString,
     QMetaType::Bool,
     QMetaType::QString,
+    QMetaType::QStringList, QMetaType::QString, QMetaType::QString,   23,   24,
 
        0        // eod
 };
@@ -120,7 +126,7 @@ static const uint qt_meta_data_BackendDbCon[] = {
 void BackendDbCon::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        BackendDbCon *_t = static_cast<BackendDbCon *>(_o);
+        auto *_t = static_cast<BackendDbCon *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: { bool _r = _t->execQry((*reinterpret_cast< QString(*)>(_a[1])));
@@ -155,15 +161,21 @@ void BackendDbCon::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         case 15: { QString _r = _t->getLine();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 16: { QStringList _r = _t->getDbData((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     }
 }
 
-const QMetaObject BackendDbCon::staticMetaObject = {
-    { &QObject::staticMetaObject, qt_meta_stringdata_BackendDbCon.data,
-      qt_meta_data_BackendDbCon,  qt_static_metacall, nullptr, nullptr}
-};
+QT_INIT_METAOBJECT const QMetaObject BackendDbCon::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_BackendDbCon.data,
+    qt_meta_data_BackendDbCon,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *BackendDbCon::metaObject() const
@@ -175,7 +187,7 @@ void *BackendDbCon::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_BackendDbCon.stringdata0))
-        return static_cast<void*>(const_cast< BackendDbCon*>(this));
+        return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
 
@@ -185,13 +197,13 @@ int BackendDbCon::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 16)
+        if (_id < 17)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 16;
+        _id -= 17;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 16)
+        if (_id < 17)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 16;
+        _id -= 17;
     }
     return _id;
 }

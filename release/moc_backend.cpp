@@ -1,18 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'backend.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "../backend.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'backend.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.9.0. It"
+#error "This file was generated using the moc from 5.15.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -95,7 +96,7 @@ QT_MOC_LITERAL(42, 479, 15) // "getServerStatus"
 static const uint qt_meta_data_Backend[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       31,   14, // methods
@@ -185,7 +186,7 @@ static const uint qt_meta_data_Backend[] = {
 void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        Backend *_t = static_cast<Backend *>(_o);
+        auto *_t = static_cast<Backend *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->serverListening(); break;
@@ -237,52 +238,51 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (Backend::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&Backend::serverListening)) {
+            using _t = void (Backend::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Backend::serverListening)) {
                 *result = 0;
                 return;
             }
         }
         {
-            typedef void (Backend::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&Backend::clientServerConnected)) {
+            using _t = void (Backend::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Backend::clientServerConnected)) {
                 *result = 1;
                 return;
             }
         }
         {
-            typedef void (Backend::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&Backend::clientServerDisconnected)) {
+            using _t = void (Backend::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Backend::clientServerDisconnected)) {
                 *result = 2;
                 return;
             }
         }
         {
-            typedef void (Backend::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&Backend::cntrIncreased)) {
+            using _t = void (Backend::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Backend::cntrIncreased)) {
                 *result = 3;
                 return;
             }
         }
         {
-            typedef void (Backend::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&Backend::targetsIncreased)) {
+            using _t = void (Backend::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Backend::targetsIncreased)) {
                 *result = 4;
                 return;
             }
         }
         {
-            typedef void (Backend::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&Backend::cntrZero)) {
+            using _t = void (Backend::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Backend::cntrZero)) {
                 *result = 5;
                 return;
             }
         }
         {
-            typedef void (Backend::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&Backend::targetsZero)) {
+            using _t = void (Backend::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Backend::targetsZero)) {
                 *result = 6;
                 return;
             }
@@ -290,10 +290,14 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
     }
 }
 
-const QMetaObject Backend::staticMetaObject = {
-    { &QObject::staticMetaObject, qt_meta_stringdata_Backend.data,
-      qt_meta_data_Backend,  qt_static_metacall, nullptr, nullptr}
-};
+QT_INIT_METAOBJECT const QMetaObject Backend::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_Backend.data,
+    qt_meta_data_Backend,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *Backend::metaObject() const
@@ -305,7 +309,7 @@ void *Backend::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_Backend.stringdata0))
-        return static_cast<void*>(const_cast< Backend*>(this));
+        return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
 

@@ -2,6 +2,7 @@ debug/backenddbcon.o
 debug/dbinterface.o
 debug/filep.o
 debug/klog.o
+debug/sqlqrymodel.o
 debug/sqlquerymodel.o
 debug/backend.o
 debug/counters.o
@@ -11,6 +12,7 @@ debug/main.o
 debug/target.o
 debug/qrc_qml.o
 debug/moc_backenddbcon.o
+debug/moc_sqlqrymodel.o
 debug/moc_sqlquerymodel.o
 debug/moc_backend.o
 debug/moc_counters.o

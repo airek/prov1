@@ -355,8 +355,7 @@ bool Global::checkMagicNumber()
         writeLog("Magic number is cool");
         return true;
     }
-    qDebug()<<sDate;
-    qDebug()<<ddate;
+
     if(ddate>=sDate)
     {
         if(mMagicNumber=="077528")

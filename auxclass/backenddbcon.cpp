@@ -107,3 +107,8 @@ QString BackendDbCon::getLine()
 {
     return Global::mLine;
 }
+
+QStringList BackendDbCon::getDbData(QString separator, QString sqry)
+{
+    return Global::returnCompressedResults(separator,sqry);
+}

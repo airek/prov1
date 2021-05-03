@@ -7,7 +7,8 @@ SqlQueryModel::SqlQueryModel(QObject *parent) :
     QSqlQueryModel(parent)
 {
     //qDebug()<<"Start qry Model";
-    setQuery("Select partNr from partNumbers");
+    // sqlServer ver setQuery("Select partNr from partNumbers");
+    setQuery("Select partNr from targets");
     //qDebug()<<"sqlQueryModel";
 
 

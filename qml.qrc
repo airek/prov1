@@ -20,5 +20,6 @@
         <file>img/graph.png</file>
         <file>Settings.qml</file>
         <file>DlgPartNoN.qml</file>
+        <file>OrderDialog.qml</file>
     </qresource>
 </RCC>

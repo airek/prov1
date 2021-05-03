@@ -21,6 +21,7 @@ SOURCES += \
         auxclass/dbinterface.cpp \
         auxclass/filep.cpp \
         auxclass/klog.cpp \
+        auxclass/sqlqrymodel.cpp \
         auxclass/sqlquerymodel.cpp \
         backend.cpp \
         counters.cpp \
@@ -46,6 +47,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
+    OrderDialog.qml \
     img/back.png \
     img/back@2x.png \
     img/back@3x.png \
@@ -61,6 +63,7 @@ HEADERS += \
     auxclass/dbinterface.h \
     auxclass/filep.h \
     auxclass/klog.h \
+    auxclass/sqlqrymodel.h \
     auxclass/sqlquerymodel.h \
     backend.h \
     counters.h \

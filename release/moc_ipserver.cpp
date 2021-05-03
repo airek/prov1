@@ -1,18 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'ipserver.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "../ipserver.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'ipserver.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.9.0. It"
+#error "This file was generated using the moc from 5.15.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -62,7 +63,7 @@ QT_MOC_LITERAL(16, 210, 11) // "socketState"
 static const uint qt_meta_data_IpServer[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
       10,   14, // methods
@@ -106,7 +107,7 @@ static const uint qt_meta_data_IpServer[] = {
 void IpServer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        IpServer *_t = static_cast<IpServer *>(_o);
+        auto *_t = static_cast<IpServer *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->ipaddrChanged(); break;
@@ -134,38 +135,37 @@ void IpServer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (IpServer::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&IpServer::ipaddrChanged)) {
+            using _t = void (IpServer::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IpServer::ipaddrChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            typedef void (IpServer::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&IpServer::portNrChanged)) {
+            using _t = void (IpServer::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IpServer::portNrChanged)) {
                 *result = 1;
                 return;
             }
         }
         {
-            typedef void (IpServer::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&IpServer::clientConnected)) {
+            using _t = void (IpServer::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IpServer::clientConnected)) {
                 *result = 2;
                 return;
             }
         }
         {
-            typedef void (IpServer::*_t)(QString );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&IpServer::clientDisconnected)) {
+            using _t = void (IpServer::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IpServer::clientDisconnected)) {
                 *result = 3;
                 return;
             }
         }
         {
-            typedef void (IpServer::*_t)();
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&IpServer::partOK)) {
+            using _t = void (IpServer::*)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IpServer::partOK)) {
                 *result = 4;
                 return;
             }
@@ -173,10 +173,14 @@ void IpServer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
     }
 }
 
-const QMetaObject IpServer::staticMetaObject = {
-    { &QObject::staticMetaObject, qt_meta_stringdata_IpServer.data,
-      qt_meta_data_IpServer,  qt_static_metacall, nullptr, nullptr}
-};
+QT_INIT_METAOBJECT const QMetaObject IpServer::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_IpServer.data,
+    qt_meta_data_IpServer,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *IpServer::metaObject() const
@@ -188,7 +192,7 @@ void *IpServer::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_IpServer.stringdata0))
-        return static_cast<void*>(const_cast< IpServer*>(this));
+        return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
 
@@ -224,14 +228,14 @@ void IpServer::portNrChanged()
 // SIGNAL 2
 void IpServer::clientConnected(QString _t1)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 
 // SIGNAL 3
 void IpServer::clientDisconnected(QString _t1)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 

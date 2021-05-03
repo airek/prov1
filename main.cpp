@@ -9,6 +9,7 @@
 #include <backend.h>
 #include "auxclass/sqlquerymodel.h"
 #include <auxclass/backenddbcon.h>
+#include <auxclass/sqlqrymodel.h>
 #include <QIcon>
 #include <QSharedMemory>
 #include <QSystemSemaphore>
@@ -87,6 +88,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<Backend>("com.Backend", 1, 0, "Backend");
     qmlRegisterType<BackendDbCon>("com.BackendDbCon", 1, 0, "BackendCon");
     qmlRegisterType<SqlQueryModel>("com.QryModel", 1, 0, "QryModel");
+    qmlRegisterType<sqlqryModel>("com.SqlQryModel", 1, 0, "SqlQryModel");
 
     QQmlApplicationEngine engine;
 

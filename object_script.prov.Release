@@ -2,6 +2,7 @@ release/backenddbcon.o
 release/dbinterface.o
 release/filep.o
 release/klog.o
+release/sqlqrymodel.o
 release/sqlquerymodel.o
 release/backend.o
 release/counters.o
@@ -11,6 +12,7 @@ release/main.o
 release/target.o
 release/qrc_qml.o
 release/moc_backenddbcon.o
+release/moc_sqlqrymodel.o
 release/moc_sqlquerymodel.o
 release/moc_backend.o
 release/moc_counters.o

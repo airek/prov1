@@ -14,6 +14,7 @@ ApplicationWindow{
 
     width: Screen.width
     height: Screen.height
+    visibility: Window.Maximized
     title: qsTr("PROV")
     Material.theme:Material.System
 
@@ -234,6 +235,8 @@ ApplicationWindow{
         onTriggered: timeChanged()
     }
 
+
+
     DlgStatus
     {
         id:msgD
@@ -272,32 +275,6 @@ ApplicationWindow{
         }
     }
 
-    //
-    DlgPartNo
-    {
-        id:dlgPartN
-        modal: true
-        focus: true
-        winTitle: "Wybierz numer"
-
-
-        x: (appWindow.width - width) / 2
-        y: appWindow.height / 6
-        width: Math.min(appWindow.width, appWindow.height) / 2 * 2
-        height: 200
-
-        onActivated:
-        {
-            console.log("Part "+partNo)
-
-            partNr.text=partNo
-
-            getTarget()
-
-            insertEvent(partNo)
-        }
-
-    }
 
      //
     //
@@ -308,11 +285,14 @@ ApplicationWindow{
         focus: true
         winTitle: "Wybierz numer"
 
+        //x: (appWindow.width - width)/2
+        x:appWindow.x+10
 
-        x: (appWindow.width - width) / 2
-        y: appWindow.height / 6
-        width: Math.min(appWindow.width, appWindow.height) / 2 * 2
-        height: 400
+        y: appWindow.y-header.height
+        //width: Math.min(appWindow.width, appWindow.height) / 2 * 2
+
+        width: appWindow.width-40
+        height: appWindow.height-20
 
         onActivated:
         {
@@ -326,6 +306,19 @@ ApplicationWindow{
         }
 
     }
+
+    OrderDialog
+    {
+        id:orderD
+
+        winTitle: "Rejestruj zlecenie"
+
+        width: appWindow.width-20
+        height: appWindow.height-10
+
+
+    }
+
     // header
     header:ToolBar
     {
@@ -550,8 +543,10 @@ ApplicationWindow{
 
                     onClicked:
                     {
-                        dlgPartNon.open()
+                        //dlgPartNon.open()
                         //dlgPartN.open()
+                        orderD.resetSett()
+                        orderD.show()
                     }
 
                 }

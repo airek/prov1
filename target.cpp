@@ -21,7 +21,6 @@ Target::Target(QObject *parent) : QObject(parent)
         clockTimer->start(1000);
 
 
-
 }
 /*!
  * \brief Target::setInterval
