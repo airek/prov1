@@ -6692,3 +6692,871 @@
 2021-05-03	18:51:23.5151	backendtime jest true 
 2021-05-03	18:51:24.5151	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
 2021-05-03	18:51:24.5151	Magic number is cool
+2021-05-04	18:19:23.1919	**** Start Aplikacji ****
+2021-05-04	18:19:23.1919	sopp.log
+2021-05-04	18:19:23.1919	Połączono z bazą danych 
+2021-05-04	18:19:23.1919	***** Ustawienia *****
+2021-05-04	18:19:23.1919	dbDriver QSQLITE
+2021-05-04	18:19:23.1919	dbConnection prov
+2021-05-04	18:19:23.1919	dbName sopp.db
+2021-05-04	18:19:23.1919	Line name 10032-13
+2021-05-04	18:19:23.1919	log name sopp.log
+2021-05-04	18:19:23.1919	magic nr 077528
+2021-05-04	18:19:23.1919	Part nr 5831,00
+2021-05-04	18:19:23.1919	target per H 0
+2021-05-04	18:19:23.1919	target per shift 0
+2021-05-04	18:19:23.1919	Status KONIEC ZLECENIA
+2021-05-04	18:19:23.1919	result per H 0
+2021-05-04	18:19:23.1919	result per shift 0
+2021-05-04	18:19:23.1919	backend is true
+2021-05-04	18:19:23.1919	signal ok BOK
+2021-05-04	18:19:23.1919	shiftFactor 7.75
+2021-05-04	18:19:23.1919	minVal 80
+2021-05-04	18:19:23.1919	midVal 80
+2021-05-04	18:19:23.1919	maxVal 90
+2021-05-04	18:19:23.1919	firstShift 19
+2021-05-04	18:19:23.1919	second shift 20
+2021-05-04	18:19:23.1919	third shift 21
+2021-05-04	18:19:24.1919	backendtime jest true 
+2021-05-04	18:19:25.1919	Magic number is cool
+2021-05-04	18:20:40.2020	**** Start Aplikacji ****
+2021-05-04	18:20:40.2020	sopp.log
+2021-05-04	18:20:40.2020	Połączono z bazą danych 
+2021-05-04	18:20:40.2020	***** Ustawienia *****
+2021-05-04	18:20:40.2020	dbDriver QSQLITE
+2021-05-04	18:20:40.2020	dbConnection prov
+2021-05-04	18:20:40.2020	dbName sopp.db
+2021-05-04	18:20:40.2020	Line name 10032-13
+2021-05-04	18:20:40.2020	log name sopp.log
+2021-05-04	18:20:40.2020	magic nr 077528
+2021-05-04	18:20:40.2020	Part nr 5831,00
+2021-05-04	18:20:40.2020	target per H 0
+2021-05-04	18:20:40.2020	target per shift 0
+2021-05-04	18:20:40.2020	Status KONIEC ZLECENIA
+2021-05-04	18:20:40.2020	result per H 0
+2021-05-04	18:20:40.2020	result per shift 0
+2021-05-04	18:20:40.2020	backend is true
+2021-05-04	18:20:40.2020	signal ok BOK
+2021-05-04	18:20:40.2020	shiftFactor 7.75
+2021-05-04	18:20:40.2020	minVal 80
+2021-05-04	18:20:40.2020	midVal 80
+2021-05-04	18:20:40.2020	maxVal 90
+2021-05-04	18:20:40.2020	firstShift 19
+2021-05-04	18:20:40.2020	second shift 20
+2021-05-04	18:20:40.2020	third shift 21
+2021-05-04	18:20:40.2020	backendtime jest true 
+2021-05-04	18:20:41.2020	Magic number is cool
+2021-05-04	18:24:32.2424	**** Start Aplikacji ****
+2021-05-04	18:24:32.2424	sopp.log
+2021-05-04	18:24:32.2424	Połączono z bazą danych 
+2021-05-04	18:24:32.2424	***** Ustawienia *****
+2021-05-04	18:24:32.2424	dbDriver QSQLITE
+2021-05-04	18:24:32.2424	dbConnection prov
+2021-05-04	18:24:32.2424	dbName sopp.db
+2021-05-04	18:24:32.2424	Line name 10032-13
+2021-05-04	18:24:32.2424	log name sopp.log
+2021-05-04	18:24:32.2424	magic nr 077528
+2021-05-04	18:24:32.2424	Part nr 5831,00
+2021-05-04	18:24:32.2424	target per H 0
+2021-05-04	18:24:32.2424	target per shift 0
+2021-05-04	18:24:32.2424	Status KONIEC ZLECENIA
+2021-05-04	18:24:32.2424	result per H 0
+2021-05-04	18:24:32.2424	result per shift 0
+2021-05-04	18:24:32.2424	backend is true
+2021-05-04	18:24:32.2424	signal ok BOK
+2021-05-04	18:24:32.2424	shiftFactor 7.75
+2021-05-04	18:24:32.2424	minVal 80
+2021-05-04	18:24:32.2424	midVal 80
+2021-05-04	18:24:32.2424	maxVal 90
+2021-05-04	18:24:32.2424	firstShift 19
+2021-05-04	18:24:32.2424	second shift 20
+2021-05-04	18:24:32.2424	third shift 21
+2021-05-04	18:24:33.2424	backendtime jest true 
+2021-05-04	18:24:33.2424	Magic number is cool
+2021-05-04	18:25:30.2525	**** Start Aplikacji ****
+2021-05-04	18:25:30.2525	sopp.log
+2021-05-04	18:25:30.2525	Połączono z bazą danych 
+2021-05-04	18:25:30.2525	***** Ustawienia *****
+2021-05-04	18:25:30.2525	dbDriver QSQLITE
+2021-05-04	18:25:30.2525	dbConnection prov
+2021-05-04	18:25:30.2525	dbName sopp.db
+2021-05-04	18:25:30.2525	Line name 10032-13
+2021-05-04	18:25:30.2525	log name sopp.log
+2021-05-04	18:25:30.2525	magic nr 077528
+2021-05-04	18:25:30.2525	Part nr 5831,00
+2021-05-04	18:25:30.2525	target per H 0
+2021-05-04	18:25:30.2525	target per shift 0
+2021-05-04	18:25:30.2525	Status KONIEC ZLECENIA
+2021-05-04	18:25:30.2525	result per H 0
+2021-05-04	18:25:30.2525	result per shift 0
+2021-05-04	18:25:30.2525	backend is true
+2021-05-04	18:25:30.2525	signal ok BOK
+2021-05-04	18:25:30.2525	shiftFactor 7.75
+2021-05-04	18:25:30.2525	minVal 80
+2021-05-04	18:25:30.2525	midVal 80
+2021-05-04	18:25:30.2525	maxVal 90
+2021-05-04	18:25:30.2525	firstShift 19
+2021-05-04	18:25:30.2525	second shift 20
+2021-05-04	18:25:30.2525	third shift 21
+2021-05-04	18:25:31.2525	backendtime jest true 
+2021-05-04	18:25:31.2525	Magic number is cool
+2021-05-04	18:27:58.2727	**** Start Aplikacji ****
+2021-05-04	18:27:58.2727	sopp.log
+2021-05-04	18:27:58.2727	Połączono z bazą danych 
+2021-05-04	18:27:58.2727	***** Ustawienia *****
+2021-05-04	18:27:58.2727	dbDriver QSQLITE
+2021-05-04	18:27:58.2727	dbConnection prov
+2021-05-04	18:27:58.2727	dbName sopp.db
+2021-05-04	18:27:58.2727	Line name 10032-13
+2021-05-04	18:27:58.2727	log name sopp.log
+2021-05-04	18:27:58.2727	magic nr 077528
+2021-05-04	18:27:58.2727	Part nr 5831,00
+2021-05-04	18:27:58.2727	target per H 0
+2021-05-04	18:27:58.2727	target per shift 0
+2021-05-04	18:27:58.2727	Status KONIEC ZLECENIA
+2021-05-04	18:27:58.2727	result per H 0
+2021-05-04	18:27:58.2727	result per shift 0
+2021-05-04	18:27:58.2727	backend is true
+2021-05-04	18:27:58.2727	signal ok BOK
+2021-05-04	18:27:58.2727	shiftFactor 7.75
+2021-05-04	18:27:58.2727	minVal 80
+2021-05-04	18:27:58.2727	midVal 80
+2021-05-04	18:27:58.2727	maxVal 90
+2021-05-04	18:27:58.2727	firstShift 19
+2021-05-04	18:27:58.2727	second shift 20
+2021-05-04	18:27:58.2727	third shift 21
+2021-05-04	18:27:59.2727	backendtime jest true 
+2021-05-04	18:27:59.2727	Magic number is cool
+2021-05-04	18:31:16.3131	**** Start Aplikacji ****
+2021-05-04	18:31:16.3131	sopp.log
+2021-05-04	18:31:16.3131	Połączono z bazą danych 
+2021-05-04	18:31:16.3131	***** Ustawienia *****
+2021-05-04	18:31:16.3131	dbDriver QSQLITE
+2021-05-04	18:31:16.3131	dbConnection prov
+2021-05-04	18:31:16.3131	dbName sopp.db
+2021-05-04	18:31:16.3131	Line name 10032-13
+2021-05-04	18:31:16.3131	log name sopp.log
+2021-05-04	18:31:16.3131	magic nr 077528
+2021-05-04	18:31:16.3131	Part nr 5831,00
+2021-05-04	18:31:16.3131	target per H 0
+2021-05-04	18:31:16.3131	target per shift 0
+2021-05-04	18:31:16.3131	Status KONIEC ZLECENIA
+2021-05-04	18:31:16.3131	result per H 0
+2021-05-04	18:31:16.3131	result per shift 0
+2021-05-04	18:31:16.3131	backend is true
+2021-05-04	18:31:16.3131	signal ok BOK
+2021-05-04	18:31:16.3131	shiftFactor 7.75
+2021-05-04	18:31:16.3131	minVal 80
+2021-05-04	18:31:16.3131	midVal 80
+2021-05-04	18:31:16.3131	maxVal 90
+2021-05-04	18:31:16.3131	firstShift 19
+2021-05-04	18:31:16.3131	second shift 20
+2021-05-04	18:31:16.3131	third shift 21
+2021-05-04	18:31:17.3131	backendtime jest true 
+2021-05-04	18:31:17.3131	Magic number is cool
+2021-05-04	18:33:17.3333	**** Start Aplikacji ****
+2021-05-04	18:33:17.3333	sopp.log
+2021-05-04	18:33:17.3333	Połączono z bazą danych 
+2021-05-04	18:33:17.3333	***** Ustawienia *****
+2021-05-04	18:33:17.3333	dbDriver QSQLITE
+2021-05-04	18:33:17.3333	dbConnection prov
+2021-05-04	18:33:17.3333	dbName sopp.db
+2021-05-04	18:33:17.3333	Line name 10032-13
+2021-05-04	18:33:17.3333	log name sopp.log
+2021-05-04	18:33:17.3333	magic nr 077528
+2021-05-04	18:33:17.3333	Part nr 5831,00
+2021-05-04	18:33:17.3333	target per H 0
+2021-05-04	18:33:17.3333	target per shift 0
+2021-05-04	18:33:17.3333	Status KONIEC ZLECENIA
+2021-05-04	18:33:17.3333	result per H 0
+2021-05-04	18:33:17.3333	result per shift 0
+2021-05-04	18:33:17.3333	backend is true
+2021-05-04	18:33:17.3333	signal ok BOK
+2021-05-04	18:33:17.3333	shiftFactor 7.75
+2021-05-04	18:33:17.3333	minVal 80
+2021-05-04	18:33:17.3333	midVal 80
+2021-05-04	18:33:17.3333	maxVal 90
+2021-05-04	18:33:17.3333	firstShift 19
+2021-05-04	18:33:17.3333	second shift 20
+2021-05-04	18:33:17.3333	third shift 21
+2021-05-04	18:33:18.3333	backendtime jest true 
+2021-05-04	18:33:18.3333	Magic number is cool
+2021-05-04	18:37:28.3737	**** Start Aplikacji ****
+2021-05-04	18:37:28.3737	sopp.log
+2021-05-04	18:37:28.3737	Połączono z bazą danych 
+2021-05-04	18:37:28.3737	***** Ustawienia *****
+2021-05-04	18:37:28.3737	dbDriver QSQLITE
+2021-05-04	18:37:28.3737	dbConnection prov
+2021-05-04	18:37:28.3737	dbName sopp.db
+2021-05-04	18:37:28.3737	Line name 10032-13
+2021-05-04	18:37:28.3737	log name sopp.log
+2021-05-04	18:37:28.3737	magic nr 077528
+2021-05-04	18:37:28.3737	Part nr 5831,00
+2021-05-04	18:37:28.3737	target per H 0
+2021-05-04	18:37:28.3737	target per shift 0
+2021-05-04	18:37:28.3737	Status KONIEC ZLECENIA
+2021-05-04	18:37:28.3737	result per H 0
+2021-05-04	18:37:28.3737	result per shift 0
+2021-05-04	18:37:29.3737	backend is true
+2021-05-04	18:37:29.3737	signal ok BOK
+2021-05-04	18:37:29.3737	shiftFactor 7.75
+2021-05-04	18:37:29.3737	minVal 80
+2021-05-04	18:37:29.3737	midVal 80
+2021-05-04	18:37:29.3737	maxVal 90
+2021-05-04	18:37:29.3737	firstShift 19
+2021-05-04	18:37:29.3737	second shift 20
+2021-05-04	18:37:29.3737	third shift 21
+2021-05-04	18:37:29.3737	backendtime jest true 
+2021-05-04	18:37:29.3737	Magic number is cool
+2021-05-04	18:45:04.4545	**** Start Aplikacji ****
+2021-05-04	18:45:04.4545	sopp.log
+2021-05-04	18:45:04.4545	Połączono z bazą danych 
+2021-05-04	18:45:04.4545	***** Ustawienia *****
+2021-05-04	18:45:04.4545	dbDriver QSQLITE
+2021-05-04	18:45:04.4545	dbConnection prov
+2021-05-04	18:45:04.4545	dbName sopp.db
+2021-05-04	18:45:04.4545	Line name 10032-13
+2021-05-04	18:45:04.4545	log name sopp.log
+2021-05-04	18:45:04.4545	magic nr 077528
+2021-05-04	18:45:04.4545	Part nr 5831,00
+2021-05-04	18:45:04.4545	target per H 0
+2021-05-04	18:45:04.4545	target per shift 0
+2021-05-04	18:45:04.4545	Status KONIEC ZLECENIA
+2021-05-04	18:45:04.4545	result per H 0
+2021-05-04	18:45:04.4545	result per shift 0
+2021-05-04	18:45:04.4545	backend is true
+2021-05-04	18:45:04.4545	signal ok BOK
+2021-05-04	18:45:04.4545	shiftFactor 7.75
+2021-05-04	18:45:04.4545	minVal 80
+2021-05-04	18:45:04.4545	midVal 80
+2021-05-04	18:45:04.4545	maxVal 90
+2021-05-04	18:45:04.4545	firstShift 19
+2021-05-04	18:45:04.4545	second shift 20
+2021-05-04	18:45:04.4545	third shift 21
+2021-05-04	18:45:05.4545	backendtime jest true 
+2021-05-04	18:45:05.4545	Magic number is cool
+2021-05-04	18:47:53.4747	**** Start Aplikacji ****
+2021-05-04	18:47:53.4747	sopp.log
+2021-05-04	18:47:53.4747	Połączono z bazą danych 
+2021-05-04	18:47:53.4747	***** Ustawienia *****
+2021-05-04	18:47:53.4747	dbDriver QSQLITE
+2021-05-04	18:47:53.4747	dbConnection prov
+2021-05-04	18:47:53.4747	dbName sopp.db
+2021-05-04	18:47:53.4747	Line name 10032-13
+2021-05-04	18:47:53.4747	log name sopp.log
+2021-05-04	18:47:53.4747	magic nr 077528
+2021-05-04	18:47:53.4747	Part nr 5831,00
+2021-05-04	18:47:53.4747	target per H 0
+2021-05-04	18:47:53.4747	target per shift 0
+2021-05-04	18:47:53.4747	Status KONIEC ZLECENIA
+2021-05-04	18:47:53.4747	result per H 0
+2021-05-04	18:47:53.4747	result per shift 0
+2021-05-04	18:47:53.4747	backend is true
+2021-05-04	18:47:53.4747	signal ok BOK
+2021-05-04	18:47:53.4747	shiftFactor 7.75
+2021-05-04	18:47:53.4747	minVal 80
+2021-05-04	18:47:53.4747	midVal 80
+2021-05-04	18:47:53.4747	maxVal 90
+2021-05-04	18:47:53.4747	firstShift 19
+2021-05-04	18:47:53.4747	second shift 20
+2021-05-04	18:47:53.4747	third shift 21
+2021-05-04	18:47:54.4747	backendtime jest true 
+2021-05-04	18:47:54.4747	Magic number is cool
+2021-05-04	18:48:57.4848	**** Start Aplikacji ****
+2021-05-04	18:48:57.4848	sopp.log
+2021-05-04	18:48:57.4848	Połączono z bazą danych 
+2021-05-04	18:48:57.4848	***** Ustawienia *****
+2021-05-04	18:48:57.4848	dbDriver QSQLITE
+2021-05-04	18:48:57.4848	dbConnection prov
+2021-05-04	18:48:57.4848	dbName sopp.db
+2021-05-04	18:48:57.4848	Line name 10032-13
+2021-05-04	18:48:57.4848	log name sopp.log
+2021-05-04	18:48:57.4848	magic nr 077528
+2021-05-04	18:48:57.4848	Part nr 5831,00
+2021-05-04	18:48:57.4848	target per H 0
+2021-05-04	18:48:57.4848	target per shift 0
+2021-05-04	18:48:57.4848	Status KONIEC ZLECENIA
+2021-05-04	18:48:57.4848	result per H 0
+2021-05-04	18:48:57.4848	result per shift 0
+2021-05-04	18:48:57.4848	backend is true
+2021-05-04	18:48:57.4848	signal ok BOK
+2021-05-04	18:48:57.4848	shiftFactor 7.75
+2021-05-04	18:48:57.4848	minVal 80
+2021-05-04	18:48:57.4848	midVal 80
+2021-05-04	18:48:57.4848	maxVal 90
+2021-05-04	18:48:57.4848	firstShift 19
+2021-05-04	18:48:57.4848	second shift 20
+2021-05-04	18:48:57.4848	third shift 21
+2021-05-04	18:48:58.4848	backendtime jest true 
+2021-05-04	18:48:58.4848	Magic number is cool
+2021-05-04	18:57:04.5757	**** Start Aplikacji ****
+2021-05-04	18:57:04.5757	sopp.log
+2021-05-04	18:57:04.5757	Połączono z bazą danych 
+2021-05-04	18:57:04.5757	***** Ustawienia *****
+2021-05-04	18:57:04.5757	dbDriver QSQLITE
+2021-05-04	18:57:04.5757	dbConnection prov
+2021-05-04	18:57:04.5757	dbName sopp.db
+2021-05-04	18:57:04.5757	Line name 10032-13
+2021-05-04	18:57:04.5757	log name sopp.log
+2021-05-04	18:57:04.5757	magic nr 077528
+2021-05-04	18:57:04.5757	Part nr 5831,00
+2021-05-04	18:57:04.5757	target per H 0
+2021-05-04	18:57:04.5757	target per shift 0
+2021-05-04	18:57:04.5757	Status KONIEC ZLECENIA
+2021-05-04	18:57:04.5757	result per H 0
+2021-05-04	18:57:04.5757	result per shift 0
+2021-05-04	18:57:04.5757	backend is true
+2021-05-04	18:57:04.5757	signal ok BOK
+2021-05-04	18:57:04.5757	shiftFactor 7.75
+2021-05-04	18:57:04.5757	minVal 80
+2021-05-04	18:57:04.5757	midVal 80
+2021-05-04	18:57:04.5757	maxVal 90
+2021-05-04	18:57:04.5757	firstShift 19
+2021-05-04	18:57:04.5757	second shift 20
+2021-05-04	18:57:04.5757	third shift 21
+2021-05-04	18:57:04.5757	backendtime jest true 
+2021-05-04	18:57:05.5757	Magic number is cool
+2021-05-04	19:11:40.1111	**** Start Aplikacji ****
+2021-05-04	19:11:40.1111	sopp.log
+2021-05-04	19:11:40.1111	Połączono z bazą danych 
+2021-05-04	19:11:40.1111	***** Ustawienia *****
+2021-05-04	19:11:40.1111	dbDriver QSQLITE
+2021-05-04	19:11:40.1111	dbConnection prov
+2021-05-04	19:11:40.1111	dbName sopp.db
+2021-05-04	19:11:40.1111	Line name 10032-13
+2021-05-04	19:11:40.1111	log name sopp.log
+2021-05-04	19:11:40.1111	magic nr 077528
+2021-05-04	19:11:40.1111	Part nr 5831,00
+2021-05-04	19:11:40.1111	target per H 0
+2021-05-04	19:11:40.1111	target per shift 0
+2021-05-04	19:11:40.1111	Status KONIEC ZLECENIA
+2021-05-04	19:11:40.1111	result per H 0
+2021-05-04	19:11:40.1111	result per shift 0
+2021-05-04	19:11:40.1111	backend is true
+2021-05-04	19:11:40.1111	signal ok BOK
+2021-05-04	19:11:40.1111	shiftFactor 7.75
+2021-05-04	19:11:40.1111	minVal 80
+2021-05-04	19:11:40.1111	midVal 80
+2021-05-04	19:11:40.1111	maxVal 90
+2021-05-04	19:11:40.1111	firstShift 19
+2021-05-04	19:11:40.1111	second shift 20
+2021-05-04	19:11:40.1111	third shift 21
+2021-05-04	19:11:41.1111	backendtime jest true 
+2021-05-04	19:11:41.1111	Magic number is cool
+2021-05-04	19:12:16.1212	**** Start Aplikacji ****
+2021-05-04	19:12:16.1212	sopp.log
+2021-05-04	19:12:16.1212	Połączono z bazą danych 
+2021-05-04	19:12:16.1212	***** Ustawienia *****
+2021-05-04	19:12:16.1212	dbDriver QSQLITE
+2021-05-04	19:12:16.1212	dbConnection prov
+2021-05-04	19:12:16.1212	dbName sopp.db
+2021-05-04	19:12:16.1212	Line name 10032-13
+2021-05-04	19:12:16.1212	log name sopp.log
+2021-05-04	19:12:16.1212	magic nr 077528
+2021-05-04	19:12:16.1212	Part nr 5831,00
+2021-05-04	19:12:16.1212	target per H 0
+2021-05-04	19:12:16.1212	target per shift 0
+2021-05-04	19:12:16.1212	Status KONIEC ZLECENIA
+2021-05-04	19:12:16.1212	result per H 0
+2021-05-04	19:12:16.1212	result per shift 0
+2021-05-04	19:12:16.1212	backend is true
+2021-05-04	19:12:16.1212	signal ok BOK
+2021-05-04	19:12:16.1212	shiftFactor 7.75
+2021-05-04	19:12:16.1212	minVal 80
+2021-05-04	19:12:16.1212	midVal 80
+2021-05-04	19:12:16.1212	maxVal 90
+2021-05-04	19:12:16.1212	firstShift 19
+2021-05-04	19:12:16.1212	second shift 20
+2021-05-04	19:12:16.1212	third shift 21
+2021-05-04	19:12:17.1212	backendtime jest true 
+2021-05-04	19:12:17.1212	Magic number is cool
+2021-05-04	19:14:01.1414	**** Start Aplikacji ****
+2021-05-04	19:14:01.1414	sopp.log
+2021-05-04	19:14:01.1414	Połączono z bazą danych 
+2021-05-04	19:14:01.1414	***** Ustawienia *****
+2021-05-04	19:14:01.1414	dbDriver QSQLITE
+2021-05-04	19:14:01.1414	dbConnection prov
+2021-05-04	19:14:01.1414	dbName sopp.db
+2021-05-04	19:14:01.1414	Line name 10032-13
+2021-05-04	19:14:01.1414	log name sopp.log
+2021-05-04	19:14:01.1414	magic nr 077528
+2021-05-04	19:14:01.1414	Part nr 5831,00
+2021-05-04	19:14:01.1414	target per H 0
+2021-05-04	19:14:01.1414	target per shift 0
+2021-05-04	19:14:01.1414	Status KONIEC ZLECENIA
+2021-05-04	19:14:01.1414	result per H 0
+2021-05-04	19:14:01.1414	result per shift 0
+2021-05-04	19:14:01.1414	backend is true
+2021-05-04	19:14:02.1414	signal ok BOK
+2021-05-04	19:14:02.1414	shiftFactor 7.75
+2021-05-04	19:14:02.1414	minVal 80
+2021-05-04	19:14:02.1414	midVal 80
+2021-05-04	19:14:02.1414	maxVal 90
+2021-05-04	19:14:02.1414	firstShift 19
+2021-05-04	19:14:02.1414	second shift 20
+2021-05-04	19:14:02.1414	third shift 21
+2021-05-04	19:14:02.1414	backendtime jest true 
+2021-05-04	19:14:03.1414	Magic number is cool
+2021-05-04	19:17:02.1717	**** Start Aplikacji ****
+2021-05-04	19:17:02.1717	sopp.log
+2021-05-04	19:17:02.1717	Połączono z bazą danych 
+2021-05-04	19:17:02.1717	***** Ustawienia *****
+2021-05-04	19:17:02.1717	dbDriver QSQLITE
+2021-05-04	19:17:02.1717	dbConnection prov
+2021-05-04	19:17:02.1717	dbName sopp.db
+2021-05-04	19:17:02.1717	Line name 10032-13
+2021-05-04	19:17:02.1717	log name sopp.log
+2021-05-04	19:17:02.1717	magic nr 077528
+2021-05-04	19:17:02.1717	Part nr 5831,00
+2021-05-04	19:17:02.1717	target per H 0
+2021-05-04	19:17:02.1717	target per shift 0
+2021-05-04	19:17:02.1717	Status KONIEC ZLECENIA
+2021-05-04	19:17:02.1717	result per H 0
+2021-05-04	19:17:02.1717	result per shift 0
+2021-05-04	19:17:02.1717	backend is true
+2021-05-04	19:17:02.1717	signal ok BOK
+2021-05-04	19:17:02.1717	shiftFactor 7.75
+2021-05-04	19:17:02.1717	minVal 80
+2021-05-04	19:17:02.1717	midVal 80
+2021-05-04	19:17:02.1717	maxVal 90
+2021-05-04	19:17:02.1717	firstShift 19
+2021-05-04	19:17:02.1717	second shift 20
+2021-05-04	19:17:02.1717	third shift 21
+2021-05-04	19:17:03.1717	backendtime jest true 
+2021-05-04	19:17:03.1717	Magic number is cool
+2021-05-04	19:17:20.1717	**** Start Aplikacji ****
+2021-05-04	19:17:20.1717	sopp.log
+2021-05-04	19:17:20.1717	Połączono z bazą danych 
+2021-05-04	19:17:20.1717	***** Ustawienia *****
+2021-05-04	19:17:20.1717	dbDriver QSQLITE
+2021-05-04	19:17:20.1717	dbConnection prov
+2021-05-04	19:17:20.1717	dbName sopp.db
+2021-05-04	19:17:20.1717	Line name 10032-13
+2021-05-04	19:17:20.1717	log name sopp.log
+2021-05-04	19:17:20.1717	magic nr 077528
+2021-05-04	19:17:20.1717	Part nr 5831,00
+2021-05-04	19:17:20.1717	target per H 0
+2021-05-04	19:17:20.1717	target per shift 0
+2021-05-04	19:17:20.1717	Status KONIEC ZLECENIA
+2021-05-04	19:17:20.1717	result per H 0
+2021-05-04	19:17:20.1717	result per shift 0
+2021-05-04	19:17:20.1717	backend is true
+2021-05-04	19:17:20.1717	signal ok BOK
+2021-05-04	19:17:20.1717	shiftFactor 7.75
+2021-05-04	19:17:20.1717	minVal 80
+2021-05-04	19:17:20.1717	midVal 80
+2021-05-04	19:17:20.1717	maxVal 90
+2021-05-04	19:17:20.1717	firstShift 19
+2021-05-04	19:17:20.1717	second shift 20
+2021-05-04	19:17:20.1717	third shift 21
+2021-05-04	19:17:21.1717	backendtime jest true 
+2021-05-04	19:17:21.1717	Magic number is cool
+2021-05-04	19:29:03.2929	**** Start Aplikacji ****
+2021-05-04	19:29:03.2929	sopp.log
+2021-05-04	19:29:03.2929	Połączono z bazą danych 
+2021-05-04	19:29:03.2929	***** Ustawienia *****
+2021-05-04	19:29:03.2929	dbDriver QSQLITE
+2021-05-04	19:29:03.2929	dbConnection prov
+2021-05-04	19:29:03.2929	dbName sopp.db
+2021-05-04	19:29:03.2929	Line name 10032-13
+2021-05-04	19:29:03.2929	log name sopp.log
+2021-05-04	19:29:03.2929	magic nr 077528
+2021-05-04	19:29:03.2929	Part nr 5831,00
+2021-05-04	19:29:03.2929	target per H 0
+2021-05-04	19:29:03.2929	target per shift 0
+2021-05-04	19:29:03.2929	Status KONIEC ZLECENIA
+2021-05-04	19:29:03.2929	result per H 0
+2021-05-04	19:29:03.2929	result per shift 0
+2021-05-04	19:29:03.2929	backend is true
+2021-05-04	19:29:03.2929	signal ok BOK
+2021-05-04	19:29:03.2929	shiftFactor 7.75
+2021-05-04	19:29:03.2929	minVal 80
+2021-05-04	19:29:03.2929	midVal 80
+2021-05-04	19:29:03.2929	maxVal 90
+2021-05-04	19:29:03.2929	firstShift 19
+2021-05-04	19:29:03.2929	second shift 20
+2021-05-04	19:29:03.2929	third shift 21
+2021-05-04	19:29:04.2929	backendtime jest true 
+2021-05-04	19:29:04.2929	Magic number is cool
+2021-05-04	19:30:08.3030	**** Start Aplikacji ****
+2021-05-04	19:30:08.3030	sopp.log
+2021-05-04	19:30:08.3030	Połączono z bazą danych 
+2021-05-04	19:30:08.3030	***** Ustawienia *****
+2021-05-04	19:30:08.3030	dbDriver QSQLITE
+2021-05-04	19:30:08.3030	dbConnection prov
+2021-05-04	19:30:08.3030	dbName sopp.db
+2021-05-04	19:30:08.3030	Line name 10032-13
+2021-05-04	19:30:08.3030	log name sopp.log
+2021-05-04	19:30:08.3030	magic nr 077528
+2021-05-04	19:30:08.3030	Part nr 5831,00
+2021-05-04	19:30:08.3030	target per H 0
+2021-05-04	19:30:08.3030	target per shift 0
+2021-05-04	19:30:08.3030	Status KONIEC ZLECENIA
+2021-05-04	19:30:08.3030	result per H 0
+2021-05-04	19:30:08.3030	result per shift 0
+2021-05-04	19:30:08.3030	backend is true
+2021-05-04	19:30:08.3030	signal ok BOK
+2021-05-04	19:30:08.3030	shiftFactor 7.75
+2021-05-04	19:30:08.3030	minVal 80
+2021-05-04	19:30:08.3030	midVal 80
+2021-05-04	19:30:08.3030	maxVal 90
+2021-05-04	19:30:08.3030	firstShift 19
+2021-05-04	19:30:08.3030	second shift 20
+2021-05-04	19:30:08.3030	third shift 21
+2021-05-04	19:30:09.3030	backendtime jest true 
+2021-05-04	19:30:09.3030	Magic number is cool
+2021-05-04	19:30:52.3030	**** Start Aplikacji ****
+2021-05-04	19:30:52.3030	sopp.log
+2021-05-04	19:30:52.3030	Połączono z bazą danych 
+2021-05-04	19:30:52.3030	***** Ustawienia *****
+2021-05-04	19:30:52.3030	dbDriver QSQLITE
+2021-05-04	19:30:52.3030	dbConnection prov
+2021-05-04	19:30:52.3030	dbName sopp.db
+2021-05-04	19:30:52.3030	Line name 10032-13
+2021-05-04	19:30:52.3030	log name sopp.log
+2021-05-04	19:30:52.3030	magic nr 077528
+2021-05-04	19:30:52.3030	Part nr 5831,00
+2021-05-04	19:30:52.3030	target per H 0
+2021-05-04	19:30:52.3030	target per shift 0
+2021-05-04	19:30:52.3030	Status KONIEC ZLECENIA
+2021-05-04	19:30:52.3030	result per H 0
+2021-05-04	19:30:52.3030	result per shift 0
+2021-05-04	19:30:52.3030	backend is true
+2021-05-04	19:30:52.3030	signal ok BOK
+2021-05-04	19:30:52.3030	shiftFactor 7.75
+2021-05-04	19:30:52.3030	minVal 80
+2021-05-04	19:30:52.3030	midVal 80
+2021-05-04	19:30:52.3030	maxVal 90
+2021-05-04	19:30:52.3030	firstShift 19
+2021-05-04	19:30:52.3030	second shift 20
+2021-05-04	19:30:52.3030	third shift 21
+2021-05-04	19:30:53.3030	backendtime jest true 
+2021-05-04	19:30:53.3030	Magic number is cool
+2021-05-04	19:31:12.3131	**** Start Aplikacji ****
+2021-05-04	19:31:12.3131	sopp.log
+2021-05-04	19:31:12.3131	Połączono z bazą danych 
+2021-05-04	19:31:12.3131	***** Ustawienia *****
+2021-05-04	19:31:12.3131	dbDriver QSQLITE
+2021-05-04	19:31:12.3131	dbConnection prov
+2021-05-04	19:31:12.3131	dbName sopp.db
+2021-05-04	19:31:12.3131	Line name 10032-13
+2021-05-04	19:31:12.3131	log name sopp.log
+2021-05-04	19:31:12.3131	magic nr 077528
+2021-05-04	19:31:12.3131	Part nr 5831,00
+2021-05-04	19:31:12.3131	target per H 0
+2021-05-04	19:31:12.3131	target per shift 0
+2021-05-04	19:31:12.3131	Status KONIEC ZLECENIA
+2021-05-04	19:31:12.3131	result per H 0
+2021-05-04	19:31:12.3131	result per shift 0
+2021-05-04	19:31:12.3131	backend is true
+2021-05-04	19:31:12.3131	signal ok BOK
+2021-05-04	19:31:12.3131	shiftFactor 7.75
+2021-05-04	19:31:12.3131	minVal 80
+2021-05-04	19:31:12.3131	midVal 80
+2021-05-04	19:31:12.3131	maxVal 90
+2021-05-04	19:31:12.3131	firstShift 19
+2021-05-04	19:31:12.3131	second shift 20
+2021-05-04	19:31:12.3131	third shift 21
+2021-05-04	19:31:13.3131	backendtime jest true 
+2021-05-04	19:31:13.3131	Magic number is cool
+2021-05-04	19:31:57.3131	**** Start Aplikacji ****
+2021-05-04	19:31:57.3131	sopp.log
+2021-05-04	19:31:57.3131	Połączono z bazą danych 
+2021-05-04	19:31:57.3131	***** Ustawienia *****
+2021-05-04	19:31:57.3131	dbDriver QSQLITE
+2021-05-04	19:31:57.3131	dbConnection prov
+2021-05-04	19:31:57.3131	dbName sopp.db
+2021-05-04	19:31:57.3131	Line name 10032-13
+2021-05-04	19:31:57.3131	log name sopp.log
+2021-05-04	19:31:57.3131	magic nr 077528
+2021-05-04	19:31:57.3131	Part nr 5831,00
+2021-05-04	19:31:57.3131	target per H 0
+2021-05-04	19:31:57.3131	target per shift 0
+2021-05-04	19:31:57.3131	Status KONIEC ZLECENIA
+2021-05-04	19:31:57.3131	result per H 0
+2021-05-04	19:31:57.3131	result per shift 0
+2021-05-04	19:31:57.3131	backend is true
+2021-05-04	19:31:57.3131	signal ok BOK
+2021-05-04	19:31:57.3131	shiftFactor 7.75
+2021-05-04	19:31:57.3131	minVal 80
+2021-05-04	19:31:57.3131	midVal 80
+2021-05-04	19:31:57.3131	maxVal 90
+2021-05-04	19:31:57.3131	firstShift 19
+2021-05-04	19:31:57.3131	second shift 20
+2021-05-04	19:31:57.3131	third shift 21
+2021-05-04	19:31:58.3131	backendtime jest true 
+2021-05-04	19:31:58.3131	Magic number is cool
+2021-05-04	19:32:33.3232	**** Start Aplikacji ****
+2021-05-04	19:32:33.3232	sopp.log
+2021-05-04	19:32:33.3232	Połączono z bazą danych 
+2021-05-04	19:32:33.3232	***** Ustawienia *****
+2021-05-04	19:32:33.3232	dbDriver QSQLITE
+2021-05-04	19:32:33.3232	dbConnection prov
+2021-05-04	19:32:33.3232	dbName sopp.db
+2021-05-04	19:32:33.3232	Line name 10032-13
+2021-05-04	19:32:33.3232	log name sopp.log
+2021-05-04	19:32:33.3232	magic nr 077528
+2021-05-04	19:32:33.3232	Part nr 5831,00
+2021-05-04	19:32:33.3232	target per H 0
+2021-05-04	19:32:33.3232	target per shift 0
+2021-05-04	19:32:33.3232	Status KONIEC ZLECENIA
+2021-05-04	19:32:33.3232	result per H 0
+2021-05-04	19:32:33.3232	result per shift 0
+2021-05-04	19:32:33.3232	backend is true
+2021-05-04	19:32:33.3232	signal ok BOK
+2021-05-04	19:32:33.3232	shiftFactor 7.75
+2021-05-04	19:32:33.3232	minVal 80
+2021-05-04	19:32:33.3232	midVal 80
+2021-05-04	19:32:33.3232	maxVal 90
+2021-05-04	19:32:33.3232	firstShift 19
+2021-05-04	19:32:33.3232	second shift 20
+2021-05-04	19:32:33.3232	third shift 21
+2021-05-04	19:32:34.3232	backendtime jest true 
+2021-05-04	19:32:34.3232	Magic number is cool
+2021-05-04	19:35:42.3535	**** Start Aplikacji ****
+2021-05-04	19:35:42.3535	sopp.log
+2021-05-04	19:35:42.3535	Połączono z bazą danych 
+2021-05-04	19:35:42.3535	***** Ustawienia *****
+2021-05-04	19:35:42.3535	dbDriver QSQLITE
+2021-05-04	19:35:42.3535	dbConnection prov
+2021-05-04	19:35:42.3535	dbName sopp.db
+2021-05-04	19:35:42.3535	Line name 10032-13
+2021-05-04	19:35:42.3535	log name sopp.log
+2021-05-04	19:35:42.3535	magic nr 077528
+2021-05-04	19:35:42.3535	Part nr 5831,00
+2021-05-04	19:35:42.3535	target per H 0
+2021-05-04	19:35:42.3535	target per shift 0
+2021-05-04	19:35:42.3535	Status KONIEC ZLECENIA
+2021-05-04	19:35:42.3535	result per H 0
+2021-05-04	19:35:42.3535	result per shift 0
+2021-05-04	19:35:42.3535	backend is true
+2021-05-04	19:35:42.3535	signal ok BOK
+2021-05-04	19:35:42.3535	shiftFactor 7.75
+2021-05-04	19:35:42.3535	minVal 80
+2021-05-04	19:35:42.3535	midVal 80
+2021-05-04	19:35:42.3535	maxVal 90
+2021-05-04	19:35:42.3535	firstShift 19
+2021-05-04	19:35:42.3535	second shift 20
+2021-05-04	19:35:42.3535	third shift 21
+2021-05-04	19:35:43.3535	backendtime jest true 
+2021-05-04	19:35:44.3535	Magic number is cool
+2021-05-04	19:37:23.3737	**** Start Aplikacji ****
+2021-05-04	19:37:23.3737	sopp.log
+2021-05-04	19:37:23.3737	Połączono z bazą danych 
+2021-05-04	19:37:23.3737	***** Ustawienia *****
+2021-05-04	19:37:23.3737	dbDriver QSQLITE
+2021-05-04	19:37:23.3737	dbConnection prov
+2021-05-04	19:37:23.3737	dbName sopp.db
+2021-05-04	19:37:23.3737	Line name 10032-13
+2021-05-04	19:37:23.3737	log name sopp.log
+2021-05-04	19:37:23.3737	magic nr 077528
+2021-05-04	19:37:23.3737	Part nr 5831,00
+2021-05-04	19:37:23.3737	target per H 0
+2021-05-04	19:37:23.3737	target per shift 0
+2021-05-04	19:37:23.3737	Status KONIEC ZLECENIA
+2021-05-04	19:37:23.3737	result per H 0
+2021-05-04	19:37:23.3737	result per shift 0
+2021-05-04	19:37:23.3737	backend is true
+2021-05-04	19:37:23.3737	signal ok BOK
+2021-05-04	19:37:23.3737	shiftFactor 7.75
+2021-05-04	19:37:23.3737	minVal 80
+2021-05-04	19:37:23.3737	midVal 80
+2021-05-04	19:37:23.3737	maxVal 90
+2021-05-04	19:37:23.3737	firstShift 19
+2021-05-04	19:37:23.3737	second shift 20
+2021-05-04	19:37:23.3737	third shift 21
+2021-05-04	19:37:23.3737	backendtime jest true 
+2021-05-04	19:37:24.3737	Magic number is cool
+2021-05-04	19:45:44.4545	**** Start Aplikacji ****
+2021-05-04	19:45:44.4545	sopp.log
+2021-05-04	19:45:44.4545	Połączono z bazą danych 
+2021-05-04	19:45:44.4545	***** Ustawienia *****
+2021-05-04	19:45:44.4545	dbDriver QSQLITE
+2021-05-04	19:45:44.4545	dbConnection prov
+2021-05-04	19:45:44.4545	dbName sopp.db
+2021-05-04	19:45:44.4545	Line name 10032-13
+2021-05-04	19:45:44.4545	log name sopp.log
+2021-05-04	19:45:44.4545	magic nr 077528
+2021-05-04	19:45:44.4545	Part nr 5831,00
+2021-05-04	19:45:44.4545	target per H 0
+2021-05-04	19:45:44.4545	target per shift 0
+2021-05-04	19:45:44.4545	Status KONIEC ZLECENIA
+2021-05-04	19:45:44.4545	result per H 0
+2021-05-04	19:45:44.4545	result per shift 0
+2021-05-04	19:45:44.4545	backend is true
+2021-05-04	19:45:44.4545	signal ok BOK
+2021-05-04	19:45:44.4545	shiftFactor 7.75
+2021-05-04	19:45:44.4545	minVal 80
+2021-05-04	19:45:44.4545	midVal 80
+2021-05-04	19:45:44.4545	maxVal 90
+2021-05-04	19:45:44.4545	firstShift 19
+2021-05-04	19:45:44.4545	second shift 20
+2021-05-04	19:45:44.4545	third shift 21
+2021-05-04	19:45:45.4545	backendtime jest true 
+2021-05-04	19:45:45.4545	Magic number is cool
+2021-05-04	19:46:16.4646	**** Start Aplikacji ****
+2021-05-04	19:46:16.4646	sopp.log
+2021-05-04	19:46:16.4646	Połączono z bazą danych 
+2021-05-04	19:46:16.4646	***** Ustawienia *****
+2021-05-04	19:46:16.4646	dbDriver QSQLITE
+2021-05-04	19:46:16.4646	dbConnection prov
+2021-05-04	19:46:16.4646	dbName sopp.db
+2021-05-04	19:46:16.4646	Line name 10032-13
+2021-05-04	19:46:16.4646	log name sopp.log
+2021-05-04	19:46:16.4646	magic nr 077528
+2021-05-04	19:46:16.4646	Part nr 5831,00
+2021-05-04	19:46:16.4646	target per H 0
+2021-05-04	19:46:16.4646	target per shift 0
+2021-05-04	19:46:16.4646	Status KONIEC ZLECENIA
+2021-05-04	19:46:16.4646	result per H 0
+2021-05-04	19:46:16.4646	result per shift 0
+2021-05-04	19:46:16.4646	backend is true
+2021-05-04	19:46:16.4646	signal ok BOK
+2021-05-04	19:46:16.4646	shiftFactor 7.75
+2021-05-04	19:46:16.4646	minVal 80
+2021-05-04	19:46:16.4646	midVal 80
+2021-05-04	19:46:16.4646	maxVal 90
+2021-05-04	19:46:16.4646	firstShift 19
+2021-05-04	19:46:16.4646	second shift 20
+2021-05-04	19:46:16.4646	third shift 21
+2021-05-04	19:46:17.4646	backendtime jest true 
+2021-05-04	19:46:17.4646	Magic number is cool
+2021-05-04	19:47:31.4747	**** Start Aplikacji ****
+2021-05-04	19:47:31.4747	sopp.log
+2021-05-04	19:47:31.4747	Połączono z bazą danych 
+2021-05-04	19:47:31.4747	***** Ustawienia *****
+2021-05-04	19:47:31.4747	dbDriver QSQLITE
+2021-05-04	19:47:31.4747	dbConnection prov
+2021-05-04	19:47:31.4747	dbName sopp.db
+2021-05-04	19:47:31.4747	Line name 10032-13
+2021-05-04	19:47:31.4747	log name sopp.log
+2021-05-04	19:47:31.4747	magic nr 077528
+2021-05-04	19:47:31.4747	Part nr 5831,00
+2021-05-04	19:47:31.4747	target per H 0
+2021-05-04	19:47:31.4747	target per shift 0
+2021-05-04	19:47:31.4747	Status KONIEC ZLECENIA
+2021-05-04	19:47:31.4747	result per H 0
+2021-05-04	19:47:31.4747	result per shift 0
+2021-05-04	19:47:31.4747	backend is true
+2021-05-04	19:47:31.4747	signal ok BOK
+2021-05-04	19:47:31.4747	shiftFactor 7.75
+2021-05-04	19:47:31.4747	minVal 80
+2021-05-04	19:47:31.4747	midVal 80
+2021-05-04	19:47:31.4747	maxVal 90
+2021-05-04	19:47:31.4747	firstShift 19
+2021-05-04	19:47:31.4747	second shift 20
+2021-05-04	19:47:31.4747	third shift 21
+2021-05-04	19:47:32.4747	backendtime jest true 
+2021-05-04	19:47:32.4747	Magic number is cool
+2021-05-04	19:51:57.5151	**** Start Aplikacji ****
+2021-05-04	19:51:57.5151	sopp.log
+2021-05-04	19:51:57.5151	Połączono z bazą danych 
+2021-05-04	19:51:57.5151	***** Ustawienia *****
+2021-05-04	19:51:57.5151	dbDriver QSQLITE
+2021-05-04	19:51:57.5151	dbConnection prov
+2021-05-04	19:51:57.5151	dbName sopp.db
+2021-05-04	19:51:57.5151	Line name 10032-13
+2021-05-04	19:51:57.5151	log name sopp.log
+2021-05-04	19:51:57.5151	magic nr 077528
+2021-05-04	19:51:57.5151	Part nr 5831,00
+2021-05-04	19:51:57.5151	target per H 0
+2021-05-04	19:51:57.5151	target per shift 0
+2021-05-04	19:51:57.5151	Status KONIEC ZLECENIA
+2021-05-04	19:51:57.5151	result per H 0
+2021-05-04	19:51:57.5151	result per shift 0
+2021-05-04	19:51:57.5151	backend is true
+2021-05-04	19:51:57.5151	signal ok BOK
+2021-05-04	19:51:57.5151	shiftFactor 7.75
+2021-05-04	19:51:57.5151	minVal 80
+2021-05-04	19:51:57.5151	midVal 80
+2021-05-04	19:51:57.5151	maxVal 90
+2021-05-04	19:51:57.5151	firstShift 19
+2021-05-04	19:51:57.5151	second shift 20
+2021-05-04	19:51:57.5151	third shift 21
+2021-05-04	19:51:58.5151	backendtime jest true 
+2021-05-04	19:51:58.5151	Magic number is cool
+2021-05-04	19:52:34.5252	**** Start Aplikacji ****
+2021-05-04	19:52:34.5252	sopp.log
+2021-05-04	19:52:34.5252	Połączono z bazą danych 
+2021-05-04	19:52:34.5252	***** Ustawienia *****
+2021-05-04	19:52:34.5252	dbDriver QSQLITE
+2021-05-04	19:52:34.5252	dbConnection prov
+2021-05-04	19:52:34.5252	dbName sopp.db
+2021-05-04	19:52:34.5252	Line name 10032-13
+2021-05-04	19:52:34.5252	log name sopp.log
+2021-05-04	19:52:34.5252	magic nr 077528
+2021-05-04	19:52:34.5252	Part nr 5831,00
+2021-05-04	19:52:34.5252	target per H 0
+2021-05-04	19:52:34.5252	target per shift 0
+2021-05-04	19:52:34.5252	Status KONIEC ZLECENIA
+2021-05-04	19:52:34.5252	result per H 0
+2021-05-04	19:52:34.5252	result per shift 0
+2021-05-04	19:52:34.5252	backend is true
+2021-05-04	19:52:34.5252	signal ok BOK
+2021-05-04	19:52:34.5252	shiftFactor 7.75
+2021-05-04	19:52:34.5252	minVal 80
+2021-05-04	19:52:34.5252	midVal 80
+2021-05-04	19:52:34.5252	maxVal 90
+2021-05-04	19:52:34.5252	firstShift 19
+2021-05-04	19:52:34.5252	second shift 20
+2021-05-04	19:52:34.5252	third shift 21
+2021-05-04	19:52:35.5252	backendtime jest true 
+2021-05-04	19:52:35.5252	Magic number is cool
+2021-05-04	19:56:48.5656	**** Start Aplikacji ****
+2021-05-04	19:56:48.5656	sopp.log
+2021-05-04	19:56:48.5656	Połączono z bazą danych 
+2021-05-04	19:56:48.5656	***** Ustawienia *****
+2021-05-04	19:56:48.5656	dbDriver QODBC
+2021-05-04	19:56:48.5656	dbConnection prov
+2021-05-04	19:56:48.5656	dbName sopp
+2021-05-04	19:56:48.5656	Line name 10032-13
+2021-05-04	19:56:48.5656	log name sopp.log
+2021-05-04	19:56:48.5656	magic nr 077528
+2021-05-04	19:56:48.5656	Part nr 10033
+2021-05-04	19:56:48.5656	target per H 0
+2021-05-04	19:56:48.5656	target per shift 117
+2021-05-04	19:56:48.5656	Status ZMIANA ZLECENIA
+2021-05-04	19:56:48.5656	result per H 0
+2021-05-04	19:56:48.5656	result per shift 92
+2021-05-04	19:56:48.5656	backend is true
+2021-05-04	19:56:48.5656	signal ok BOK
+2021-05-04	19:56:48.5656	shiftFactor 7.75
+2021-05-04	19:56:48.5656	minVal 80
+2021-05-04	19:56:48.5656	midVal 80
+2021-05-04	19:56:48.5656	maxVal 90
+2021-05-04	19:56:48.5656	firstShift 14
+2021-05-04	19:56:48.5656	second shift 22
+2021-05-04	19:56:48.5656	third shift 6
+2021-05-04	19:56:49.5656	backendtime jest true 
+2021-05-04	19:56:50.5656	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-05-04	19:56:50.5656	Magic number is cool
+2021-05-04	19:57:38.5757	**** Start Aplikacji ****
+2021-05-04	19:57:38.5757	sopp.log
+2021-05-04	19:57:38.5757	Połączono z bazą danych 
+2021-05-04	19:57:38.5757	***** Ustawienia *****
+2021-05-04	19:57:38.5757	dbDriver QODBC
+2021-05-04	19:57:38.5757	dbConnection prov
+2021-05-04	19:57:38.5757	dbName sopp
+2021-05-04	19:57:38.5757	Line name 10032-13
+2021-05-04	19:57:38.5757	log name sopp.log
+2021-05-04	19:57:38.5757	magic nr 077528
+2021-05-04	19:57:38.5757	Part nr 10033
+2021-05-04	19:57:38.5757	target per H 0
+2021-05-04	19:57:38.5757	target per shift 117
+2021-05-04	19:57:38.5757	Status ZMIANA ZLECENIA
+2021-05-04	19:57:38.5757	result per H 0
+2021-05-04	19:57:38.5757	result per shift 92
+2021-05-04	19:57:38.5757	backend is true
+2021-05-04	19:57:38.5757	signal ok BOK
+2021-05-04	19:57:38.5757	shiftFactor 7.75
+2021-05-04	19:57:38.5757	minVal 80
+2021-05-04	19:57:38.5757	midVal 80
+2021-05-04	19:57:38.5757	maxVal 90
+2021-05-04	19:57:38.5757	firstShift 14
+2021-05-04	19:57:38.5757	second shift 22
+2021-05-04	19:57:38.5757	third shift 6
+2021-05-04	19:57:39.5757	backendtime jest true 
+2021-05-04	19:57:40.5757	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-05-04	19:57:40.5757	Magic number is cool
+2021-05-04	20:00:00.000	Zerujemy liczniki na pełną godzinę 
+2021-05-04	20:00:00.000	Czas 200000

@@ -4,8 +4,8 @@ import QtQuick.Layouts 1.2
 import QtQuick.Controls.Material 2.2
 import com.SqlQryModel 1.0
 import com.BackendDbCon 1.0
+import "myJsScripts.js" as MyScripts
 
-//import QtQuick.Dialogs 1.2
 
 ApplicationWindow {
 
@@ -54,7 +54,6 @@ ApplicationWindow {
             searchForMachines()
             getPartData()
 
-
         }
 
     }
@@ -89,7 +88,7 @@ ApplicationWindow {
     function calculateFont()
     {
 
-        var fontSize=Math.min(orderDialog.width,orderDialog.height)*0.04
+        var fontSize=Math.min(orderDialog.width,orderDialog.height)*0.03
 
         return fontSize
     }
@@ -113,9 +112,18 @@ ApplicationWindow {
         var shiftFactor
         var hourTarget
         var shiftTarget
+        var timeToProduce
+        var tactTime
+        var partQty
 
+
+        // Sql Server version
         qry="select shiftTarget,numPersons from targets "
             +" where partnr='"+txtFPartNr.text+"'"
+
+        // sqlite version
+        /*qry="select shiftTarget,numOperators from targets "
+                    +" where partnr='"+txtFPartNr.text+"'"*/
         console.log(qry)
 
         res=backendDbCon.getDbData(",",qry)
@@ -132,8 +140,27 @@ ApplicationWindow {
         shiftTarget=data[0]
         hourTarget=parseInt(shiftTarget)/shiftFactor
 
-
         lblHourTarget.text="Cel na godzinę "+parseInt(hourTarget)+" szt."
+
+        // tact time
+        tactTime=3600/hourTarget
+        console.log("tact "+tactTime)
+
+        // getting part Qty
+        partQty=spnQty.value
+        console.log("part Qty "+partQty)
+
+        // time to produce
+        timeToProduce=partQty*tactTime
+
+        timeToProduce=parseInt(timeToProduce)
+        console.log("time to produce "+timeToProduce)
+        var ttime=MyScripts.secondstotime(timeToProduce)
+                //MyScripts.secondstotime(ttime)
+                //MyScripts.toTimeString(timeToProduce)
+        console.log("time "+ttime)
+        lblTimeToProduce.text="Szacowany czas "+ttime
+
 
     }
 
@@ -155,6 +182,8 @@ ApplicationWindow {
 
         console.log("result "+result)
         spnPersQty.value=result
+
+
 
     }
 
@@ -215,7 +244,7 @@ ApplicationWindow {
             {
                 top:mainRect.top
                 topMargin:20
-                left:txtFPartNr.right
+                left:btAccept.right
                 leftMargin:20
 
             }
@@ -228,7 +257,7 @@ ApplicationWindow {
 
             width: 100
 
-            text: "Wybierz"
+            text: "Wyszukaj"
 
         }
 
@@ -398,11 +427,11 @@ ApplicationWindow {
             anchors.leftMargin: 10
             anchors.top: chkLine.bottom
             editable: true
-            to: 1000
+            to: 99999
             from: 1
-            value: 1
+            value: 1000
             anchors.topMargin: 10
-            font.pixelSize: Math.min(orderDialog.width,orderDialog.height)*0.04
+            font.pixelSize: Math.min(orderDialog.width,orderDialog.height)*0.03
         }
 
         Label {
@@ -427,7 +456,7 @@ ApplicationWindow {
             value: 1
             anchors.leftMargin: 10
             anchors.topMargin: 30
-            font.pixelSize: Math.min(orderDialog.width,orderDialog.height)*0.04
+            font.pixelSize: Math.min(orderDialog.width,orderDialog.height)*0.03
         }
 
         Label {
@@ -483,6 +512,21 @@ ApplicationWindow {
 
         }
 
+        Button {
+            id: btAccept
+            text: qsTr("Zatwierdź")
+            anchors.left: txtFPartNr.right
+            anchors.top: parent.top
+            anchors.topMargin: 20
+            anchors.leftMargin: 20
+
+            onClicked:
+            {
+                searchForMachines()
+                getPartData()
+            }
+        }
+
 
     }
 
@@ -491,6 +535,6 @@ ApplicationWindow {
 
 /*##^##
 Designer {
-    D{i:0;autoSize:true;height:480;width:640}D{i:19}D{i:22}D{i:23}D{i:24}D{i:25}
+    D{i:0;autoSize:true;height:480;width:640}
 }
 ##^##*/
