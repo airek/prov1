@@ -5,6 +5,7 @@ import QtQuick.Controls.Material 2.2
 import QtQuick.Layouts 1.3
 import com.Backend 1.0
 import com.BackendDbCon 1.0
+import "myJsScripts.js" as MyScripts
 
 ApplicationWindow{
 
@@ -17,6 +18,12 @@ ApplicationWindow{
     visibility: Window.Maximized
     title: qsTr("PROV")
     Material.theme:Material.System
+
+    property string vtimeToProduce
+    property int vpersQty
+    property int vpartQty
+    property int vTargetPerHour
+
 
     Component.onDestruction:
     {
@@ -67,6 +74,13 @@ ApplicationWindow{
             init.hourCntr=backend.getHourCntr();
             init.shiftCounter=backend.getShiftCntr();
 
+            if(vpartQty>0)
+            {
+                vpartQty=vpartQty-1
+                orderQty.text=vpartQty+" szt."
+                calculateTimeToProduce()
+            }
+
             if(lineStat.text!="PRODUKCJA")
             {
                 console.log("Produkcja ")
@@ -110,24 +124,28 @@ ApplicationWindow{
     }
 
     //clock variable
-    property string strHour
+    /*property string strHour
     property string strMinute
-    property string strSeconds
+    property string strSeconds*/
     property string page
+    property string timeString
 
 
 
     //javascript
     function timeChanged()
     {
-        var date = new Date;
+        /*var date = new Date;
 
-        strHour=date.getHours().toString()
+
+        strHour=date.getHours().toString().
         strMinute = date.getMinutes().toString()
-        strSeconds = date.getUTCSeconds().toString()
+        strSeconds = date.getUTCSeconds().toString()*/
 
+        timeString=new Date().toLocaleTimeString()
+       // console.log("time "+timeString)
 
-        if(strSeconds.length===1)
+        /*if(strSeconds.length===1)
         {
             strSeconds="0"+strSeconds
         }
@@ -136,7 +154,7 @@ ApplicationWindow{
             strHour="0"+strHour
 
         if(strMinute.length===1)
-            strMinute="0"+strMinute
+            strMinute="0"+strMinute*/
 
     }
     // javascripts
@@ -188,11 +206,13 @@ ApplicationWindow{
     //
     function getCurrentTime()
     {
-        var today = new Date();
+        var today = new Date().toLocaleTimeString()
 
-        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        //var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
-        return time;
+        console.log("Time "+today)
+
+        return today;
     }
 
     function insertEvent(eventName)
@@ -200,7 +220,7 @@ ApplicationWindow{
         var currentDate=getDate()
         var qry="insert into events values('"+currentDate+"','"+getCurrentTime()+"'"
         +",'"+eventName+"',"+init.hourCntr+","+init.shiftCounter+","+init.hrTargetText+","
-        +init.shTargetText+",'"+partNr.text+"')";
+        +init.shTargetText+",'"+partNr.text+"','"+lineNr.text+"')";
 
         console.log("qry before insert "+qry);
 
@@ -212,7 +232,8 @@ ApplicationWindow{
     {
         console.log("line Status "+lineStat.text)
         backend.writeSettings(partNr.text,init.hrTargetText,init.shTargetText,
-                              init.hourCntr,init.shiftCounter,lineStat.text)
+                              init.hourCntr,init.shiftCounter,lineStat.text,vpersQty,
+                              vpartQty,vtimeToProduce,vTargetPerHour)
     }
 
     function setAppSettings()
@@ -221,14 +242,49 @@ ApplicationWindow{
         init.shiftCounter=backend.getShiftCntr();
         init.hrTargetText=backend.getTargetPerH();
         init.shTargetText=backend.getTargetPers();
+        
+        vpersQty=backend.getPersQty();
+        vpartQty=backend.getPartQty()
+        vtimeToProduce=backend.getTimeToProduce();
+
 
         partNr.text=backend.getPartNr();
-        getTarget()
+        vTargetPerHour=backend.getHourTarget()
+        console.log("vTarget "+vTargetPerHour)
+        setTarget();
         lineNr.text=backend.getLine();
         lineStat.text=backend.getStatus();
         setStatus(lineStat.text);
 
     }
+
+    // setting target
+    function setTarget()
+    {
+        backend.setTarget(parseInt(vTargetPerHour))
+
+    }
+
+    function calculateTimeToProduce()
+    {
+        var qty
+        var tactTime
+        var timeToProduce
+
+        // tact time
+        tactTime=3600/vTargetPerHour
+        //console.log("tact "+tactTime)
+
+        // time to produce
+        timeToProduce=vpartQty*tactTime
+
+        timeToProduce=parseInt(timeToProduce)
+
+        vtimeToProduce=MyScripts.secondstotime(timeToProduce)
+
+        timeElapsed.text=vtimeToProduce
+    }
+
 
     Timer{
         interval: 100; running: true; repeat: true;
@@ -276,6 +332,7 @@ ApplicationWindow{
     }
 
 
+
      //
     //
     DlgPartNoN
@@ -299,9 +356,7 @@ ApplicationWindow{
             console.log("Part "+partNo)
 
             partNr.text=partNo
-
             getTarget()
-
             insertEvent(partNo)
         }
 
@@ -316,6 +371,19 @@ ApplicationWindow{
         width: appWindow.width-20
         height: appWindow.height-10
 
+        onActivated:
+        {
+            partNr.text=partNo
+
+
+            numOperators.text="osób: "+vpersQty
+            orderQty.text=vpartQty+" szt."
+            target.text=vTargetPerHour+" szt/h"
+            calculateTimeToProduce()
+            setTarget()
+            insertEvent(partNo)
+        }
+
 
     }
 
@@ -325,14 +393,14 @@ ApplicationWindow{
         id:header
         Material.primary:Material.Indigo
         Material.foreground:"white"
-        height:appWindow.height/5
+        height:appWindow.height/4
 
         RowLayout
         {
             anchors.fill:parent
-            spacing: 20
+            spacing: 40
 
-            ToolButton
+            /*ToolButton
             {
                 id:toolbutton
                     contentItem: Image {
@@ -354,21 +422,40 @@ ApplicationWindow{
                         }
                     }
 
+                }*/
+            ColumnLayout
+            {
+
+                id:firstCol
+
+                Label {
+
+                    id: currentTime
+                    //text: strHour+":"+strMinute+":"+strSeconds
+                    text:timeString
+                    font.pixelSize:header.height*0.3
+                    font.bold: false
+                    elide: Label.ElideRight
+                    horizontalAlignment: Qt.AlignHCenter
+                    verticalAlignment: Qt.AlignVCenter
+                    Layout.fillWidth: true
+
+                 }
+
+                Label
+                {
+                    id:numOperators
+                    text:"osób: "+vpersQty
+                    font.pixelSize: header.height*0.3
+                    horizontalAlignment: Qt.AlignHCenter
+                    verticalAlignment: Qt.AlignVCenter
+                    Layout.fillWidth: true
+
                 }
 
-            Label {
-
-                id: currentTime
-                text: strHour+":"+strMinute+":"+strSeconds
-                font.pixelSize:header.height*0.4
-                font.bold: false
-                elide: Label.ElideRight
-                horizontalAlignment: Qt.AlignHCenter
-                verticalAlignment: Qt.AlignVCenter
-                Layout.fillWidth: true
 
 
-             }
+            }
             ColumnLayout
             {
                 id:lineStatus
@@ -378,7 +465,7 @@ ApplicationWindow{
                 {
                     id:lineNr
                     text:"10032-13"
-                    font.pixelSize: header.height*0.4
+                    font.pixelSize: header.height*0.3
                     font.bold: false
                     horizontalAlignment: Qt.AlignHCenter
                     verticalAlignment:Qt.AlignVCenter
@@ -429,7 +516,7 @@ ApplicationWindow{
                 {
                     id:partNr
                     text:"5831"
-                    font.pixelSize: header.height*0.3
+                    font.pixelSize: header.height*0.2
                     font.bold: false
                     horizontalAlignment: Qt.AlignHCenter
                     verticalAlignment:Qt.AlignVCenter
@@ -462,8 +549,8 @@ ApplicationWindow{
                 Label
                 {
                     id:target
-                    text:"120 szt./h"
-                    font.pixelSize: header.height*0.3
+                    text:vTargetPerHour+" szt./h"
+                    font.pixelSize: header.height*0.2
                     font.bold: false
                     horizontalAlignment: Qt.AlignHCenter
                     verticalAlignment:Qt.AlignVCenter
@@ -493,6 +580,37 @@ ApplicationWindow{
                         }
                     }
                 }
+
+                Row
+                {
+                    id:orderDataRL
+
+                    spacing:40
+                    Label
+                    {
+                        id:orderQty
+                        text:vpartQty+" szt."
+                        font.pixelSize: header.height*0.2
+                        font.bold: false
+                        horizontalAlignment: Qt.AlignHCenter
+                        verticalAlignment:Qt.AlignRight
+                        Layout.fillWidth:true
+                    }
+
+                    Label
+                    {
+                        id:timeElapsed
+                        text:vtimeToProduce
+                        font.pixelSize: header.height*0.2
+                        font.bold: false
+                        horizontalAlignment: Qt.AlignHCenter
+                        verticalAlignment:Qt.AlignRight
+                        Layout.fillWidth:true
+                    }
+
+                }
+
+
             }
             ColumnLayout
             {
@@ -523,7 +641,8 @@ ApplicationWindow{
                     width: 40
                     height: 40
                     radius: 30
-                    Material.background: Material.Indigo
+                    //Material.background: Material.Indigo
+                    Material.background: Material.DeepOrange
                     text: qsTr("Status")
                     onClicked:
                     {
@@ -635,9 +754,12 @@ ApplicationWindow{
         id:cntrs
     }*/
 
+
+
     StackView
     {
         id:stackView
+
         anchors.fill: parent
 
         initialItem:Counters

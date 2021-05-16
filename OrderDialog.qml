@@ -18,7 +18,11 @@ ApplicationWindow {
     property string winTitle
     /*property string number
     property string machineD*/
-
+    property int shiftTarget
+    property int hourTarget
+    property int packaging
+    property double shiftFact
+    property string ttProduce
 
     Material.theme: Material.System
     Material.foreground: Material.Indigo
@@ -51,7 +55,9 @@ ApplicationWindow {
             console.log("Part "+partNo)
 
             txtFPartNr.text=partNo
+
             searchForMachines()
+            getPackaging()
             getPartData()
 
         }
@@ -76,6 +82,30 @@ ApplicationWindow {
     }
 
     //javascript
+    function getPackaging()
+    {
+        var qry
+        var pack
+        var res
+        var ts
+        var data
+
+
+        qry="select packaging from partNumbers where partnr='"+txtFPartNr.text+"'"
+        res=backendDbCon.getDbData(",",qry)
+        //console.log("qry  get packaging "+qry)
+        ts=res[0]
+
+        //
+        data=ts.split(",")
+        packaging=data[0]
+
+
+        //console.log("pack "+packaging)
+
+
+
+    }
 
     function calculateTitleFont()
     {
@@ -110,56 +140,58 @@ ApplicationWindow {
         var data
         var toSplit
         var shiftFactor
-        var hourTarget
-        var shiftTarget
         var timeToProduce
         var tactTime
         var partQty
-
+        var shiftTargetVE
 
         // Sql Server version
         qry="select shiftTarget,numPersons from targets "
-            +" where partnr='"+txtFPartNr.text+"'"
+            +" where partnr='"+txtFPartNr.text+"' and baseVal=1"
 
         // sqlite version
         /*qry="select shiftTarget,numOperators from targets "
-                    +" where partnr='"+txtFPartNr.text+"'"*/
+                    +" where partnr='"+txtFPartNr.text+"' "*/
         console.log(qry)
 
         res=backendDbCon.getDbData(",",qry)
         toSplit=res[0]
-
         data=toSplit.split(",")
-
         shiftFactor=backendDbCon.getSHiftFactor();
+        shiftFact=shiftFactor
 
-        lblShiftTarget.text="Cel na zmianę "+data[0]+" szt."
-        spnPersQty.value=data[1]
-
+        //console.log("shFactor "+shiftFactor)
         // calculating hourTarget
-        shiftTarget=data[0]
-        hourTarget=parseInt(shiftTarget)/shiftFactor
+        shiftTargetVE=data[0]
+        shiftTarget=shiftTargetVE*packaging
+        //console.log("shiftTarget VE "+shiftTargetVE+" packaging "+packaging+"shiftTarget "+shiftTarget)
+        lblShiftTarget.text="Cel na zmianę "+shiftTarget+" szt."
 
-        lblHourTarget.text="Cel na godzinę "+parseInt(hourTarget)+" szt."
+        spnPersQty.value=parseInt(data[1])
 
-        // tact time
+        hourTarget=shiftTarget/shiftFactor
+
+        lblHourTarget.text="Cel na godzinę "+hourTarget+" szt."
+
+        estimateTimetoProduce()
+        /*// tact time
         tactTime=3600/hourTarget
-        console.log("tact "+tactTime)
+        //console.log("tact "+tactTime)
 
         // getting part Qty
         partQty=spnQty.value
-        console.log("part Qty "+partQty)
+        //console.log("part Qty "+partQty)
 
         // time to produce
         timeToProduce=partQty*tactTime
 
         timeToProduce=parseInt(timeToProduce)
-        console.log("time to produce "+timeToProduce)
+        //console.log("time to produce "+timeToProduce)
         var ttime=MyScripts.secondstotime(timeToProduce)
-                //MyScripts.secondstotime(ttime)
-                //MyScripts.toTimeString(timeToProduce)
-        console.log("time "+ttime)
-        lblTimeToProduce.text="Szacowany czas "+ttime
+
+        //console.log("time "+ttime)
+        ttProduce=ttime
+        lblTimeToProduce.text="Szacowany czas "+ttProduce*/
 
 
     }
@@ -192,6 +224,80 @@ ApplicationWindow {
     function resetSett()
     {
         txtFPartNr.clear()
+        lblShiftTarget.text="Cel na zmianę 0 szt."
+        lblHourTarget.text="Cel na godzinę 0 szt."
+        lblTimeToProduce.text="Szacowany czas 00:00:00"
+        spnPersQty.value=0
+        spnQty.value=1000
+        qryModel.clearModel()
+
+
+    }
+
+    function getTargetwv()
+    {
+        var res
+        var qry
+        var numP=spnPersQty.value
+        var data
+        var toSplit
+        var shiftTargetVE
+
+
+        qry="Select shiftTarget from targets where partNr='"+txtFPartNr.text+"'"
+        +" and numPersons="+numP+""
+
+        console.log("getNrPers "+qry)
+
+        res=backendDbCon.getDbData(",",qry)
+
+        console.log(res)
+        toSplit=res[0]
+        data=toSplit.split(",")
+
+        shiftTargetVE=data[0]
+        console.log("shiftTarget "+shiftTargetVE)
+
+        shiftTarget=shiftTargetVE*packaging
+
+        lblShiftTarget.text="Cel na zmianę "+shiftTarget+" szt."
+
+        //
+        //calculating hour T
+        hourTarget=shiftTarget/shiftFact
+        lblHourTarget.text="Cel na godzinę "+hourTarget+" szt."
+
+        estimateTimetoProduce()
+
+
+    }
+
+    function estimateTimetoProduce()
+    {
+        var qty
+        var tactTime
+        var timeToProduce
+        var partQty
+
+
+        // tact time
+        tactTime=3600/hourTarget
+        //console.log("tact "+tactTime)
+
+        // getting part Qty
+        partQty=spnQty.value
+        //console.log("part Qty "+partQty)
+
+        // time to produce
+        timeToProduce=partQty*tactTime
+
+        timeToProduce=parseInt(timeToProduce)
+        console.log("time to produce "+timeToProduce)
+        var ttime=MyScripts.secondstotime(timeToProduce)
+        ttProduce=ttime
+        console.log("time "+ttProduce)
+        lblTimeToProduce.text="Szacowany czas "+ttProduce
+
     }
 
     // header
@@ -291,6 +397,7 @@ ApplicationWindow {
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.topMargin: 20
             model: qryModel
+
             delegate: Item {
                 x: 5
                 width: 70
@@ -335,9 +442,15 @@ ApplicationWindow {
                         onCheckStateChanged:
                         {
                             if(checkState==Qt.Checked)
+                            {
                                 calculatePersQty(wght.text,"minus")
+                                getTargetwv()
+                            }
                             else if(checkState==Qt.Unchecked)
+                            {
                                 calculatePersQty(wght.text,"plus")
+                                getTargetwv()
+                            }
 
 
                         }
@@ -388,9 +501,9 @@ ApplicationWindow {
             id: chkLine
             text: qsTr("Niepełna linka")
             font.pixelSize: calculateFont()
+            anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: machineLst.bottom
 
-            anchors.horizontalCenter: parent.horizontalCenter
             anchors.topMargin: 20
 
             onCheckStateChanged:
@@ -417,7 +530,7 @@ ApplicationWindow {
             anchors.horizontalCenterOffset: -20
 
             anchors.horizontalCenter: parent.horizontalCenter
-            anchors.topMargin: 30
+            anchors.topMargin: 40
         }
 
         SpinBox {
@@ -430,7 +543,7 @@ ApplicationWindow {
             to: 99999
             from: 1
             value: 1000
-            anchors.topMargin: 10
+            anchors.topMargin: 20
             font.pixelSize: Math.min(orderDialog.width,orderDialog.height)*0.03
         }
 
@@ -457,6 +570,8 @@ ApplicationWindow {
             anchors.leftMargin: 10
             anchors.topMargin: 30
             font.pixelSize: Math.min(orderDialog.width,orderDialog.height)*0.03
+
+
         }
 
         Label {
@@ -509,6 +624,22 @@ ApplicationWindow {
             anchors.topMargin: 30
             width: 200
 
+            onClicked:
+            {
+
+
+               vpersQty=spnPersQty.value
+               vpartQty=spnQty.value
+               console.log("part Qty "+vpartQty)
+               vtimeToProduce=ttProduce
+               vTargetPerHour=hourTarget
+
+
+               //timeElapsed.text=lblTimeToProduce.text
+               activated(txtFPartNr.text)
+               close()
+            }
+
 
         }
 
@@ -523,7 +654,9 @@ ApplicationWindow {
             onClicked:
             {
                 searchForMachines()
+                getPackaging()
                 getPartData()
+                //estimateTimetoProduce()
             }
         }
 

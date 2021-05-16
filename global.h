@@ -32,11 +32,16 @@ public:
     static QString mDevName;
     static QString mIpAddr;
     static QString mPortNr;
+    static QString mPersQty;
+    static QString mPartsQty;
+    static QString mTimeToProduce;
+    static uint mTargetPerH;
     static bool mServerStatus;
     static int mTargetInterval;
     static int mCntrInterval;
     static bool mBackendTimer;
     static bool isDebug;
+
     //
     QString dbError();
     bool isDbConnected();
@@ -46,7 +51,8 @@ public:
     void readDataSettings();
     void getDeviceStatus();
     void writeAppSettings(QString partnr,QString targetH,QString targetS,
-                          QString resH,QString resS,QString status);
+                          QString resH,QString resS,QString status,QString persQty,
+                          QString partsQty,QString ttProduce,QString targetPerH);
 
     static bool execQuery(QString strQry);
     static QStringList returnCompressedResults(QString separator,QString strQry);

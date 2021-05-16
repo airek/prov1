@@ -113,27 +113,44 @@ QString Backend::getTarget(QString partNr)
     dbInterface dbi(Global::mDbConnection);
     uint shiftTarget;
     uint targetPerHour;
+    uint packagingi;
+    uint shiftTargetVE;
+
     float shiftFactor;
     QString strTargetPerHour;
+    QString strQryPack;
+    QString packaging;
 
-    // strQry
+    //strQry
     QString strQry("Select shiftTarget from targets where "
                    " partNr='"+partNr+"'");
 
-    qDebug()<<"backend get Target "<<strQry;
+    //qDebug()<<"backend get Target "<<strQry;
     QString res=dbi.returnOneColumn(strQry);
+    //qDebug()<<"Otrzymany res "<<res;
 
-    qDebug()<<"Otrzymany res "<<res;
-    shiftTarget=res.toUInt();
+    // pobieranie opakowania
+    strQryPack="Select packaging from partNumbers "
+    "where partnr='"+partNr+"'";
+    //qDebug()<<"qry pack "<<strQryPack;
+    packaging=dbi.returnOneColumn(strQryPack);
+    //qDebug()<<"packaging "<<packaging;
+
+    // oblicznie shiftTarget
+    shiftTargetVE=res.toUInt();
+
+    packagingi=packaging.toUInt();
+    shiftTarget=shiftTargetVE*packagingi;
+
     shiftFactor=Global::mShiftFactor.toFloat();
-    qDebug()<<"Shift Factor "<<shiftFactor;
+    //qDebug()<<"Shift Factor "<<shiftFactor;
 
     // setting targetPerHour in target to calculate interval
     targetPerHour=shiftTarget/shiftFactor;
     target->setInterval(targetPerHour);
 
     //
-    qDebug()<<"target per Hour "<<targetPerHour;
+    //qDebug()<<"target per Hour "<<targetPerHour;
     strTargetPerHour=strTargetPerHour.setNum(targetPerHour);
     return strTargetPerHour;
 
@@ -163,7 +180,33 @@ uint Backend::getTargetPers()
     return target->shiftTarget();
 }
 
+QString Backend::getPartQty()
+{
+    return Global::mPartsQty;
 
+}
+
+QString Backend::getPersQty()
+{
+    return Global::mPersQty;
+}
+
+QString Backend::getTimeToProduce()
+{
+    return Global::mTimeToProduce;
+}
+
+void Backend::setTarget(uint targetPerHour)
+{
+    target->setInterval(targetPerHour);
+}
+
+uint Backend::getHourTarget()
+{
+
+    return Global::mTargetPerH;
+
+}
 bool Backend::execQry(QString strQry)
 {
     Global global;
@@ -174,11 +217,13 @@ bool Backend::execQry(QString strQry)
     return false;
 }
 
-void Backend::writeSettings(QString partNr, QString targetH,
-                            QString targetS, QString resH, QString resS, QString status)
+void Backend::writeSettings(QString partNr,QString targetH,QString targetS,
+                            QString resH,QString resS,QString status,QString persQty,
+                            QString partQty,QString ttProduce,QString targetPerH)
 {
     Global global;
-    global.writeAppSettings(partNr,targetH,targetS,resH,resS,status);
+    global.writeAppSettings(partNr,targetH,targetS,resH,resS,
+                            status,persQty,partQty,ttProduce,targetPerH);
 }
 
 QString Backend::getPartNr()

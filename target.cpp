@@ -31,11 +31,16 @@ Target::Target(QObject *parent) : QObject(parent)
 void Target::setInterval(uint tPhr)
 {
     double interval;
+    QString temp;
+    Global global;
     qDebug()<<"tphr "<<tPhr;
     interval=3600.00/tPhr;
     qDebug()<<"interval "<<interval;
+
+
     mInterval=interval*1000;
     qDebug()<<mInterval;
+    global.writeLog("Obliczony interval target "+temp.setNum(mInterval));
 }
 
 void Target::start()

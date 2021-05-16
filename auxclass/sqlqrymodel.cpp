@@ -28,6 +28,11 @@ int sqlqryModel::nrOfRows()
     return rowCount(index);
 }
 
+void sqlqryModel::clearModel()
+{
+    clear();
+}
+
 QVariant sqlqryModel::data(const QModelIndex &index, int role) const
 {
     QVariant value;

@@ -29,11 +29,17 @@ public:
     Q_INVOKABLE void status(QString status);
     Q_INVOKABLE uint getTargetPerH();
     Q_INVOKABLE uint getTargetPers();
+    Q_INVOKABLE QString getPartQty();
+    Q_INVOKABLE QString getPersQty();
+    Q_INVOKABLE QString getTimeToProduce();
+    Q_INVOKABLE void setTarget(uint targetPerHour);
+    Q_INVOKABLE uint getHourTarget();
 
 
     Q_INVOKABLE bool execQry(QString strQry);
     Q_INVOKABLE void writeSettings(QString partNr,QString targetH,QString targetS,
-                                   QString resH,QString resS,QString status);
+                                   QString resH,QString resS,QString status,QString persQty,
+                                   QString partQty,QString ttProduce,QString targetPerH);
     Q_INVOKABLE QString getPartNr();
     Q_INVOKABLE QString getStatus();
     Q_INVOKABLE QString getLine();

@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Backend_t {
-    QByteArrayData data[43];
-    char stringdata0[495];
+    QByteArrayData data[53];
+    char stringdata0[609];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -61,20 +61,30 @@ QT_MOC_LITERAL(25, 323, 6), // "partNr"
 QT_MOC_LITERAL(26, 330, 6), // "status"
 QT_MOC_LITERAL(27, 337, 13), // "getTargetPerH"
 QT_MOC_LITERAL(28, 351, 13), // "getTargetPers"
-QT_MOC_LITERAL(29, 365, 7), // "execQry"
-QT_MOC_LITERAL(30, 373, 6), // "strQry"
-QT_MOC_LITERAL(31, 380, 13), // "writeSettings"
-QT_MOC_LITERAL(32, 394, 7), // "targetH"
-QT_MOC_LITERAL(33, 402, 7), // "targetS"
-QT_MOC_LITERAL(34, 410, 4), // "resH"
-QT_MOC_LITERAL(35, 415, 4), // "resS"
-QT_MOC_LITERAL(36, 420, 9), // "getPartNr"
-QT_MOC_LITERAL(37, 430, 9), // "getStatus"
-QT_MOC_LITERAL(38, 440, 7), // "getLine"
-QT_MOC_LITERAL(39, 448, 10), // "getDevName"
-QT_MOC_LITERAL(40, 459, 9), // "getIpAddr"
-QT_MOC_LITERAL(41, 469, 9), // "getPortNr"
-QT_MOC_LITERAL(42, 479, 15) // "getServerStatus"
+QT_MOC_LITERAL(29, 365, 10), // "getPartQty"
+QT_MOC_LITERAL(30, 376, 10), // "getPersQty"
+QT_MOC_LITERAL(31, 387, 16), // "getTimeToProduce"
+QT_MOC_LITERAL(32, 404, 9), // "setTarget"
+QT_MOC_LITERAL(33, 414, 13), // "targetPerHour"
+QT_MOC_LITERAL(34, 428, 13), // "getHourTarget"
+QT_MOC_LITERAL(35, 442, 7), // "execQry"
+QT_MOC_LITERAL(36, 450, 6), // "strQry"
+QT_MOC_LITERAL(37, 457, 13), // "writeSettings"
+QT_MOC_LITERAL(38, 471, 7), // "targetH"
+QT_MOC_LITERAL(39, 479, 7), // "targetS"
+QT_MOC_LITERAL(40, 487, 4), // "resH"
+QT_MOC_LITERAL(41, 492, 4), // "resS"
+QT_MOC_LITERAL(42, 497, 7), // "persQty"
+QT_MOC_LITERAL(43, 505, 7), // "partQty"
+QT_MOC_LITERAL(44, 513, 9), // "ttProduce"
+QT_MOC_LITERAL(45, 523, 10), // "targetPerH"
+QT_MOC_LITERAL(46, 534, 9), // "getPartNr"
+QT_MOC_LITERAL(47, 544, 9), // "getStatus"
+QT_MOC_LITERAL(48, 554, 7), // "getLine"
+QT_MOC_LITERAL(49, 562, 10), // "getDevName"
+QT_MOC_LITERAL(50, 573, 9), // "getIpAddr"
+QT_MOC_LITERAL(51, 583, 9), // "getPortNr"
+QT_MOC_LITERAL(52, 593, 15) // "getServerStatus"
 
     },
     "Backend\0serverListening\0\0clientServerConnected\0"
@@ -86,8 +96,11 @@ QT_MOC_LITERAL(42, 479, 15) // "getServerStatus"
     "listen\0serverName\0IPAddr\0portNr\0"
     "startServer\0getShiftCntr\0getHourCntr\0"
     "getTarget\0partNr\0status\0getTargetPerH\0"
-    "getTargetPers\0execQry\0strQry\0writeSettings\0"
-    "targetH\0targetS\0resH\0resS\0getPartNr\0"
+    "getTargetPers\0getPartQty\0getPersQty\0"
+    "getTimeToProduce\0setTarget\0targetPerHour\0"
+    "getHourTarget\0execQry\0strQry\0writeSettings\0"
+    "targetH\0targetS\0resH\0resS\0persQty\0"
+    "partQty\0ttProduce\0targetPerH\0getPartNr\0"
     "getStatus\0getLine\0getDevName\0getIpAddr\0"
     "getPortNr\0getServerStatus"
 };
@@ -99,7 +112,7 @@ static const uint qt_meta_data_Backend[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      31,   14, // methods
+      36,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -107,41 +120,46 @@ static const uint qt_meta_data_Backend[] = {
        7,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,  169,    2, 0x06 /* Public */,
-       3,    0,  170,    2, 0x06 /* Public */,
-       4,    0,  171,    2, 0x06 /* Public */,
-       5,    0,  172,    2, 0x06 /* Public */,
-       6,    0,  173,    2, 0x06 /* Public */,
-       7,    0,  174,    2, 0x06 /* Public */,
-       8,    0,  175,    2, 0x06 /* Public */,
+       1,    0,  194,    2, 0x06 /* Public */,
+       3,    0,  195,    2, 0x06 /* Public */,
+       4,    0,  196,    2, 0x06 /* Public */,
+       5,    0,  197,    2, 0x06 /* Public */,
+       6,    0,  198,    2, 0x06 /* Public */,
+       7,    0,  199,    2, 0x06 /* Public */,
+       8,    0,  200,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       9,    1,  176,    2, 0x0a /* Public */,
-      11,    1,  179,    2, 0x0a /* Public */,
-      12,    0,  182,    2, 0x0a /* Public */,
-      13,    0,  183,    2, 0x0a /* Public */,
-      14,    0,  184,    2, 0x0a /* Public */,
-      15,    0,  185,    2, 0x0a /* Public */,
-      16,    0,  186,    2, 0x0a /* Public */,
+       9,    1,  201,    2, 0x0a /* Public */,
+      11,    1,  204,    2, 0x0a /* Public */,
+      12,    0,  207,    2, 0x0a /* Public */,
+      13,    0,  208,    2, 0x0a /* Public */,
+      14,    0,  209,    2, 0x0a /* Public */,
+      15,    0,  210,    2, 0x0a /* Public */,
+      16,    0,  211,    2, 0x0a /* Public */,
 
  // methods: name, argc, parameters, tag, flags
-      17,    3,  187,    2, 0x02 /* Public */,
-      21,    0,  194,    2, 0x02 /* Public */,
-      22,    0,  195,    2, 0x02 /* Public */,
-      23,    0,  196,    2, 0x02 /* Public */,
-      24,    1,  197,    2, 0x02 /* Public */,
-      26,    1,  200,    2, 0x02 /* Public */,
-      27,    0,  203,    2, 0x02 /* Public */,
-      28,    0,  204,    2, 0x02 /* Public */,
-      29,    1,  205,    2, 0x02 /* Public */,
-      31,    6,  208,    2, 0x02 /* Public */,
-      36,    0,  221,    2, 0x02 /* Public */,
-      37,    0,  222,    2, 0x02 /* Public */,
-      38,    0,  223,    2, 0x02 /* Public */,
-      39,    0,  224,    2, 0x02 /* Public */,
-      40,    0,  225,    2, 0x02 /* Public */,
-      41,    0,  226,    2, 0x02 /* Public */,
-      42,    0,  227,    2, 0x02 /* Public */,
+      17,    3,  212,    2, 0x02 /* Public */,
+      21,    0,  219,    2, 0x02 /* Public */,
+      22,    0,  220,    2, 0x02 /* Public */,
+      23,    0,  221,    2, 0x02 /* Public */,
+      24,    1,  222,    2, 0x02 /* Public */,
+      26,    1,  225,    2, 0x02 /* Public */,
+      27,    0,  228,    2, 0x02 /* Public */,
+      28,    0,  229,    2, 0x02 /* Public */,
+      29,    0,  230,    2, 0x02 /* Public */,
+      30,    0,  231,    2, 0x02 /* Public */,
+      31,    0,  232,    2, 0x02 /* Public */,
+      32,    1,  233,    2, 0x02 /* Public */,
+      34,    0,  236,    2, 0x02 /* Public */,
+      35,    1,  237,    2, 0x02 /* Public */,
+      37,   10,  240,    2, 0x02 /* Public */,
+      46,    0,  261,    2, 0x02 /* Public */,
+      47,    0,  262,    2, 0x02 /* Public */,
+      48,    0,  263,    2, 0x02 /* Public */,
+      49,    0,  264,    2, 0x02 /* Public */,
+      50,    0,  265,    2, 0x02 /* Public */,
+      51,    0,  266,    2, 0x02 /* Public */,
+      52,    0,  267,    2, 0x02 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -170,8 +188,13 @@ static const uint qt_meta_data_Backend[] = {
     QMetaType::Void, QMetaType::QString,   26,
     QMetaType::UInt,
     QMetaType::UInt,
-    QMetaType::Bool, QMetaType::QString,   30,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,   25,   32,   33,   34,   35,   26,
+    QMetaType::QString,
+    QMetaType::QString,
+    QMetaType::QString,
+    QMetaType::Void, QMetaType::UInt,   33,
+    QMetaType::UInt,
+    QMetaType::Bool, QMetaType::QString,   36,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,   25,   38,   39,   40,   41,   26,   42,   43,   44,   45,
     QMetaType::QString,
     QMetaType::QString,
     QMetaType::QString,
@@ -217,22 +240,31 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
             if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = std::move(_r); }  break;
         case 21: { uint _r = _t->getTargetPers();
             if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = std::move(_r); }  break;
-        case 22: { bool _r = _t->execQry((*reinterpret_cast< QString(*)>(_a[1])));
+        case 22: { QString _r = _t->getPartQty();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 23: { QString _r = _t->getPersQty();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 24: { QString _r = _t->getTimeToProduce();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 25: _t->setTarget((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 26: { uint _r = _t->getHourTarget();
+            if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = std::move(_r); }  break;
+        case 27: { bool _r = _t->execQry((*reinterpret_cast< QString(*)>(_a[1])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 23: _t->writeSettings((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6]))); break;
-        case 24: { QString _r = _t->getPartNr();
+        case 28: _t->writeSettings((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< QString(*)>(_a[8])),(*reinterpret_cast< QString(*)>(_a[9])),(*reinterpret_cast< QString(*)>(_a[10]))); break;
+        case 29: { QString _r = _t->getPartNr();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 25: { QString _r = _t->getStatus();
+        case 30: { QString _r = _t->getStatus();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 26: { QString _r = _t->getLine();
+        case 31: { QString _r = _t->getLine();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 27: { QString _r = _t->getDevName();
+        case 32: { QString _r = _t->getDevName();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 28: { QString _r = _t->getIpAddr();
+        case 33: { QString _r = _t->getIpAddr();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 29: { QString _r = _t->getPortNr();
+        case 34: { QString _r = _t->getPortNr();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 30: { bool _r = _t->getServerStatus();
+        case 35: { bool _r = _t->getServerStatus();
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
@@ -319,13 +351,13 @@ int Backend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 31)
+        if (_id < 36)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 31;
+        _id -= 36;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 31)
+        if (_id < 36)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 31;
+        _id -= 36;
     }
     return _id;
 }

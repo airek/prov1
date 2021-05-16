@@ -36,6 +36,10 @@ int Global::mTargetInterval;
 int Global::mCntrInterval;
 bool Global::mBackendTimer;
 bool Global::isDebug;
+QString Global::mPartsQty;
+QString Global::mPersQty;
+QString Global::mTimeToProduce;
+uint Global::mTargetPerH;
 
 Global::Global()
 {
@@ -130,6 +134,10 @@ void Global::readSettings()
     mTargetInterval=settings.value("targetInterval").toInt();
     mBackendTimer=settings.value("backendtimer").toBool();
     isDebug=settings.value("debug").toBool();
+    mPersQty=settings.value("persQty").toString();
+    mPartsQty=settings.value("qtyToProduce").toString();
+    mTimeToProduce=settings.value("timeToProduce").toString();
+    mTargetPerH=settings.value("targetPerH").toUInt();
 
     settings.endGroup();
 
@@ -251,7 +259,7 @@ void Global::getDeviceStatus()
  * \param status
  */
 void Global::writeAppSettings(QString partnr, QString targetH,
-                              QString targetS, QString resH, QString resS, QString status)
+                              QString targetS, QString resH, QString resS, QString status, QString persQty, QString partsQty, QString ttProduce, QString targetPerH)
 {
 
     QSettings settings("sopp.ini",QSettings::IniFormat);
@@ -264,6 +272,10 @@ void Global::writeAppSettings(QString partnr, QString targetH,
     settings.setValue("resH",resH);
     settings.setValue("resS",resS);
     settings.setValue("status",status);
+    settings.setValue("persQty",persQty);
+    settings.setValue("qtyToProduce",partsQty);
+    settings.setValue("timeToProduce",ttProduce);
+    settings.setValue("targetPerH",targetPerH);
 
 
     settings.endGroup();

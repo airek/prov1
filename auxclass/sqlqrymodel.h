@@ -13,6 +13,7 @@ public:
     Q_INVOKABLE void setQuery(const QString &query);
     void setQuery(const QSqlQuery &query);
     Q_INVOKABLE int nrOfRows();
+    Q_INVOKABLE void clearModel();
     QVariant data(const QModelIndex &index, int role) const;
     QHash<int, QByteArray> roleNames() const {	return m_roleNames;	}
 

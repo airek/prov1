@@ -35,7 +35,7 @@ Dialog {
     function searchNumbers()
     {
         var qry
-        qry="Select partNr from targets where partNr like '"+txtField.text+"%'"
+        qry="Select distinct(partNr) from targets where partNr like '"+txtField.text+"%'"
         console.log(qry)
         qryModel.setQuery(qry)
 
