@@ -27,6 +27,7 @@ public:
     Q_INVOKABLE bool getServerStatus();
     Q_INVOKABLE QString getLine();
     Q_INVOKABLE QStringList getDbData(QString separator,QString sqry);
+    Q_INVOKABLE void writeNID(QString data);
 
 
 signals:

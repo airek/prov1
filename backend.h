@@ -25,6 +25,8 @@ public:
     Q_INVOKABLE void startServer();
     Q_INVOKABLE uint getShiftCntr();
     Q_INVOKABLE uint getHourCntr();
+    Q_INVOKABLE uint getOrderCntr();
+    Q_INVOKABLE void setOrderCntr(uint orderCntr);
     Q_INVOKABLE QString getTarget(QString partNr);
     Q_INVOKABLE void status(QString status);
     Q_INVOKABLE uint getTargetPerH();
@@ -39,7 +41,8 @@ public:
     Q_INVOKABLE bool execQry(QString strQry);
     Q_INVOKABLE void writeSettings(QString partNr,QString targetH,QString targetS,
                                    QString resH,QString resS,QString status,QString persQty,
-                                   QString partQty,QString ttProduce,QString targetPerH);
+                                   QString partQty,QString ttProduce,QString targetPerH,QString orderCntr,
+                                   QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime);
     Q_INVOKABLE QString getPartNr();
     Q_INVOKABLE QString getStatus();
     Q_INVOKABLE QString getLine();
@@ -47,6 +50,19 @@ public:
     Q_INVOKABLE QString getIpAddr();
     Q_INVOKABLE QString getPortNr();
     Q_INVOKABLE bool getServerStatus();
+
+    Q_INVOKABLE QString getOrderID();
+    Q_INVOKABLE int getAuxTime();
+    Q_INVOKABLE QString getAuxDate();
+    Q_INVOKABLE int getProdTime();
+    Q_INVOKABLE int getBreakTime();
+
+    /*settings.setValue("orderId",orderId);
+    settings.setValue("auxTime",auxTime);
+    settings.setValue("auxDate",auxDate);
+    settings.setValue("prodTime",prodTime);
+    settings.setValue("breakTime",breakTime);*/
+
 
 
 

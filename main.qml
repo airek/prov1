@@ -23,6 +23,12 @@ ApplicationWindow{
     property int vpersQty
     property int vpartQty
     property int vTargetPerHour
+    // dodać do ini
+    property string vOrderID
+    property int vAuxTime // store temp time to calculate
+    property int vProdTime // production time
+    property int vBreakTime // breaks time
+    property string vAuxDate // to check if date change
 
 
     Component.onDestruction:
@@ -83,9 +89,15 @@ ApplicationWindow{
 
             if(lineStat.text!="PRODUKCJA")
             {
-                console.log("Produkcja ")
+                vBreakTime=vBreakTime+MyScripts.calculateTime(vAuxTime,vAuxDate)
+
+                console.log("Czas postojów "+vBreakTime)
+                vAuxTime=MyScripts.getCurrentTimeInSeconds()
+                vAuxDate=MyScripts.getDate()
                 lineStat.text="PRODUKCJA"
                 insertEvent("PRODUKCJA")
+
+
             }
         }
 
@@ -220,7 +232,7 @@ ApplicationWindow{
         var currentDate=getDate()
         var qry="insert into events values('"+currentDate+"','"+getCurrentTime()+"'"
         +",'"+eventName+"',"+init.hourCntr+","+init.shiftCounter+","+init.hrTargetText+","
-        +init.shTargetText+",'"+partNr.text+"','"+lineNr.text+"')";
+        +init.shTargetText+",'"+partNr.text+"','"+lineNr.text+"',"+MyScripts.getCurrentTimeInSeconds()+")";
 
         console.log("qry before insert "+qry);
 
@@ -231,9 +243,11 @@ ApplicationWindow{
     function writeAppSettings()
     {
         console.log("line Status "+lineStat.text)
+        var orderCntr=backend.getOrderCntr()
         backend.writeSettings(partNr.text,init.hrTargetText,init.shTargetText,
                               init.hourCntr,init.shiftCounter,lineStat.text,vpersQty,
-                              vpartQty,vtimeToProduce,vTargetPerHour)
+                              vpartQty,vtimeToProduce,vTargetPerHour,orderCntr,
+                              vOrderID,vAuxTime,vAuxDate,vProdTime,vBreakTime)
     }
 
     function setAppSettings()
@@ -246,6 +260,11 @@ ApplicationWindow{
         vpersQty=backend.getPersQty();
         vpartQty=backend.getPartQty()
         vtimeToProduce=backend.getTimeToProduce();
+        vOrderID=backend.getOrderID()
+        vAuxTime=backend.getAuxTime()
+        vProdTime=backend.getProdTime()
+        vBreakTime=backend.getBreakTime()
+        vAuxDate=backend.getAuxDate()
 
 
         partNr.text=backend.getPartNr();
@@ -327,6 +346,13 @@ ApplicationWindow{
                 setStatus("KONIEC ZLECENIA")
             }
 
+
+
+            vProdTime=vProdTime+MyScripts.calculateTime(vAuxTime,vAuxDate)
+            vAuxDate=MyScripts.getDate()
+            vAuxTime=MyScripts.getCurrentTimeInSeconds()
+            console.log("Czas Produkcji "+vProdTime)
+
             insertEvent(lineStat.text)
         }
     }
@@ -374,14 +400,26 @@ ApplicationWindow{
         onActivated:
         {
             partNr.text=partNo
-
+            MyScripts.updateProtokol()
 
             numOperators.text="osób: "+vpersQty
             orderQty.text=vpartQty+" szt."
             target.text=vTargetPerHour+" szt/h"
             calculateTimeToProduce()
             setTarget()
+            // setting orderCntr to zero
+            backend.setOrderCntr(0);
+
             insertEvent(partNo)
+
+            // ustawianie dodatkowych zmiennych do obliczania czasów na 0
+            vProdTime=0
+            vBreakTime=0
+            vAuxTime=MyScripts.getCurrentTimeInSeconds()
+            vAuxDate=MyScripts.getDate()
+
+            // insert new data to order
+            MyScripts.insertProtokol()
         }
 
 

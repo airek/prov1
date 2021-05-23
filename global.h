@@ -36,11 +36,17 @@ public:
     static QString mPartsQty;
     static QString mTimeToProduce;
     static uint mTargetPerH;
+    static uint mOrderCntr;
     static bool mServerStatus;
     static int mTargetInterval;
     static int mCntrInterval;
     static bool mBackendTimer;
     static bool isDebug;
+    static QString mOrderID;
+    static int mAuxTime;
+    static int mProdTime;
+    static int mBreakTime;
+    static QString mAuxDate;
 
     //
     QString dbError();
@@ -50,9 +56,10 @@ public:
     void setFileName(const QString &fileName);
     void readDataSettings();
     void getDeviceStatus();
-    void writeAppSettings(QString partnr,QString targetH,QString targetS,
-                          QString resH,QString resS,QString status,QString persQty,
-                          QString partsQty,QString ttProduce,QString targetPerH);
+    void writeAppSettings(QString partnr, QString targetH, QString targetS,
+                          QString resH, QString resS, QString status, QString persQty,
+                          QString partsQty, QString ttProduce, QString targetPerH, QString orderCntr,
+                          QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime);
 
     static bool execQuery(QString strQry);
     static QStringList returnCompressedResults(QString separator,QString strQry);

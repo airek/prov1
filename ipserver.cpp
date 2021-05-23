@@ -167,7 +167,7 @@ void IpServer::readData(QTcpSocket *socket)
     QByteArray resposnse;
     QByteArray array=socket->readAll();
     temp=array.toStdString().c_str();
-    qDebug()<<"Otrzymano "<<temp;
+    //qDebug()<<"Otrzymano "<<temp;
 
     if(temp==Global::mSignal)
     {

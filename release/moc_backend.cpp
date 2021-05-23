@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Backend_t {
-    QByteArrayData data[53];
-    char stringdata0[609];
+    QByteArrayData data[66];
+    char stringdata0[746];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -56,35 +56,48 @@ QT_MOC_LITERAL(20, 269, 6), // "portNr"
 QT_MOC_LITERAL(21, 276, 11), // "startServer"
 QT_MOC_LITERAL(22, 288, 12), // "getShiftCntr"
 QT_MOC_LITERAL(23, 301, 11), // "getHourCntr"
-QT_MOC_LITERAL(24, 313, 9), // "getTarget"
-QT_MOC_LITERAL(25, 323, 6), // "partNr"
-QT_MOC_LITERAL(26, 330, 6), // "status"
-QT_MOC_LITERAL(27, 337, 13), // "getTargetPerH"
-QT_MOC_LITERAL(28, 351, 13), // "getTargetPers"
-QT_MOC_LITERAL(29, 365, 10), // "getPartQty"
-QT_MOC_LITERAL(30, 376, 10), // "getPersQty"
-QT_MOC_LITERAL(31, 387, 16), // "getTimeToProduce"
-QT_MOC_LITERAL(32, 404, 9), // "setTarget"
-QT_MOC_LITERAL(33, 414, 13), // "targetPerHour"
-QT_MOC_LITERAL(34, 428, 13), // "getHourTarget"
-QT_MOC_LITERAL(35, 442, 7), // "execQry"
-QT_MOC_LITERAL(36, 450, 6), // "strQry"
-QT_MOC_LITERAL(37, 457, 13), // "writeSettings"
-QT_MOC_LITERAL(38, 471, 7), // "targetH"
-QT_MOC_LITERAL(39, 479, 7), // "targetS"
-QT_MOC_LITERAL(40, 487, 4), // "resH"
-QT_MOC_LITERAL(41, 492, 4), // "resS"
-QT_MOC_LITERAL(42, 497, 7), // "persQty"
-QT_MOC_LITERAL(43, 505, 7), // "partQty"
-QT_MOC_LITERAL(44, 513, 9), // "ttProduce"
-QT_MOC_LITERAL(45, 523, 10), // "targetPerH"
-QT_MOC_LITERAL(46, 534, 9), // "getPartNr"
-QT_MOC_LITERAL(47, 544, 9), // "getStatus"
-QT_MOC_LITERAL(48, 554, 7), // "getLine"
-QT_MOC_LITERAL(49, 562, 10), // "getDevName"
-QT_MOC_LITERAL(50, 573, 9), // "getIpAddr"
-QT_MOC_LITERAL(51, 583, 9), // "getPortNr"
-QT_MOC_LITERAL(52, 593, 15) // "getServerStatus"
+QT_MOC_LITERAL(24, 313, 12), // "getOrderCntr"
+QT_MOC_LITERAL(25, 326, 12), // "setOrderCntr"
+QT_MOC_LITERAL(26, 339, 9), // "orderCntr"
+QT_MOC_LITERAL(27, 349, 9), // "getTarget"
+QT_MOC_LITERAL(28, 359, 6), // "partNr"
+QT_MOC_LITERAL(29, 366, 6), // "status"
+QT_MOC_LITERAL(30, 373, 13), // "getTargetPerH"
+QT_MOC_LITERAL(31, 387, 13), // "getTargetPers"
+QT_MOC_LITERAL(32, 401, 10), // "getPartQty"
+QT_MOC_LITERAL(33, 412, 10), // "getPersQty"
+QT_MOC_LITERAL(34, 423, 16), // "getTimeToProduce"
+QT_MOC_LITERAL(35, 440, 9), // "setTarget"
+QT_MOC_LITERAL(36, 450, 13), // "targetPerHour"
+QT_MOC_LITERAL(37, 464, 13), // "getHourTarget"
+QT_MOC_LITERAL(38, 478, 7), // "execQry"
+QT_MOC_LITERAL(39, 486, 6), // "strQry"
+QT_MOC_LITERAL(40, 493, 13), // "writeSettings"
+QT_MOC_LITERAL(41, 507, 7), // "targetH"
+QT_MOC_LITERAL(42, 515, 7), // "targetS"
+QT_MOC_LITERAL(43, 523, 4), // "resH"
+QT_MOC_LITERAL(44, 528, 4), // "resS"
+QT_MOC_LITERAL(45, 533, 7), // "persQty"
+QT_MOC_LITERAL(46, 541, 7), // "partQty"
+QT_MOC_LITERAL(47, 549, 9), // "ttProduce"
+QT_MOC_LITERAL(48, 559, 10), // "targetPerH"
+QT_MOC_LITERAL(49, 570, 7), // "orderId"
+QT_MOC_LITERAL(50, 578, 7), // "auxTime"
+QT_MOC_LITERAL(51, 586, 7), // "auxDate"
+QT_MOC_LITERAL(52, 594, 8), // "prodTime"
+QT_MOC_LITERAL(53, 603, 9), // "breakTime"
+QT_MOC_LITERAL(54, 613, 9), // "getPartNr"
+QT_MOC_LITERAL(55, 623, 9), // "getStatus"
+QT_MOC_LITERAL(56, 633, 7), // "getLine"
+QT_MOC_LITERAL(57, 641, 10), // "getDevName"
+QT_MOC_LITERAL(58, 652, 9), // "getIpAddr"
+QT_MOC_LITERAL(59, 662, 9), // "getPortNr"
+QT_MOC_LITERAL(60, 672, 15), // "getServerStatus"
+QT_MOC_LITERAL(61, 688, 10), // "getOrderID"
+QT_MOC_LITERAL(62, 699, 10), // "getAuxTime"
+QT_MOC_LITERAL(63, 710, 10), // "getAuxDate"
+QT_MOC_LITERAL(64, 721, 11), // "getProdTime"
+QT_MOC_LITERAL(65, 733, 12) // "getBreakTime"
 
     },
     "Backend\0serverListening\0\0clientServerConnected\0"
@@ -95,14 +108,18 @@ QT_MOC_LITERAL(52, 593, 15) // "getServerStatus"
     "setCntrZero\0setTargetsZero\0checkIfsetZero\0"
     "listen\0serverName\0IPAddr\0portNr\0"
     "startServer\0getShiftCntr\0getHourCntr\0"
+    "getOrderCntr\0setOrderCntr\0orderCntr\0"
     "getTarget\0partNr\0status\0getTargetPerH\0"
     "getTargetPers\0getPartQty\0getPersQty\0"
     "getTimeToProduce\0setTarget\0targetPerHour\0"
     "getHourTarget\0execQry\0strQry\0writeSettings\0"
     "targetH\0targetS\0resH\0resS\0persQty\0"
-    "partQty\0ttProduce\0targetPerH\0getPartNr\0"
-    "getStatus\0getLine\0getDevName\0getIpAddr\0"
-    "getPortNr\0getServerStatus"
+    "partQty\0ttProduce\0targetPerH\0orderId\0"
+    "auxTime\0auxDate\0prodTime\0breakTime\0"
+    "getPartNr\0getStatus\0getLine\0getDevName\0"
+    "getIpAddr\0getPortNr\0getServerStatus\0"
+    "getOrderID\0getAuxTime\0getAuxDate\0"
+    "getProdTime\0getBreakTime"
 };
 #undef QT_MOC_LITERAL
 
@@ -112,7 +129,7 @@ static const uint qt_meta_data_Backend[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      36,   14, // methods
+      43,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -120,46 +137,53 @@ static const uint qt_meta_data_Backend[] = {
        7,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,  194,    2, 0x06 /* Public */,
-       3,    0,  195,    2, 0x06 /* Public */,
-       4,    0,  196,    2, 0x06 /* Public */,
-       5,    0,  197,    2, 0x06 /* Public */,
-       6,    0,  198,    2, 0x06 /* Public */,
-       7,    0,  199,    2, 0x06 /* Public */,
-       8,    0,  200,    2, 0x06 /* Public */,
+       1,    0,  229,    2, 0x06 /* Public */,
+       3,    0,  230,    2, 0x06 /* Public */,
+       4,    0,  231,    2, 0x06 /* Public */,
+       5,    0,  232,    2, 0x06 /* Public */,
+       6,    0,  233,    2, 0x06 /* Public */,
+       7,    0,  234,    2, 0x06 /* Public */,
+       8,    0,  235,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       9,    1,  201,    2, 0x0a /* Public */,
-      11,    1,  204,    2, 0x0a /* Public */,
-      12,    0,  207,    2, 0x0a /* Public */,
-      13,    0,  208,    2, 0x0a /* Public */,
-      14,    0,  209,    2, 0x0a /* Public */,
-      15,    0,  210,    2, 0x0a /* Public */,
-      16,    0,  211,    2, 0x0a /* Public */,
+       9,    1,  236,    2, 0x0a /* Public */,
+      11,    1,  239,    2, 0x0a /* Public */,
+      12,    0,  242,    2, 0x0a /* Public */,
+      13,    0,  243,    2, 0x0a /* Public */,
+      14,    0,  244,    2, 0x0a /* Public */,
+      15,    0,  245,    2, 0x0a /* Public */,
+      16,    0,  246,    2, 0x0a /* Public */,
 
  // methods: name, argc, parameters, tag, flags
-      17,    3,  212,    2, 0x02 /* Public */,
-      21,    0,  219,    2, 0x02 /* Public */,
-      22,    0,  220,    2, 0x02 /* Public */,
-      23,    0,  221,    2, 0x02 /* Public */,
-      24,    1,  222,    2, 0x02 /* Public */,
-      26,    1,  225,    2, 0x02 /* Public */,
-      27,    0,  228,    2, 0x02 /* Public */,
-      28,    0,  229,    2, 0x02 /* Public */,
-      29,    0,  230,    2, 0x02 /* Public */,
-      30,    0,  231,    2, 0x02 /* Public */,
-      31,    0,  232,    2, 0x02 /* Public */,
-      32,    1,  233,    2, 0x02 /* Public */,
-      34,    0,  236,    2, 0x02 /* Public */,
-      35,    1,  237,    2, 0x02 /* Public */,
-      37,   10,  240,    2, 0x02 /* Public */,
-      46,    0,  261,    2, 0x02 /* Public */,
-      47,    0,  262,    2, 0x02 /* Public */,
-      48,    0,  263,    2, 0x02 /* Public */,
-      49,    0,  264,    2, 0x02 /* Public */,
-      50,    0,  265,    2, 0x02 /* Public */,
-      51,    0,  266,    2, 0x02 /* Public */,
-      52,    0,  267,    2, 0x02 /* Public */,
+      17,    3,  247,    2, 0x02 /* Public */,
+      21,    0,  254,    2, 0x02 /* Public */,
+      22,    0,  255,    2, 0x02 /* Public */,
+      23,    0,  256,    2, 0x02 /* Public */,
+      24,    0,  257,    2, 0x02 /* Public */,
+      25,    1,  258,    2, 0x02 /* Public */,
+      27,    1,  261,    2, 0x02 /* Public */,
+      29,    1,  264,    2, 0x02 /* Public */,
+      30,    0,  267,    2, 0x02 /* Public */,
+      31,    0,  268,    2, 0x02 /* Public */,
+      32,    0,  269,    2, 0x02 /* Public */,
+      33,    0,  270,    2, 0x02 /* Public */,
+      34,    0,  271,    2, 0x02 /* Public */,
+      35,    1,  272,    2, 0x02 /* Public */,
+      37,    0,  275,    2, 0x02 /* Public */,
+      38,    1,  276,    2, 0x02 /* Public */,
+      40,   16,  279,    2, 0x02 /* Public */,
+      54,    0,  312,    2, 0x02 /* Public */,
+      55,    0,  313,    2, 0x02 /* Public */,
+      56,    0,  314,    2, 0x02 /* Public */,
+      57,    0,  315,    2, 0x02 /* Public */,
+      58,    0,  316,    2, 0x02 /* Public */,
+      59,    0,  317,    2, 0x02 /* Public */,
+      60,    0,  318,    2, 0x02 /* Public */,
+      61,    0,  319,    2, 0x02 /* Public */,
+      62,    0,  320,    2, 0x02 /* Public */,
+      63,    0,  321,    2, 0x02 /* Public */,
+      64,    0,  322,    2, 0x02 /* Public */,
+      65,    0,  323,    2, 0x02 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -184,17 +208,19 @@ static const uint qt_meta_data_Backend[] = {
     QMetaType::Void,
     QMetaType::UInt,
     QMetaType::UInt,
-    QMetaType::QString, QMetaType::QString,   25,
-    QMetaType::Void, QMetaType::QString,   26,
+    QMetaType::UInt,
+    QMetaType::Void, QMetaType::UInt,   26,
+    QMetaType::QString, QMetaType::QString,   28,
+    QMetaType::Void, QMetaType::QString,   29,
     QMetaType::UInt,
     QMetaType::UInt,
     QMetaType::QString,
     QMetaType::QString,
     QMetaType::QString,
-    QMetaType::Void, QMetaType::UInt,   33,
+    QMetaType::Void, QMetaType::UInt,   36,
     QMetaType::UInt,
-    QMetaType::Bool, QMetaType::QString,   36,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,   25,   38,   39,   40,   41,   26,   42,   43,   44,   45,
+    QMetaType::Bool, QMetaType::QString,   39,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,   28,   41,   42,   43,   44,   29,   45,   46,   47,   48,   26,   49,   50,   51,   52,   53,
     QMetaType::QString,
     QMetaType::QString,
     QMetaType::QString,
@@ -202,6 +228,11 @@ static const uint qt_meta_data_Backend[] = {
     QMetaType::QString,
     QMetaType::QString,
     QMetaType::Bool,
+    QMetaType::QString,
+    QMetaType::Int,
+    QMetaType::QString,
+    QMetaType::Int,
+    QMetaType::Int,
 
        0        // eod
 };
@@ -233,39 +264,52 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
             if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = std::move(_r); }  break;
         case 17: { uint _r = _t->getHourCntr();
             if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = std::move(_r); }  break;
-        case 18: { QString _r = _t->getTarget((*reinterpret_cast< QString(*)>(_a[1])));
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 19: _t->status((*reinterpret_cast< QString(*)>(_a[1]))); break;
-        case 20: { uint _r = _t->getTargetPerH();
+        case 18: { uint _r = _t->getOrderCntr();
             if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = std::move(_r); }  break;
-        case 21: { uint _r = _t->getTargetPers();
+        case 19: _t->setOrderCntr((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 20: { QString _r = _t->getTarget((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 21: _t->status((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 22: { uint _r = _t->getTargetPerH();
             if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = std::move(_r); }  break;
-        case 22: { QString _r = _t->getPartQty();
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 23: { QString _r = _t->getPersQty();
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 24: { QString _r = _t->getTimeToProduce();
-            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 25: _t->setTarget((*reinterpret_cast< uint(*)>(_a[1]))); break;
-        case 26: { uint _r = _t->getHourTarget();
+        case 23: { uint _r = _t->getTargetPers();
             if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = std::move(_r); }  break;
-        case 27: { bool _r = _t->execQry((*reinterpret_cast< QString(*)>(_a[1])));
+        case 24: { QString _r = _t->getPartQty();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 25: { QString _r = _t->getPersQty();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 26: { QString _r = _t->getTimeToProduce();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 27: _t->setTarget((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 28: { uint _r = _t->getHourTarget();
+            if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = std::move(_r); }  break;
+        case 29: { bool _r = _t->execQry((*reinterpret_cast< QString(*)>(_a[1])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 28: _t->writeSettings((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< QString(*)>(_a[8])),(*reinterpret_cast< QString(*)>(_a[9])),(*reinterpret_cast< QString(*)>(_a[10]))); break;
-        case 29: { QString _r = _t->getPartNr();
+        case 30: _t->writeSettings((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< QString(*)>(_a[8])),(*reinterpret_cast< QString(*)>(_a[9])),(*reinterpret_cast< QString(*)>(_a[10])),(*reinterpret_cast< QString(*)>(_a[11])),(*reinterpret_cast< QString(*)>(_a[12])),(*reinterpret_cast< QString(*)>(_a[13])),(*reinterpret_cast< QString(*)>(_a[14])),(*reinterpret_cast< QString(*)>(_a[15])),(*reinterpret_cast< QString(*)>(_a[16]))); break;
+        case 31: { QString _r = _t->getPartNr();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 30: { QString _r = _t->getStatus();
+        case 32: { QString _r = _t->getStatus();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 31: { QString _r = _t->getLine();
+        case 33: { QString _r = _t->getLine();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 32: { QString _r = _t->getDevName();
+        case 34: { QString _r = _t->getDevName();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 33: { QString _r = _t->getIpAddr();
+        case 35: { QString _r = _t->getIpAddr();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 34: { QString _r = _t->getPortNr();
+        case 36: { QString _r = _t->getPortNr();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 35: { bool _r = _t->getServerStatus();
+        case 37: { bool _r = _t->getServerStatus();
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 38: { QString _r = _t->getOrderID();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 39: { int _r = _t->getAuxTime();
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
+        case 40: { QString _r = _t->getAuxDate();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 41: { int _r = _t->getProdTime();
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
+        case 42: { int _r = _t->getBreakTime();
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -351,13 +395,13 @@ int Backend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 36)
+        if (_id < 43)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 36;
+        _id -= 43;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 36)
+        if (_id < 43)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 36;
+        _id -= 43;
     }
     return _id;
 }

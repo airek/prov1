@@ -16,6 +16,10 @@ public:
     void setHourCounter(const uint &hourCounter);
     void setShiftCounter(const uint &shiftCounter);
 
+
+    uint orderCounter() const;
+    void setOrderCounter(const uint &orderCounter);
+
 signals:
     void countersIncreasd();
     void countersInZero();
@@ -27,6 +31,7 @@ private:
     uint mAuxCounter;
     uint mHourCounter;
     uint mShiftCounter;
+    uint mOrderCounter;
     QTimer *timer;
 
     void readCounterVal();

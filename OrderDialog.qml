@@ -164,6 +164,8 @@ ApplicationWindow {
         // calculating hourTarget
         shiftTargetVE=data[0]
         shiftTarget=shiftTargetVE*packaging
+        // setting orderQty
+        spnQty.value=shiftTarget
         //console.log("shiftTarget VE "+shiftTargetVE+" packaging "+packaging+"shiftTarget "+shiftTarget)
         lblShiftTarget.text="Cel na zmianę "+shiftTarget+" szt."
 
@@ -259,6 +261,7 @@ ApplicationWindow {
         console.log("shiftTarget "+shiftTargetVE)
 
         shiftTarget=shiftTargetVE*packaging
+        spnQty.value=shiftTarget
 
         lblShiftTarget.text="Cel na zmianę "+shiftTarget+" szt."
 

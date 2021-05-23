@@ -40,6 +40,15 @@ QString Global::mPartsQty;
 QString Global::mPersQty;
 QString Global::mTimeToProduce;
 uint Global::mTargetPerH;
+uint Global::mOrderCntr;
+QString Global::mOrderID;
+int Global::mAuxTime;
+QString Global::mAuxDate;
+int Global::mProdTime;
+int Global::mBreakTime;
+
+
+
 
 Global::Global()
 {
@@ -138,6 +147,14 @@ void Global::readSettings()
     mPartsQty=settings.value("qtyToProduce").toString();
     mTimeToProduce=settings.value("timeToProduce").toString();
     mTargetPerH=settings.value("targetPerH").toUInt();
+    mOrderCntr=settings.value("orderCntr").toUInt();
+    mOrderID=settings.value("orderId").toString();
+    mAuxTime=settings.value("auxTime").toInt();
+    mAuxDate=settings.value("auxDate").toString();
+    mProdTime=settings.value("prodTime").toInt();
+    mBreakTime=settings.value("breakTime").toInt();
+
+
 
     settings.endGroup();
 
@@ -259,7 +276,9 @@ void Global::getDeviceStatus()
  * \param status
  */
 void Global::writeAppSettings(QString partnr, QString targetH,
-                              QString targetS, QString resH, QString resS, QString status, QString persQty, QString partsQty, QString ttProduce, QString targetPerH)
+                              QString targetS, QString resH, QString resS, QString status,
+                              QString persQty, QString partsQty, QString ttProduce, QString targetPerH, QString orderCntr,
+                              QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime)
 {
 
     QSettings settings("sopp.ini",QSettings::IniFormat);
@@ -276,7 +295,12 @@ void Global::writeAppSettings(QString partnr, QString targetH,
     settings.setValue("qtyToProduce",partsQty);
     settings.setValue("timeToProduce",ttProduce);
     settings.setValue("targetPerH",targetPerH);
-
+    settings.setValue("orderCntr",orderCntr);
+    settings.setValue("orderId",orderId);
+    settings.setValue("auxTime",auxTime);
+    settings.setValue("auxDate",auxDate);
+    settings.setValue("prodTime",prodTime);
+    settings.setValue("breakTime",breakTime);
 
     settings.endGroup();
 

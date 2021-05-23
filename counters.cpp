@@ -24,6 +24,7 @@ void Counters::increaseCounter()
     //mAuxCounter+=1;
     mHourCounter+=1;
     mShiftCounter+=1;
+    mOrderCounter+=1;
     emit countersIncreasd();
 }
 /*!
@@ -59,6 +60,16 @@ void Counters::checkIfReset()
 
 
 
+}
+
+uint Counters::orderCounter() const
+{
+    return mOrderCounter;
+}
+
+void Counters::setOrderCounter(const uint &orderCounter)
+{
+    mOrderCounter = orderCounter;
 }
 
 void Counters::setShiftCounter(const uint &shiftCounter)

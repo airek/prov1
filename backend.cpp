@@ -10,7 +10,7 @@ Backend::Backend(QObject *parent) : QObject(parent)
 
     cntr->setHourCounter(Global::mResH.toUInt());
     cntr->setShiftCounter(Global::mResS.toUInt());
-
+    cntr->setOrderCounter(Global::mOrderCntr);
 
     target=new Target;
 
@@ -102,6 +102,16 @@ uint Backend::getShiftCntr()
 uint Backend::getHourCntr()
 {
     return  cntr->hourCounter();
+}
+
+uint Backend::getOrderCntr()
+{
+    return cntr->orderCounter();
+}
+
+void Backend::setOrderCntr(uint orderCntr)
+{
+    cntr->setOrderCounter(orderCntr);
 }
 /*!
  * \brief Backend::getTarget
@@ -219,11 +229,13 @@ bool Backend::execQry(QString strQry)
 
 void Backend::writeSettings(QString partNr,QString targetH,QString targetS,
                             QString resH,QString resS,QString status,QString persQty,
-                            QString partQty,QString ttProduce,QString targetPerH)
+                            QString partQty,QString ttProduce,QString targetPerH,QString orderCntr,
+                            QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime)
 {
     Global global;
     global.writeAppSettings(partNr,targetH,targetS,resH,resS,
-                            status,persQty,partQty,ttProduce,targetPerH);
+                            status,persQty,partQty,ttProduce,targetPerH,orderCntr,
+                            orderId,auxTime,auxDate,prodTime,breakTime);
 }
 
 QString Backend::getPartNr()
@@ -259,6 +271,31 @@ QString Backend::getPortNr()
 bool Backend::getServerStatus()
 {
     return Global::mServerStatus;
+}
+
+QString Backend::getOrderID()
+{
+    return Global::mOrderID;
+}
+
+int Backend::getAuxTime()
+{
+    return Global::mAuxTime;
+}
+
+QString Backend::getAuxDate()
+{
+    return Global::mAuxDate;
+}
+
+int Backend::getProdTime()
+{
+    return Global::mProdTime;
+}
+
+int Backend::getBreakTime()
+{
+    return Global::mBreakTime;
 }
 
 

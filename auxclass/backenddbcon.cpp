@@ -112,3 +112,11 @@ QStringList BackendDbCon::getDbData(QString separator, QString sqry)
 {
     return Global::returnCompressedResults(separator,sqry);
 }
+
+void BackendDbCon::writeNID(QString data)
+{
+    Global global;
+
+    global.setFileName("ni.log");
+    global.writeLog(data);
+}
