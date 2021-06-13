@@ -56,6 +56,8 @@ public:
     Q_INVOKABLE QString getAuxDate();
     Q_INVOKABLE int getProdTime();
     Q_INVOKABLE int getBreakTime();
+    Q_INVOKABLE bool isDbConnected();
+    Q_INVOKABLE bool connectToDB();
 
     /*settings.setValue("orderId",orderId);
     settings.setValue("auxTime",auxTime);

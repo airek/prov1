@@ -49,7 +49,6 @@ int Global::mBreakTime;
 
 
 
-
 Global::Global()
 {
     readSettings();

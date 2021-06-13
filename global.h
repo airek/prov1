@@ -50,7 +50,7 @@ public:
 
     //
     QString dbError();
-    bool isDbConnected();
+    static bool isDbConnected();
     void writeLog(QString msg);
     QString fileName() const;
     void setFileName(const QString &fileName);

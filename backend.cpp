@@ -298,6 +298,40 @@ int Backend::getBreakTime()
     return Global::mBreakTime;
 }
 
+bool Backend::isDbConnected()
+{
+
+    bool isConn;
+
+    if(!Global::isDbConnected())
+    {
+        isConn=false;
+    }else
+    {
+        isConn=true;
+    }
+
+    return isConn;
+}
+/*!
+ * \brief Backend::connectToDB
+ * \return
+ */
+bool Backend::connectToDB()
+{
+   Global global;
+   bool isConn;
+
+   if(global.connectToDb())
+       isConn=true;
+   else
+       isConn=false;
+
+
+   return isConn;
+
+}
+
 
 
 /*!

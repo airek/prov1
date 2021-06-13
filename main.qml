@@ -23,6 +23,8 @@ ApplicationWindow{
     property int vpersQty
     property int vpartQty
     property int vTargetPerHour
+    property string previousPartNr
+
     // dodać do ini
     property string vOrderID
     property int vAuxTime // store temp time to calculate
@@ -89,11 +91,16 @@ ApplicationWindow{
 
             if(lineStat.text!="PRODUKCJA")
             {
-                vBreakTime=vBreakTime+MyScripts.calculateTime(vAuxTime,vAuxDate)
+                if(lineStat.text==="KONIEC ZLECENIA")
+                {
+                    MyScripts.insertProtokol();
+                }
 
+                vBreakTime=vBreakTime+MyScripts.calculateTime(vAuxTime,vAuxDate)
                 console.log("Czas postojów "+vBreakTime)
                 vAuxTime=MyScripts.getCurrentTimeInSeconds()
                 vAuxDate=MyScripts.getDate()
+
                 lineStat.text="PRODUKCJA"
                 insertEvent("PRODUKCJA")
 
@@ -120,6 +127,8 @@ ApplicationWindow{
                 lineStat.text="KONIEC ZLECENIA"
                 setStatus("KONIEC ZLECENIA")
                 insertEvent("KONIEC ZLECENIA");
+                MyScripts.updateProtokol()
+                //MyScripts.setEndOfShift()
 
             }
 
@@ -236,7 +245,15 @@ ApplicationWindow{
 
         console.log("qry before insert "+qry);
 
-        backend.execQry(qry);
+        if(backend.isDbConnected())
+            backend.execQry(qry);
+        else
+        {
+            if(backend.connectToDB())
+                backend.execQry(qry)
+            else
+                backendDbCon.writeNID(qry)
+        }
 
     }
 
@@ -408,10 +425,8 @@ ApplicationWindow{
             calculateTimeToProduce()
             setTarget()
             // setting orderCntr to zero
-            backend.setOrderCntr(0);
-
+            backend.setOrderCntr(0)
             insertEvent(partNo)
-
             // ustawianie dodatkowych zmiennych do obliczania czasów na 0
             vProdTime=0
             vBreakTime=0
@@ -420,7 +435,24 @@ ApplicationWindow{
 
             // insert new data to order
             MyScripts.insertProtokol()
+            // opening chekList
+            chkList.actPartNr=partNo
+            chkList.prevPartNr=previousPartNr
+            var dtD=MyScripts.createDTString()
+            var shfNr=MyScripts.getShift()
+            var dtStr=dtD+"/"+shfNr+"/"+lineNr.text
+            chkList.dtString=dtStr
+            chkList.show()
         }
+
+
+    }
+    CheckLista
+    {
+
+        id:chkList
+        width: appWindow.width-20
+        height: appWindow.height-10
 
 
     }
@@ -672,6 +704,25 @@ ApplicationWindow{
 
 
                 }
+                // temp
+               /* RoundButton
+                {
+                   id:test
+                   width: 40
+                   height: 40
+                   radius: 30
+                   Material.background: Material.Brown
+
+                   onClicked:
+                   {
+                       //chkList.getQuestions()
+                       MyScripts.getShift()
+                       chkList.show()
+
+                   }
+
+
+                }*/
 
                 RoundButton
                 {
@@ -702,7 +753,8 @@ ApplicationWindow{
                     {
                         //dlgPartNon.open()
                         //dlgPartN.open()
-                        orderD.resetSett()
+                        //orderD.resetSett()
+                        previousPartNr=partNr.text
                         orderD.show()
                     }
 

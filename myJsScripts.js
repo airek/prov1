@@ -148,8 +148,18 @@ function insertProtokol()
     +","+targetTact+")"
 
     console.log("sql Qry "+sqlQry)
-
-    backendDbCon.execQry(sqlQry)
+    if(backend.isDbConnected())
+        backendDbCon.execQry(sqlQry)
+    else
+    {
+        if(backend.connectToDB())
+        {
+            backendDbCon.execQry(sqlQry)
+        }else
+        {
+            backendDbCon.writeNID(sqlQry)
+        }
+    }
 
 }
 
@@ -158,7 +168,18 @@ function calculateTime(auxTime,auxDate)
 {
 
     var currT=getCurrentTimeInSeconds()
-    var ttime=currT-auxTime
+    var ttime
+    //if date different on the third shift
+    if(auxDate!==getDate())
+    {
+        ttime=86400-auxTime
+        ttime=ttime+currT
+
+    }else
+    {
+        ttime=currT-auxTime
+    }
+
 
 
     return ttime
@@ -182,10 +203,24 @@ function updateProtokol()
 
     console.log("strQry before update "+strQry)
 
-    if(!backendDbCon.execQry(strQry))
+
+    if(backend.isDbConnected())
+        backendDbCon.execQry(strQry)
+    else
+    {
+        if(backend.connectToDB())
+        {
+            backendDbCon.execQry(strQry)
+        }else
+        {
+            backendDbCon.writeNID(strQry)
+        }
+    }
+
+    /*if(!backendDbCon.execQry(strQry))
     {
         backendDbCon.writeNID(strQry)
-    }
+    }*/
 
 }
 // calculate real tact
@@ -219,4 +254,60 @@ function calculateProductivity(rTact)
     console.log("productivity "+productivity)
 
     return productivity
+}
+// setting end of shift
+function setEndOfShift()
+{
+    numOperators.text=""
+    partNr.text=""
+    orderQty.text=""
+    timeElapsed.text=""
+    target.text=""
+}
+// defining shift
+function getShift()
+{
+    var today=new Date()
+    var hour=today.getHours()+1
+    var shiftNr=4
+    console.log("act godzina "+hour)
+    if(hour>=6 && hour<14)
+        shiftNr=1
+    else if(hour>=14 && hour <22)
+    {
+        shiftNr=2
+    }else
+    {
+        shiftNr=3
+    }
+
+    return shiftNr
+}
+// creating string for checkList
+function createDTString()
+{
+    var dDate=new Date()
+    var dtString
+
+
+    var dd = dDate.getDate();
+    if(dd<10)
+    {
+        dd='0'+dd;
+    }
+
+    var mm = dDate.getMonth()+1;
+
+    if(mm<10)
+    {
+        mm='0'+mm;
+    }
+
+    var yy=dDate.getFullYear()
+
+
+    dtString=yy+"."+mm+"."+dd
+
+
+    return dtString
 }

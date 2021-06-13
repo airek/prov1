@@ -81,8 +81,14 @@ int main(int argc, char *argv[])
 
     }else
     {
+        QMessageBox msgBox;
+        msgBox.setIcon(QMessageBox::Warning);
+        msgBox.setText("Brak połączenia z DB .\n"
+                       "Sprawdź połączenie z Bazą danych");
+        msgBox.exec();
         global.writeLog("nie połączono z bazdą danych błąd "+global.dbError());
-        qDebug()<<"Nie połączono z db raportowany błąd "<<global.dbError();
+        //qDebug()<<"Nie połączono z db raportowany błąd "<<global.dbError();
+        return 0;
     }
 
     qmlRegisterType<Backend>("com.Backend", 1, 0, "Backend");
