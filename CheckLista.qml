@@ -4,6 +4,7 @@ import QtQuick.Layouts 1.2
 import QtQuick.Controls.Material 2.2
 import com.SqlQryModel 1.0
 import "myJsScripts.js" as MyScripts
+import com.BackendDbCon 1.0
 
 ApplicationWindow {
 
@@ -33,12 +34,106 @@ ApplicationWindow {
 
     }
 
+    BackendCon
+    {
+        id:backendDbCon
+    }
+
     function getQuestions()
     {
         var qry
         qry="Select id,question from checkListM order by id"
         console.log(qry)
         qryModel.setQuery(qry)
+    }
+
+    // insert
+    function insertToCheckLog()
+    {
+        var logId,question,checkDate,checkTime
+        var workerId,shiftNr
+        var opt1,opt2,opt3
+        var strQry
+
+        var i
+
+        opt1=0
+        opt2=0
+        opt3=0
+        workerId=txtWorkerId.text
+        console.log("worker Id "+workerId)
+        //logId=MyScripts.getCurrentTimeInSeconds()+dtString
+        checkDate=MyScripts.getDate()
+        checkTime=MyScripts.getLocalTime()
+        //workerId="3885"
+        shiftNr=MyScripts.getShift()
+
+        if(mSRadB1.checked===true)
+            opt1=1
+        else if(mSRadB2===true)
+            opt2=1
+        else
+            opt3=1
+
+        console.log("logId "+logId)
+
+        strQry="insert into checkListLog (partNr,prevPartNr,dtString,question,"
+        +"opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values"
+        +"('"+actPartNr+"','"+prevPartNr+"','"+dtString+"','check Lista' "
+        +","+opt1+","+opt2+","+opt3+",'"+checkDate+"','"+checkTime+"','"+workerId+"',"
+        +shiftNr+")"
+
+        //console.log("qry "+strQry)
+
+        if(backend.isDbConnected())
+            backend.execQry(strQry);
+        else
+        {
+            if(backend.connectToDB())
+                backend.execQry(qry)
+            else
+                backendDbCon.writeNID(strQry)
+        }
+
+
+        opt1=1
+        opt2=0
+        opt3=0
+
+        for(i = 0; i < qryModel.rowCount(); ++i) {
+
+            question=qryModel.data(qryModel.index(i,1))
+
+            strQry="insert into checkListLog (partNr,prevPartNr,dtString,question,"
+            +"opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values "
+            +"('"+actPartNr+"','"+prevPartNr+"','"+dtString+"','"+question+"' "
+            +","+opt1+","+opt2+","+opt3+",'"+checkDate+"','"+checkTime+"','"+workerId+"',"
+            +shiftNr+")"
+
+
+            if(backend.isDbConnected())
+                backend.execQry(strQry);
+            else
+            {
+                if(backend.connectToDB())
+                    backend.execQry(qry)
+                else
+                    backendDbCon.writeNID(strQry)
+            }
+
+        }
+
+        /*for(var child in qLst.contentItem.children) {
+            var c = qLst.contentItem.children[child].item;
+            if(typeof c !== "undefined")
+                 console.log(c.answer)
+            else
+            {
+                console.log("undefined")
+            }
+        }*/
+
+
     }
 
     Rectangle
@@ -186,6 +281,7 @@ ApplicationWindow {
 
 
                 delegate: Item {
+
                     x: 5
                     width: parent.width
                     height: 60
@@ -227,128 +323,46 @@ ApplicationWindow {
 
             }
         }
+        TextField
+        {
+            id:txtWorkerId
+
+            anchors
+            {
+                top: scrollV.bottom
+                horizontalCenter: mainRect.horizontalCenter
+                //left:searchButton.left
+                topMargin:10
+            }
+
+
+            placeholderText: "Numer osoby zatwierdzającej  "
+            horizontalAlignment: Text.AlignHCenter
+            width: parent.width/2
+
+
+        }
 
         Button
         {
             id:btSubmit
             anchors
             {
-                top:scrollV.bottom
+                top:txtWorkerId.bottom
                 horizontalCenter:mainRect.horizontalCenter
             }
             text:qsTr("Zatwierdź")
+
+            onClicked:
+            {
+                insertToCheckLog()
+                close()
+            }
         }
 
 
     }
 
-
-
-    /*ScrollView {
-        id: scrollView
-        anchors.fill: parent
-        anchors.rightMargin: 10
-        anchors.leftMargin: 10
-        anchors.bottomMargin: 10
-        anchors.topMargin: 10
-
-        ColumnLayout
-        {
-            id:mColumn
-            spacing: 20
-            anchors.fill: parent
-
-            // main Label
-
-            Label {
-                id: lblCheckLista
-                text: qsTr("Check Lista Zmiana Artykułu")
-                horizontalAlignment: Text.AlignHCenter
-                verticalAlignment: Text.AlignVCenter
-                Layout.fillHeight: false
-                Layout.fillWidth: false
-                Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
-                font.pointSize: checkList.width*0.02
-            }
-
-
-            Row
-            {
-                id:mSenR
-                spacing: 20
-
-                Label {
-                    id: lblArt
-                    text: qsTr("Artykuł:")
-                    Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
-                    font.pointSize: 16
-                }
-
-                Label {
-                    id: lblPartNr
-                    text: qsTr("96427")
-                    font.pointSize: 16
-                }
-
-                Label {
-                    id: lblPreviousA
-                    text: qsTr("Poprzedni artykuł:")
-                    font.pointSize: 16
-                }
-
-                Label {
-                    id: lblPreviousArt
-                    text: qsTr("96245")
-                    font.pointSize: 16
-                }
-
-                Label {
-                    id: lblDate
-                    text: qsTr("2021-06-10")
-
-                    font.pointSize: 16
-                }
-
-                Label {
-                    id: lblShift
-                    text: qsTr("2")
-                    font.pointSize: 16
-                }
-
-                Label {
-                    id: lblLine
-                    text: qsTr("10245-13")
-
-                    wrapMode: Text.WordWrap
-                    font.pointSize: 16
-                }
-
-                RadioButton {
-                    id: radioButton
-                    text: qsTr("Ze zmianą produktu")
-                    font.pointSize: 12
-                }
-
-                RadioButton {
-                    id: radioButton1
-                    text: qsTr("tylko zmiana opakowań")
-                    font.pointSize: 12
-
-                }
-
-                RadioButton {
-                    id: radioButton2
-                    text: qsTr("Nie dotyczy")
-                    font.pointSize: 12
-                }
-
-
-            }
-        }
-
-
-
-    }*/
 
 
 }

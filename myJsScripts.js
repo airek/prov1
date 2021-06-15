@@ -311,3 +311,8 @@ function createDTString()
 
     return dtString
 }
+
+function getLocalTime()
+{
+   return new Date().toLocaleTimeString()
+}

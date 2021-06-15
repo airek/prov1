@@ -391,8 +391,11 @@ ApplicationWindow {
 
         }
 
+
+
         ListView {
             id: machineLst
+
             width: parent.width/2
             height: parent.height/6
             anchors.top: txtFPartNr.bottom
@@ -409,7 +412,7 @@ ApplicationWindow {
 
                 Row {
                     id: row1
-                    spacing: 50
+                    spacing: 20
                     Text
                     {
                         id:machine
@@ -498,6 +501,7 @@ ApplicationWindow {
                     colorCode: "green"
                 }
             }*/
+
         }
 
         CheckBox {
