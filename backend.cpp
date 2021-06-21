@@ -85,7 +85,9 @@ void Backend::startServer()
    {
        temp=devList.at(0);
        qDebug()<<temp;
+
        tempList=temp.split("@");
+       writeLog("Ip addr "+tempList.at(0)+" portNr "+tempList.at(1));
        if(startListening(tempList.at(0),tempList.at(1).toInt()))
        {
            emit serverListening();
@@ -230,12 +232,13 @@ bool Backend::execQry(QString strQry)
 void Backend::writeSettings(QString partNr,QString targetH,QString targetS,
                             QString resH,QString resS,QString status,QString persQty,
                             QString partQty,QString ttProduce,QString targetPerH,QString orderCntr,
-                            QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime)
+                            QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime,
+                            QString team)
 {
     Global global;
     global.writeAppSettings(partNr,targetH,targetS,resH,resS,
                             status,persQty,partQty,ttProduce,targetPerH,orderCntr,
-                            orderId,auxTime,auxDate,prodTime,breakTime);
+                            orderId,auxTime,auxDate,prodTime,breakTime,team);
 }
 
 QString Backend::getPartNr()
@@ -273,6 +276,11 @@ bool Backend::getServerStatus()
     return Global::mServerStatus;
 }
 
+int Backend::getCheckList()
+{
+    return Global::mCheckList;
+}
+
 QString Backend::getOrderID()
 {
     return Global::mOrderID;
@@ -296,6 +304,11 @@ int Backend::getProdTime()
 int Backend::getBreakTime()
 {
     return Global::mBreakTime;
+}
+
+QString Backend::getTeam()
+{
+    return Global::mTeam;
 }
 
 bool Backend::isDbConnected()
@@ -493,6 +506,8 @@ bool Backend::startListening(QString ipA, int portNr)
 {
     QString strQry;
     QString temp;
+    Global global;
+    global.getDeviceStatus();
     mServer=new IpServer;
     dbInterface dbi(Global::mDbConnection);
     connect(mServer,SIGNAL(clientConnected(QString)),
@@ -508,7 +523,7 @@ bool Backend::startListening(QString ipA, int portNr)
         strQry="update lineCom set conStatus=1 where ipAddr='"+ipA+"'"
                 " and line='"+Global::mLine+"'";
 
-        qDebug()<<strQry;
+        //qDebug()<<strQry;
         if(!dbi.execQuery(strQry))
             writeLog("Server linii "+Global::mLine+"na IP "+ipA+" nasłuchuje");
         else

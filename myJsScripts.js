@@ -142,12 +142,14 @@ function insertProtokol()
    var loginDate=getDate()
    var timeInSec=getCurrentTimeInSeconds()
    var targetTact=calculateTargetTact()
+   var shiftNr=getShift()
+   var team=orderD.vTeam
 
-   var sqlQry="insert into protokol (id,line,partNr,persQty,loginDate,loginTime,targetTact)"
+   var sqlQry="insert into protokol (id,line,partNr,persQty,loginDate,loginTime,targetTact,shiftNr,team)"
     +"values('"+vOrderID+"','"+line+"','"+partNumbr+"',"+persQty+",'"+loginDate+"',"+timeInSec
-    +","+targetTact+")"
+    +","+targetTact+","+shiftNr+",'"+team+"')"
 
-    console.log("sql Qry "+sqlQry)
+    console.log("--protokol sql Qry "+sqlQry)
     if(backend.isDbConnected())
         backendDbCon.execQry(sqlQry)
     else
@@ -240,6 +242,7 @@ function calculateProductivity(rTact)
 {
     var res
     var strQry="select targetTact from protokol where id='"+vOrderID+"'"
+    console.log("strQry "+strQry)
     res=backendDbCon.getDbData(",",strQry);
 
     var ts=res[0]

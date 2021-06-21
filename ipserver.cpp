@@ -171,7 +171,7 @@ void IpServer::readData(QTcpSocket *socket)
 
     if(temp==Global::mSignal)
     {
-        if(Global::mAckSignal==true)
+        if(Global::mAckSignal==1)
             socket->write(resposnse.append(char(6)));
 
         emit partOK();

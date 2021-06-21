@@ -5,7 +5,7 @@ import QtQuick.Controls.Material 2.2
 import com.SqlQryModel 1.0
 import com.BackendDbCon 1.0
 import "myJsScripts.js" as MyScripts
-
+import QtQuick.Dialogs 1.3
 
 ApplicationWindow {
 
@@ -23,6 +23,7 @@ ApplicationWindow {
     property int packaging
     property double shiftFact
     property string ttProduce
+    property string vTeam
 
     Material.theme: Material.System
     Material.foreground: Material.Indigo
@@ -79,6 +80,15 @@ ApplicationWindow {
     BackendCon
     {
         id:backendDbCon
+    }
+
+    //Message Dialog
+
+    MessageDialog
+    {
+        id:msgDialog
+        title:"Wybierz drużynę"
+        text: "Wybierz drużynę, która pracuje przy produkcji "
     }
 
     //javascript
@@ -303,6 +313,22 @@ ApplicationWindow {
 
     }
 
+    // filling model
+
+    function getTeams()
+    {
+        var strQry
+        var teams=[]
+
+        strQry="Select teamN from teams"
+        teams=backendDbCon.getDbData("",strQry)
+        teams.unshift("--wybierz--")
+
+
+        return teams
+    }
+
+
     // header
     header:ToolBar
     {
@@ -365,7 +391,6 @@ ApplicationWindow {
 
 
             width: 100
-
             text: "Wyszukaj"
 
         }
@@ -390,18 +415,31 @@ ApplicationWindow {
 
 
         }
+        ScrollView
+        {
 
-
+          id:machineLstScroll
+          width: mainRect.width/2
+          height: mainRect.height/4
+          anchors.top:txtFPartNr.bottom
+          anchors.horizontalCenterOffset: 10
+          anchors.horizontalCenter: parent.horizontalCenter
+          anchors.topMargin: 20
+          clip: true
+          ScrollBar.horizontal.policy:ScrollBar.AlwaysOff
+          ScrollBar.vertical.policy:ScrollBar.AlwaysOn
 
         ListView {
             id: machineLst
-
-            width: parent.width/2
+            width: parent.width
+            height: parent.height
+            anchors.fill:machineLstScroll
+            /*width: parent.width/2
             height: parent.height/6
             anchors.top: txtFPartNr.bottom
             anchors.horizontalCenterOffset: 10
             anchors.horizontalCenter: parent.horizontalCenter
-            anchors.topMargin: 20
+            anchors.topMargin: 20*/
             model: qryModel
 
             delegate: Item {
@@ -412,7 +450,7 @@ ApplicationWindow {
 
                 Row {
                     id: row1
-                    spacing: 20
+                    spacing: 15
                     Text
                     {
                         id:machine
@@ -430,12 +468,7 @@ ApplicationWindow {
                     Text
                     {
                         id:wght
-                        /*anchors.left:machine.right
-                        anchors.leftMargin: 30*/
-                        //width:parent.width/2
-
                         text:weight
-                        //a.machineDesc,b.weight
                         font.pixelSize:calculateFont()
                         color: "orange"
                     }
@@ -444,7 +477,7 @@ ApplicationWindow {
                     {
                         id:chKweight
                         checked: false
-
+                        verticalPadding: 5
                         onCheckStateChanged:
                         {
                             if(checkState==Qt.Checked)
@@ -462,76 +495,35 @@ ApplicationWindow {
                         }
 
                     }
+                }
 
 
-                   /*Rectangle {
-                        width: 40
-                        height: 40
-                        color: colorCode
-                    }
-
-                    Text {
-                        text: name
-                        anchors.verticalCenter: parent.verticalCenter
-                        font.bold: true
-                    }*/
 
                 }
             }
 
-
-            /*model: ListModel {
-                ListElement {
-                    name: "Grey"
-                    colorCode: "grey"
-                }
-
-                ListElement {
-                    name: "Red"
-                    colorCode: "red"
-                }
-
-                ListElement {
-                    name: "Blue"
-                    colorCode: "blue"
-                }
-
-                ListElement {
-                    name: "Green"
-                    colorCode: "green"
-                }
-            }*/
 
         }
 
-        CheckBox {
-            id: chkLine
-            text: qsTr("Niepełna linka")
-            font.pixelSize: calculateFont()
+        ComboBox
+        {
+            id:cmbteam
+            anchors.top:machineLstScroll.bottom
             anchors.horizontalCenter: parent.horizontalCenter
-            anchors.top: machineLst.bottom
+            anchors.topMargin: 10
+            width: 350
+            height: 60
+            editable: true
+            model:getTeams()
 
-            anchors.topMargin: 20
 
-            onCheckStateChanged:
-            {
-                if(chkLine.checked)
-                {
-                    spnPersQty.enabled=true
-                    spnPersQty.editable=true
-                }else
-                {
-                    spnPersQty.enabled=false
-                    spnPersQty.editable=false
-                }
-            }
         }
 
         Label {
             id: lblQty
             text: qsTr("Ilość sztuk")
             font.pixelSize: calculateFont()
-            anchors.top: chkLine.bottom
+            anchors.top: cmbteam.bottom
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignBottom
             anchors.horizontalCenterOffset: -20
@@ -540,12 +532,14 @@ ApplicationWindow {
             anchors.topMargin: 40
         }
 
+
+
         SpinBox {
             id: spnQty
             y: 230
             anchors.left: lblQty.right
             anchors.leftMargin: 10
-            anchors.top: chkLine.bottom
+            anchors.top: cmbteam.bottom
             editable: true
             to: 99999
             from: 1
@@ -554,38 +548,73 @@ ApplicationWindow {
             font.pixelSize: Math.min(orderDialog.width,orderDialog.height)*0.03
         }
 
-        Label {
-            id: lblPersonQty
-            text: qsTr("Ilość osób")
+        Row
+        {
+            id:notFullLine
             anchors.top: lblQty.bottom
-            horizontalAlignment: Text.AlignHCenter
-            verticalAlignment: Text.AlignBottom
-            anchors.horizontalCenterOffset: -20
+            spacing: 10
             anchors.horizontalCenter: parent.horizontalCenter
-            anchors.topMargin: 50
-            font.pixelSize: calculateFont()
-        }
+            anchors.topMargin: 20
 
-        SpinBox {
-            id: spnPersQty
-            anchors.left: lblPersonQty.right
-            anchors.top: spnQty.bottom
-            enabled: false
-            to: 35
-            from: 1
-            value: 1
-            anchors.leftMargin: 10
-            anchors.topMargin: 30
-            font.pixelSize: Math.min(orderDialog.width,orderDialog.height)*0.03
+            CheckBox {
+                id: chkLine
+                text: qsTr("Niepełna linka")
+                font.pixelSize: calculateFont()
+
+                /*anchors.horizontalCenter: parent.horizontalCenter
+                anchors.top: lblQty.bottom
+
+                anchors.topMargin: 20*/
+
+                onCheckStateChanged:
+                {
+                    if(chkLine.checked)
+                    {
+                        spnPersQty.enabled=true
+                        spnPersQty.editable=true
+                    }else
+                    {
+                        spnPersQty.enabled=false
+                        spnPersQty.editable=false
+                    }
+                }
+            }
+
+            Label {
+                id: lblPersonQty
+                text: qsTr("Ilość osób")
+                //anchors.top: lblQty.bottom
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignBottom
+                topPadding: 15
+
+                /*anchors.horizontalCenterOffset: -20
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.topMargin: 50*/
+                font.pixelSize: calculateFont()
+            }
+
+            SpinBox {
+                id: spnPersQty
+                /*anchors.left: lblPersonQty.right
+                anchors.top: spnQty.bottom*/
+                enabled: false
+                to: 35
+                from: 1
+                value: 1
+                /*anchors.leftMargin: 10
+                anchors.topMargin: 30*/
+                font.pixelSize: Math.min(orderDialog.width,orderDialog.height)*0.03
 
 
+            }
         }
 
         Label {
             id: lblShiftTarget
             text: qsTr("Cel na zmianę 0 szt.")
             anchors.left: parent.left
-            anchors.top: spnPersQty.bottom
+            anchors.top: notFullLine.bottom
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
             anchors.leftMargin: 10
@@ -599,7 +628,7 @@ ApplicationWindow {
             id: lblHourTarget
             text: qsTr("Cel na godzinę 0 szt.")
             anchors.left: lblShiftTarget.right
-            anchors.top: spnPersQty.bottom
+            anchors.top:notFullLine.bottom
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
             anchors.leftMargin: 10
@@ -612,7 +641,7 @@ ApplicationWindow {
             id: lblTimeToProduce
             text: qsTr("Czas wykonania 00:00:00")
             anchors.left: lblHourTarget.right
-            anchors.top: spnPersQty.bottom
+            anchors.top: notFullLine.bottom
             horizontalAlignment: Text.AlignLeft
             verticalAlignment: Text.AlignVCenter
             anchors.leftMargin: 10
@@ -633,21 +662,31 @@ ApplicationWindow {
 
             onClicked:
             {
+               console.log("CmbCurrenttext "+cmbteam.currentText)
+               if(cmbteam.currentText!=="--wybierz--")
+                {
+                       vpersQty=spnPersQty.value
+                       vpartQty=spnQty.value
+                       console.log("part Qty "+vpartQty)
+                       vtimeToProduce=ttProduce
+                       vTargetPerHour=hourTarget
+                       vTeam=cmbteam.currentText
+                       console.log("vTeam "+vTeam)
 
 
-               vpersQty=spnPersQty.value
-               vpartQty=spnQty.value
-               console.log("part Qty "+vpartQty)
-               vtimeToProduce=ttProduce
-               vTargetPerHour=hourTarget
+
+                       //timeElapsed.text=lblTimeToProduce.text
+                       activated(txtFPartNr.text)
+                       close()
+                }else
+               {
+
+                    msgDialog.open()
 
 
-               //timeElapsed.text=lblTimeToProduce.text
-               activated(txtFPartNr.text)
-               close()
+               }
+
             }
-
-
         }
 
         Button {
@@ -668,13 +707,9 @@ ApplicationWindow {
         }
 
 
+
+
     }
-
-
 }
 
-/*##^##
-Designer {
-    D{i:0;autoSize:true;height:480;width:640}
-}
-##^##*/
+

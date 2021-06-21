@@ -44,6 +44,7 @@ ApplicationWindow{
     {
         console.log("Zaczynamy");
 
+
         setAppSettings();
         insertEvent("Start Aplikacji")
 
@@ -61,7 +62,10 @@ ApplicationWindow{
         Component.onCompleted:
         {
             backend.startServer()
+            backend.writeSettings()
         }
+
+
         onServerListening:
         {
 
@@ -238,10 +242,16 @@ ApplicationWindow{
 
     function insertEvent(eventName)
     {
+        var shiftN=MyScripts.getShift()
+        var team=orderD.vTeam
+
+        console.log("shiftNr "+shiftN)
+        console.log("team "+team)
         var currentDate=getDate()
-        var qry="insert into events values('"+currentDate+"','"+getCurrentTime()+"'"
+        var qry="insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team) "
+        +" values('"+currentDate+"','"+getCurrentTime()+"'"
         +",'"+eventName+"',"+init.hourCntr+","+init.shiftCounter+","+init.hrTargetText+","
-        +init.shTargetText+",'"+partNr.text+"','"+lineNr.text+"',"+MyScripts.getCurrentTimeInSeconds()+")";
+        +init.shTargetText+",'"+partNr.text+"','"+lineNr.text+"',"+MyScripts.getCurrentTimeInSeconds()+","+shiftN+",'"+team+"')";
 
         console.log("qry before insert "+qry);
 
@@ -260,11 +270,12 @@ ApplicationWindow{
     function writeAppSettings()
     {
         console.log("line Status "+lineStat.text)
+        console.log("write Settings"+orderD.vTeam)
         var orderCntr=backend.getOrderCntr()
         backend.writeSettings(partNr.text,init.hrTargetText,init.shTargetText,
                               init.hourCntr,init.shiftCounter,lineStat.text,vpersQty,
                               vpartQty,vtimeToProduce,vTargetPerHour,orderCntr,
-                              vOrderID,vAuxTime,vAuxDate,vProdTime,vBreakTime)
+                              vOrderID,vAuxTime,vAuxDate,vProdTime,vBreakTime,orderD.vTeam)
     }
 
     function setAppSettings()
@@ -286,10 +297,11 @@ ApplicationWindow{
 
         partNr.text=backend.getPartNr();
         vTargetPerHour=backend.getHourTarget()
-        console.log("vTarget "+vTargetPerHour)
+        //console.log("vTarget "+vTargetPerHour)
         setTarget();
         lineNr.text=backend.getLine();
         lineStat.text=backend.getStatus();
+        orderD.vTeam=backend.getTeam();
         setStatus(lineStat.text);
 
     }
@@ -438,11 +450,18 @@ ApplicationWindow{
             // opening chekList
             chkList.actPartNr=partNo
             chkList.prevPartNr=previousPartNr
-            var dtD=MyScripts.createDTString()
-            var shfNr=MyScripts.getShift()
-            var dtStr=dtD+"/"+shfNr+"/"+lineNr.text
-            chkList.dtString=dtStr
-            chkList.show()
+
+            /* checking if actPartNr is different than previousPartNr
+            and setting in lineCom table is set to 1 to show chelist
+            otherwise checklist is not show */
+            if(partNo!==previousPartNr && backend.getCheckList()===1)
+            {
+                var dtD=MyScripts.createDTString()
+                var shfNr=MyScripts.getShift()
+                var dtStr=dtD+"/"+shfNr+"/"+lineNr.text
+                chkList.dtString=dtStr
+                chkList.show()
+            }
         }
 
 

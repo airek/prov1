@@ -22,7 +22,7 @@ public:
     static QString fshft;
     static QString sshft;
     static QString tshft;
-    static bool mAckSignal;
+    static int mAckSignal;
     static QString mPartNr;
     static QString mTargetH;
     static QString mTargetS;
@@ -47,6 +47,8 @@ public:
     static int mProdTime;
     static int mBreakTime;
     static QString mAuxDate;
+    static QString mTeam;
+    static int mCheckList;
 
     //
     QString dbError();
@@ -59,7 +61,8 @@ public:
     void writeAppSettings(QString partnr, QString targetH, QString targetS,
                           QString resH, QString resS, QString status, QString persQty,
                           QString partsQty, QString ttProduce, QString targetPerH, QString orderCntr,
-                          QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime);
+                          QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime,
+                          QString team);
 
     static bool execQuery(QString strQry);
     static QStringList returnCompressedResults(QString separator,QString strQry);

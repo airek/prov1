@@ -268,7 +268,7 @@ ApplicationWindow {
             id:scrollV
 
             width: mainRect.width
-            height: 350
+            height: mainRect.height/2
             clip: true
             anchors.top:mainSe.bottom
 
@@ -336,9 +336,12 @@ ApplicationWindow {
             }
 
 
+            enabled: false
+
             placeholderText: "Numer osoby zatwierdzającej  "
             horizontalAlignment: Text.AlignHCenter
             width: parent.width/2
+            text:orderD.vTeam
 
 
         }

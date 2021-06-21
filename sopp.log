@@ -19543,3 +19543,3022 @@
 2021-06-15	21:26:28.2626	Obliczony interval target 3973
 2021-06-15	21:26:29.2626	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
 2021-06-15	21:26:29.2626	Magic number is cool
+2021-06-17	19:27:29.2727	**** Start Aplikacji ****
+2021-06-17	19:27:29.2727	sopp.log
+2021-06-17	19:27:29.2727	Połączono z bazą danych 
+2021-06-17	19:27:29.2727	***** Ustawienia *****
+2021-06-17	19:27:29.2727	dbDriver QODBC
+2021-06-17	19:27:29.2727	dbConnection prov
+2021-06-17	19:27:29.2727	dbName sopp
+2021-06-17	19:27:29.2727	Line name 10032-13
+2021-06-17	19:27:29.2727	log name sopp.log
+2021-06-17	19:27:29.2727	magic nr 077528
+2021-06-17	19:27:29.2727	Part nr 922454
+2021-06-17	19:27:29.2727	target per H 360
+2021-06-17	19:27:29.2727	target per shift 897
+2021-06-17	19:27:29.2727	Status AWARIA
+2021-06-17	19:27:29.2727	result per H 470
+2021-06-17	19:27:29.2727	result per shift 917
+2021-06-17	19:27:29.2727	backend is true
+2021-06-17	19:27:29.2727	signal ok L10;OK
+2021-06-17	19:27:29.2727	shiftFactor 8
+2021-06-17	19:27:29.2727	minVal 80
+2021-06-17	19:27:29.2727	midVal 80
+2021-06-17	19:27:29.2727	maxVal 90
+2021-06-17	19:27:29.2727	firstShift 14
+2021-06-17	19:27:29.2727	second shift 22
+2021-06-17	19:27:29.2727	third shift 6
+2021-06-17	19:27:30.2727	backendtime jest true 
+2021-06-17	19:27:31.2727	Obliczony interval target 3973
+2021-06-17	19:27:32.2727	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	19:27:32.2727	Magic number is cool
+2021-06-17	19:30:17.3030	Obliczony interval target 2593
+2021-06-17	19:34:03.3434	**** Start Aplikacji ****
+2021-06-17	19:34:03.3434	sopp.log
+2021-06-17	19:34:03.3434	Połączono z bazą danych 
+2021-06-17	19:34:04.3434	***** Ustawienia *****
+2021-06-17	19:34:04.3434	dbDriver QODBC
+2021-06-17	19:34:04.3434	dbConnection prov
+2021-06-17	19:34:04.3434	dbName sopp
+2021-06-17	19:34:04.3434	Line name 10032-13
+2021-06-17	19:34:04.3434	log name sopp.log
+2021-06-17	19:34:04.3434	magic nr 077528
+2021-06-17	19:34:04.3434	Part nr 71734
+2021-06-17	19:34:04.3434	target per H 360
+2021-06-17	19:34:04.3434	target per shift 897
+2021-06-17	19:34:04.3434	Status AWARIA
+2021-06-17	19:34:04.3434	result per H 470
+2021-06-17	19:34:04.3434	result per shift 917
+2021-06-17	19:34:04.3434	backend is true
+2021-06-17	19:34:04.3434	signal ok L10;OK
+2021-06-17	19:34:04.3434	shiftFactor 8
+2021-06-17	19:34:04.3434	minVal 80
+2021-06-17	19:34:04.3434	midVal 80
+2021-06-17	19:34:04.3434	maxVal 90
+2021-06-17	19:34:04.3434	firstShift 14
+2021-06-17	19:34:04.3434	second shift 22
+2021-06-17	19:34:04.3434	third shift 6
+2021-06-17	19:34:04.3434	backendtime jest true 
+2021-06-17	19:34:05.3434	Obliczony interval target 2593
+2021-06-17	19:34:06.3434	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	19:34:06.3434	Magic number is cool
+2021-06-17	19:46:29.4646	**** Start Aplikacji ****
+2021-06-17	19:46:29.4646	sopp.log
+2021-06-17	19:46:30.4646	Połączono z bazą danych 
+2021-06-17	19:46:30.4646	***** Ustawienia *****
+2021-06-17	19:46:30.4646	dbDriver QODBC
+2021-06-17	19:46:30.4646	dbConnection prov
+2021-06-17	19:46:30.4646	dbName sopp
+2021-06-17	19:46:30.4646	Line name 10032-13
+2021-06-17	19:46:30.4646	log name sopp.log
+2021-06-17	19:46:30.4646	magic nr 077528
+2021-06-17	19:46:30.4646	Part nr 71734
+2021-06-17	19:46:30.4646	target per H 360
+2021-06-17	19:46:30.4646	target per shift 897
+2021-06-17	19:46:30.4646	Status AWARIA
+2021-06-17	19:46:30.4646	result per H 470
+2021-06-17	19:46:30.4646	result per shift 917
+2021-06-17	19:46:30.4646	backend is true
+2021-06-17	19:46:30.4646	signal ok L10;OK
+2021-06-17	19:46:30.4646	shiftFactor 8
+2021-06-17	19:46:30.4646	minVal 80
+2021-06-17	19:46:30.4646	midVal 80
+2021-06-17	19:46:30.4646	maxVal 90
+2021-06-17	19:46:30.4646	firstShift 14
+2021-06-17	19:46:30.4646	second shift 22
+2021-06-17	19:46:30.4646	third shift 6
+2021-06-17	19:46:31.4646	backendtime jest true 
+2021-06-17	19:46:32.4646	Obliczony interval target 2593
+2021-06-17	19:46:32.4646	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	19:46:32.4646	Magic number is cool
+2021-06-17	19:48:17.4848	**** Start Aplikacji ****
+2021-06-17	19:48:17.4848	sopp.log
+2021-06-17	19:48:17.4848	Połączono z bazą danych 
+2021-06-17	19:48:18.4848	***** Ustawienia *****
+2021-06-17	19:48:18.4848	dbDriver QODBC
+2021-06-17	19:48:18.4848	dbConnection prov
+2021-06-17	19:48:18.4848	dbName sopp
+2021-06-17	19:48:18.4848	Line name 10032-13
+2021-06-17	19:48:18.4848	log name sopp.log
+2021-06-17	19:48:18.4848	magic nr 077528
+2021-06-17	19:48:18.4848	Part nr 71734
+2021-06-17	19:48:18.4848	target per H 360
+2021-06-17	19:48:18.4848	target per shift 897
+2021-06-17	19:48:18.4848	Status AWARIA
+2021-06-17	19:48:18.4848	result per H 470
+2021-06-17	19:48:18.4848	result per shift 917
+2021-06-17	19:48:18.4848	backend is true
+2021-06-17	19:48:18.4848	signal ok L10;OK
+2021-06-17	19:48:18.4848	shiftFactor 8
+2021-06-17	19:48:18.4848	minVal 80
+2021-06-17	19:48:18.4848	midVal 80
+2021-06-17	19:48:18.4848	maxVal 90
+2021-06-17	19:48:18.4848	firstShift 14
+2021-06-17	19:48:18.4848	second shift 22
+2021-06-17	19:48:18.4848	third shift 6
+2021-06-17	19:48:18.4848	backendtime jest true 
+2021-06-17	19:48:19.4848	Obliczony interval target 2593
+2021-06-17	19:48:20.4848	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	19:48:20.4848	Magic number is cool
+2021-06-17	19:51:56.5151	**** Start Aplikacji ****
+2021-06-17	19:51:56.5151	sopp.log
+2021-06-17	19:51:57.5151	Połączono z bazą danych 
+2021-06-17	19:51:57.5151	***** Ustawienia *****
+2021-06-17	19:51:57.5151	dbDriver QODBC
+2021-06-17	19:51:57.5151	dbConnection prov
+2021-06-17	19:51:57.5151	dbName sopp
+2021-06-17	19:51:57.5151	Line name 10032-13
+2021-06-17	19:51:57.5151	log name sopp.log
+2021-06-17	19:51:57.5151	magic nr 077528
+2021-06-17	19:51:57.5151	Part nr 71734
+2021-06-17	19:51:57.5151	target per H 360
+2021-06-17	19:51:57.5151	target per shift 897
+2021-06-17	19:51:57.5151	Status AWARIA
+2021-06-17	19:51:57.5151	result per H 470
+2021-06-17	19:51:57.5151	result per shift 917
+2021-06-17	19:51:57.5151	backend is true
+2021-06-17	19:51:57.5151	signal ok L10;OK
+2021-06-17	19:51:57.5151	shiftFactor 8
+2021-06-17	19:51:57.5151	minVal 80
+2021-06-17	19:51:57.5151	midVal 80
+2021-06-17	19:51:57.5151	maxVal 90
+2021-06-17	19:51:57.5151	firstShift 14
+2021-06-17	19:51:57.5151	second shift 22
+2021-06-17	19:51:57.5151	third shift 6
+2021-06-17	19:51:58.5151	backendtime jest true 
+2021-06-17	19:51:59.5151	Obliczony interval target 2593
+2021-06-17	19:51:59.5151	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	19:51:59.5151	Magic number is cool
+2021-06-17	19:53:43.5353	**** Start Aplikacji ****
+2021-06-17	19:53:43.5353	sopp.log
+2021-06-17	19:53:43.5353	Połączono z bazą danych 
+2021-06-17	19:53:44.5353	***** Ustawienia *****
+2021-06-17	19:53:44.5353	dbDriver QODBC
+2021-06-17	19:53:44.5353	dbConnection prov
+2021-06-17	19:53:44.5353	dbName sopp
+2021-06-17	19:53:44.5353	Line name 10032-13
+2021-06-17	19:53:44.5353	log name sopp.log
+2021-06-17	19:53:44.5353	magic nr 077528
+2021-06-17	19:53:44.5353	Part nr 71734
+2021-06-17	19:53:44.5353	target per H 360
+2021-06-17	19:53:44.5353	target per shift 897
+2021-06-17	19:53:44.5353	Status AWARIA
+2021-06-17	19:53:44.5353	result per H 470
+2021-06-17	19:53:44.5353	result per shift 917
+2021-06-17	19:53:44.5353	backend is true
+2021-06-17	19:53:44.5353	signal ok L10;OK
+2021-06-17	19:53:44.5353	shiftFactor 8
+2021-06-17	19:53:44.5353	minVal 80
+2021-06-17	19:53:44.5353	midVal 80
+2021-06-17	19:53:44.5353	maxVal 90
+2021-06-17	19:53:44.5353	firstShift 14
+2021-06-17	19:53:44.5353	second shift 22
+2021-06-17	19:53:44.5353	third shift 6
+2021-06-17	19:53:44.5353	Magic number is cool
+2021-06-17	19:54:48.5454	**** Start Aplikacji ****
+2021-06-17	19:54:48.5454	sopp.log
+2021-06-17	19:54:48.5454	Połączono z bazą danych 
+2021-06-17	19:54:48.5454	***** Ustawienia *****
+2021-06-17	19:54:48.5454	dbDriver QODBC
+2021-06-17	19:54:48.5454	dbConnection prov
+2021-06-17	19:54:48.5454	dbName sopp
+2021-06-17	19:54:48.5454	Line name 10032-13
+2021-06-17	19:54:48.5454	log name sopp.log
+2021-06-17	19:54:48.5454	magic nr 077528
+2021-06-17	19:54:48.5454	Part nr 71734
+2021-06-17	19:54:48.5454	target per H 360
+2021-06-17	19:54:48.5454	target per shift 897
+2021-06-17	19:54:48.5454	Status AWARIA
+2021-06-17	19:54:48.5454	result per H 470
+2021-06-17	19:54:48.5454	result per shift 917
+2021-06-17	19:54:48.5454	backend is true
+2021-06-17	19:54:48.5454	signal ok L10;OK
+2021-06-17	19:54:48.5454	shiftFactor 8
+2021-06-17	19:54:48.5454	minVal 80
+2021-06-17	19:54:48.5454	midVal 80
+2021-06-17	19:54:48.5454	maxVal 90
+2021-06-17	19:54:48.5454	firstShift 14
+2021-06-17	19:54:48.5454	second shift 22
+2021-06-17	19:54:48.5454	third shift 6
+2021-06-17	19:54:49.5454	backendtime jest true 
+2021-06-17	19:54:50.5454	Obliczony interval target 2593
+2021-06-17	19:54:50.5454	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	19:54:50.5454	Magic number is cool
+2021-06-17	19:59:53.5959	**** Start Aplikacji ****
+2021-06-17	19:59:53.5959	sopp.log
+2021-06-17	19:59:53.5959	Połączono z bazą danych 
+2021-06-17	19:59:54.5959	***** Ustawienia *****
+2021-06-17	19:59:54.5959	dbDriver QODBC
+2021-06-17	19:59:54.5959	dbConnection prov
+2021-06-17	19:59:54.5959	dbName sopp
+2021-06-17	19:59:54.5959	Line name 10032-13
+2021-06-17	19:59:54.5959	log name sopp.log
+2021-06-17	19:59:54.5959	magic nr 077528
+2021-06-17	19:59:54.5959	Part nr 71734
+2021-06-17	19:59:54.5959	target per H 360
+2021-06-17	19:59:54.5959	target per shift 897
+2021-06-17	19:59:54.5959	Status AWARIA
+2021-06-17	19:59:54.5959	result per H 470
+2021-06-17	19:59:54.5959	result per shift 917
+2021-06-17	19:59:54.5959	backend is true
+2021-06-17	19:59:54.5959	signal ok L10;OK
+2021-06-17	19:59:54.5959	shiftFactor 8
+2021-06-17	19:59:54.5959	minVal 80
+2021-06-17	19:59:54.5959	midVal 80
+2021-06-17	19:59:54.5959	maxVal 90
+2021-06-17	19:59:54.5959	firstShift 14
+2021-06-17	19:59:54.5959	second shift 22
+2021-06-17	19:59:54.5959	third shift 6
+2021-06-17	19:59:55.5959	backendtime jest true 
+2021-06-17	19:59:56.5959	Obliczony interval target 2593
+2021-06-17	19:59:56.5959	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	19:59:56.5959	Magic number is cool
+2021-06-17	20:00:48.000	**** Start Aplikacji ****
+2021-06-17	20:00:48.000	sopp.log
+2021-06-17	20:00:48.000	Połączono z bazą danych 
+2021-06-17	20:00:49.000	***** Ustawienia *****
+2021-06-17	20:00:49.000	dbDriver QODBC
+2021-06-17	20:00:49.000	dbConnection prov
+2021-06-17	20:00:49.000	dbName sopp
+2021-06-17	20:00:49.000	Line name 10032-13
+2021-06-17	20:00:49.000	log name sopp.log
+2021-06-17	20:00:49.000	magic nr 077528
+2021-06-17	20:00:49.000	Part nr 71734
+2021-06-17	20:00:49.000	target per H 360
+2021-06-17	20:00:49.000	target per shift 897
+2021-06-17	20:00:49.000	Status AWARIA
+2021-06-17	20:00:49.000	result per H 470
+2021-06-17	20:00:49.000	result per shift 917
+2021-06-17	20:00:49.000	backend is true
+2021-06-17	20:00:49.000	signal ok L10;OK
+2021-06-17	20:00:49.000	shiftFactor 8
+2021-06-17	20:00:49.000	minVal 80
+2021-06-17	20:00:49.000	midVal 80
+2021-06-17	20:00:49.000	maxVal 90
+2021-06-17	20:00:49.000	firstShift 14
+2021-06-17	20:00:49.000	second shift 22
+2021-06-17	20:00:49.000	third shift 6
+2021-06-17	20:00:49.000	backendtime jest true 
+2021-06-17	20:00:51.000	Obliczony interval target 2593
+2021-06-17	20:00:51.000	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:00:51.000	Magic number is cool
+2021-06-17	20:02:21.022	**** Start Aplikacji ****
+2021-06-17	20:02:21.022	sopp.log
+2021-06-17	20:02:22.022	Połączono z bazą danych 
+2021-06-17	20:02:22.022	***** Ustawienia *****
+2021-06-17	20:02:22.022	dbDriver QODBC
+2021-06-17	20:02:22.022	dbConnection prov
+2021-06-17	20:02:22.022	dbName sopp
+2021-06-17	20:02:22.022	Line name 10032-13
+2021-06-17	20:02:22.022	log name sopp.log
+2021-06-17	20:02:22.022	magic nr 077528
+2021-06-17	20:02:22.022	Part nr 71734
+2021-06-17	20:02:22.022	target per H 360
+2021-06-17	20:02:22.022	target per shift 897
+2021-06-17	20:02:22.022	Status AWARIA
+2021-06-17	20:02:22.022	result per H 470
+2021-06-17	20:02:22.022	result per shift 917
+2021-06-17	20:02:22.022	backend is true
+2021-06-17	20:02:22.022	signal ok L10;OK
+2021-06-17	20:02:22.022	shiftFactor 8
+2021-06-17	20:02:22.022	minVal 80
+2021-06-17	20:02:22.022	midVal 80
+2021-06-17	20:02:22.022	maxVal 90
+2021-06-17	20:02:22.022	firstShift 14
+2021-06-17	20:02:22.022	second shift 22
+2021-06-17	20:02:22.022	third shift 6
+2021-06-17	20:02:23.022	backendtime jest true 
+2021-06-17	20:02:24.022	Obliczony interval target 2593
+2021-06-17	20:02:24.022	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:02:24.022	Magic number is cool
+2021-06-17	20:03:15.033	**** Start Aplikacji ****
+2021-06-17	20:03:15.033	sopp.log
+2021-06-17	20:03:15.033	Połączono z bazą danych 
+2021-06-17	20:03:15.033	***** Ustawienia *****
+2021-06-17	20:03:15.033	dbDriver QODBC
+2021-06-17	20:03:15.033	dbConnection prov
+2021-06-17	20:03:15.033	dbName sopp
+2021-06-17	20:03:15.033	Line name 10032-13
+2021-06-17	20:03:15.033	log name sopp.log
+2021-06-17	20:03:15.033	magic nr 077528
+2021-06-17	20:03:15.033	Part nr 71734
+2021-06-17	20:03:15.033	target per H 360
+2021-06-17	20:03:15.033	target per shift 897
+2021-06-17	20:03:15.033	Status AWARIA
+2021-06-17	20:03:15.033	result per H 470
+2021-06-17	20:03:15.033	result per shift 917
+2021-06-17	20:03:15.033	backend is true
+2021-06-17	20:03:15.033	signal ok L10;OK
+2021-06-17	20:03:15.033	shiftFactor 8
+2021-06-17	20:03:15.033	minVal 80
+2021-06-17	20:03:15.033	midVal 80
+2021-06-17	20:03:15.033	maxVal 90
+2021-06-17	20:03:15.033	firstShift 14
+2021-06-17	20:03:15.033	second shift 22
+2021-06-17	20:03:15.033	third shift 6
+2021-06-17	20:03:16.033	backendtime jest true 
+2021-06-17	20:03:17.033	Obliczony interval target 2593
+2021-06-17	20:03:18.033	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:03:18.033	Magic number is cool
+2021-06-17	20:04:32.044	**** Start Aplikacji ****
+2021-06-17	20:04:32.044	sopp.log
+2021-06-17	20:04:32.044	Połączono z bazą danych 
+2021-06-17	20:04:32.044	***** Ustawienia *****
+2021-06-17	20:04:32.044	dbDriver QODBC
+2021-06-17	20:04:32.044	dbConnection prov
+2021-06-17	20:04:32.044	dbName sopp
+2021-06-17	20:04:32.044	Line name 10032-13
+2021-06-17	20:04:32.044	log name sopp.log
+2021-06-17	20:04:32.044	magic nr 077528
+2021-06-17	20:04:32.044	Part nr 71734
+2021-06-17	20:04:32.044	target per H 360
+2021-06-17	20:04:32.044	target per shift 897
+2021-06-17	20:04:32.044	Status AWARIA
+2021-06-17	20:04:32.044	result per H 470
+2021-06-17	20:04:32.044	result per shift 917
+2021-06-17	20:04:32.044	backend is true
+2021-06-17	20:04:32.044	signal ok L10;OK
+2021-06-17	20:04:32.044	shiftFactor 8
+2021-06-17	20:04:32.044	minVal 80
+2021-06-17	20:04:32.044	midVal 80
+2021-06-17	20:04:32.044	maxVal 90
+2021-06-17	20:04:32.044	firstShift 14
+2021-06-17	20:04:32.044	second shift 22
+2021-06-17	20:04:32.044	third shift 6
+2021-06-17	20:04:33.044	backendtime jest true 
+2021-06-17	20:04:34.044	Obliczony interval target 2593
+2021-06-17	20:04:34.044	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:04:34.044	Magic number is cool
+2021-06-17	20:11:25.1111	**** Start Aplikacji ****
+2021-06-17	20:11:25.1111	sopp.log
+2021-06-17	20:11:26.1111	Połączono z bazą danych 
+2021-06-17	20:11:26.1111	***** Ustawienia *****
+2021-06-17	20:11:26.1111	dbDriver QODBC
+2021-06-17	20:11:26.1111	dbConnection prov
+2021-06-17	20:11:26.1111	dbName sopp
+2021-06-17	20:11:26.1111	Line name 10032-13
+2021-06-17	20:11:26.1111	log name sopp.log
+2021-06-17	20:11:26.1111	magic nr 077528
+2021-06-17	20:11:26.1111	Part nr 71734
+2021-06-17	20:11:26.1111	target per H 360
+2021-06-17	20:11:26.1111	target per shift 897
+2021-06-17	20:11:26.1111	Status AWARIA
+2021-06-17	20:11:26.1111	result per H 470
+2021-06-17	20:11:26.1111	result per shift 917
+2021-06-17	20:11:26.1111	backend is true
+2021-06-17	20:11:26.1111	signal ok L10;OK
+2021-06-17	20:11:26.1111	shiftFactor 8
+2021-06-17	20:11:26.1111	minVal 80
+2021-06-17	20:11:26.1111	midVal 80
+2021-06-17	20:11:26.1111	maxVal 90
+2021-06-17	20:11:26.1111	firstShift 14
+2021-06-17	20:11:26.1111	second shift 22
+2021-06-17	20:11:26.1111	third shift 6
+2021-06-17	20:11:27.1111	backendtime jest true 
+2021-06-17	20:11:28.1111	Obliczony interval target 2593
+2021-06-17	20:11:28.1111	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:11:28.1111	Magic number is cool
+2021-06-17	20:12:14.1212	**** Start Aplikacji ****
+2021-06-17	20:12:14.1212	sopp.log
+2021-06-17	20:12:14.1212	Połączono z bazą danych 
+2021-06-17	20:12:15.1212	***** Ustawienia *****
+2021-06-17	20:12:15.1212	dbDriver QODBC
+2021-06-17	20:12:15.1212	dbConnection prov
+2021-06-17	20:12:15.1212	dbName sopp
+2021-06-17	20:12:15.1212	Line name 10032-13
+2021-06-17	20:12:15.1212	log name sopp.log
+2021-06-17	20:12:15.1212	magic nr 077528
+2021-06-17	20:12:15.1212	Part nr 71734
+2021-06-17	20:12:15.1212	target per H 360
+2021-06-17	20:12:15.1212	target per shift 897
+2021-06-17	20:12:15.1212	Status AWARIA
+2021-06-17	20:12:15.1212	result per H 470
+2021-06-17	20:12:15.1212	result per shift 917
+2021-06-17	20:12:15.1212	backend is true
+2021-06-17	20:12:15.1212	signal ok L10;OK
+2021-06-17	20:12:15.1212	shiftFactor 8
+2021-06-17	20:12:15.1212	minVal 80
+2021-06-17	20:12:15.1212	midVal 80
+2021-06-17	20:12:15.1212	maxVal 90
+2021-06-17	20:12:15.1212	firstShift 14
+2021-06-17	20:12:15.1212	second shift 22
+2021-06-17	20:12:15.1212	third shift 6
+2021-06-17	20:12:16.1212	backendtime jest true 
+2021-06-17	20:12:17.1212	Obliczony interval target 2593
+2021-06-17	20:12:17.1212	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:12:17.1212	Magic number is cool
+2021-06-17	20:12:50.1212	**** Start Aplikacji ****
+2021-06-17	20:12:50.1212	sopp.log
+2021-06-17	20:12:50.1212	Połączono z bazą danych 
+2021-06-17	20:12:51.1212	***** Ustawienia *****
+2021-06-17	20:12:51.1212	dbDriver QODBC
+2021-06-17	20:12:51.1212	dbConnection prov
+2021-06-17	20:12:51.1212	dbName sopp
+2021-06-17	20:12:51.1212	Line name 10032-13
+2021-06-17	20:12:51.1212	log name sopp.log
+2021-06-17	20:12:51.1212	magic nr 077528
+2021-06-17	20:12:51.1212	Part nr 71734
+2021-06-17	20:12:51.1212	target per H 360
+2021-06-17	20:12:51.1212	target per shift 897
+2021-06-17	20:12:51.1212	Status AWARIA
+2021-06-17	20:12:51.1212	result per H 470
+2021-06-17	20:12:51.1212	result per shift 917
+2021-06-17	20:12:51.1212	backend is true
+2021-06-17	20:12:51.1212	signal ok L10;OK
+2021-06-17	20:12:51.1212	shiftFactor 8
+2021-06-17	20:12:51.1212	minVal 80
+2021-06-17	20:12:51.1212	midVal 80
+2021-06-17	20:12:51.1212	maxVal 90
+2021-06-17	20:12:51.1212	firstShift 14
+2021-06-17	20:12:51.1212	second shift 22
+2021-06-17	20:12:51.1212	third shift 6
+2021-06-17	20:12:51.1212	backendtime jest true 
+2021-06-17	20:12:53.1212	Obliczony interval target 2593
+2021-06-17	20:12:53.1212	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:12:53.1212	Magic number is cool
+2021-06-17	20:13:21.1313	**** Start Aplikacji ****
+2021-06-17	20:13:21.1313	sopp.log
+2021-06-17	20:13:22.1313	Połączono z bazą danych 
+2021-06-17	20:13:23.1313	***** Ustawienia *****
+2021-06-17	20:13:23.1313	dbDriver QODBC
+2021-06-17	20:13:23.1313	dbConnection prov
+2021-06-17	20:13:23.1313	dbName sopp
+2021-06-17	20:13:23.1313	Line name 10032-13
+2021-06-17	20:13:23.1313	log name sopp.log
+2021-06-17	20:13:23.1313	magic nr 077528
+2021-06-17	20:13:23.1313	Part nr 71734
+2021-06-17	20:13:23.1313	target per H 360
+2021-06-17	20:13:23.1313	target per shift 897
+2021-06-17	20:13:23.1313	Status AWARIA
+2021-06-17	20:13:23.1313	result per H 470
+2021-06-17	20:13:23.1313	result per shift 917
+2021-06-17	20:13:23.1313	backend is true
+2021-06-17	20:13:23.1313	signal ok L10;OK
+2021-06-17	20:13:23.1313	shiftFactor 8
+2021-06-17	20:13:23.1313	minVal 80
+2021-06-17	20:13:23.1313	midVal 80
+2021-06-17	20:13:23.1313	maxVal 90
+2021-06-17	20:13:23.1313	firstShift 14
+2021-06-17	20:13:23.1313	second shift 22
+2021-06-17	20:13:23.1313	third shift 6
+2021-06-17	20:13:23.1313	backendtime jest true 
+2021-06-17	20:13:25.1313	Obliczony interval target 2593
+2021-06-17	20:13:26.1313	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:13:26.1313	Magic number is cool
+2021-06-17	20:21:29.2121	**** Start Aplikacji ****
+2021-06-17	20:21:29.2121	sopp.log
+2021-06-17	20:21:29.2121	Połączono z bazą danych 
+2021-06-17	20:21:30.2121	***** Ustawienia *****
+2021-06-17	20:21:30.2121	dbDriver QODBC
+2021-06-17	20:21:30.2121	dbConnection prov
+2021-06-17	20:21:30.2121	dbName sopp
+2021-06-17	20:21:30.2121	Line name 10032-13
+2021-06-17	20:21:30.2121	log name sopp.log
+2021-06-17	20:21:30.2121	magic nr 077528
+2021-06-17	20:21:30.2121	Part nr 71734
+2021-06-17	20:21:30.2121	target per H 360
+2021-06-17	20:21:30.2121	target per shift 897
+2021-06-17	20:21:30.2121	Status AWARIA
+2021-06-17	20:21:30.2121	result per H 470
+2021-06-17	20:21:30.2121	result per shift 917
+2021-06-17	20:21:30.2121	backend is true
+2021-06-17	20:21:30.2121	signal ok L10;OK
+2021-06-17	20:21:30.2121	shiftFactor 8
+2021-06-17	20:21:30.2121	minVal 80
+2021-06-17	20:21:30.2121	midVal 80
+2021-06-17	20:21:30.2121	maxVal 90
+2021-06-17	20:21:30.2121	firstShift 14
+2021-06-17	20:21:30.2121	second shift 22
+2021-06-17	20:21:30.2121	third shift 6
+2021-06-17	20:21:31.2121	backendtime jest true 
+2021-06-17	20:21:32.2121	Obliczony interval target 2593
+2021-06-17	20:21:32.2121	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:21:32.2121	Magic number is cool
+2021-06-17	20:22:08.2222	**** Start Aplikacji ****
+2021-06-17	20:22:08.2222	sopp.log
+2021-06-17	20:22:09.2222	Połączono z bazą danych 
+2021-06-17	20:22:09.2222	***** Ustawienia *****
+2021-06-17	20:22:09.2222	dbDriver QODBC
+2021-06-17	20:22:09.2222	dbConnection prov
+2021-06-17	20:22:09.2222	dbName sopp
+2021-06-17	20:22:09.2222	Line name 10032-13
+2021-06-17	20:22:09.2222	log name sopp.log
+2021-06-17	20:22:09.2222	magic nr 077528
+2021-06-17	20:22:09.2222	Part nr 71734
+2021-06-17	20:22:09.2222	target per H 360
+2021-06-17	20:22:09.2222	target per shift 897
+2021-06-17	20:22:09.2222	Status AWARIA
+2021-06-17	20:22:09.2222	result per H 470
+2021-06-17	20:22:09.2222	result per shift 917
+2021-06-17	20:22:09.2222	backend is true
+2021-06-17	20:22:09.2222	signal ok L10;OK
+2021-06-17	20:22:09.2222	shiftFactor 8
+2021-06-17	20:22:09.2222	minVal 80
+2021-06-17	20:22:09.2222	midVal 80
+2021-06-17	20:22:09.2222	maxVal 90
+2021-06-17	20:22:09.2222	firstShift 14
+2021-06-17	20:22:09.2222	second shift 22
+2021-06-17	20:22:09.2222	third shift 6
+2021-06-17	20:22:10.2222	backendtime jest true 
+2021-06-17	20:22:11.2222	Obliczony interval target 2593
+2021-06-17	20:22:11.2222	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:22:11.2222	Magic number is cool
+2021-06-17	20:23:21.2323	**** Start Aplikacji ****
+2021-06-17	20:23:21.2323	sopp.log
+2021-06-17	20:23:21.2323	Połączono z bazą danych 
+2021-06-17	20:23:22.2323	***** Ustawienia *****
+2021-06-17	20:23:22.2323	dbDriver QODBC
+2021-06-17	20:23:22.2323	dbConnection prov
+2021-06-17	20:23:22.2323	dbName sopp
+2021-06-17	20:23:22.2323	Line name 10032-13
+2021-06-17	20:23:22.2323	log name sopp.log
+2021-06-17	20:23:22.2323	magic nr 077528
+2021-06-17	20:23:22.2323	Part nr 71734
+2021-06-17	20:23:22.2323	target per H 360
+2021-06-17	20:23:22.2323	target per shift 897
+2021-06-17	20:23:22.2323	Status AWARIA
+2021-06-17	20:23:22.2323	result per H 470
+2021-06-17	20:23:22.2323	result per shift 917
+2021-06-17	20:23:22.2323	backend is true
+2021-06-17	20:23:22.2323	signal ok L10;OK
+2021-06-17	20:23:22.2323	shiftFactor 8
+2021-06-17	20:23:22.2323	minVal 80
+2021-06-17	20:23:22.2323	midVal 80
+2021-06-17	20:23:22.2323	maxVal 90
+2021-06-17	20:23:22.2323	firstShift 14
+2021-06-17	20:23:22.2323	second shift 22
+2021-06-17	20:23:22.2323	third shift 6
+2021-06-17	20:23:22.2323	backendtime jest true 
+2021-06-17	20:23:23.2323	Obliczony interval target 2593
+2021-06-17	20:23:24.2323	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:23:24.2323	Magic number is cool
+2021-06-17	20:28:27.2828	**** Start Aplikacji ****
+2021-06-17	20:28:27.2828	sopp.log
+2021-06-17	20:28:29.2828	Połączono z bazą danych 
+2021-06-17	20:28:30.2828	***** Ustawienia *****
+2021-06-17	20:28:30.2828	dbDriver QODBC
+2021-06-17	20:28:30.2828	dbConnection prov
+2021-06-17	20:28:30.2828	dbName sopp
+2021-06-17	20:28:30.2828	Line name 10032-13
+2021-06-17	20:28:30.2828	log name sopp.log
+2021-06-17	20:28:30.2828	magic nr 077528
+2021-06-17	20:28:30.2828	Part nr 71734
+2021-06-17	20:28:30.2828	target per H 360
+2021-06-17	20:28:30.2828	target per shift 897
+2021-06-17	20:28:30.2828	Status AWARIA
+2021-06-17	20:28:30.2828	result per H 470
+2021-06-17	20:28:30.2828	result per shift 917
+2021-06-17	20:28:30.2828	backend is true
+2021-06-17	20:28:30.2828	signal ok L10;OK
+2021-06-17	20:28:30.2828	shiftFactor 8
+2021-06-17	20:28:30.2828	minVal 80
+2021-06-17	20:28:30.2828	midVal 80
+2021-06-17	20:28:30.2828	maxVal 90
+2021-06-17	20:28:30.2828	firstShift 14
+2021-06-17	20:28:30.2828	second shift 22
+2021-06-17	20:28:30.2828	third shift 6
+2021-06-17	20:28:31.2828	backendtime jest true 
+2021-06-17	20:28:34.2828	Obliczony interval target 2593
+2021-06-17	20:28:35.2828	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:28:35.2828	Magic number is cool
+2021-06-17	20:30:03.3030	**** Start Aplikacji ****
+2021-06-17	20:30:03.3030	sopp.log
+2021-06-17	20:30:04.3030	Połączono z bazą danych 
+2021-06-17	20:30:04.3030	***** Ustawienia *****
+2021-06-17	20:30:04.3030	dbDriver QODBC
+2021-06-17	20:30:04.3030	dbConnection prov
+2021-06-17	20:30:04.3030	dbName sopp
+2021-06-17	20:30:04.3030	Line name 10032-13
+2021-06-17	20:30:04.3030	log name sopp.log
+2021-06-17	20:30:04.3030	magic nr 077528
+2021-06-17	20:30:04.3030	Part nr 71734
+2021-06-17	20:30:04.3030	target per H 360
+2021-06-17	20:30:04.3030	target per shift 897
+2021-06-17	20:30:04.3030	Status AWARIA
+2021-06-17	20:30:04.3030	result per H 470
+2021-06-17	20:30:04.3030	result per shift 917
+2021-06-17	20:30:04.3030	backend is true
+2021-06-17	20:30:04.3030	signal ok L10;OK
+2021-06-17	20:30:04.3030	shiftFactor 8
+2021-06-17	20:30:04.3030	minVal 80
+2021-06-17	20:30:04.3030	midVal 80
+2021-06-17	20:30:04.3030	maxVal 90
+2021-06-17	20:30:04.3030	firstShift 14
+2021-06-17	20:30:04.3030	second shift 22
+2021-06-17	20:30:04.3030	third shift 6
+2021-06-17	20:30:05.3030	backendtime jest true 
+2021-06-17	20:30:06.3030	Obliczony interval target 2593
+2021-06-17	20:30:07.3030	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:30:07.3030	Magic number is cool
+2021-06-17	20:31:06.3131	**** Start Aplikacji ****
+2021-06-17	20:31:06.3131	sopp.log
+2021-06-17	20:31:06.3131	Połączono z bazą danych 
+2021-06-17	20:31:06.3131	***** Ustawienia *****
+2021-06-17	20:31:06.3131	dbDriver QODBC
+2021-06-17	20:31:06.3131	dbConnection prov
+2021-06-17	20:31:06.3131	dbName sopp
+2021-06-17	20:31:06.3131	Line name 10032-13
+2021-06-17	20:31:06.3131	log name sopp.log
+2021-06-17	20:31:06.3131	magic nr 077528
+2021-06-17	20:31:06.3131	Part nr 71734
+2021-06-17	20:31:06.3131	target per H 360
+2021-06-17	20:31:06.3131	target per shift 897
+2021-06-17	20:31:06.3131	Status AWARIA
+2021-06-17	20:31:06.3131	result per H 470
+2021-06-17	20:31:06.3131	result per shift 917
+2021-06-17	20:31:06.3131	backend is true
+2021-06-17	20:31:06.3131	signal ok L10;OK
+2021-06-17	20:31:06.3131	shiftFactor 8
+2021-06-17	20:31:06.3131	minVal 80
+2021-06-17	20:31:06.3131	midVal 80
+2021-06-17	20:31:06.3131	maxVal 90
+2021-06-17	20:31:06.3131	firstShift 14
+2021-06-17	20:31:06.3131	second shift 22
+2021-06-17	20:31:06.3131	third shift 6
+2021-06-17	20:31:07.3131	backendtime jest true 
+2021-06-17	20:31:08.3131	Obliczony interval target 2593
+2021-06-17	20:31:08.3131	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:31:08.3131	Magic number is cool
+2021-06-17	20:31:54.3131	**** Start Aplikacji ****
+2021-06-17	20:31:54.3131	sopp.log
+2021-06-17	20:31:55.3131	Połączono z bazą danych 
+2021-06-17	20:31:55.3131	***** Ustawienia *****
+2021-06-17	20:31:55.3131	dbDriver QODBC
+2021-06-17	20:31:55.3131	dbConnection prov
+2021-06-17	20:31:55.3131	dbName sopp
+2021-06-17	20:31:55.3131	Line name 10032-13
+2021-06-17	20:31:55.3131	log name sopp.log
+2021-06-17	20:31:55.3131	magic nr 077528
+2021-06-17	20:31:55.3131	Part nr 71734
+2021-06-17	20:31:55.3131	target per H 360
+2021-06-17	20:31:55.3131	target per shift 897
+2021-06-17	20:31:55.3131	Status AWARIA
+2021-06-17	20:31:55.3131	result per H 470
+2021-06-17	20:31:55.3131	result per shift 917
+2021-06-17	20:31:55.3131	backend is true
+2021-06-17	20:31:55.3131	signal ok L10;OK
+2021-06-17	20:31:55.3131	shiftFactor 8
+2021-06-17	20:31:55.3131	minVal 80
+2021-06-17	20:31:55.3131	midVal 80
+2021-06-17	20:31:55.3131	maxVal 90
+2021-06-17	20:31:55.3131	firstShift 14
+2021-06-17	20:31:55.3131	second shift 22
+2021-06-17	20:31:55.3131	third shift 6
+2021-06-17	20:31:56.3131	backendtime jest true 
+2021-06-17	20:31:57.3131	Obliczony interval target 2593
+2021-06-17	20:31:57.3131	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:31:57.3131	Magic number is cool
+2021-06-17	20:32:45.3232	**** Start Aplikacji ****
+2021-06-17	20:32:45.3232	sopp.log
+2021-06-17	20:32:46.3232	Połączono z bazą danych 
+2021-06-17	20:32:46.3232	***** Ustawienia *****
+2021-06-17	20:32:46.3232	dbDriver QODBC
+2021-06-17	20:32:46.3232	dbConnection prov
+2021-06-17	20:32:46.3232	dbName sopp
+2021-06-17	20:32:46.3232	Line name 10032-13
+2021-06-17	20:32:46.3232	log name sopp.log
+2021-06-17	20:32:46.3232	magic nr 077528
+2021-06-17	20:32:46.3232	Part nr 71734
+2021-06-17	20:32:46.3232	target per H 360
+2021-06-17	20:32:46.3232	target per shift 897
+2021-06-17	20:32:46.3232	Status AWARIA
+2021-06-17	20:32:46.3232	result per H 470
+2021-06-17	20:32:46.3232	result per shift 917
+2021-06-17	20:32:46.3232	backend is true
+2021-06-17	20:32:46.3232	signal ok L10;OK
+2021-06-17	20:32:46.3232	shiftFactor 8
+2021-06-17	20:32:46.3232	minVal 80
+2021-06-17	20:32:46.3232	midVal 80
+2021-06-17	20:32:46.3232	maxVal 90
+2021-06-17	20:32:46.3232	firstShift 14
+2021-06-17	20:32:46.3232	second shift 22
+2021-06-17	20:32:46.3232	third shift 6
+2021-06-17	20:32:47.3232	backendtime jest true 
+2021-06-17	20:32:48.3232	Obliczony interval target 2593
+2021-06-17	20:32:48.3232	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:32:48.3232	Magic number is cool
+2021-06-17	20:34:44.3434	**** Start Aplikacji ****
+2021-06-17	20:34:44.3434	sopp.log
+2021-06-17	20:34:44.3434	Połączono z bazą danych 
+2021-06-17	20:34:45.3434	***** Ustawienia *****
+2021-06-17	20:34:45.3434	dbDriver QODBC
+2021-06-17	20:34:45.3434	dbConnection prov
+2021-06-17	20:34:45.3434	dbName sopp
+2021-06-17	20:34:45.3434	Line name 10032-13
+2021-06-17	20:34:45.3434	log name sopp.log
+2021-06-17	20:34:45.3434	magic nr 077528
+2021-06-17	20:34:45.3434	Part nr 71734
+2021-06-17	20:34:45.3434	target per H 360
+2021-06-17	20:34:45.3434	target per shift 897
+2021-06-17	20:34:45.3434	Status AWARIA
+2021-06-17	20:34:45.3434	result per H 470
+2021-06-17	20:34:45.3434	result per shift 917
+2021-06-17	20:34:45.3434	backend is true
+2021-06-17	20:34:45.3434	signal ok L10;OK
+2021-06-17	20:34:45.3434	shiftFactor 8
+2021-06-17	20:34:45.3434	minVal 80
+2021-06-17	20:34:45.3434	midVal 80
+2021-06-17	20:34:45.3434	maxVal 90
+2021-06-17	20:34:45.3434	firstShift 14
+2021-06-17	20:34:45.3434	second shift 22
+2021-06-17	20:34:45.3434	third shift 6
+2021-06-17	20:34:46.3434	backendtime jest true 
+2021-06-17	20:34:47.3434	Obliczony interval target 2593
+2021-06-17	20:34:47.3434	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:34:47.3434	Magic number is cool
+2021-06-17	20:35:21.3535	**** Start Aplikacji ****
+2021-06-17	20:35:21.3535	sopp.log
+2021-06-17	20:35:22.3535	Połączono z bazą danych 
+2021-06-17	20:35:22.3535	***** Ustawienia *****
+2021-06-17	20:35:22.3535	dbDriver QODBC
+2021-06-17	20:35:22.3535	dbConnection prov
+2021-06-17	20:35:22.3535	dbName sopp
+2021-06-17	20:35:22.3535	Line name 10032-13
+2021-06-17	20:35:22.3535	log name sopp.log
+2021-06-17	20:35:22.3535	magic nr 077528
+2021-06-17	20:35:22.3535	Part nr 71734
+2021-06-17	20:35:22.3535	target per H 360
+2021-06-17	20:35:22.3535	target per shift 897
+2021-06-17	20:35:22.3535	Status AWARIA
+2021-06-17	20:35:22.3535	result per H 470
+2021-06-17	20:35:22.3535	result per shift 917
+2021-06-17	20:35:22.3535	backend is true
+2021-06-17	20:35:22.3535	signal ok L10;OK
+2021-06-17	20:35:22.3535	shiftFactor 8
+2021-06-17	20:35:22.3535	minVal 80
+2021-06-17	20:35:22.3535	midVal 80
+2021-06-17	20:35:22.3535	maxVal 90
+2021-06-17	20:35:22.3535	firstShift 14
+2021-06-17	20:35:22.3535	second shift 22
+2021-06-17	20:35:22.3535	third shift 6
+2021-06-17	20:35:23.3535	backendtime jest true 
+2021-06-17	20:35:24.3535	Obliczony interval target 2593
+2021-06-17	20:35:24.3535	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:35:24.3535	Magic number is cool
+2021-06-17	20:36:11.3636	**** Start Aplikacji ****
+2021-06-17	20:36:11.3636	sopp.log
+2021-06-17	20:36:11.3636	Połączono z bazą danych 
+2021-06-17	20:36:12.3636	***** Ustawienia *****
+2021-06-17	20:36:12.3636	dbDriver QODBC
+2021-06-17	20:36:12.3636	dbConnection prov
+2021-06-17	20:36:12.3636	dbName sopp
+2021-06-17	20:36:12.3636	Line name 10032-13
+2021-06-17	20:36:12.3636	log name sopp.log
+2021-06-17	20:36:12.3636	magic nr 077528
+2021-06-17	20:36:12.3636	Part nr 71734
+2021-06-17	20:36:12.3636	target per H 360
+2021-06-17	20:36:12.3636	target per shift 897
+2021-06-17	20:36:12.3636	Status AWARIA
+2021-06-17	20:36:12.3636	result per H 470
+2021-06-17	20:36:12.3636	result per shift 917
+2021-06-17	20:36:12.3636	backend is true
+2021-06-17	20:36:12.3636	signal ok L10;OK
+2021-06-17	20:36:12.3636	shiftFactor 8
+2021-06-17	20:36:12.3636	minVal 80
+2021-06-17	20:36:12.3636	midVal 80
+2021-06-17	20:36:12.3636	maxVal 90
+2021-06-17	20:36:12.3636	firstShift 14
+2021-06-17	20:36:12.3636	second shift 22
+2021-06-17	20:36:12.3636	third shift 6
+2021-06-17	20:36:13.3636	backendtime jest true 
+2021-06-17	20:36:14.3636	Obliczony interval target 2593
+2021-06-17	20:36:14.3636	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:36:14.3636	Magic number is cool
+2021-06-17	20:37:14.3737	**** Start Aplikacji ****
+2021-06-17	20:37:14.3737	sopp.log
+2021-06-17	20:37:15.3737	Połączono z bazą danych 
+2021-06-17	20:37:15.3737	***** Ustawienia *****
+2021-06-17	20:37:15.3737	dbDriver QODBC
+2021-06-17	20:37:15.3737	dbConnection prov
+2021-06-17	20:37:15.3737	dbName sopp
+2021-06-17	20:37:15.3737	Line name 10032-13
+2021-06-17	20:37:15.3737	log name sopp.log
+2021-06-17	20:37:15.3737	magic nr 077528
+2021-06-17	20:37:15.3737	Part nr 71734
+2021-06-17	20:37:15.3737	target per H 360
+2021-06-17	20:37:15.3737	target per shift 897
+2021-06-17	20:37:15.3737	Status AWARIA
+2021-06-17	20:37:15.3737	result per H 470
+2021-06-17	20:37:15.3737	result per shift 917
+2021-06-17	20:37:15.3737	backend is true
+2021-06-17	20:37:15.3737	signal ok L10;OK
+2021-06-17	20:37:15.3737	shiftFactor 8
+2021-06-17	20:37:15.3737	minVal 80
+2021-06-17	20:37:15.3737	midVal 80
+2021-06-17	20:37:15.3737	maxVal 90
+2021-06-17	20:37:15.3737	firstShift 14
+2021-06-17	20:37:15.3737	second shift 22
+2021-06-17	20:37:15.3737	third shift 6
+2021-06-17	20:37:16.3737	Magic number is cool
+2021-06-17	20:37:33.3737	**** Start Aplikacji ****
+2021-06-17	20:37:33.3737	sopp.log
+2021-06-17	20:37:34.3737	Połączono z bazą danych 
+2021-06-17	20:37:34.3737	***** Ustawienia *****
+2021-06-17	20:37:34.3737	dbDriver QODBC
+2021-06-17	20:37:34.3737	dbConnection prov
+2021-06-17	20:37:34.3737	dbName sopp
+2021-06-17	20:37:34.3737	Line name 10032-13
+2021-06-17	20:37:34.3737	log name sopp.log
+2021-06-17	20:37:34.3737	magic nr 077528
+2021-06-17	20:37:34.3737	Part nr 71734
+2021-06-17	20:37:34.3737	target per H 360
+2021-06-17	20:37:34.3737	target per shift 897
+2021-06-17	20:37:34.3737	Status AWARIA
+2021-06-17	20:37:34.3737	result per H 470
+2021-06-17	20:37:34.3737	result per shift 917
+2021-06-17	20:37:34.3737	backend is true
+2021-06-17	20:37:34.3737	signal ok L10;OK
+2021-06-17	20:37:34.3737	shiftFactor 8
+2021-06-17	20:37:34.3737	minVal 80
+2021-06-17	20:37:34.3737	midVal 80
+2021-06-17	20:37:34.3737	maxVal 90
+2021-06-17	20:37:34.3737	firstShift 14
+2021-06-17	20:37:34.3737	second shift 22
+2021-06-17	20:37:34.3737	third shift 6
+2021-06-17	20:37:35.3737	backendtime jest true 
+2021-06-17	20:37:36.3737	Obliczony interval target 2593
+2021-06-17	20:37:36.3737	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:37:36.3737	Magic number is cool
+2021-06-17	20:39:12.3939	**** Start Aplikacji ****
+2021-06-17	20:39:12.3939	sopp.log
+2021-06-17	20:39:12.3939	Połączono z bazą danych 
+2021-06-17	20:39:13.3939	***** Ustawienia *****
+2021-06-17	20:39:13.3939	dbDriver QODBC
+2021-06-17	20:39:13.3939	dbConnection prov
+2021-06-17	20:39:13.3939	dbName sopp
+2021-06-17	20:39:13.3939	Line name 10032-13
+2021-06-17	20:39:13.3939	log name sopp.log
+2021-06-17	20:39:13.3939	magic nr 077528
+2021-06-17	20:39:13.3939	Part nr 71734
+2021-06-17	20:39:13.3939	target per H 360
+2021-06-17	20:39:13.3939	target per shift 897
+2021-06-17	20:39:13.3939	Status AWARIA
+2021-06-17	20:39:13.3939	result per H 470
+2021-06-17	20:39:13.3939	result per shift 917
+2021-06-17	20:39:13.3939	backend is true
+2021-06-17	20:39:13.3939	signal ok L10;OK
+2021-06-17	20:39:13.3939	shiftFactor 8
+2021-06-17	20:39:13.3939	minVal 80
+2021-06-17	20:39:13.3939	midVal 80
+2021-06-17	20:39:13.3939	maxVal 90
+2021-06-17	20:39:13.3939	firstShift 14
+2021-06-17	20:39:13.3939	second shift 22
+2021-06-17	20:39:13.3939	third shift 6
+2021-06-17	20:39:13.3939	backendtime jest true 
+2021-06-17	20:39:14.3939	Obliczony interval target 2593
+2021-06-17	20:39:15.3939	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:39:15.3939	Magic number is cool
+2021-06-17	20:41:45.4141	**** Start Aplikacji ****
+2021-06-17	20:41:45.4141	sopp.log
+2021-06-17	20:41:45.4141	Połączono z bazą danych 
+2021-06-17	20:41:45.4141	***** Ustawienia *****
+2021-06-17	20:41:45.4141	dbDriver QODBC
+2021-06-17	20:41:45.4141	dbConnection prov
+2021-06-17	20:41:45.4141	dbName sopp
+2021-06-17	20:41:45.4141	Line name 10032-13
+2021-06-17	20:41:45.4141	log name sopp.log
+2021-06-17	20:41:45.4141	magic nr 077528
+2021-06-17	20:41:45.4141	Part nr 71734
+2021-06-17	20:41:45.4141	target per H 360
+2021-06-17	20:41:45.4141	target per shift 897
+2021-06-17	20:41:45.4141	Status AWARIA
+2021-06-17	20:41:45.4141	result per H 470
+2021-06-17	20:41:45.4141	result per shift 917
+2021-06-17	20:41:45.4141	backend is true
+2021-06-17	20:41:45.4141	signal ok L10;OK
+2021-06-17	20:41:45.4141	shiftFactor 8
+2021-06-17	20:41:45.4141	minVal 80
+2021-06-17	20:41:45.4141	midVal 80
+2021-06-17	20:41:45.4141	maxVal 90
+2021-06-17	20:41:45.4141	firstShift 14
+2021-06-17	20:41:45.4141	second shift 22
+2021-06-17	20:41:45.4141	third shift 6
+2021-06-17	20:41:46.4141	backendtime jest true 
+2021-06-17	20:41:47.4141	Obliczony interval target 2593
+2021-06-17	20:41:48.4141	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:41:48.4141	Magic number is cool
+2021-06-17	20:42:25.4242	**** Start Aplikacji ****
+2021-06-17	20:42:25.4242	sopp.log
+2021-06-17	20:42:25.4242	Połączono z bazą danych 
+2021-06-17	20:42:25.4242	***** Ustawienia *****
+2021-06-17	20:42:25.4242	dbDriver QODBC
+2021-06-17	20:42:25.4242	dbConnection prov
+2021-06-17	20:42:25.4242	dbName sopp
+2021-06-17	20:42:25.4242	Line name 10032-13
+2021-06-17	20:42:25.4242	log name sopp.log
+2021-06-17	20:42:25.4242	magic nr 077528
+2021-06-17	20:42:25.4242	Part nr 71734
+2021-06-17	20:42:25.4242	target per H 360
+2021-06-17	20:42:25.4242	target per shift 897
+2021-06-17	20:42:25.4242	Status AWARIA
+2021-06-17	20:42:25.4242	result per H 470
+2021-06-17	20:42:25.4242	result per shift 917
+2021-06-17	20:42:25.4242	backend is true
+2021-06-17	20:42:25.4242	signal ok L10;OK
+2021-06-17	20:42:25.4242	shiftFactor 8
+2021-06-17	20:42:25.4242	minVal 80
+2021-06-17	20:42:25.4242	midVal 80
+2021-06-17	20:42:25.4242	maxVal 90
+2021-06-17	20:42:25.4242	firstShift 14
+2021-06-17	20:42:25.4242	second shift 22
+2021-06-17	20:42:25.4242	third shift 6
+2021-06-17	20:42:26.4242	backendtime jest true 
+2021-06-17	20:42:27.4242	Obliczony interval target 2593
+2021-06-17	20:42:28.4242	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:42:28.4242	Magic number is cool
+2021-06-17	20:43:07.4343	**** Start Aplikacji ****
+2021-06-17	20:43:07.4343	sopp.log
+2021-06-17	20:43:08.4343	Połączono z bazą danych 
+2021-06-17	20:43:08.4343	***** Ustawienia *****
+2021-06-17	20:43:08.4343	dbDriver QODBC
+2021-06-17	20:43:08.4343	dbConnection prov
+2021-06-17	20:43:08.4343	dbName sopp
+2021-06-17	20:43:08.4343	Line name 10032-13
+2021-06-17	20:43:08.4343	log name sopp.log
+2021-06-17	20:43:08.4343	magic nr 077528
+2021-06-17	20:43:08.4343	Part nr 71734
+2021-06-17	20:43:08.4343	target per H 360
+2021-06-17	20:43:08.4343	target per shift 897
+2021-06-17	20:43:08.4343	Status AWARIA
+2021-06-17	20:43:08.4343	result per H 470
+2021-06-17	20:43:08.4343	result per shift 917
+2021-06-17	20:43:08.4343	backend is true
+2021-06-17	20:43:08.4343	signal ok L10;OK
+2021-06-17	20:43:08.4343	shiftFactor 8
+2021-06-17	20:43:08.4343	minVal 80
+2021-06-17	20:43:08.4343	midVal 80
+2021-06-17	20:43:08.4343	maxVal 90
+2021-06-17	20:43:08.4343	firstShift 14
+2021-06-17	20:43:08.4343	second shift 22
+2021-06-17	20:43:08.4343	third shift 6
+2021-06-17	20:43:09.4343	backendtime jest true 
+2021-06-17	20:43:10.4343	Obliczony interval target 2593
+2021-06-17	20:43:10.4343	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	20:43:10.4343	Magic number is cool
+2021-06-17	21:00:00.000	Zerujemy liczniki na pełną godzinę 
+2021-06-17	21:00:00.000	Czas 210000
+2021-06-17	21:36:05.3636	**** Start Aplikacji ****
+2021-06-17	21:36:05.3636	sopp.log
+2021-06-17	21:36:05.3636	Połączono z bazą danych 
+2021-06-17	21:36:06.3636	***** Ustawienia *****
+2021-06-17	21:36:06.3636	dbDriver QODBC
+2021-06-17	21:36:06.3636	dbConnection prov
+2021-06-17	21:36:06.3636	dbName sopp
+2021-06-17	21:36:06.3636	Line name 10032-13
+2021-06-17	21:36:06.3636	log name sopp.log
+2021-06-17	21:36:06.3636	magic nr 077528
+2021-06-17	21:36:06.3636	Part nr 71734
+2021-06-17	21:36:06.3636	target per H 0
+2021-06-17	21:36:06.3636	target per shift 897
+2021-06-17	21:36:06.3636	Status AWARIA
+2021-06-17	21:36:06.3636	result per H 0
+2021-06-17	21:36:06.3636	result per shift 917
+2021-06-17	21:36:06.3636	backend is true
+2021-06-17	21:36:06.3636	signal ok L10;OK
+2021-06-17	21:36:06.3636	shiftFactor 8
+2021-06-17	21:36:06.3636	minVal 80
+2021-06-17	21:36:06.3636	midVal 80
+2021-06-17	21:36:06.3636	maxVal 90
+2021-06-17	21:36:06.3636	firstShift 14
+2021-06-17	21:36:06.3636	second shift 22
+2021-06-17	21:36:06.3636	third shift 6
+2021-06-17	21:36:06.3636	backendtime jest true 
+2021-06-17	21:36:08.3636	Obliczony interval target 2593
+2021-06-17	21:36:08.3636	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-17	21:36:08.3636	Magic number is cool
+2021-06-18	19:22:46.2222	**** Start Aplikacji ****
+2021-06-18	19:22:46.2222	sopp.log
+2021-06-18	19:22:46.2222	Połączono z bazą danych 
+2021-06-18	19:22:47.2222	***** Ustawienia *****
+2021-06-18	19:22:47.2222	dbDriver QODBC
+2021-06-18	19:22:47.2222	dbConnection prov
+2021-06-18	19:22:47.2222	dbName sopp
+2021-06-18	19:22:47.2222	Line name 10032-13
+2021-06-18	19:22:47.2222	log name sopp.log
+2021-06-18	19:22:47.2222	magic nr 077528
+2021-06-18	19:22:47.2222	Part nr 71734
+2021-06-18	19:22:47.2222	target per H 0
+2021-06-18	19:22:47.2222	target per shift 897
+2021-06-18	19:22:47.2222	Status AWARIA
+2021-06-18	19:22:47.2222	result per H 0
+2021-06-18	19:22:47.2222	result per shift 917
+2021-06-18	19:22:47.2222	backend is true
+2021-06-18	19:22:47.2222	signal ok BOK
+2021-06-18	19:22:47.2222	shiftFactor 8
+2021-06-18	19:22:47.2222	minVal 80
+2021-06-18	19:22:47.2222	midVal 80
+2021-06-18	19:22:47.2222	maxVal 90
+2021-06-18	19:22:47.2222	firstShift 14
+2021-06-18	19:22:47.2222	second shift 22
+2021-06-18	19:22:47.2222	third shift 6
+2021-06-18	19:22:47.2222	backendtime jest true 
+2021-06-18	19:22:49.2222	Obliczony interval target 2593
+2021-06-18	19:22:49.2222	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:22:49.2222	Magic number is cool
+2021-06-18	19:25:27.2525	**** Start Aplikacji ****
+2021-06-18	19:25:27.2525	sopp.log
+2021-06-18	19:25:28.2525	Połączono z bazą danych 
+2021-06-18	19:25:28.2525	***** Ustawienia *****
+2021-06-18	19:25:28.2525	dbDriver QODBC
+2021-06-18	19:25:28.2525	dbConnection prov
+2021-06-18	19:25:28.2525	dbName sopp
+2021-06-18	19:25:28.2525	Line name 10032-13
+2021-06-18	19:25:28.2525	log name sopp.log
+2021-06-18	19:25:28.2525	magic nr 077528
+2021-06-18	19:25:28.2525	Part nr 71734
+2021-06-18	19:25:28.2525	target per H 0
+2021-06-18	19:25:28.2525	target per shift 897
+2021-06-18	19:25:28.2525	Status AWARIA
+2021-06-18	19:25:28.2525	result per H 0
+2021-06-18	19:25:28.2525	result per shift 917
+2021-06-18	19:25:28.2525	backend is true
+2021-06-18	19:25:28.2525	signal ok BOK
+2021-06-18	19:25:28.2525	shiftFactor 8
+2021-06-18	19:25:28.2525	minVal 80
+2021-06-18	19:25:28.2525	midVal 80
+2021-06-18	19:25:28.2525	maxVal 90
+2021-06-18	19:25:28.2525	firstShift 14
+2021-06-18	19:25:28.2525	second shift 22
+2021-06-18	19:25:28.2525	third shift 6
+2021-06-18	19:25:29.2525	backendtime jest true 
+2021-06-18	19:25:32.2525	Obliczony interval target 2593
+2021-06-18	19:25:33.2525	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:25:33.2525	Magic number is cool
+2021-06-18	19:26:19.2626	**** Start Aplikacji ****
+2021-06-18	19:26:19.2626	sopp.log
+2021-06-18	19:26:19.2626	Połączono z bazą danych 
+2021-06-18	19:26:19.2626	***** Ustawienia *****
+2021-06-18	19:26:19.2626	dbDriver QODBC
+2021-06-18	19:26:19.2626	dbConnection prov
+2021-06-18	19:26:19.2626	dbName sopp
+2021-06-18	19:26:19.2626	Line name 10032-13
+2021-06-18	19:26:19.2626	log name sopp.log
+2021-06-18	19:26:19.2626	magic nr 077528
+2021-06-18	19:26:19.2626	Part nr 71734
+2021-06-18	19:26:19.2626	target per H 0
+2021-06-18	19:26:19.2626	target per shift 897
+2021-06-18	19:26:19.2626	Status AWARIA
+2021-06-18	19:26:19.2626	result per H 0
+2021-06-18	19:26:19.2626	result per shift 917
+2021-06-18	19:26:19.2626	backend is true
+2021-06-18	19:26:19.2626	signal ok BOK
+2021-06-18	19:26:19.2626	shiftFactor 8
+2021-06-18	19:26:19.2626	minVal 80
+2021-06-18	19:26:19.2626	midVal 80
+2021-06-18	19:26:19.2626	maxVal 90
+2021-06-18	19:26:19.2626	firstShift 14
+2021-06-18	19:26:19.2626	second shift 22
+2021-06-18	19:26:19.2626	third shift 6
+2021-06-18	19:26:20.2626	backendtime jest true 
+2021-06-18	19:26:24.2626	Obliczony interval target 2593
+2021-06-18	19:26:24.2626	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:26:24.2626	Magic number is cool
+2021-06-18	19:27:11.2727	**** Start Aplikacji ****
+2021-06-18	19:27:11.2727	sopp.log
+2021-06-18	19:27:11.2727	Połączono z bazą danych 
+2021-06-18	19:27:11.2727	***** Ustawienia *****
+2021-06-18	19:27:11.2727	dbDriver QODBC
+2021-06-18	19:27:11.2727	dbConnection prov
+2021-06-18	19:27:11.2727	dbName sopp
+2021-06-18	19:27:11.2727	Line name 10032-13
+2021-06-18	19:27:11.2727	log name sopp.log
+2021-06-18	19:27:11.2727	magic nr 077528
+2021-06-18	19:27:11.2727	Part nr 71734
+2021-06-18	19:27:11.2727	target per H 0
+2021-06-18	19:27:11.2727	target per shift 897
+2021-06-18	19:27:11.2727	Status AWARIA
+2021-06-18	19:27:11.2727	result per H 0
+2021-06-18	19:27:11.2727	result per shift 917
+2021-06-18	19:27:11.2727	backend is true
+2021-06-18	19:27:11.2727	signal ok BOK
+2021-06-18	19:27:11.2727	shiftFactor 8
+2021-06-18	19:27:11.2727	minVal 80
+2021-06-18	19:27:11.2727	midVal 80
+2021-06-18	19:27:11.2727	maxVal 90
+2021-06-18	19:27:11.2727	firstShift 14
+2021-06-18	19:27:11.2727	second shift 22
+2021-06-18	19:27:11.2727	third shift 6
+2021-06-18	19:27:12.2727	backendtime jest true 
+2021-06-18	19:27:16.2727	Obliczony interval target 2593
+2021-06-18	19:27:16.2727	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:27:16.2727	Magic number is cool
+2021-06-18	19:32:57.3232	**** Start Aplikacji ****
+2021-06-18	19:32:57.3232	sopp.log
+2021-06-18	19:32:58.3232	Połączono z bazą danych 
+2021-06-18	19:32:58.3232	***** Ustawienia *****
+2021-06-18	19:32:58.3232	dbDriver QODBC
+2021-06-18	19:32:58.3232	dbConnection prov
+2021-06-18	19:32:58.3232	dbName sopp
+2021-06-18	19:32:58.3232	Line name 10032-13
+2021-06-18	19:32:58.3232	log name sopp.log
+2021-06-18	19:32:58.3232	magic nr 077528
+2021-06-18	19:32:58.3232	Part nr 71734
+2021-06-18	19:32:58.3232	target per H 0
+2021-06-18	19:32:58.3232	target per shift 897
+2021-06-18	19:32:58.3232	Status AWARIA
+2021-06-18	19:32:58.3232	result per H 0
+2021-06-18	19:32:58.3232	result per shift 917
+2021-06-18	19:32:58.3232	backend is true
+2021-06-18	19:32:58.3232	signal ok BOK
+2021-06-18	19:32:58.3232	shiftFactor 8
+2021-06-18	19:32:58.3232	minVal 80
+2021-06-18	19:32:58.3232	midVal 80
+2021-06-18	19:32:58.3232	maxVal 90
+2021-06-18	19:32:58.3232	firstShift 14
+2021-06-18	19:32:58.3232	second shift 22
+2021-06-18	19:32:58.3232	third shift 6
+2021-06-18	19:32:59.3232	backendtime jest true 
+2021-06-18	19:33:02.3333	Obliczony interval target 2593
+2021-06-18	19:33:03.3333	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:33:03.3333	Magic number is cool
+2021-06-18	19:34:27.3434	**** Start Aplikacji ****
+2021-06-18	19:34:27.3434	sopp.log
+2021-06-18	19:34:27.3434	Połączono z bazą danych 
+2021-06-18	19:34:28.3434	***** Ustawienia *****
+2021-06-18	19:34:28.3434	dbDriver QODBC
+2021-06-18	19:34:28.3434	dbConnection prov
+2021-06-18	19:34:28.3434	dbName sopp
+2021-06-18	19:34:28.3434	Line name 10032-13
+2021-06-18	19:34:28.3434	log name sopp.log
+2021-06-18	19:34:28.3434	magic nr 077528
+2021-06-18	19:34:28.3434	Part nr 71734
+2021-06-18	19:34:28.3434	target per H 0
+2021-06-18	19:34:28.3434	target per shift 897
+2021-06-18	19:34:28.3434	Status AWARIA
+2021-06-18	19:34:28.3434	result per H 0
+2021-06-18	19:34:28.3434	result per shift 917
+2021-06-18	19:34:28.3434	backend is true
+2021-06-18	19:34:28.3434	signal ok BOK
+2021-06-18	19:34:28.3434	shiftFactor 8
+2021-06-18	19:34:28.3434	minVal 80
+2021-06-18	19:34:28.3434	midVal 80
+2021-06-18	19:34:28.3434	maxVal 90
+2021-06-18	19:34:28.3434	firstShift 14
+2021-06-18	19:34:28.3434	second shift 22
+2021-06-18	19:34:28.3434	third shift 6
+2021-06-18	19:34:28.3434	backendtime jest true 
+2021-06-18	19:34:32.3434	Obliczony interval target 2593
+2021-06-18	19:34:32.3434	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:34:32.3434	Magic number is cool
+2021-06-18	19:39:38.3939	**** Start Aplikacji ****
+2021-06-18	19:39:38.3939	sopp.log
+2021-06-18	19:39:39.3939	Połączono z bazą danych 
+2021-06-18	19:39:39.3939	***** Ustawienia *****
+2021-06-18	19:39:39.3939	dbDriver QODBC
+2021-06-18	19:39:39.3939	dbConnection prov
+2021-06-18	19:39:39.3939	dbName sopp
+2021-06-18	19:39:39.3939	Line name 10032-13
+2021-06-18	19:39:39.3939	log name sopp.log
+2021-06-18	19:39:39.3939	magic nr 077528
+2021-06-18	19:39:39.3939	Part nr 71734
+2021-06-18	19:39:39.3939	target per H 0
+2021-06-18	19:39:39.3939	target per shift 897
+2021-06-18	19:39:39.3939	Status AWARIA
+2021-06-18	19:39:39.3939	result per H 0
+2021-06-18	19:39:39.3939	result per shift 917
+2021-06-18	19:39:39.3939	backend is true
+2021-06-18	19:39:39.3939	signal ok BOK
+2021-06-18	19:39:39.3939	shiftFactor 8
+2021-06-18	19:39:39.3939	minVal 80
+2021-06-18	19:39:39.3939	midVal 80
+2021-06-18	19:39:39.3939	maxVal 90
+2021-06-18	19:39:39.3939	firstShift 14
+2021-06-18	19:39:39.3939	second shift 22
+2021-06-18	19:39:39.3939	third shift 6
+2021-06-18	19:39:40.3939	backendtime jest true 
+2021-06-18	19:39:43.3939	Obliczony interval target 2593
+2021-06-18	19:39:44.3939	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:39:44.3939	Magic number is cool
+2021-06-18	19:44:03.4444	**** Start Aplikacji ****
+2021-06-18	19:44:03.4444	sopp.log
+2021-06-18	19:44:03.4444	Połączono z bazą danych 
+2021-06-18	19:44:03.4444	***** Ustawienia *****
+2021-06-18	19:44:03.4444	dbDriver QODBC
+2021-06-18	19:44:03.4444	dbConnection prov
+2021-06-18	19:44:03.4444	dbName sopp
+2021-06-18	19:44:03.4444	Line name 10032-13
+2021-06-18	19:44:03.4444	log name sopp.log
+2021-06-18	19:44:03.4444	magic nr 077528
+2021-06-18	19:44:03.4444	Part nr 71734
+2021-06-18	19:44:03.4444	target per H 0
+2021-06-18	19:44:03.4444	target per shift 897
+2021-06-18	19:44:03.4444	Status AWARIA
+2021-06-18	19:44:03.4444	result per H 0
+2021-06-18	19:44:03.4444	result per shift 917
+2021-06-18	19:44:03.4444	backend is true
+2021-06-18	19:44:03.4444	signal ok BOK
+2021-06-18	19:44:03.4444	shiftFactor 8
+2021-06-18	19:44:03.4444	minVal 80
+2021-06-18	19:44:03.4444	midVal 80
+2021-06-18	19:44:03.4444	maxVal 90
+2021-06-18	19:44:03.4444	firstShift 14
+2021-06-18	19:44:03.4444	second shift 22
+2021-06-18	19:44:03.4444	third shift 6
+2021-06-18	19:44:04.4444	backendtime jest true 
+2021-06-18	19:44:08.4444	Obliczony interval target 2593
+2021-06-18	19:44:09.4444	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:44:09.4444	Magic number is cool
+2021-06-18	19:51:01.5151	**** Start Aplikacji ****
+2021-06-18	19:51:01.5151	sopp.log
+2021-06-18	19:51:02.5151	Połączono z bazą danych 
+2021-06-18	19:51:02.5151	***** Ustawienia *****
+2021-06-18	19:51:02.5151	dbDriver QODBC
+2021-06-18	19:51:02.5151	dbConnection prov
+2021-06-18	19:51:02.5151	dbName sopp
+2021-06-18	19:51:02.5151	Line name 10032-13
+2021-06-18	19:51:02.5151	log name sopp.log
+2021-06-18	19:51:02.5151	magic nr 077528
+2021-06-18	19:51:02.5151	Part nr 71734
+2021-06-18	19:51:02.5151	target per H 0
+2021-06-18	19:51:02.5151	target per shift 897
+2021-06-18	19:51:02.5151	Status AWARIA
+2021-06-18	19:51:02.5151	result per H 0
+2021-06-18	19:51:02.5151	result per shift 917
+2021-06-18	19:51:02.5151	backend is true
+2021-06-18	19:51:02.5151	signal ok BOK
+2021-06-18	19:51:02.5151	shiftFactor 8
+2021-06-18	19:51:02.5151	minVal 80
+2021-06-18	19:51:02.5151	midVal 80
+2021-06-18	19:51:02.5151	maxVal 90
+2021-06-18	19:51:02.5151	firstShift 14
+2021-06-18	19:51:02.5151	second shift 22
+2021-06-18	19:51:02.5151	third shift 6
+2021-06-18	19:51:03.5151	Magic number is cool
+2021-06-18	19:51:20.5151	**** Start Aplikacji ****
+2021-06-18	19:51:20.5151	sopp.log
+2021-06-18	19:51:21.5151	Połączono z bazą danych 
+2021-06-18	19:51:21.5151	***** Ustawienia *****
+2021-06-18	19:51:21.5151	dbDriver QODBC
+2021-06-18	19:51:21.5151	dbConnection prov
+2021-06-18	19:51:21.5151	dbName sopp
+2021-06-18	19:51:21.5151	Line name 10032-13
+2021-06-18	19:51:21.5151	log name sopp.log
+2021-06-18	19:51:21.5151	magic nr 077528
+2021-06-18	19:51:21.5151	Part nr 71734
+2021-06-18	19:51:21.5151	target per H 0
+2021-06-18	19:51:21.5151	target per shift 897
+2021-06-18	19:51:21.5151	Status AWARIA
+2021-06-18	19:51:21.5151	result per H 0
+2021-06-18	19:51:21.5151	result per shift 917
+2021-06-18	19:51:21.5151	backend is true
+2021-06-18	19:51:21.5151	signal ok BOK
+2021-06-18	19:51:21.5151	shiftFactor 8
+2021-06-18	19:51:21.5151	minVal 80
+2021-06-18	19:51:21.5151	midVal 80
+2021-06-18	19:51:21.5151	maxVal 90
+2021-06-18	19:51:21.5151	firstShift 14
+2021-06-18	19:51:21.5151	second shift 22
+2021-06-18	19:51:21.5151	third shift 6
+2021-06-18	19:51:22.5151	backendtime jest true 
+2021-06-18	19:51:26.5151	Obliczony interval target 2593
+2021-06-18	19:51:26.5151	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:51:26.5151	Magic number is cool
+2021-06-18	19:52:05.5252	**** Start Aplikacji ****
+2021-06-18	19:52:05.5252	sopp.log
+2021-06-18	19:52:05.5252	Połączono z bazą danych 
+2021-06-18	19:52:06.5252	***** Ustawienia *****
+2021-06-18	19:52:06.5252	dbDriver QODBC
+2021-06-18	19:52:06.5252	dbConnection prov
+2021-06-18	19:52:06.5252	dbName sopp
+2021-06-18	19:52:06.5252	Line name 10032-13
+2021-06-18	19:52:06.5252	log name sopp.log
+2021-06-18	19:52:06.5252	magic nr 077528
+2021-06-18	19:52:06.5252	Part nr 71734
+2021-06-18	19:52:06.5252	target per H 0
+2021-06-18	19:52:06.5252	target per shift 897
+2021-06-18	19:52:06.5252	Status AWARIA
+2021-06-18	19:52:06.5252	result per H 0
+2021-06-18	19:52:06.5252	result per shift 917
+2021-06-18	19:52:06.5252	backend is true
+2021-06-18	19:52:06.5252	signal ok BOK
+2021-06-18	19:52:06.5252	shiftFactor 8
+2021-06-18	19:52:06.5252	minVal 80
+2021-06-18	19:52:06.5252	midVal 80
+2021-06-18	19:52:06.5252	maxVal 90
+2021-06-18	19:52:06.5252	firstShift 14
+2021-06-18	19:52:06.5252	second shift 22
+2021-06-18	19:52:06.5252	third shift 6
+2021-06-18	19:52:06.5252	Magic number is cool
+2021-06-18	19:52:11.5252	**** Start Aplikacji ****
+2021-06-18	19:52:11.5252	sopp.log
+2021-06-18	19:52:12.5252	Połączono z bazą danych 
+2021-06-18	19:52:12.5252	***** Ustawienia *****
+2021-06-18	19:52:12.5252	dbDriver QODBC
+2021-06-18	19:52:12.5252	dbConnection prov
+2021-06-18	19:52:12.5252	dbName sopp
+2021-06-18	19:52:12.5252	Line name 10032-13
+2021-06-18	19:52:12.5252	log name sopp.log
+2021-06-18	19:52:12.5252	magic nr 077528
+2021-06-18	19:52:12.5252	Part nr 71734
+2021-06-18	19:52:12.5252	target per H 0
+2021-06-18	19:52:12.5252	target per shift 897
+2021-06-18	19:52:12.5252	Status AWARIA
+2021-06-18	19:52:12.5252	result per H 0
+2021-06-18	19:52:12.5252	result per shift 917
+2021-06-18	19:52:12.5252	backend is true
+2021-06-18	19:52:12.5252	signal ok BOK
+2021-06-18	19:52:12.5252	shiftFactor 8
+2021-06-18	19:52:12.5252	minVal 80
+2021-06-18	19:52:12.5252	midVal 80
+2021-06-18	19:52:12.5252	maxVal 90
+2021-06-18	19:52:12.5252	firstShift 14
+2021-06-18	19:52:12.5252	second shift 22
+2021-06-18	19:52:12.5252	third shift 6
+2021-06-18	19:52:13.5252	Magic number is cool
+2021-06-18	19:52:24.5252	**** Start Aplikacji ****
+2021-06-18	19:52:24.5252	sopp.log
+2021-06-18	19:52:24.5252	Połączono z bazą danych 
+2021-06-18	19:52:24.5252	***** Ustawienia *****
+2021-06-18	19:52:24.5252	dbDriver QODBC
+2021-06-18	19:52:24.5252	dbConnection prov
+2021-06-18	19:52:24.5252	dbName sopp
+2021-06-18	19:52:24.5252	Line name 10032-13
+2021-06-18	19:52:24.5252	log name sopp.log
+2021-06-18	19:52:24.5252	magic nr 077528
+2021-06-18	19:52:24.5252	Part nr 71734
+2021-06-18	19:52:24.5252	target per H 0
+2021-06-18	19:52:24.5252	target per shift 897
+2021-06-18	19:52:24.5252	Status AWARIA
+2021-06-18	19:52:24.5252	result per H 0
+2021-06-18	19:52:24.5252	result per shift 917
+2021-06-18	19:52:24.5252	backend is true
+2021-06-18	19:52:24.5252	signal ok BOK
+2021-06-18	19:52:24.5252	shiftFactor 8
+2021-06-18	19:52:24.5252	minVal 80
+2021-06-18	19:52:24.5252	midVal 80
+2021-06-18	19:52:24.5252	maxVal 90
+2021-06-18	19:52:24.5252	firstShift 14
+2021-06-18	19:52:24.5252	second shift 22
+2021-06-18	19:52:24.5252	third shift 6
+2021-06-18	19:52:25.5252	backendtime jest true 
+2021-06-18	19:52:29.5252	Obliczony interval target 2593
+2021-06-18	19:52:29.5252	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:52:29.5252	Magic number is cool
+2021-06-18	19:56:21.5656	**** Start Aplikacji ****
+2021-06-18	19:56:21.5656	sopp.log
+2021-06-18	19:56:21.5656	Połączono z bazą danych 
+2021-06-18	19:56:21.5656	***** Ustawienia *****
+2021-06-18	19:56:21.5656	dbDriver QODBC
+2021-06-18	19:56:21.5656	dbConnection prov
+2021-06-18	19:56:21.5656	dbName sopp
+2021-06-18	19:56:21.5656	Line name 10032-13
+2021-06-18	19:56:21.5656	log name sopp.log
+2021-06-18	19:56:21.5656	magic nr 077528
+2021-06-18	19:56:21.5656	Part nr 71734
+2021-06-18	19:56:21.5656	target per H 0
+2021-06-18	19:56:21.5656	target per shift 897
+2021-06-18	19:56:21.5656	Status AWARIA
+2021-06-18	19:56:21.5656	result per H 0
+2021-06-18	19:56:21.5656	result per shift 917
+2021-06-18	19:56:21.5656	backend is true
+2021-06-18	19:56:21.5656	signal ok BOK
+2021-06-18	19:56:21.5656	shiftFactor 8
+2021-06-18	19:56:21.5656	minVal 80
+2021-06-18	19:56:21.5656	midVal 80
+2021-06-18	19:56:21.5656	maxVal 90
+2021-06-18	19:56:21.5656	firstShift 14
+2021-06-18	19:56:21.5656	second shift 22
+2021-06-18	19:56:21.5656	third shift 6
+2021-06-18	19:56:22.5656	backendtime jest true 
+2021-06-18	19:56:26.5656	Obliczony interval target 2593
+2021-06-18	19:56:26.5656	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	19:56:26.5656	Magic number is cool
+2021-06-18	19:59:59.5959	**** Start Aplikacji ****
+2021-06-18	19:59:59.5959	sopp.log
+2021-06-18	19:59:59.5959	Połączono z bazą danych 
+2021-06-18	19:59:59.5959	***** Ustawienia *****
+2021-06-18	19:59:59.5959	dbDriver QODBC
+2021-06-18	19:59:59.5959	dbConnection prov
+2021-06-18	19:59:59.5959	dbName sopp
+2021-06-18	19:59:59.5959	Line name 10032-13
+2021-06-18	19:59:59.5959	log name sopp.log
+2021-06-18	19:59:59.5959	magic nr 077528
+2021-06-18	19:59:59.5959	Part nr 71734
+2021-06-18	19:59:59.5959	target per H 0
+2021-06-18	19:59:59.5959	target per shift 897
+2021-06-18	19:59:59.5959	Status AWARIA
+2021-06-18	19:59:59.5959	result per H 0
+2021-06-18	19:59:59.5959	result per shift 917
+2021-06-18	19:59:59.5959	backend is true
+2021-06-18	19:59:59.5959	signal ok BOK
+2021-06-18	19:59:59.5959	shiftFactor 8
+2021-06-18	19:59:59.5959	minVal 80
+2021-06-18	19:59:59.5959	midVal 80
+2021-06-18	19:59:59.5959	maxVal 90
+2021-06-18	19:59:59.5959	firstShift 14
+2021-06-18	19:59:59.5959	second shift 22
+2021-06-18	19:59:59.5959	third shift 6
+2021-06-18	20:00:00.000	backendtime jest true 
+2021-06-18	20:00:04.000	Obliczony interval target 2593
+2021-06-18	20:00:04.000	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:00:04.000	Magic number is cool
+2021-06-18	20:04:01.044	**** Start Aplikacji ****
+2021-06-18	20:04:01.044	sopp.log
+2021-06-18	20:04:02.044	Połączono z bazą danych 
+2021-06-18	20:04:02.044	***** Ustawienia *****
+2021-06-18	20:04:02.044	dbDriver QODBC
+2021-06-18	20:04:02.044	dbConnection prov
+2021-06-18	20:04:02.044	dbName sopp
+2021-06-18	20:04:02.044	Line name 10032-13
+2021-06-18	20:04:02.044	log name sopp.log
+2021-06-18	20:04:02.044	magic nr 077528
+2021-06-18	20:04:02.044	Part nr 71734
+2021-06-18	20:04:02.044	target per H 0
+2021-06-18	20:04:02.044	target per shift 897
+2021-06-18	20:04:02.044	Status AWARIA
+2021-06-18	20:04:02.044	result per H 0
+2021-06-18	20:04:02.044	result per shift 917
+2021-06-18	20:04:02.044	backend is true
+2021-06-18	20:04:02.044	signal ok BOK
+2021-06-18	20:04:02.044	shiftFactor 8
+2021-06-18	20:04:02.044	minVal 80
+2021-06-18	20:04:02.044	midVal 80
+2021-06-18	20:04:02.044	maxVal 90
+2021-06-18	20:04:02.044	firstShift 14
+2021-06-18	20:04:02.044	second shift 22
+2021-06-18	20:04:02.044	third shift 6
+2021-06-18	20:04:03.044	Magic number is cool
+2021-06-18	20:05:21.055	**** Start Aplikacji ****
+2021-06-18	20:05:21.055	sopp.log
+2021-06-18	20:05:21.055	Połączono z bazą danych 
+2021-06-18	20:05:22.055	***** Ustawienia *****
+2021-06-18	20:05:22.055	dbDriver QODBC
+2021-06-18	20:05:22.055	dbConnection prov
+2021-06-18	20:05:22.055	dbName sopp
+2021-06-18	20:05:22.055	Line name 10032-13
+2021-06-18	20:05:22.055	log name sopp.log
+2021-06-18	20:05:22.055	magic nr 077528
+2021-06-18	20:05:22.055	Part nr 71734
+2021-06-18	20:05:22.055	target per H 0
+2021-06-18	20:05:22.055	target per shift 897
+2021-06-18	20:05:22.055	Status AWARIA
+2021-06-18	20:05:22.055	result per H 0
+2021-06-18	20:05:22.055	result per shift 917
+2021-06-18	20:05:22.055	backend is true
+2021-06-18	20:05:22.055	signal ok BOK
+2021-06-18	20:05:22.055	shiftFactor 8
+2021-06-18	20:05:22.055	minVal 80
+2021-06-18	20:05:22.055	midVal 80
+2021-06-18	20:05:22.055	maxVal 90
+2021-06-18	20:05:22.055	firstShift 14
+2021-06-18	20:05:22.055	second shift 22
+2021-06-18	20:05:22.055	third shift 6
+2021-06-18	20:05:22.055	Magic number is cool
+2021-06-18	20:06:02.066	**** Start Aplikacji ****
+2021-06-18	20:06:02.066	sopp.log
+2021-06-18	20:06:02.066	Połączono z bazą danych 
+2021-06-18	20:06:03.066	***** Ustawienia *****
+2021-06-18	20:06:03.066	dbDriver QODBC
+2021-06-18	20:06:03.066	dbConnection prov
+2021-06-18	20:06:03.066	dbName sopp
+2021-06-18	20:06:03.066	Line name 10032-13
+2021-06-18	20:06:03.066	log name sopp.log
+2021-06-18	20:06:03.066	magic nr 077528
+2021-06-18	20:06:03.066	Part nr 71734
+2021-06-18	20:06:03.066	target per H 0
+2021-06-18	20:06:03.066	target per shift 897
+2021-06-18	20:06:03.066	Status AWARIA
+2021-06-18	20:06:03.066	result per H 0
+2021-06-18	20:06:03.066	result per shift 917
+2021-06-18	20:06:03.066	backend is true
+2021-06-18	20:06:03.066	signal ok BOK
+2021-06-18	20:06:03.066	shiftFactor 8
+2021-06-18	20:06:03.066	minVal 80
+2021-06-18	20:06:03.066	midVal 80
+2021-06-18	20:06:03.066	maxVal 90
+2021-06-18	20:06:03.066	firstShift 14
+2021-06-18	20:06:03.066	second shift 22
+2021-06-18	20:06:03.066	third shift 6
+2021-06-18	20:06:03.066	Magic number is cool
+2021-06-18	20:06:31.066	**** Start Aplikacji ****
+2021-06-18	20:06:31.066	sopp.log
+2021-06-18	20:06:31.066	Połączono z bazą danych 
+2021-06-18	20:06:32.066	***** Ustawienia *****
+2021-06-18	20:06:32.066	dbDriver QODBC
+2021-06-18	20:06:32.066	dbConnection prov
+2021-06-18	20:06:32.066	dbName sopp
+2021-06-18	20:06:32.066	Line name 10032-13
+2021-06-18	20:06:32.066	log name sopp.log
+2021-06-18	20:06:32.066	magic nr 077528
+2021-06-18	20:06:32.066	Part nr 71734
+2021-06-18	20:06:32.066	target per H 0
+2021-06-18	20:06:32.066	target per shift 897
+2021-06-18	20:06:32.066	Status AWARIA
+2021-06-18	20:06:32.066	result per H 0
+2021-06-18	20:06:32.066	result per shift 917
+2021-06-18	20:06:32.066	backend is true
+2021-06-18	20:06:32.066	signal ok BOK
+2021-06-18	20:06:32.066	shiftFactor 8
+2021-06-18	20:06:32.066	minVal 80
+2021-06-18	20:06:32.066	midVal 80
+2021-06-18	20:06:32.066	maxVal 90
+2021-06-18	20:06:32.066	firstShift 14
+2021-06-18	20:06:32.066	second shift 22
+2021-06-18	20:06:32.066	third shift 6
+2021-06-18	20:06:32.066	backendtime jest true 
+2021-06-18	20:06:36.066	Obliczony interval target 2593
+2021-06-18	20:06:37.066	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:06:37.066	Magic number is cool
+2021-06-18	20:08:10.088	**** Start Aplikacji ****
+2021-06-18	20:08:10.088	sopp.log
+2021-06-18	20:08:11.088	Połączono z bazą danych 
+2021-06-18	20:08:11.088	***** Ustawienia *****
+2021-06-18	20:08:11.088	dbDriver QODBC
+2021-06-18	20:08:11.088	dbConnection prov
+2021-06-18	20:08:11.088	dbName sopp
+2021-06-18	20:08:11.088	Line name 10032-13
+2021-06-18	20:08:11.088	log name sopp.log
+2021-06-18	20:08:11.088	magic nr 077528
+2021-06-18	20:08:11.088	Part nr 71734
+2021-06-18	20:08:11.088	target per H 0
+2021-06-18	20:08:11.088	target per shift 897
+2021-06-18	20:08:11.088	Status AWARIA
+2021-06-18	20:08:11.088	result per H 0
+2021-06-18	20:08:11.088	result per shift 917
+2021-06-18	20:08:11.088	backend is true
+2021-06-18	20:08:11.088	signal ok BOK
+2021-06-18	20:08:11.088	shiftFactor 8
+2021-06-18	20:08:11.088	minVal 80
+2021-06-18	20:08:11.088	midVal 80
+2021-06-18	20:08:11.088	maxVal 90
+2021-06-18	20:08:11.088	firstShift 14
+2021-06-18	20:08:11.088	second shift 22
+2021-06-18	20:08:11.088	third shift 6
+2021-06-18	20:08:12.088	backendtime jest true 
+2021-06-18	20:08:16.088	Obliczony interval target 2593
+2021-06-18	20:08:16.088	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:08:16.088	Magic number is cool
+2021-06-18	20:08:46.088	**** Start Aplikacji ****
+2021-06-18	20:08:46.088	sopp.log
+2021-06-18	20:08:47.088	Połączono z bazą danych 
+2021-06-18	20:08:47.088	***** Ustawienia *****
+2021-06-18	20:08:47.088	dbDriver QODBC
+2021-06-18	20:08:47.088	dbConnection prov
+2021-06-18	20:08:47.088	dbName sopp
+2021-06-18	20:08:47.088	Line name 10032-13
+2021-06-18	20:08:47.088	log name sopp.log
+2021-06-18	20:08:47.088	magic nr 077528
+2021-06-18	20:08:47.088	Part nr 71734
+2021-06-18	20:08:47.088	target per H 0
+2021-06-18	20:08:47.088	target per shift 897
+2021-06-18	20:08:47.088	Status AWARIA
+2021-06-18	20:08:47.088	result per H 0
+2021-06-18	20:08:47.088	result per shift 917
+2021-06-18	20:08:47.088	backend is true
+2021-06-18	20:08:47.088	signal ok BOK
+2021-06-18	20:08:47.088	shiftFactor 8
+2021-06-18	20:08:47.088	minVal 80
+2021-06-18	20:08:47.088	midVal 80
+2021-06-18	20:08:47.088	maxVal 90
+2021-06-18	20:08:47.088	firstShift 14
+2021-06-18	20:08:47.088	second shift 22
+2021-06-18	20:08:47.088	third shift 6
+2021-06-18	20:08:48.088	backendtime jest true 
+2021-06-18	20:08:51.088	Obliczony interval target 2593
+2021-06-18	20:08:51.088	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:08:51.088	Magic number is cool
+2021-06-18	20:09:48.099	**** Start Aplikacji ****
+2021-06-18	20:09:48.099	sopp.log
+2021-06-18	20:09:49.099	Połączono z bazą danych 
+2021-06-18	20:09:49.099	***** Ustawienia *****
+2021-06-18	20:09:49.099	dbDriver QODBC
+2021-06-18	20:09:49.099	dbConnection prov
+2021-06-18	20:09:49.099	dbName sopp
+2021-06-18	20:09:49.099	Line name 10032-13
+2021-06-18	20:09:49.099	log name sopp.log
+2021-06-18	20:09:49.099	magic nr 077528
+2021-06-18	20:09:49.099	Part nr 71734
+2021-06-18	20:09:49.099	target per H 0
+2021-06-18	20:09:49.099	target per shift 897
+2021-06-18	20:09:49.099	Status AWARIA
+2021-06-18	20:09:49.099	result per H 0
+2021-06-18	20:09:49.099	result per shift 917
+2021-06-18	20:09:49.099	backend is true
+2021-06-18	20:09:49.099	signal ok BOK
+2021-06-18	20:09:49.099	shiftFactor 8
+2021-06-18	20:09:49.099	minVal 80
+2021-06-18	20:09:49.099	midVal 80
+2021-06-18	20:09:49.099	maxVal 90
+2021-06-18	20:09:49.099	firstShift 14
+2021-06-18	20:09:49.099	second shift 22
+2021-06-18	20:09:49.099	third shift 6
+2021-06-18	20:09:50.099	Magic number is cool
+2021-06-18	20:10:16.1010	**** Start Aplikacji ****
+2021-06-18	20:10:16.1010	sopp.log
+2021-06-18	20:10:17.1010	Połączono z bazą danych 
+2021-06-18	20:10:17.1010	***** Ustawienia *****
+2021-06-18	20:10:17.1010	dbDriver QODBC
+2021-06-18	20:10:17.1010	dbConnection prov
+2021-06-18	20:10:17.1010	dbName sopp
+2021-06-18	20:10:17.1010	Line name 10032-13
+2021-06-18	20:10:17.1010	log name sopp.log
+2021-06-18	20:10:17.1010	magic nr 077528
+2021-06-18	20:10:17.1010	Part nr 71734
+2021-06-18	20:10:17.1010	target per H 0
+2021-06-18	20:10:17.1010	target per shift 897
+2021-06-18	20:10:17.1010	Status AWARIA
+2021-06-18	20:10:17.1010	result per H 0
+2021-06-18	20:10:17.1010	result per shift 917
+2021-06-18	20:10:17.1010	backend is true
+2021-06-18	20:10:17.1010	signal ok BOK
+2021-06-18	20:10:17.1010	shiftFactor 8
+2021-06-18	20:10:17.1010	minVal 80
+2021-06-18	20:10:17.1010	midVal 80
+2021-06-18	20:10:17.1010	maxVal 90
+2021-06-18	20:10:17.1010	firstShift 14
+2021-06-18	20:10:17.1010	second shift 22
+2021-06-18	20:10:17.1010	third shift 6
+2021-06-18	20:10:18.1010	backendtime jest true 
+2021-06-18	20:10:22.1010	Obliczony interval target 2593
+2021-06-18	20:10:22.1010	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:10:22.1010	Magic number is cool
+2021-06-18	20:11:30.1111	**** Start Aplikacji ****
+2021-06-18	20:11:30.1111	sopp.log
+2021-06-18	20:11:31.1111	Połączono z bazą danych 
+2021-06-18	20:11:31.1111	***** Ustawienia *****
+2021-06-18	20:11:31.1111	dbDriver QODBC
+2021-06-18	20:11:31.1111	dbConnection prov
+2021-06-18	20:11:31.1111	dbName sopp
+2021-06-18	20:11:31.1111	Line name 10032-13
+2021-06-18	20:11:31.1111	log name sopp.log
+2021-06-18	20:11:31.1111	magic nr 077528
+2021-06-18	20:11:31.1111	Part nr 71734
+2021-06-18	20:11:31.1111	target per H 0
+2021-06-18	20:11:31.1111	target per shift 897
+2021-06-18	20:11:31.1111	Status AWARIA
+2021-06-18	20:11:31.1111	result per H 0
+2021-06-18	20:11:31.1111	result per shift 917
+2021-06-18	20:11:31.1111	backend is true
+2021-06-18	20:11:31.1111	signal ok BOK
+2021-06-18	20:11:31.1111	shiftFactor 8
+2021-06-18	20:11:31.1111	minVal 80
+2021-06-18	20:11:31.1111	midVal 80
+2021-06-18	20:11:31.1111	maxVal 90
+2021-06-18	20:11:31.1111	firstShift 14
+2021-06-18	20:11:31.1111	second shift 22
+2021-06-18	20:11:31.1111	third shift 6
+2021-06-18	20:11:32.1111	backendtime jest true 
+2021-06-18	20:11:35.1111	Obliczony interval target 2593
+2021-06-18	20:11:36.1111	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:11:36.1111	Magic number is cool
+2021-06-18	20:12:37.1212	**** Start Aplikacji ****
+2021-06-18	20:12:37.1212	sopp.log
+2021-06-18	20:12:37.1212	Połączono z bazą danych 
+2021-06-18	20:12:38.1212	***** Ustawienia *****
+2021-06-18	20:12:38.1212	dbDriver QODBC
+2021-06-18	20:12:38.1212	dbConnection prov
+2021-06-18	20:12:38.1212	dbName sopp
+2021-06-18	20:12:38.1212	Line name 10032-13
+2021-06-18	20:12:38.1212	log name sopp.log
+2021-06-18	20:12:38.1212	magic nr 077528
+2021-06-18	20:12:38.1212	Part nr 71734
+2021-06-18	20:12:38.1212	target per H 0
+2021-06-18	20:12:38.1212	target per shift 897
+2021-06-18	20:12:38.1212	Status AWARIA
+2021-06-18	20:12:38.1212	result per H 0
+2021-06-18	20:12:38.1212	result per shift 917
+2021-06-18	20:12:38.1212	backend is true
+2021-06-18	20:12:38.1212	signal ok BOK
+2021-06-18	20:12:38.1212	shiftFactor 8
+2021-06-18	20:12:38.1212	minVal 80
+2021-06-18	20:12:38.1212	midVal 80
+2021-06-18	20:12:38.1212	maxVal 90
+2021-06-18	20:12:38.1212	firstShift 14
+2021-06-18	20:12:38.1212	second shift 22
+2021-06-18	20:12:38.1212	third shift 6
+2021-06-18	20:12:38.1212	backendtime jest true 
+2021-06-18	20:12:42.1212	Obliczony interval target 2593
+2021-06-18	20:12:43.1212	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:12:43.1212	Magic number is cool
+2021-06-18	20:13:01.1313	Obliczony interval target -2147483648
+2021-06-18	20:14:27.1414	**** Start Aplikacji ****
+2021-06-18	20:14:27.1414	sopp.log
+2021-06-18	20:14:28.1414	Połączono z bazą danych 
+2021-06-18	20:14:28.1414	***** Ustawienia *****
+2021-06-18	20:14:28.1414	dbDriver QODBC
+2021-06-18	20:14:28.1414	dbConnection prov
+2021-06-18	20:14:28.1414	dbName sopp
+2021-06-18	20:14:28.1414	Line name 10032-13
+2021-06-18	20:14:28.1414	log name sopp.log
+2021-06-18	20:14:28.1414	magic nr 077528
+2021-06-18	20:14:28.1414	Part nr 
+2021-06-18	20:14:28.1414	target per H 0
+2021-06-18	20:14:28.1414	target per shift 897
+2021-06-18	20:14:28.1414	Status AWARIA
+2021-06-18	20:14:28.1414	result per H 0
+2021-06-18	20:14:28.1414	result per shift 917
+2021-06-18	20:14:28.1414	backend is true
+2021-06-18	20:14:28.1414	signal ok BOK
+2021-06-18	20:14:28.1414	shiftFactor 8
+2021-06-18	20:14:28.1414	minVal 80
+2021-06-18	20:14:28.1414	midVal 80
+2021-06-18	20:14:28.1414	maxVal 90
+2021-06-18	20:14:28.1414	firstShift 14
+2021-06-18	20:14:28.1414	second shift 22
+2021-06-18	20:14:28.1414	third shift 6
+2021-06-18	20:14:29.1414	backendtime jest true 
+2021-06-18	20:14:32.1414	Obliczony interval target -2147483648
+2021-06-18	20:14:33.1414	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:14:33.1414	Magic number is cool
+2021-06-18	20:16:42.1616	**** Start Aplikacji ****
+2021-06-18	20:16:42.1616	sopp.log
+2021-06-18	20:16:42.1616	Połączono z bazą danych 
+2021-06-18	20:16:42.1616	***** Ustawienia *****
+2021-06-18	20:16:42.1616	dbDriver QODBC
+2021-06-18	20:16:42.1616	dbConnection prov
+2021-06-18	20:16:42.1616	dbName sopp
+2021-06-18	20:16:42.1616	Line name 10032-13
+2021-06-18	20:16:42.1616	log name sopp.log
+2021-06-18	20:16:42.1616	magic nr 077528
+2021-06-18	20:16:42.1616	Part nr 
+2021-06-18	20:16:42.1616	target per H 0
+2021-06-18	20:16:42.1616	target per shift 897
+2021-06-18	20:16:42.1616	Status AWARIA
+2021-06-18	20:16:42.1616	result per H 0
+2021-06-18	20:16:42.1616	result per shift 917
+2021-06-18	20:16:42.1616	backend is true
+2021-06-18	20:16:42.1616	signal ok BOK
+2021-06-18	20:16:42.1616	shiftFactor 8
+2021-06-18	20:16:42.1616	minVal 80
+2021-06-18	20:16:42.1616	midVal 80
+2021-06-18	20:16:42.1616	maxVal 90
+2021-06-18	20:16:42.1616	firstShift 14
+2021-06-18	20:16:42.1616	second shift 22
+2021-06-18	20:16:42.1616	third shift 6
+2021-06-18	20:16:43.1616	backendtime jest true 
+2021-06-18	20:16:47.1616	Obliczony interval target -2147483648
+2021-06-18	20:16:47.1616	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:16:47.1616	Magic number is cool
+2021-06-18	20:17:28.1717	**** Start Aplikacji ****
+2021-06-18	20:17:28.1717	sopp.log
+2021-06-18	20:17:28.1717	Połączono z bazą danych 
+2021-06-18	20:17:29.1717	***** Ustawienia *****
+2021-06-18	20:17:29.1717	dbDriver QODBC
+2021-06-18	20:17:29.1717	dbConnection prov
+2021-06-18	20:17:29.1717	dbName sopp
+2021-06-18	20:17:29.1717	Line name 10032-13
+2021-06-18	20:17:29.1717	log name sopp.log
+2021-06-18	20:17:29.1717	magic nr 077528
+2021-06-18	20:17:29.1717	Part nr 
+2021-06-18	20:17:29.1717	target per H 0
+2021-06-18	20:17:29.1717	target per shift 897
+2021-06-18	20:17:29.1717	Status AWARIA
+2021-06-18	20:17:29.1717	result per H 0
+2021-06-18	20:17:29.1717	result per shift 917
+2021-06-18	20:17:29.1717	backend is true
+2021-06-18	20:17:29.1717	signal ok BOK
+2021-06-18	20:17:29.1717	shiftFactor 8
+2021-06-18	20:17:29.1717	minVal 80
+2021-06-18	20:17:29.1717	midVal 80
+2021-06-18	20:17:29.1717	maxVal 90
+2021-06-18	20:17:29.1717	firstShift 14
+2021-06-18	20:17:29.1717	second shift 22
+2021-06-18	20:17:29.1717	third shift 6
+2021-06-18	20:17:30.1717	backendtime jest true 
+2021-06-18	20:17:33.1717	Obliczony interval target -2147483648
+2021-06-18	20:17:34.1717	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:17:34.1717	Magic number is cool
+2021-06-18	20:21:55.2121	**** Start Aplikacji ****
+2021-06-18	20:21:55.2121	sopp.log
+2021-06-18	20:21:55.2121	Połączono z bazą danych 
+2021-06-18	20:21:56.2121	***** Ustawienia *****
+2021-06-18	20:21:56.2121	dbDriver QODBC
+2021-06-18	20:21:56.2121	dbConnection prov
+2021-06-18	20:21:56.2121	dbName sopp
+2021-06-18	20:21:56.2121	Line name 10032-13
+2021-06-18	20:21:56.2121	log name sopp.log
+2021-06-18	20:21:56.2121	magic nr 077528
+2021-06-18	20:21:56.2121	Part nr 
+2021-06-18	20:21:56.2121	target per H 0
+2021-06-18	20:21:56.2121	target per shift 897
+2021-06-18	20:21:56.2121	Status AWARIA
+2021-06-18	20:21:56.2121	result per H 0
+2021-06-18	20:21:56.2121	result per shift 917
+2021-06-18	20:21:56.2121	backend is true
+2021-06-18	20:21:56.2121	signal ok BOK
+2021-06-18	20:21:56.2121	shiftFactor 8
+2021-06-18	20:21:56.2121	minVal 80
+2021-06-18	20:21:56.2121	midVal 80
+2021-06-18	20:21:56.2121	maxVal 90
+2021-06-18	20:21:56.2121	firstShift 14
+2021-06-18	20:21:56.2121	second shift 22
+2021-06-18	20:21:56.2121	third shift 6
+2021-06-18	20:21:56.2121	backendtime jest true 
+2021-06-18	20:22:00.2222	Obliczony interval target -2147483648
+2021-06-18	20:22:00.2222	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:22:00.2222	Magic number is cool
+2021-06-18	20:23:14.2323	**** Start Aplikacji ****
+2021-06-18	20:23:14.2323	sopp.log
+2021-06-18	20:23:15.2323	Połączono z bazą danych 
+2021-06-18	20:23:15.2323	***** Ustawienia *****
+2021-06-18	20:23:15.2323	dbDriver QODBC
+2021-06-18	20:23:15.2323	dbConnection prov
+2021-06-18	20:23:15.2323	dbName sopp
+2021-06-18	20:23:15.2323	Line name 10032-13
+2021-06-18	20:23:15.2323	log name sopp.log
+2021-06-18	20:23:15.2323	magic nr 077528
+2021-06-18	20:23:15.2323	Part nr 
+2021-06-18	20:23:15.2323	target per H 0
+2021-06-18	20:23:15.2323	target per shift 897
+2021-06-18	20:23:15.2323	Status AWARIA
+2021-06-18	20:23:15.2323	result per H 0
+2021-06-18	20:23:15.2323	result per shift 917
+2021-06-18	20:23:15.2323	backend is true
+2021-06-18	20:23:15.2323	signal ok BOK
+2021-06-18	20:23:15.2323	shiftFactor 8
+2021-06-18	20:23:15.2323	minVal 80
+2021-06-18	20:23:15.2323	midVal 80
+2021-06-18	20:23:15.2323	maxVal 90
+2021-06-18	20:23:15.2323	firstShift 14
+2021-06-18	20:23:15.2323	second shift 22
+2021-06-18	20:23:15.2323	third shift 6
+2021-06-18	20:23:16.2323	backendtime jest true 
+2021-06-18	20:23:19.2323	Obliczony interval target -2147483648
+2021-06-18	20:23:20.2323	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:23:20.2323	Magic number is cool
+2021-06-18	20:24:41.2424	**** Start Aplikacji ****
+2021-06-18	20:24:41.2424	sopp.log
+2021-06-18	20:24:41.2424	Połączono z bazą danych 
+2021-06-18	20:24:41.2424	***** Ustawienia *****
+2021-06-18	20:24:41.2424	dbDriver QODBC
+2021-06-18	20:24:41.2424	dbConnection prov
+2021-06-18	20:24:41.2424	dbName sopp
+2021-06-18	20:24:41.2424	Line name 10032-13
+2021-06-18	20:24:41.2424	log name sopp.log
+2021-06-18	20:24:41.2424	magic nr 077528
+2021-06-18	20:24:41.2424	Part nr 71734
+2021-06-18	20:24:41.2424	target per H 0
+2021-06-18	20:24:41.2424	target per shift 897
+2021-06-18	20:24:41.2424	Status AWARIA
+2021-06-18	20:24:41.2424	result per H 0
+2021-06-18	20:24:41.2424	result per shift 917
+2021-06-18	20:24:41.2424	backend is true
+2021-06-18	20:24:41.2424	signal ok BOK
+2021-06-18	20:24:41.2424	shiftFactor 8
+2021-06-18	20:24:41.2424	minVal 80
+2021-06-18	20:24:41.2424	midVal 80
+2021-06-18	20:24:41.2424	maxVal 90
+2021-06-18	20:24:41.2424	firstShift 14
+2021-06-18	20:24:41.2424	second shift 22
+2021-06-18	20:24:41.2424	third shift 6
+2021-06-18	20:24:42.2424	backendtime jest true 
+2021-06-18	20:24:46.2424	Obliczony interval target 2593
+2021-06-18	20:24:46.2424	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:24:46.2424	Magic number is cool
+2021-06-18	20:25:25.2525	**** Start Aplikacji ****
+2021-06-18	20:25:25.2525	sopp.log
+2021-06-18	20:25:26.2525	Połączono z bazą danych 
+2021-06-18	20:25:26.2525	***** Ustawienia *****
+2021-06-18	20:25:26.2525	dbDriver QODBC
+2021-06-18	20:25:26.2525	dbConnection prov
+2021-06-18	20:25:26.2525	dbName sopp
+2021-06-18	20:25:26.2525	Line name 10032-13
+2021-06-18	20:25:26.2525	log name sopp.log
+2021-06-18	20:25:26.2525	magic nr 077528
+2021-06-18	20:25:26.2525	Part nr 71734
+2021-06-18	20:25:26.2525	target per H 0
+2021-06-18	20:25:26.2525	target per shift 897
+2021-06-18	20:25:26.2525	Status AWARIA
+2021-06-18	20:25:26.2525	result per H 0
+2021-06-18	20:25:26.2525	result per shift 917
+2021-06-18	20:25:26.2525	backend is true
+2021-06-18	20:25:26.2525	signal ok BOK
+2021-06-18	20:25:26.2525	shiftFactor 8
+2021-06-18	20:25:26.2525	minVal 80
+2021-06-18	20:25:26.2525	midVal 80
+2021-06-18	20:25:26.2525	maxVal 90
+2021-06-18	20:25:26.2525	firstShift 14
+2021-06-18	20:25:26.2525	second shift 22
+2021-06-18	20:25:26.2525	third shift 6
+2021-06-18	20:25:27.2525	backendtime jest true 
+2021-06-18	20:25:30.2525	Obliczony interval target 2593
+2021-06-18	20:25:31.2525	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:25:31.2525	Magic number is cool
+2021-06-18	20:28:20.2828	**** Start Aplikacji ****
+2021-06-18	20:28:20.2828	sopp.log
+2021-06-18	20:28:21.2828	Połączono z bazą danych 
+2021-06-18	20:28:21.2828	***** Ustawienia *****
+2021-06-18	20:28:21.2828	dbDriver QODBC
+2021-06-18	20:28:21.2828	dbConnection prov
+2021-06-18	20:28:21.2828	dbName sopp
+2021-06-18	20:28:21.2828	Line name 10032-13
+2021-06-18	20:28:21.2828	log name sopp.log
+2021-06-18	20:28:21.2828	magic nr 077528
+2021-06-18	20:28:21.2828	Part nr 71734
+2021-06-18	20:28:21.2828	target per H 0
+2021-06-18	20:28:21.2828	target per shift 897
+2021-06-18	20:28:21.2828	Status AWARIA
+2021-06-18	20:28:21.2828	result per H 0
+2021-06-18	20:28:21.2828	result per shift 917
+2021-06-18	20:28:21.2828	backend is true
+2021-06-18	20:28:21.2828	signal ok BOK
+2021-06-18	20:28:21.2828	shiftFactor 8
+2021-06-18	20:28:21.2828	minVal 80
+2021-06-18	20:28:21.2828	midVal 80
+2021-06-18	20:28:21.2828	maxVal 90
+2021-06-18	20:28:21.2828	firstShift 14
+2021-06-18	20:28:21.2828	second shift 22
+2021-06-18	20:28:21.2828	third shift 6
+2021-06-18	20:28:22.2828	backendtime jest true 
+2021-06-18	20:28:26.2828	Obliczony interval target 2593
+2021-06-18	20:28:26.2828	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:28:26.2828	Magic number is cool
+2021-06-18	20:29:26.2929	**** Start Aplikacji ****
+2021-06-18	20:29:26.2929	sopp.log
+2021-06-18	20:29:27.2929	Połączono z bazą danych 
+2021-06-18	20:29:27.2929	***** Ustawienia *****
+2021-06-18	20:29:27.2929	dbDriver QODBC
+2021-06-18	20:29:27.2929	dbConnection prov
+2021-06-18	20:29:27.2929	dbName sopp
+2021-06-18	20:29:27.2929	Line name 10032-13
+2021-06-18	20:29:27.2929	log name sopp.log
+2021-06-18	20:29:27.2929	magic nr 077528
+2021-06-18	20:29:27.2929	Part nr 71734
+2021-06-18	20:29:27.2929	target per H 0
+2021-06-18	20:29:27.2929	target per shift 897
+2021-06-18	20:29:27.2929	Status AWARIA
+2021-06-18	20:29:27.2929	result per H 0
+2021-06-18	20:29:27.2929	result per shift 917
+2021-06-18	20:29:27.2929	backend is true
+2021-06-18	20:29:27.2929	signal ok BOK
+2021-06-18	20:29:27.2929	shiftFactor 8
+2021-06-18	20:29:27.2929	minVal 80
+2021-06-18	20:29:27.2929	midVal 80
+2021-06-18	20:29:27.2929	maxVal 90
+2021-06-18	20:29:27.2929	firstShift 14
+2021-06-18	20:29:27.2929	second shift 22
+2021-06-18	20:29:27.2929	third shift 6
+2021-06-18	20:29:28.2929	backendtime jest true 
+2021-06-18	20:29:31.2929	Obliczony interval target 2593
+2021-06-18	20:29:32.2929	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:29:32.2929	Magic number is cool
+2021-06-18	20:32:49.3232	**** Start Aplikacji ****
+2021-06-18	20:32:49.3232	sopp.log
+2021-06-18	20:32:49.3232	Połączono z bazą danych 
+2021-06-18	20:32:49.3232	***** Ustawienia *****
+2021-06-18	20:32:49.3232	dbDriver QODBC
+2021-06-18	20:32:49.3232	dbConnection prov
+2021-06-18	20:32:49.3232	dbName sopp
+2021-06-18	20:32:49.3232	Line name 10032-13
+2021-06-18	20:32:49.3232	log name sopp.log
+2021-06-18	20:32:49.3232	magic nr 077528
+2021-06-18	20:32:49.3232	Part nr 71734
+2021-06-18	20:32:49.3232	target per H 0
+2021-06-18	20:32:49.3232	target per shift 897
+2021-06-18	20:32:49.3232	Status AWARIA
+2021-06-18	20:32:49.3232	result per H 0
+2021-06-18	20:32:49.3232	result per shift 917
+2021-06-18	20:32:49.3232	backend is true
+2021-06-18	20:32:49.3232	signal ok BOK
+2021-06-18	20:32:49.3232	shiftFactor 8
+2021-06-18	20:32:49.3232	minVal 80
+2021-06-18	20:32:49.3232	midVal 80
+2021-06-18	20:32:49.3232	maxVal 90
+2021-06-18	20:32:49.3232	firstShift 14
+2021-06-18	20:32:49.3232	second shift 22
+2021-06-18	20:32:49.3232	third shift 6
+2021-06-18	20:32:50.3232	backendtime jest true 
+2021-06-18	20:32:53.3232	Obliczony interval target 2593
+2021-06-18	20:32:54.3232	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:32:54.3232	Magic number is cool
+2021-06-18	20:40:51.4040	**** Start Aplikacji ****
+2021-06-18	20:40:51.4040	sopp.log
+2021-06-18	20:40:51.4040	Połączono z bazą danych 
+2021-06-18	20:40:51.4040	***** Ustawienia *****
+2021-06-18	20:40:51.4040	dbDriver QODBC
+2021-06-18	20:40:51.4040	dbConnection prov
+2021-06-18	20:40:51.4040	dbName sopp
+2021-06-18	20:40:51.4040	Line name 10032-13
+2021-06-18	20:40:51.4040	log name sopp.log
+2021-06-18	20:40:51.4040	magic nr 077528
+2021-06-18	20:40:51.4040	Part nr 71734
+2021-06-18	20:40:51.4040	target per H 0
+2021-06-18	20:40:51.4040	target per shift 897
+2021-06-18	20:40:51.4040	Status AWARIA
+2021-06-18	20:40:51.4040	result per H 0
+2021-06-18	20:40:51.4040	result per shift 917
+2021-06-18	20:40:51.4040	backend is true
+2021-06-18	20:40:51.4040	signal ok BOK
+2021-06-18	20:40:51.4040	shiftFactor 8
+2021-06-18	20:40:51.4040	minVal 80
+2021-06-18	20:40:51.4040	midVal 80
+2021-06-18	20:40:51.4040	maxVal 90
+2021-06-18	20:40:51.4040	firstShift 14
+2021-06-18	20:40:51.4040	second shift 22
+2021-06-18	20:40:51.4040	third shift 6
+2021-06-18	20:40:52.4040	backendtime jest true 
+2021-06-18	20:40:56.4040	Obliczony interval target 4235
+2021-06-18	20:40:56.4040	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:40:56.4040	Magic number is cool
+2021-06-18	20:45:29.4545	**** Start Aplikacji ****
+2021-06-18	20:45:29.4545	sopp.log
+2021-06-18	20:45:29.4545	Połączono z bazą danych 
+2021-06-18	20:45:30.4545	***** Ustawienia *****
+2021-06-18	20:45:30.4545	dbDriver QODBC
+2021-06-18	20:45:30.4545	dbConnection prov
+2021-06-18	20:45:30.4545	dbName sopp
+2021-06-18	20:45:30.4545	Line name 10032-13
+2021-06-18	20:45:30.4545	log name sopp.log
+2021-06-18	20:45:30.4545	magic nr 077528
+2021-06-18	20:45:30.4545	Part nr 10033
+2021-06-18	20:45:30.4545	target per H 9
+2021-06-18	20:45:30.4545	target per shift 906
+2021-06-18	20:45:30.4545	Status AWARIA
+2021-06-18	20:45:30.4545	result per H 80
+2021-06-18	20:45:30.4545	result per shift 997
+2021-06-18	20:45:30.4545	backend is true
+2021-06-18	20:45:30.4545	signal ok BOK
+2021-06-18	20:45:30.4545	shiftFactor 8
+2021-06-18	20:45:30.4545	minVal 80
+2021-06-18	20:45:30.4545	midVal 80
+2021-06-18	20:45:30.4545	maxVal 90
+2021-06-18	20:45:30.4545	firstShift 14
+2021-06-18	20:45:30.4545	second shift 22
+2021-06-18	20:45:30.4545	third shift 6
+2021-06-18	20:45:31.4545	backendtime jest true 
+2021-06-18	20:45:34.4545	Obliczony interval target 1003
+2021-06-18	20:45:35.4545	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:45:35.4545	Magic number is cool
+2021-06-18	20:48:11.4848	**** Start Aplikacji ****
+2021-06-18	20:48:11.4848	sopp.log
+2021-06-18	20:48:11.4848	Połączono z bazą danych 
+2021-06-18	20:48:11.4848	***** Ustawienia *****
+2021-06-18	20:48:11.4848	dbDriver QODBC
+2021-06-18	20:48:11.4848	dbConnection prov
+2021-06-18	20:48:11.4848	dbName sopp
+2021-06-18	20:48:11.4848	Line name 10032-13
+2021-06-18	20:48:11.4848	log name sopp.log
+2021-06-18	20:48:11.4848	magic nr 077528
+2021-06-18	20:48:11.4848	Part nr 10185
+2021-06-18	20:48:11.4848	target per H 9
+2021-06-18	20:48:11.4848	target per shift 906
+2021-06-18	20:48:11.4848	Status AWARIA
+2021-06-18	20:48:11.4848	result per H 80
+2021-06-18	20:48:11.4848	result per shift 997
+2021-06-18	20:48:11.4848	backend is true
+2021-06-18	20:48:11.4848	signal ok BOK
+2021-06-18	20:48:11.4848	shiftFactor 8
+2021-06-18	20:48:11.4848	minVal 80
+2021-06-18	20:48:11.4848	midVal 80
+2021-06-18	20:48:11.4848	maxVal 90
+2021-06-18	20:48:11.4848	firstShift 14
+2021-06-18	20:48:11.4848	second shift 22
+2021-06-18	20:48:11.4848	third shift 6
+2021-06-18	20:48:12.4848	backendtime jest true 
+2021-06-18	20:48:16.4848	Obliczony interval target 1003
+2021-06-18	20:48:16.4848	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:48:16.4848	Magic number is cool
+2021-06-18	20:50:43.5050	**** Start Aplikacji ****
+2021-06-18	20:50:43.5050	sopp.log
+2021-06-18	20:50:44.5050	Połączono z bazą danych 
+2021-06-18	20:50:44.5050	***** Ustawienia *****
+2021-06-18	20:50:44.5050	dbDriver QODBC
+2021-06-18	20:50:44.5050	dbConnection prov
+2021-06-18	20:50:44.5050	dbName sopp
+2021-06-18	20:50:44.5050	Line name 10032-13
+2021-06-18	20:50:44.5050	log name sopp.log
+2021-06-18	20:50:44.5050	magic nr 077528
+2021-06-18	20:50:44.5050	Part nr 10229
+2021-06-18	20:50:44.5050	target per H 9
+2021-06-18	20:50:44.5050	target per shift 906
+2021-06-18	20:50:44.5050	Status AWARIA
+2021-06-18	20:50:44.5050	result per H 80
+2021-06-18	20:50:44.5050	result per shift 997
+2021-06-18	20:50:44.5050	backend is true
+2021-06-18	20:50:44.5050	signal ok BOK
+2021-06-18	20:50:44.5050	shiftFactor 8
+2021-06-18	20:50:44.5050	minVal 80
+2021-06-18	20:50:44.5050	midVal 80
+2021-06-18	20:50:44.5050	maxVal 90
+2021-06-18	20:50:44.5050	firstShift 14
+2021-06-18	20:50:44.5050	second shift 22
+2021-06-18	20:50:44.5050	third shift 6
+2021-06-18	20:50:45.5050	backendtime jest true 
+2021-06-18	20:50:49.5050	Obliczony interval target 3333
+2021-06-18	20:50:50.5050	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	20:50:50.5050	Magic number is cool
+2021-06-18	20:51:08.5151	Obliczony interval target 2112
+2021-06-18	21:00:00.000	Zerujemy liczniki na pełną godzinę 
+2021-06-18	21:00:00.000	Czas 210000
+2021-06-18	21:22:27.2222	**** Start Aplikacji ****
+2021-06-18	21:22:27.2222	sopp.log
+2021-06-18	21:22:27.2222	Połączono z bazą danych 
+2021-06-18	21:22:27.2222	***** Ustawienia *****
+2021-06-18	21:22:27.2222	dbDriver QODBC
+2021-06-18	21:22:27.2222	dbConnection prov
+2021-06-18	21:22:27.2222	dbName sopp
+2021-06-18	21:22:27.2222	Line name 10032-13
+2021-06-18	21:22:27.2222	log name sopp.log
+2021-06-18	21:22:27.2222	magic nr 077528
+2021-06-18	21:22:27.2222	Part nr 10091
+2021-06-18	21:22:27.2222	target per H 44
+2021-06-18	21:22:27.2222	target per shift 950
+2021-06-18	21:22:27.2222	Status AWARIA
+2021-06-18	21:22:27.2222	result per H 76
+2021-06-18	21:22:27.2222	result per shift 1073
+2021-06-18	21:22:27.2222	backend is true
+2021-06-18	21:22:27.2222	signal ok BOK
+2021-06-18	21:22:27.2222	shiftFactor 8
+2021-06-18	21:22:27.2222	minVal 80
+2021-06-18	21:22:27.2222	midVal 80
+2021-06-18	21:22:27.2222	maxVal 90
+2021-06-18	21:22:27.2222	firstShift 14
+2021-06-18	21:22:27.2222	second shift 22
+2021-06-18	21:22:27.2222	third shift 6
+2021-06-18	21:22:28.2222	backendtime jest true 
+2021-06-18	21:22:32.2222	Obliczony interval target 2112
+2021-06-18	21:22:32.2222	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	21:22:32.2222	Magic number is cool
+2021-06-18	21:32:45.3232	**** Start Aplikacji ****
+2021-06-18	21:32:45.3232	sopp.log
+2021-06-18	21:32:45.3232	Połączono z bazą danych 
+2021-06-18	21:32:45.3232	***** Ustawienia *****
+2021-06-18	21:32:45.3232	dbDriver QODBC
+2021-06-18	21:32:45.3232	dbConnection prov
+2021-06-18	21:32:45.3232	dbName sopp
+2021-06-18	21:32:45.3232	Line name 10032-13
+2021-06-18	21:32:45.3232	log name sopp.log
+2021-06-18	21:32:45.3232	magic nr 077528
+2021-06-18	21:32:45.3232	Part nr 10091
+2021-06-18	21:32:45.3232	target per H 44
+2021-06-18	21:32:45.3232	target per shift 950
+2021-06-18	21:32:45.3232	Status PRZERWA
+2021-06-18	21:32:45.3232	result per H 76
+2021-06-18	21:32:45.3232	result per shift 1073
+2021-06-18	21:32:45.3232	backend is true
+2021-06-18	21:32:45.3232	signal ok BOK
+2021-06-18	21:32:45.3232	shiftFactor 8
+2021-06-18	21:32:45.3232	minVal 80
+2021-06-18	21:32:45.3232	midVal 80
+2021-06-18	21:32:45.3232	maxVal 90
+2021-06-18	21:32:45.3232	firstShift 14
+2021-06-18	21:32:45.3232	second shift 22
+2021-06-18	21:32:45.3232	third shift 6
+2021-06-18	21:32:46.3232	backendtime jest true 
+2021-06-18	21:32:50.3232	Obliczony interval target 2112
+2021-06-18	21:32:50.3232	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	21:32:50.3232	Magic number is cool
+2021-06-18	21:33:23.3333	Obliczony interval target 3610
+2021-06-18	21:34:09.3434	**** Start Aplikacji ****
+2021-06-18	21:34:09.3434	sopp.log
+2021-06-18	21:34:09.3434	Połączono z bazą danych 
+2021-06-18	21:34:09.3434	***** Ustawienia *****
+2021-06-18	21:34:09.3434	dbDriver QODBC
+2021-06-18	21:34:09.3434	dbConnection prov
+2021-06-18	21:34:09.3434	dbName sopp
+2021-06-18	21:34:09.3434	Line name 10032-13
+2021-06-18	21:34:09.3434	log name sopp.log
+2021-06-18	21:34:09.3434	magic nr 077528
+2021-06-18	21:34:09.3434	Part nr 10579
+2021-06-18	21:34:09.3434	target per H 44
+2021-06-18	21:34:09.3434	target per shift 950
+2021-06-18	21:34:09.3434	Status PRZERWA
+2021-06-18	21:34:09.3434	result per H 76
+2021-06-18	21:34:09.3434	result per shift 1073
+2021-06-18	21:34:09.3434	backend is true
+2021-06-18	21:34:09.3434	signal ok BOK
+2021-06-18	21:34:09.3434	shiftFactor 8
+2021-06-18	21:34:09.3434	minVal 80
+2021-06-18	21:34:09.3434	midVal 80
+2021-06-18	21:34:09.3434	maxVal 90
+2021-06-18	21:34:09.3434	firstShift 14
+2021-06-18	21:34:09.3434	second shift 22
+2021-06-18	21:34:09.3434	third shift 6
+2021-06-18	21:34:10.3434	backendtime jest true 
+2021-06-18	21:34:14.3434	Obliczony interval target 3610
+2021-06-18	21:34:14.3434	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	21:34:14.3434	Magic number is cool
+2021-06-18	21:34:43.3434	Obliczony interval target 4235
+2021-06-18	21:43:58.4343	Obliczony interval target 3711
+2021-06-18	21:52:15.5252	**** Start Aplikacji ****
+2021-06-18	21:52:15.5252	sopp.log
+2021-06-18	21:52:16.5252	Połączono z bazą danych 
+2021-06-18	21:52:16.5252	***** Ustawienia *****
+2021-06-18	21:52:16.5252	dbDriver QODBC
+2021-06-18	21:52:16.5252	dbConnection prov
+2021-06-18	21:52:16.5252	dbName sopp
+2021-06-18	21:52:16.5252	Line name 10032-13
+2021-06-18	21:52:16.5252	log name sopp.log
+2021-06-18	21:52:16.5252	magic nr 077528
+2021-06-18	21:52:16.5252	Part nr 71735
+2021-06-18	21:52:16.5252	target per H 187
+2021-06-18	21:52:16.5252	target per shift 1093
+2021-06-18	21:52:16.5252	Status ZMIANA ZLECENIA
+2021-06-18	21:52:16.5252	result per H 189
+2021-06-18	21:52:16.5252	result per shift 1186
+2021-06-18	21:52:16.5252	backend is true
+2021-06-18	21:52:16.5252	signal ok BOK
+2021-06-18	21:52:16.5252	shiftFactor 8
+2021-06-18	21:52:16.5252	minVal 80
+2021-06-18	21:52:16.5252	midVal 80
+2021-06-18	21:52:16.5252	maxVal 90
+2021-06-18	21:52:16.5252	firstShift 14
+2021-06-18	21:52:16.5252	second shift 22
+2021-06-18	21:52:16.5252	third shift 6
+2021-06-18	21:52:17.5252	backendtime jest true 
+2021-06-18	21:52:21.5252	Obliczony interval target 3711
+2021-06-18	21:52:21.5252	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	21:52:21.5252	Magic number is cool
+2021-06-18	21:53:21.5353	**** Start Aplikacji ****
+2021-06-18	21:53:21.5353	sopp.log
+2021-06-18	21:53:22.5353	Połączono z bazą danych 
+2021-06-18	21:53:22.5353	***** Ustawienia *****
+2021-06-18	21:53:22.5353	dbDriver QODBC
+2021-06-18	21:53:22.5353	dbConnection prov
+2021-06-18	21:53:22.5353	dbName sopp
+2021-06-18	21:53:22.5353	Line name 10032-13
+2021-06-18	21:53:22.5353	log name sopp.log
+2021-06-18	21:53:22.5353	magic nr 077528
+2021-06-18	21:53:22.5353	Part nr 71735
+2021-06-18	21:53:22.5353	target per H 187
+2021-06-18	21:53:22.5353	target per shift 1093
+2021-06-18	21:53:22.5353	Status ZMIANA ZLECENIA
+2021-06-18	21:53:22.5353	result per H 189
+2021-06-18	21:53:22.5353	result per shift 1186
+2021-06-18	21:53:22.5353	backend is true
+2021-06-18	21:53:22.5353	signal ok BOK
+2021-06-18	21:53:22.5353	shiftFactor 8
+2021-06-18	21:53:22.5353	minVal 80
+2021-06-18	21:53:22.5353	midVal 80
+2021-06-18	21:53:22.5353	maxVal 90
+2021-06-18	21:53:22.5353	firstShift 14
+2021-06-18	21:53:22.5353	second shift 22
+2021-06-18	21:53:22.5353	third shift 6
+2021-06-18	21:53:23.5353	backendtime jest true 
+2021-06-18	21:53:27.5353	Obliczony interval target 3711
+2021-06-18	21:53:27.5353	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	21:53:27.5353	Magic number is cool
+2021-06-18	21:53:58.5353	Obliczony interval target 3428
+2021-06-18	22:00:00.000	Zerujemy liczniki na pełną godzinę 
+2021-06-18	22:00:00.000	Czas 220000
+2021-06-18	22:00:00.000	Zerujemy liczniki na zmianę 2 
+2021-06-18	22:07:46.077	**** Start Aplikacji ****
+2021-06-18	22:07:46.077	sopp.log
+2021-06-18	22:07:47.077	Połączono z bazą danych 
+2021-06-18	22:07:47.077	***** Ustawienia *****
+2021-06-18	22:07:47.077	dbDriver QODBC
+2021-06-18	22:07:47.077	dbConnection prov
+2021-06-18	22:07:47.077	dbName sopp
+2021-06-18	22:07:47.077	Line name 10032-13
+2021-06-18	22:07:47.077	log name sopp.log
+2021-06-18	22:07:47.077	magic nr 077528
+2021-06-18	22:07:47.077	Part nr 71969
+2021-06-18	22:07:47.077	target per H 116
+2021-06-18	22:07:47.077	target per shift 116
+2021-06-18	22:07:47.077	Status AWARIA
+2021-06-18	22:07:47.077	result per H 41
+2021-06-18	22:07:47.077	result per shift 41
+2021-06-18	22:07:47.077	backend is true
+2021-06-18	22:07:47.077	signal ok BOK
+2021-06-18	22:07:47.077	shiftFactor 8
+2021-06-18	22:07:47.077	minVal 80
+2021-06-18	22:07:47.077	midVal 80
+2021-06-18	22:07:47.077	maxVal 90
+2021-06-18	22:07:47.077	firstShift 14
+2021-06-18	22:07:47.077	second shift 22
+2021-06-18	22:07:47.077	third shift 6
+2021-06-18	22:07:48.077	backendtime jest true 
+2021-06-18	22:07:52.077	Obliczony interval target 3428
+2021-06-18	22:07:52.077	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	22:07:52.077	Magic number is cool
+2021-06-18	22:08:29.088	Obliczony interval target 2102
+2021-06-18	22:11:40.1111	**** Start Aplikacji ****
+2021-06-18	22:11:40.1111	sopp.log
+2021-06-18	22:11:40.1111	Połączono z bazą danych 
+2021-06-18	22:11:41.1111	***** Ustawienia *****
+2021-06-18	22:11:41.1111	dbDriver QODBC
+2021-06-18	22:11:41.1111	dbConnection prov
+2021-06-18	22:11:41.1111	dbName sopp
+2021-06-18	22:11:41.1111	Line name 10032-13
+2021-06-18	22:11:41.1111	log name sopp.log
+2021-06-18	22:11:41.1111	magic nr 077528
+2021-06-18	22:11:41.1111	Part nr 36128
+2021-06-18	22:11:41.1111	target per H 116
+2021-06-18	22:11:41.1111	target per shift 116
+2021-06-18	22:11:41.1111	Status ZMIANA ZLECENIA
+2021-06-18	22:11:41.1111	result per H 41
+2021-06-18	22:11:41.1111	result per shift 41
+2021-06-18	22:11:41.1111	backend is true
+2021-06-18	22:11:41.1111	signal ok BOK
+2021-06-18	22:11:41.1111	shiftFactor 8
+2021-06-18	22:11:41.1111	minVal 80
+2021-06-18	22:11:41.1111	midVal 80
+2021-06-18	22:11:41.1111	maxVal 90
+2021-06-18	22:11:41.1111	firstShift 14
+2021-06-18	22:11:41.1111	second shift 22
+2021-06-18	22:11:41.1111	third shift 6
+2021-06-18	22:11:41.1111	backendtime jest true 
+2021-06-18	22:11:45.1111	Obliczony interval target 2102
+2021-06-18	22:11:45.1111	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	22:11:45.1111	Magic number is cool
+2021-06-18	22:12:32.1212	Obliczony interval target 2356
+2021-06-18	22:20:31.2020	**** Start Aplikacji ****
+2021-06-18	22:20:31.2020	sopp.log
+2021-06-18	22:20:31.2020	Połączono z bazą danych 
+2021-06-18	22:20:32.2020	***** Ustawienia *****
+2021-06-18	22:20:32.2020	dbDriver QODBC
+2021-06-18	22:20:32.2020	dbConnection prov
+2021-06-18	22:20:32.2020	dbName sopp
+2021-06-18	22:20:32.2020	Line name 10032-13
+2021-06-18	22:20:32.2020	log name sopp.log
+2021-06-18	22:20:32.2020	magic nr 077528
+2021-06-18	22:20:32.2020	Part nr 22108
+2021-06-18	22:20:32.2020	target per H 116
+2021-06-18	22:20:32.2020	target per shift 116
+2021-06-18	22:20:32.2020	Status ZMIANA ZLECENIA
+2021-06-18	22:20:32.2020	result per H 41
+2021-06-18	22:20:32.2020	result per shift 41
+2021-06-18	22:20:32.2020	backend is true
+2021-06-18	22:20:32.2020	signal ok BOK
+2021-06-18	22:20:32.2020	shiftFactor 8
+2021-06-18	22:20:32.2020	minVal 80
+2021-06-18	22:20:32.2020	midVal 80
+2021-06-18	22:20:32.2020	maxVal 90
+2021-06-18	22:20:32.2020	firstShift 14
+2021-06-18	22:20:32.2020	second shift 22
+2021-06-18	22:20:32.2020	third shift 6
+2021-06-18	22:20:32.2020	backendtime jest true 
+2021-06-18	22:20:36.2020	Obliczony interval target 2356
+2021-06-18	22:20:37.2020	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	22:20:37.2020	Magic number is cool
+2021-06-18	22:25:49.2525	Obliczony interval target 2950
+2021-06-18	22:38:14.3838	Obliczony interval target 3114
+2021-06-18	22:41:31.4141	**** Start Aplikacji ****
+2021-06-18	22:41:31.4141	sopp.log
+2021-06-18	22:41:31.4141	Połączono z bazą danych 
+2021-06-18	22:41:31.4141	***** Ustawienia *****
+2021-06-18	22:41:31.4141	dbDriver QODBC
+2021-06-18	22:41:31.4141	dbConnection prov
+2021-06-18	22:41:31.4141	dbName sopp
+2021-06-18	22:41:31.4141	Line name 10032-13
+2021-06-18	22:41:31.4141	log name sopp.log
+2021-06-18	22:41:31.4141	magic nr 077528
+2021-06-18	22:41:31.4141	Part nr 41861
+2021-06-18	22:41:31.4141	target per H 297
+2021-06-18	22:41:31.4141	target per shift 297
+2021-06-18	22:41:31.4141	Status ZMIANA ZLECENIA
+2021-06-18	22:41:31.4141	result per H 246
+2021-06-18	22:41:31.4141	result per shift 246
+2021-06-18	22:41:31.4141	backend is true
+2021-06-18	22:41:31.4141	signal ok BOK
+2021-06-18	22:41:31.4141	shiftFactor 8
+2021-06-18	22:41:31.4141	minVal 80
+2021-06-18	22:41:31.4141	midVal 80
+2021-06-18	22:41:31.4141	maxVal 90
+2021-06-18	22:41:31.4141	firstShift 14
+2021-06-18	22:41:31.4141	second shift 22
+2021-06-18	22:41:31.4141	third shift 6
+2021-06-18	22:41:32.4141	backendtime jest true 
+2021-06-18	22:41:36.4141	Obliczony interval target 3114
+2021-06-18	22:41:36.4141	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-18	22:41:36.4141	Magic number is cool
+2021-06-18	22:45:39.4545	Obliczony interval target 4114
+2021-06-19	10:21:12.2121	**** Start Aplikacji ****
+2021-06-19	10:21:12.2121	sopp.log
+2021-06-19	10:21:12.2121	Połączono z bazą danych 
+2021-06-19	10:21:12.2121	***** Ustawienia *****
+2021-06-19	10:21:12.2121	dbDriver QODBC
+2021-06-19	10:21:12.2121	dbConnection prov
+2021-06-19	10:21:12.2121	dbName sopp
+2021-06-19	10:21:12.2121	Line name 10032-13
+2021-06-19	10:21:12.2121	log name sopp.log
+2021-06-19	10:21:12.2121	magic nr 077528
+2021-06-19	10:21:12.2121	Part nr 921087
+2021-06-19	10:21:12.2121	target per H 333
+2021-06-19	10:21:12.2121	target per shift 333
+2021-06-19	10:21:12.2121	Status ZMIANA ZLECENIA
+2021-06-19	10:21:12.2121	result per H 267
+2021-06-19	10:21:12.2121	result per shift 267
+2021-06-19	10:21:12.2121	backend is true
+2021-06-19	10:21:12.2121	signal ok BOK
+2021-06-19	10:21:12.2121	shiftFactor 8
+2021-06-19	10:21:12.2121	minVal 80
+2021-06-19	10:21:12.2121	midVal 80
+2021-06-19	10:21:12.2121	maxVal 90
+2021-06-19	10:21:12.2121	firstShift 14
+2021-06-19	10:21:12.2121	second shift 22
+2021-06-19	10:21:12.2121	third shift 6
+2021-06-19	10:21:13.2121	backendtime jest true 
+2021-06-19	10:21:17.2121	Obliczony interval target 4114
+2021-06-19	10:21:18.2121	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	10:21:18.2121	Magic number is cool
+2021-06-19	10:29:43.2929	**** Start Aplikacji ****
+2021-06-19	10:29:43.2929	sopp.log
+2021-06-19	10:29:43.2929	Połączono z bazą danych 
+2021-06-19	10:29:44.2929	***** Ustawienia *****
+2021-06-19	10:29:44.2929	dbDriver QODBC
+2021-06-19	10:29:44.2929	dbConnection prov
+2021-06-19	10:29:44.2929	dbName sopp
+2021-06-19	10:29:44.2929	Line name 10032-13
+2021-06-19	10:29:44.2929	log name sopp.log
+2021-06-19	10:29:44.2929	magic nr 077528
+2021-06-19	10:29:44.2929	Part nr 921087
+2021-06-19	10:29:44.2929	target per H 333
+2021-06-19	10:29:44.2929	target per shift 333
+2021-06-19	10:29:44.2929	Status ZMIANA ZLECENIA
+2021-06-19	10:29:44.2929	result per H 267
+2021-06-19	10:29:44.2929	result per shift 267
+2021-06-19	10:29:44.2929	backend is true
+2021-06-19	10:29:44.2929	signal ok 
+2021-06-19	10:29:44.2929	shiftFactor 8
+2021-06-19	10:29:44.2929	minVal 80
+2021-06-19	10:29:44.2929	midVal 80
+2021-06-19	10:29:44.2929	maxVal 90
+2021-06-19	10:29:44.2929	firstShift 14
+2021-06-19	10:29:44.2929	second shift 22
+2021-06-19	10:29:44.2929	third shift 6
+2021-06-19	10:29:45.2929	backendtime jest true 
+2021-06-19	10:29:49.2929	Obliczony interval target 4114
+2021-06-19	10:29:49.2929	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	10:29:49.2929	Magic number is cool
+2021-06-19	10:37:53.3737	**** Start Aplikacji ****
+2021-06-19	10:37:53.3737	sopp.log
+2021-06-19	10:37:53.3737	Połączono z bazą danych 
+2021-06-19	10:37:54.3737	***** Ustawienia *****
+2021-06-19	10:37:54.3737	dbDriver QODBC
+2021-06-19	10:37:54.3737	dbConnection prov
+2021-06-19	10:37:54.3737	dbName sopp
+2021-06-19	10:37:54.3737	Line name 10032-13
+2021-06-19	10:37:54.3737	log name sopp.log
+2021-06-19	10:37:54.3737	magic nr 077528
+2021-06-19	10:37:54.3737	Part nr 921087
+2021-06-19	10:37:54.3737	target per H 333
+2021-06-19	10:37:54.3737	target per shift 333
+2021-06-19	10:37:54.3737	Status ZMIANA ZLECENIA
+2021-06-19	10:37:54.3737	result per H 267
+2021-06-19	10:37:54.3737	result per shift 267
+2021-06-19	10:37:54.3737	backend is true
+2021-06-19	10:37:54.3737	signal ok BOK
+2021-06-19	10:37:54.3737	shiftFactor 8
+2021-06-19	10:37:54.3737	minVal 80
+2021-06-19	10:37:54.3737	midVal 80
+2021-06-19	10:37:54.3737	maxVal 90
+2021-06-19	10:37:54.3737	firstShift 14
+2021-06-19	10:37:54.3737	second shift 22
+2021-06-19	10:37:54.3737	third shift 6
+2021-06-19	10:37:55.3737	backendtime jest true 
+2021-06-19	10:37:59.3737	Obliczony interval target 4114
+2021-06-19	10:38:00.3838	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	10:38:00.3838	Magic number is cool
+2021-06-19	10:39:25.3939	**** Start Aplikacji ****
+2021-06-19	10:39:25.3939	sopp.log
+2021-06-19	10:39:26.3939	Połączono z bazą danych 
+2021-06-19	10:39:26.3939	***** Ustawienia *****
+2021-06-19	10:39:26.3939	dbDriver QODBC
+2021-06-19	10:39:26.3939	dbConnection prov
+2021-06-19	10:39:26.3939	dbName sopp
+2021-06-19	10:39:26.3939	Line name 10032-13
+2021-06-19	10:39:26.3939	log name sopp.log
+2021-06-19	10:39:26.3939	magic nr 077528
+2021-06-19	10:39:26.3939	Part nr 921087
+2021-06-19	10:39:26.3939	target per H 333
+2021-06-19	10:39:26.3939	target per shift 333
+2021-06-19	10:39:26.3939	Status ZMIANA ZLECENIA
+2021-06-19	10:39:26.3939	result per H 267
+2021-06-19	10:39:26.3939	result per shift 267
+2021-06-19	10:39:26.3939	backend is true
+2021-06-19	10:39:26.3939	signal ok BOK
+2021-06-19	10:39:26.3939	shiftFactor 8
+2021-06-19	10:39:26.3939	minVal 80
+2021-06-19	10:39:26.3939	midVal 80
+2021-06-19	10:39:26.3939	maxVal 90
+2021-06-19	10:39:26.3939	firstShift 14
+2021-06-19	10:39:26.3939	second shift 22
+2021-06-19	10:39:26.3939	third shift 6
+2021-06-19	10:39:27.3939	backendtime jest true 
+2021-06-19	10:39:31.3939	Obliczony interval target 4114
+2021-06-19	10:39:31.3939	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	10:39:31.3939	Magic number is cool
+2021-06-19	10:49:21.4949	**** Start Aplikacji ****
+2021-06-19	10:49:21.4949	sopp.log
+2021-06-19	10:49:22.4949	Połączono z bazą danych 
+2021-06-19	10:49:22.4949	***** Ustawienia *****
+2021-06-19	10:49:22.4949	dbDriver QODBC
+2021-06-19	10:49:22.4949	dbConnection prov
+2021-06-19	10:49:22.4949	dbName sopp
+2021-06-19	10:49:22.4949	Line name 10032-13
+2021-06-19	10:49:22.4949	log name sopp.log
+2021-06-19	10:49:22.4949	magic nr 077528
+2021-06-19	10:49:22.4949	Part nr 921087
+2021-06-19	10:49:22.4949	target per H 469
+2021-06-19	10:49:22.4949	target per shift 469
+2021-06-19	10:49:22.4949	Status PRODUKCJA
+2021-06-19	10:49:22.4949	result per H 296
+2021-06-19	10:49:22.4949	result per shift 296
+2021-06-19	10:49:22.4949	backend is true
+2021-06-19	10:49:22.4949	signal ok BOK
+2021-06-19	10:49:22.4949	shiftFactor 8
+2021-06-19	10:49:22.4949	minVal 80
+2021-06-19	10:49:22.4949	midVal 80
+2021-06-19	10:49:22.4949	maxVal 90
+2021-06-19	10:49:22.4949	firstShift 14
+2021-06-19	10:49:22.4949	second shift 22
+2021-06-19	10:49:22.4949	third shift 6
+2021-06-19	10:49:23.4949	backendtime jest true 
+2021-06-19	10:49:27.4949	Obliczony interval target 4114
+2021-06-19	10:49:28.4949	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	10:49:28.4949	Magic number is cool
+2021-06-19	10:51:23.5151	**** Start Aplikacji ****
+2021-06-19	10:51:23.5151	sopp.log
+2021-06-19	10:51:24.5151	Połączono z bazą danych 
+2021-06-19	10:51:24.5151	***** Ustawienia *****
+2021-06-19	10:51:24.5151	dbDriver QODBC
+2021-06-19	10:51:24.5151	dbConnection prov
+2021-06-19	10:51:24.5151	dbName sopp
+2021-06-19	10:51:24.5151	Line name 10032-13
+2021-06-19	10:51:24.5151	log name sopp.log
+2021-06-19	10:51:24.5151	magic nr 077528
+2021-06-19	10:51:24.5151	Part nr 921087
+2021-06-19	10:51:24.5151	target per H 494
+2021-06-19	10:51:24.5151	target per shift 494
+2021-06-19	10:51:24.5151	Status PRODUKCJA
+2021-06-19	10:51:24.5151	result per H 325
+2021-06-19	10:51:24.5151	result per shift 325
+2021-06-19	10:51:24.5151	backend is true
+2021-06-19	10:51:24.5151	signal ok BOK
+2021-06-19	10:51:24.5151	shiftFactor 8
+2021-06-19	10:51:24.5151	minVal 80
+2021-06-19	10:51:24.5151	midVal 80
+2021-06-19	10:51:24.5151	maxVal 90
+2021-06-19	10:51:24.5151	firstShift 14
+2021-06-19	10:51:24.5151	second shift 22
+2021-06-19	10:51:24.5151	third shift 6
+2021-06-19	10:51:25.5151	backendtime jest true 
+2021-06-19	10:51:29.5151	Obliczony interval target 4114
+2021-06-19	10:51:30.5151	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	10:51:30.5151	Magic number is cool
+2021-06-19	10:52:10.5252	Obliczony interval target 1003
+2021-06-19	10:53:45.5353	**** Start Aplikacji ****
+2021-06-19	10:53:45.5353	sopp.log
+2021-06-19	10:53:45.5353	Połączono z bazą danych 
+2021-06-19	10:53:45.5353	***** Ustawienia *****
+2021-06-19	10:53:45.5353	dbDriver QODBC
+2021-06-19	10:53:45.5353	dbConnection prov
+2021-06-19	10:53:45.5353	dbName sopp
+2021-06-19	10:53:45.5353	Line name 10032-13
+2021-06-19	10:53:45.5353	log name sopp.log
+2021-06-19	10:53:45.5353	magic nr 077528
+2021-06-19	10:53:45.5353	Part nr 10033
+2021-06-19	10:53:45.5353	target per H 524
+2021-06-19	10:53:45.5353	target per shift 524
+2021-06-19	10:53:45.5353	Status PRZERWA
+2021-06-19	10:53:45.5353	result per H 364
+2021-06-19	10:53:45.5353	result per shift 364
+2021-06-19	10:53:45.5353	backend is true
+2021-06-19	10:53:45.5353	signal ok BOK
+2021-06-19	10:53:45.5353	shiftFactor 8
+2021-06-19	10:53:45.5353	minVal 80
+2021-06-19	10:53:45.5353	midVal 80
+2021-06-19	10:53:45.5353	maxVal 90
+2021-06-19	10:53:45.5353	firstShift 14
+2021-06-19	10:53:45.5353	second shift 22
+2021-06-19	10:53:45.5353	third shift 6
+2021-06-19	10:53:46.5353	backendtime jest true 
+2021-06-19	10:53:50.5353	Obliczony interval target 1003
+2021-06-19	10:53:51.5353	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	10:53:51.5353	Magic number is cool
+2021-06-19	10:54:30.5454	Obliczony interval target 1003
+2021-06-19	10:56:52.5656	**** Start Aplikacji ****
+2021-06-19	10:56:52.5656	sopp.log
+2021-06-19	10:56:53.5656	Połączono z bazą danych 
+2021-06-19	10:56:53.5656	***** Ustawienia *****
+2021-06-19	10:56:53.5656	dbDriver QODBC
+2021-06-19	10:56:53.5656	dbConnection prov
+2021-06-19	10:56:53.5656	dbName sopp
+2021-06-19	10:56:53.5656	Line name 10032-13
+2021-06-19	10:56:53.5656	log name sopp.log
+2021-06-19	10:56:53.5656	magic nr 077528
+2021-06-19	10:56:53.5656	Part nr 10185
+2021-06-19	10:56:53.5656	target per H 634
+2021-06-19	10:56:53.5656	target per shift 634
+2021-06-19	10:56:53.5656	Status PRODUKCJA
+2021-06-19	10:56:53.5656	result per H 426
+2021-06-19	10:56:53.5656	result per shift 426
+2021-06-19	10:56:53.5656	backend is true
+2021-06-19	10:56:53.5656	signal ok BOK
+2021-06-19	10:56:53.5656	shiftFactor 8
+2021-06-19	10:56:53.5656	minVal 80
+2021-06-19	10:56:53.5656	midVal 80
+2021-06-19	10:56:53.5656	maxVal 90
+2021-06-19	10:56:53.5656	firstShift 14
+2021-06-19	10:56:53.5656	second shift 22
+2021-06-19	10:56:53.5656	third shift 6
+2021-06-19	10:56:54.5656	backendtime jest true 
+2021-06-19	10:56:58.5656	Obliczony interval target 1003
+2021-06-19	10:56:59.5656	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	10:56:59.5656	Magic number is cool
+2021-06-19	10:58:33.5858	**** Start Aplikacji ****
+2021-06-19	10:58:33.5858	sopp.log
+2021-06-19	10:58:34.5858	Połączono z bazą danych 
+2021-06-19	10:58:34.5858	***** Ustawienia *****
+2021-06-19	10:58:34.5858	dbDriver QODBC
+2021-06-19	10:58:34.5858	dbConnection prov
+2021-06-19	10:58:34.5858	dbName sopp
+2021-06-19	10:58:34.5858	Line name 10032-13
+2021-06-19	10:58:34.5858	log name sopp.log
+2021-06-19	10:58:34.5858	magic nr 077528
+2021-06-19	10:58:34.5858	Part nr 10185
+2021-06-19	10:58:34.5858	target per H 704
+2021-06-19	10:58:34.5858	target per shift 704
+2021-06-19	10:58:34.5858	Status PRODUKCJA
+2021-06-19	10:58:34.5858	result per H 426
+2021-06-19	10:58:34.5858	result per shift 426
+2021-06-19	10:58:34.5858	backend is true
+2021-06-19	10:58:34.5858	signal ok BOK
+2021-06-19	10:58:34.5858	shiftFactor 8
+2021-06-19	10:58:34.5858	minVal 80
+2021-06-19	10:58:34.5858	midVal 80
+2021-06-19	10:58:34.5858	maxVal 90
+2021-06-19	10:58:34.5858	firstShift 14
+2021-06-19	10:58:34.5858	second shift 22
+2021-06-19	10:58:34.5858	third shift 6
+2021-06-19	10:58:35.5858	backendtime jest true 
+2021-06-19	10:58:39.5858	Obliczony interval target 1003
+2021-06-19	10:58:40.5858	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	10:58:40.5858	Magic number is cool
+2021-06-19	11:00:00.000	Zerujemy liczniki na pełną godzinę 
+2021-06-19	11:00:01.000	Czas 110000
+2021-06-19	11:00:16.000	**** Start Aplikacji ****
+2021-06-19	11:00:16.000	sopp.log
+2021-06-19	11:00:17.000	Połączono z bazą danych 
+2021-06-19	11:00:17.000	***** Ustawienia *****
+2021-06-19	11:00:17.000	dbDriver QODBC
+2021-06-19	11:00:17.000	dbConnection prov
+2021-06-19	11:00:17.000	dbName sopp
+2021-06-19	11:00:17.000	Line name 10032-13
+2021-06-19	11:00:17.000	log name sopp.log
+2021-06-19	11:00:17.000	magic nr 077528
+2021-06-19	11:00:17.000	Part nr 10185
+2021-06-19	11:00:17.000	target per H 0
+2021-06-19	11:00:17.000	target per shift 715
+2021-06-19	11:00:17.000	Status ZMIANA ZLECENIA
+2021-06-19	11:00:17.000	result per H 0
+2021-06-19	11:00:17.000	result per shift 426
+2021-06-19	11:00:17.000	backend is true
+2021-06-19	11:00:17.000	signal ok BOK
+2021-06-19	11:00:17.000	shiftFactor 8
+2021-06-19	11:00:17.000	minVal 80
+2021-06-19	11:00:17.000	midVal 80
+2021-06-19	11:00:17.000	maxVal 90
+2021-06-19	11:00:17.000	firstShift 14
+2021-06-19	11:00:17.000	second shift 22
+2021-06-19	11:00:17.000	third shift 6
+2021-06-19	11:00:18.000	backendtime jest true 
+2021-06-19	11:00:22.000	Obliczony interval target 1003
+2021-06-19	11:00:23.000	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	11:00:23.000	Magic number is cool
+2021-06-19	11:03:43.033	Obliczony interval target 3711
+2021-06-19	11:07:48.077	**** Start Aplikacji ****
+2021-06-19	11:07:48.077	sopp.log
+2021-06-19	11:07:49.077	Połączono z bazą danych 
+2021-06-19	11:07:49.077	***** Ustawienia *****
+2021-06-19	11:07:49.077	dbDriver QODBC
+2021-06-19	11:07:49.077	dbConnection prov
+2021-06-19	11:07:49.077	dbName sopp
+2021-06-19	11:07:49.077	Line name 10032-13
+2021-06-19	11:07:49.077	log name sopp.log
+2021-06-19	11:07:49.077	magic nr 077528
+2021-06-19	11:07:49.077	Part nr 71735
+2021-06-19	11:07:49.077	target per H 172
+2021-06-19	11:07:49.077	target per shift 887
+2021-06-19	11:07:49.077	Status ZMIANA ZLECENIA
+2021-06-19	11:07:49.077	result per H 135
+2021-06-19	11:07:49.077	result per shift 561
+2021-06-19	11:07:49.077	backend is true
+2021-06-19	11:07:49.077	signal ok BUM
+2021-06-19	11:07:49.077	shiftFactor 8
+2021-06-19	11:07:49.077	minVal 80
+2021-06-19	11:07:49.077	midVal 80
+2021-06-19	11:07:49.077	maxVal 90
+2021-06-19	11:07:49.077	firstShift 14
+2021-06-19	11:07:49.077	second shift 22
+2021-06-19	11:07:49.077	third shift 6
+2021-06-19	11:07:50.077	backendtime jest true 
+2021-06-19	11:07:54.077	Obliczony interval target 3711
+2021-06-19	11:07:55.077	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	11:07:55.077	Magic number is cool
+2021-06-19	11:11:26.1111	Obliczony interval target 2593
+2021-06-19	11:14:21.1414	Obliczony interval target 3458
+2021-06-19	11:15:58.1515	**** Start Aplikacji ****
+2021-06-19	11:15:58.1515	sopp.log
+2021-06-19	11:15:58.1515	Połączono z bazą danych 
+2021-06-19	11:15:59.1515	***** Ustawienia *****
+2021-06-19	11:15:59.1515	dbDriver QODBC
+2021-06-19	11:15:59.1515	dbConnection prov
+2021-06-19	11:15:59.1515	dbName sopp
+2021-06-19	11:15:59.1515	Line name 10032-13
+2021-06-19	11:15:59.1515	log name sopp.log
+2021-06-19	11:15:59.1515	magic nr 077528
+2021-06-19	11:15:59.1515	Part nr 39609
+2021-06-19	11:15:59.1515	target per H 264
+2021-06-19	11:15:59.1515	target per shift 979
+2021-06-19	11:15:59.1515	Status AWARIA
+2021-06-19	11:15:59.1515	result per H 401
+2021-06-19	11:15:59.1515	result per shift 827
+2021-06-19	11:15:59.1515	backend is true
+2021-06-19	11:15:59.1515	signal ok BUM
+2021-06-19	11:15:59.1515	shiftFactor 8
+2021-06-19	11:15:59.1515	minVal 80
+2021-06-19	11:15:59.1515	midVal 80
+2021-06-19	11:15:59.1515	maxVal 90
+2021-06-19	11:15:59.1515	firstShift 14
+2021-06-19	11:15:59.1515	second shift 22
+2021-06-19	11:15:59.1515	third shift 6
+2021-06-19	11:16:00.1616	backendtime jest true 
+2021-06-19	11:16:04.1616	Obliczony interval target 3458
+2021-06-19	11:16:05.1616	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-19	11:16:05.1616	Magic number is cool
+2021-06-19	11:20:43.2020	Obliczony interval target 1003
+2021-06-19	12:00:00.000	Zerujemy liczniki na pełną godzinę 
+2021-06-19	12:00:00.000	Czas 120000
+2021-06-21	17:52:52.5252	**** Start Aplikacji ****
+2021-06-21	17:52:52.5252	sopp.log
+2021-06-21	17:52:52.5252	Połączono z bazą danych 
+2021-06-21	17:52:52.5252	***** Ustawienia *****
+2021-06-21	17:52:52.5252	dbDriver QODBC
+2021-06-21	17:52:52.5252	dbConnection prov
+2021-06-21	17:52:52.5252	dbName sopp
+2021-06-21	17:52:52.5252	Line name 10032-13
+2021-06-21	17:52:52.5252	log name sopp.log
+2021-06-21	17:52:52.5252	magic nr 077528
+2021-06-21	17:52:52.5252	Part nr 10033
+2021-06-21	17:52:52.5252	target per H 5
+2021-06-21	17:52:52.5252	target per shift 1274
+2021-06-21	17:52:52.5252	Status PRODUKCJA
+2021-06-21	17:52:52.5252	result per H 12
+2021-06-21	17:52:52.5252	result per shift 931
+2021-06-21	17:52:52.5252	backend is true
+2021-06-21	17:52:52.5252	signal ok BUM
+2021-06-21	17:52:52.5252	shiftFactor 8
+2021-06-21	17:52:52.5252	minVal 80
+2021-06-21	17:52:52.5252	midVal 80
+2021-06-21	17:52:52.5252	maxVal 90
+2021-06-21	17:52:52.5252	firstShift 14
+2021-06-21	17:52:52.5252	second shift 22
+2021-06-21	17:52:52.5252	third shift 6
+2021-06-21	17:52:54.5252	backendtime jest true 
+2021-06-21	17:52:58.5252	Obliczony interval target 1003
+2021-06-21	17:52:59.5252	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-21	17:52:59.5252	Magic number is cool
+2021-06-21	17:58:17.5858	**** Start Aplikacji ****
+2021-06-21	17:58:17.5858	sopp.log
+2021-06-21	17:58:18.5858	Połączono z bazą danych 
+2021-06-21	17:58:18.5858	***** Ustawienia *****
+2021-06-21	17:58:18.5858	dbDriver QODBC
+2021-06-21	17:58:18.5858	dbConnection prov
+2021-06-21	17:58:18.5858	dbName sopp
+2021-06-21	17:58:18.5858	Line name 10032-13
+2021-06-21	17:58:18.5858	log name sopp.log
+2021-06-21	17:58:18.5858	magic nr 077528
+2021-06-21	17:58:18.5858	Part nr 10033
+2021-06-21	17:58:18.5858	target per H 169
+2021-06-21	17:58:18.5858	target per shift 1438
+2021-06-21	17:58:18.5858	Status ZMIANA ZLECENIA
+2021-06-21	17:58:18.5858	result per H 12
+2021-06-21	17:58:18.5858	result per shift 931
+2021-06-21	17:58:18.5858	backend is true
+2021-06-21	17:58:18.5858	signal ok BUM
+2021-06-21	17:58:18.5858	shiftFactor 8
+2021-06-21	17:58:18.5858	minVal 80
+2021-06-21	17:58:18.5858	midVal 80
+2021-06-21	17:58:18.5858	maxVal 90
+2021-06-21	17:58:18.5858	firstShift 14
+2021-06-21	17:58:18.5858	second shift 22
+2021-06-21	17:58:18.5858	third shift 6
+2021-06-21	17:58:19.5858	backendtime jest true 
+2021-06-21	17:58:23.5858	Obliczony interval target 1003
+2021-06-21	17:58:24.5858	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-21	17:58:24.5858	Magic number is cool
+2021-06-21	17:59:42.5959	**** Start Aplikacji ****
+2021-06-21	17:59:42.5959	sopp.log
+2021-06-21	17:59:43.5959	Połączono z bazą danych 
+2021-06-21	17:59:43.5959	***** Ustawienia *****
+2021-06-21	17:59:43.5959	dbDriver QODBC
+2021-06-21	17:59:43.5959	dbConnection prov
+2021-06-21	17:59:43.5959	dbName sopp
+2021-06-21	17:59:43.5959	Line name 10032-13
+2021-06-21	17:59:43.5959	log name sopp.log
+2021-06-21	17:59:43.5959	magic nr 077528
+2021-06-21	17:59:43.5959	Part nr 10033
+2021-06-21	17:59:43.5959	target per H 169
+2021-06-21	17:59:43.5959	target per shift 1438
+2021-06-21	17:59:43.5959	Status ZMIANA ZLECENIA
+2021-06-21	17:59:43.5959	result per H 12
+2021-06-21	17:59:43.5959	result per shift 931
+2021-06-21	17:59:43.5959	backend is true
+2021-06-21	17:59:43.5959	signal ok BUM
+2021-06-21	17:59:43.5959	shiftFactor 8
+2021-06-21	17:59:43.5959	minVal 80
+2021-06-21	17:59:43.5959	midVal 80
+2021-06-21	17:59:43.5959	maxVal 90
+2021-06-21	17:59:43.5959	firstShift 14
+2021-06-21	17:59:43.5959	second shift 22
+2021-06-21	17:59:43.5959	third shift 6
+2021-06-21	17:59:44.5959	backendtime jest true 
+2021-06-21	17:59:47.5959	Obliczony interval target 1003
+2021-06-21	17:59:48.5959	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-21	17:59:48.5959	Magic number is cool
+2021-06-21	18:00:00.000	Zerujemy liczniki na pełną godzinę 
+2021-06-21	18:00:00.000	Czas 180000
+2021-06-21	18:01:03.011	**** Start Aplikacji ****
+2021-06-21	18:01:03.011	sopp.log
+2021-06-21	18:01:03.011	Połączono z bazą danych 
+2021-06-21	18:01:04.011	***** Ustawienia *****
+2021-06-21	18:01:04.011	dbDriver QODBC
+2021-06-21	18:01:04.011	dbConnection prov
+2021-06-21	18:01:04.011	dbName sopp
+2021-06-21	18:01:04.011	Line name 10032-13
+2021-06-21	18:01:04.011	log name sopp.log
+2021-06-21	18:01:04.011	magic nr 077528
+2021-06-21	18:01:04.011	Part nr 10033
+2021-06-21	18:01:04.011	target per H 0
+2021-06-21	18:01:04.011	target per shift 1438
+2021-06-21	18:01:04.011	Status ZMIANA ZLECENIA
+2021-06-21	18:01:04.011	result per H 0
+2021-06-21	18:01:04.011	result per shift 931
+2021-06-21	18:01:04.011	backend is true
+2021-06-21	18:01:04.011	signal ok BUM
+2021-06-21	18:01:04.011	shiftFactor 8
+2021-06-21	18:01:04.011	minVal 80
+2021-06-21	18:01:04.011	midVal 80
+2021-06-21	18:01:04.011	maxVal 90
+2021-06-21	18:01:04.011	firstShift 14
+2021-06-21	18:01:04.011	second shift 22
+2021-06-21	18:01:04.011	third shift 6
+2021-06-21	18:01:04.011	backendtime jest true 
+2021-06-21	18:01:08.011	Obliczony interval target 1003
+2021-06-21	18:01:08.011	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-21	18:01:08.011	Magic number is cool
+2021-06-21	18:06:53.066	**** Start Aplikacji ****
+2021-06-21	18:06:53.066	sopp.log
+2021-06-21	18:06:53.066	Połączono z bazą danych 
+2021-06-21	18:06:53.066	***** Ustawienia *****
+2021-06-21	18:06:53.066	dbDriver QODBC
+2021-06-21	18:06:53.066	dbConnection prov
+2021-06-21	18:06:53.066	dbName sopp
+2021-06-21	18:06:53.066	Line name 10032-13
+2021-06-21	18:06:53.066	log name sopp.log
+2021-06-21	18:06:53.066	magic nr 077528
+2021-06-21	18:06:53.066	Part nr 10033
+2021-06-21	18:06:53.066	target per H 10
+2021-06-21	18:06:53.066	target per shift 1448
+2021-06-21	18:06:53.066	Status AWARIA
+2021-06-21	18:06:53.066	result per H 5
+2021-06-21	18:06:53.066	result per shift 936
+2021-06-21	18:06:53.066	backend is true
+2021-06-21	18:06:53.066	signal ok 
+2021-06-21	18:06:53.066	shiftFactor 8
+2021-06-21	18:06:53.066	minVal 80
+2021-06-21	18:06:53.066	midVal 80
+2021-06-21	18:06:53.066	maxVal 90
+2021-06-21	18:06:53.066	firstShift 14
+2021-06-21	18:06:53.066	second shift 22
+2021-06-21	18:06:53.066	third shift 6
+2021-06-21	18:06:54.066	backendtime jest true 
+2021-06-21	18:06:58.066	Obliczony interval target 1003
+2021-06-21	18:06:58.066	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-21	18:06:58.066	Magic number is cool
+2021-06-21	18:13:05.1313	**** Start Aplikacji ****
+2021-06-21	18:13:05.1313	sopp.log
+2021-06-21	18:13:05.1313	Połączono z bazą danych 
+2021-06-21	18:13:06.1313	***** Ustawienia *****
+2021-06-21	18:13:06.1313	dbDriver QODBC
+2021-06-21	18:13:06.1313	dbConnection prov
+2021-06-21	18:13:06.1313	dbName sopp
+2021-06-21	18:13:06.1313	Line name 10032-13
+2021-06-21	18:13:06.1313	log name sopp.log
+2021-06-21	18:13:06.1313	magic nr 077528
+2021-06-21	18:13:06.1313	Part nr 10033
+2021-06-21	18:13:06.1313	target per H 10
+2021-06-21	18:13:06.1313	target per shift 1448
+2021-06-21	18:13:06.1313	Status AWARIA
+2021-06-21	18:13:06.1313	result per H 5
+2021-06-21	18:13:06.1313	result per shift 936
+2021-06-21	18:13:06.1313	backend is true
+2021-06-21	18:13:06.1313	signal ok 
+2021-06-21	18:13:06.1313	shiftFactor 8
+2021-06-21	18:13:06.1313	minVal 80
+2021-06-21	18:13:06.1313	midVal 80
+2021-06-21	18:13:06.1313	maxVal 90
+2021-06-21	18:13:06.1313	firstShift 14
+2021-06-21	18:13:06.1313	second shift 22
+2021-06-21	18:13:06.1313	third shift 6
+2021-06-21	18:13:07.1313	backendtime jest true 
+2021-06-21	18:13:10.1313	Obliczony interval target 1003
+2021-06-21	18:13:10.1313	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-21	18:16:47.1616	**** Start Aplikacji ****
+2021-06-21	18:16:47.1616	sopp.log
+2021-06-21	18:16:47.1616	Połączono z bazą danych 
+2021-06-21	18:16:47.1616	***** Ustawienia *****
+2021-06-21	18:16:47.1616	dbDriver QODBC
+2021-06-21	18:16:47.1616	dbConnection prov
+2021-06-21	18:16:47.1616	dbName sopp
+2021-06-21	18:16:47.1616	Line name 10032-13
+2021-06-21	18:16:47.1616	log name sopp.log
+2021-06-21	18:16:47.1616	magic nr 077528
+2021-06-21	18:16:47.1616	Part nr 10033
+2021-06-21	18:16:47.1616	target per H 10
+2021-06-21	18:16:47.1616	target per shift 1448
+2021-06-21	18:16:47.1616	Status AWARIA
+2021-06-21	18:16:47.1616	result per H 5
+2021-06-21	18:16:47.1616	result per shift 936
+2021-06-21	18:16:47.1616	backend is true
+2021-06-21	18:16:47.1616	signal ok 
+2021-06-21	18:16:47.1616	shiftFactor 8
+2021-06-21	18:16:47.1616	minVal 80
+2021-06-21	18:16:47.1616	midVal 80
+2021-06-21	18:16:47.1616	maxVal 90
+2021-06-21	18:16:47.1616	firstShift 14
+2021-06-21	18:16:47.1616	second shift 22
+2021-06-21	18:16:47.1616	third shift 6
+2021-06-21	18:16:48.1616	backendtime jest true 
+2021-06-21	18:16:52.1616	Obliczony interval target 1003
+2021-06-21	18:16:52.1616	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-21	18:16:52.1616	Tuż przed startem
+2021-06-21	18:31:23.3131	**** Start Aplikacji ****
+2021-06-21	18:31:23.3131	sopp.log
+2021-06-21	18:31:24.3131	Połączono z bazą danych 
+2021-06-21	18:31:24.3131	***** Ustawienia *****
+2021-06-21	18:31:24.3131	dbDriver QODBC
+2021-06-21	18:31:24.3131	dbConnection prov
+2021-06-21	18:31:24.3131	dbName sopp
+2021-06-21	18:31:24.3131	Line name 10032-13
+2021-06-21	18:31:24.3131	log name sopp.log
+2021-06-21	18:31:24.3131	magic nr 077528
+2021-06-21	18:31:24.3131	Part nr 10033
+2021-06-21	18:31:24.3131	target per H 10
+2021-06-21	18:31:24.3131	target per shift 1448
+2021-06-21	18:31:24.3131	Status AWARIA
+2021-06-21	18:31:24.3131	result per H 5
+2021-06-21	18:31:24.3131	result per shift 936
+2021-06-21	18:31:24.3131	backend is true
+2021-06-21	18:31:24.3131	signal ok 
+2021-06-21	18:31:24.3131	shiftFactor 8
+2021-06-21	18:31:24.3131	minVal 80
+2021-06-21	18:31:24.3131	midVal 80
+2021-06-21	18:31:24.3131	maxVal 90
+2021-06-21	18:31:24.3131	firstShift 14
+2021-06-21	18:31:24.3131	second shift 22
+2021-06-21	18:31:24.3131	third shift 6
+2021-06-21	18:31:25.3131	backendtime jest true 
+2021-06-21	18:31:28.3131	Obliczony interval target 1003
+2021-06-21	18:31:29.3131	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-21	18:31:29.3131	Tuż przed startem
+2021-06-21	18:42:26.4242	**** Start Aplikacji ****
+2021-06-21	18:42:26.4242	sopp.log
+2021-06-21	18:42:27.4242	Połączono z bazą danych 
+2021-06-21	18:42:27.4242	***** Ustawienia *****
+2021-06-21	18:42:27.4242	dbDriver QODBC
+2021-06-21	18:42:27.4242	dbConnection prov
+2021-06-21	18:42:27.4242	dbName sopp
+2021-06-21	18:42:27.4242	Line name 10032-13
+2021-06-21	18:42:27.4242	log name sopp.log
+2021-06-21	18:42:27.4242	magic nr 077528
+2021-06-21	18:42:27.4242	Part nr 10033
+2021-06-21	18:42:27.4242	target per H 10
+2021-06-21	18:42:27.4242	target per shift 1448
+2021-06-21	18:42:27.4242	Status AWARIA
+2021-06-21	18:42:27.4242	result per H 5
+2021-06-21	18:42:27.4242	result per shift 936
+2021-06-21	18:42:27.4242	backend is true
+2021-06-21	18:42:27.4242	shiftFactor 8
+2021-06-21	18:42:27.4242	minVal 80
+2021-06-21	18:42:27.4242	midVal 80
+2021-06-21	18:42:27.4242	maxVal 90
+2021-06-21	18:42:27.4242	firstShift 14
+2021-06-21	18:42:27.4242	second shift 22
+2021-06-21	18:42:27.4242	third shift 6
+2021-06-21	18:42:28.4242	backendtime jest true 
+2021-06-21	18:42:31.4242	Obliczony interval target 1003
+2021-06-21	18:42:32.4242	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-06-21	18:42:32.4242	Tuż przed startem
+2021-06-21	19:14:41.1414	**** Start Aplikacji ****
+2021-06-21	19:14:41.1414	sopp.log
+2021-06-21	19:14:51.1414	**** Start Aplikacji ****
+2021-06-21	19:14:51.1414	sopp.log
+2021-06-21	19:14:51.1414	Połączono z bazą danych 
+2021-06-21	19:14:52.1414	***** Ustawienia *****
+2021-06-21	19:14:52.1414	dbDriver QODBC
+2021-06-21	19:14:52.1414	dbConnection prov
+2021-06-21	19:14:52.1414	dbName sopp
+2021-06-21	19:14:52.1414	Line name 10032-13
+2021-06-21	19:14:52.1414	log name sopp.log
+2021-06-21	19:14:52.1414	magic nr 077528
+2021-06-21	19:14:52.1414	Part nr 10033
+2021-06-21	19:14:52.1414	target per H 10
+2021-06-21	19:14:52.1414	target per shift 1448
+2021-06-21	19:14:52.1414	Status AWARIA
+2021-06-21	19:14:52.1414	result per H 5
+2021-06-21	19:14:52.1414	result per shift 936
+2021-06-21	19:14:52.1414	backend is true
+2021-06-21	19:14:52.1414	shiftFactor 8
+2021-06-21	19:14:52.1414	minVal 80
+2021-06-21	19:14:52.1414	midVal 80
+2021-06-21	19:14:52.1414	maxVal 90
+2021-06-21	19:14:52.1414	firstShift 14
+2021-06-21	19:14:52.1414	second shift 22
+2021-06-21	19:14:52.1414	third shift 6
+2021-06-21	19:14:53.1414	backendtime jest true 
+2021-06-21	19:14:56.1414	Obliczony interval target 1003
+2021-06-21	19:14:57.1414	Ip addr 127.0.0.1 portNr 6101
+2021-06-21	19:14:57.1414	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'

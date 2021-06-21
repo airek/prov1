@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
         global.writeLog("Połączono z bazą danych ");
         qDebug()<<"Połączono z bazą danych ";
         global.readDataSettings();
-        global.getDeviceStatus();
+        //global.getDeviceStatus();
 
         if(global.isDebug)
         {
@@ -108,8 +108,7 @@ int main(int argc, char *argv[])
     engine.load(url);
     app.setWindowIcon(QIcon(":/img/graph.png"));
 
-    if(global.checkMagicNumber())
-        return app.exec();
-    else
-        return 0;
+
+    //global.writeLog("Tuż przed startem");
+    return app.exec();
 }

@@ -21,7 +21,7 @@ QString Global::maxVal;
 QString Global::fshft;
 QString Global::sshft;
 QString Global::tshft;
-bool Global::mAckSignal;
+int Global::mAckSignal;
 QString Global::mPartNr;
 QString Global::mTargetH;
 QString Global::mTargetS;
@@ -46,12 +46,14 @@ int Global::mAuxTime;
 QString Global::mAuxDate;
 int Global::mProdTime;
 int Global::mBreakTime;
-
+QString Global::mTeam;
+int Global::mCheckList;
 
 
 Global::Global()
 {
     readSettings();
+    //getDeviceStatus();
 }
 /*!
  * \brief Global::connectToDb
@@ -152,6 +154,7 @@ void Global::readSettings()
     mAuxDate=settings.value("auxDate").toString();
     mProdTime=settings.value("prodTime").toInt();
     mBreakTime=settings.value("breakTime").toInt();
+    mTeam=settings.value("team").toString();
 
 
 
@@ -189,7 +192,7 @@ void Global::writeSettingsLog()
  */
 void Global::writeDataSettings()
 {
-    writeLog("signal ok "+mSignal);
+    //writeLog("signal ok "+mSignal);
     writeLog("shiftFactor "+mShiftFactor);
     writeLog("minVal "+minVal);
     writeLog("midVal "+midVal);
@@ -216,6 +219,7 @@ void Global::readDataSettings()
 {
     QSqlDatabase db=QSqlDatabase::database(mDbConnection);
     QSqlQuery qry(db);
+
     qry.prepare("Select * from settings");
 
     qry.exec();
@@ -223,7 +227,7 @@ void Global::readDataSettings()
     while(qry.next())
     {
         QSqlRecord record=qry.record();
-        mSignal=record.value("signal").toString();
+
         mShiftFactor=record.value("shiftFactor").toString();
         minVal=record.value("minVal").toString();
         midVal=record.value("midVal").toString();
@@ -231,9 +235,11 @@ void Global::readDataSettings()
         fshft=record.value("fshift").toString();
         sshft=record.value("sshift").toString();
         tshft=record.value("tshift").toString();
-        mAckSignal=record.value("ackSignal").toBool();
 
     }
+
+
+
 
 
 }
@@ -247,7 +253,7 @@ void Global::getDeviceStatus()
     QSqlQuery qry(db);
     QString strQry;
 
-    strQry="Select ipAddr,portNr,conStatus,descript from lineCom where line ='"+mLine+"'";
+    strQry="Select ipAddr,portNr,conStatus,descript,signal,checkList,ackSignal from lineCom where line ='"+mLine+"'";
     qDebug()<<strQry;
     //qry.prepare("Select devName,ipAddr,portNr,status from devices where line ='"+mLine+"'");
     //qry.prepare("Select ipAddr,portNr,conStatus from lineCom where line ='"+mLine+"'");
@@ -261,8 +267,13 @@ void Global::getDeviceStatus()
         mIpAddr=record.value("ipAddr").toString();
         mPortNr=record.value("portNr").toString();
         mServerStatus=record.value("conStatus").toInt();
+        mSignal=record.value("signal").toString();
+        mCheckList=record.value("checkList").toInt();
+        mAckSignal=record.value("ackSignal").toInt();
 
-        qDebug()<<mIpAddr<<"\n"<<mPortNr<<"\n"<<mServerStatus;
+        //qDebug()<<"AckSignal"<<mAckSignal;
+
+        //qDebug()<<mIpAddr<<"\n"<<mPortNr<<"\n"<<mServerStatus;
     }
 }
 /*!
@@ -277,7 +288,7 @@ void Global::getDeviceStatus()
 void Global::writeAppSettings(QString partnr, QString targetH,
                               QString targetS, QString resH, QString resS, QString status,
                               QString persQty, QString partsQty, QString ttProduce, QString targetPerH, QString orderCntr,
-                              QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime)
+                              QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime, QString team)
 {
 
     QSettings settings("sopp.ini",QSettings::IniFormat);
@@ -300,7 +311,7 @@ void Global::writeAppSettings(QString partnr, QString targetH,
     settings.setValue("auxDate",auxDate);
     settings.setValue("prodTime",prodTime);
     settings.setValue("breakTime",breakTime);
-
+    settings.setValue("team",team);
     settings.endGroup();
 
 

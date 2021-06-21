@@ -42,7 +42,8 @@ public:
     Q_INVOKABLE void writeSettings(QString partNr,QString targetH,QString targetS,
                                    QString resH,QString resS,QString status,QString persQty,
                                    QString partQty,QString ttProduce,QString targetPerH,QString orderCntr,
-                                   QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime);
+                                   QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime,
+                                   QString team);
     Q_INVOKABLE QString getPartNr();
     Q_INVOKABLE QString getStatus();
     Q_INVOKABLE QString getLine();
@@ -50,14 +51,17 @@ public:
     Q_INVOKABLE QString getIpAddr();
     Q_INVOKABLE QString getPortNr();
     Q_INVOKABLE bool getServerStatus();
+    Q_INVOKABLE int getCheckList();
 
     Q_INVOKABLE QString getOrderID();
     Q_INVOKABLE int getAuxTime();
     Q_INVOKABLE QString getAuxDate();
     Q_INVOKABLE int getProdTime();
     Q_INVOKABLE int getBreakTime();
+    Q_INVOKABLE QString getTeam();
     Q_INVOKABLE bool isDbConnected();
     Q_INVOKABLE bool connectToDB();
+    Q_INVOKABLE void writeLog(QString msg);
 
     /*settings.setValue("orderId",orderId);
     settings.setValue("auxTime",auxTime);
@@ -98,7 +102,7 @@ private:
     Target *target;
     QString mStatus;
     QTimer *timer;
-    void writeLog(QString msg);
+
     void createDevices();
     bool startListening(QString ipA,int portNr);
 
