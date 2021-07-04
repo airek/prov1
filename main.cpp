@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
     {
         //qDebug()<<"Polączono z bazą danych";
         global.writeLog("Połączono z bazą danych ");
-        qDebug()<<"Połączono z bazą danych ";
+
         global.readDataSettings();
         //global.getDeviceStatus();
 
@@ -76,8 +76,10 @@ int main(int argc, char *argv[])
             global.writeLog("***** Ustawienia *****");
             global.writeSettingsLog();
             global.writeDataSettings();
-        }
 
+
+        }
+        global.checkNIO();
 
     }else
     {

@@ -52,8 +52,8 @@ public:
 
     //
     QString dbError();
-    static bool isDbConnected();
-    void writeLog(QString msg);
+    bool isDbConnected();
+    static void writeLog(QString msg);
     QString fileName() const;
     void setFileName(const QString &fileName);
     void readDataSettings();
@@ -64,15 +64,19 @@ public:
                           QString orderId, QString auxTime, QString auxDate, QString prodTime, QString breakTime,
                           QString team);
 
-    static bool execQuery(QString strQry);
+    bool execQuery(QString strQry);
     static QStringList returnCompressedResults(QString separator,QString strQry);
     bool checkMagicNumber();
     void writeSettingsLog();
     void writeDataSettings();
+    void writeNIO(QString qry);
+    void checkNIO();
 
 private:
 
     void readSettings();
+    void readNIOFile();
+    void insertNIOQry(QStringList &lista);
     //
     QString mDbName;
     QString mDbServer;

@@ -85,15 +85,9 @@ ApplicationWindow {
 
         //console.log("qry "+strQry)
 
-        if(backend.isDbConnected())
-            backend.execQry(strQry);
-        else
-        {
-            if(backend.connectToDB())
-                backend.execQry(qry)
-            else
-                backendDbCon.writeNID(strQry)
-        }
+
+        backend.execQry(strQry);
+
 
 
         opt1=1
@@ -111,15 +105,9 @@ ApplicationWindow {
             +shiftNr+")"
 
 
-            if(backend.isDbConnected())
-                backend.execQry(strQry);
-            else
-            {
-                if(backend.connectToDB())
-                    backend.execQry(qry)
-                else
-                    backendDbCon.writeNID(strQry)
-            }
+
+            backend.execQry(strQry);
+
 
         }
 

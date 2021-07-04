@@ -313,10 +313,10 @@ QString Backend::getTeam()
 
 bool Backend::isDbConnected()
 {
-
+    Global global;
     bool isConn;
 
-    if(!Global::isDbConnected())
+    if(!global.isDbConnected())
     {
         isConn=false;
     }else

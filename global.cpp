@@ -8,7 +8,9 @@
 #include <QDebug>
 #include <QSqlRecord>
 #include <QDate>
-
+#include <windows.h>
+#include <QFile>
+#include <string>
 
 QString Global::mDbConnection;
 QString Global::mSignal;
@@ -99,6 +101,17 @@ bool Global::isDbConnected()
 
     bool status=db.isOpen();
 
+    if(status==true)
+    {
+        writeLog("Baza połączona  ");
+    }else
+    {
+
+        writeLog("Baza jest nie połączona");
+    }
+
+
+
     return status;
 }
 /*!
@@ -163,6 +176,50 @@ void Global::readSettings()
 
 }
 /*!
+ * \brief Global::readNIOFile
+ */
+void Global::readNIOFile()
+{
+    QString strQContent;
+    QString firstRec;
+    QStringList sqlList;
+
+    QFile file("nio.log");
+
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
+            return;
+
+    while (!file.atEnd()) {
+        QByteArray line = file.readLine();
+        QString strLine=line.toStdString().c_str();
+        sqlList<<strLine;
+
+     }
+
+    insertNIOQry(sqlList);
+
+    file.remove();
+
+}
+/*!
+ * \brief Global::insertNIOQry
+ * \param lista
+ *
+ * inserting qry from nio file
+ */
+
+void Global::insertNIOQry(QStringList &lista)
+{
+
+    QString strQry;
+    //loop till end of list
+    for(int i=0;i<lista.size();i++)
+    {
+       strQry=lista.at(i);
+       execQuery(strQry);
+    }
+}
+/*!
  * \brief Global::writeSettingsLog
  *
  * writing app setting to log file
@@ -201,6 +258,30 @@ void Global::writeDataSettings()
     writeLog("second shift "+sshft);
     writeLog("third shift "+tshft);
 
+}
+
+void Global::writeNIO(QString qry)
+{
+
+    Klog *log=new Klog("nio.log");
+    log->writeSimpleLog(qry);
+    delete log;
+
+
+}
+/*!
+ * \brief Global::checkNIO
+ */
+void Global::checkNIO()
+{
+    QFile file("nio.log");
+
+    if(file.exists())
+    {
+        writeLog("Plik nio.log istnieje");
+        readNIOFile();
+        // czytamy i wprowadzamy
+    }
 }
 
 QString Global::fileName() const
@@ -327,18 +408,40 @@ void Global::writeAppSettings(QString partnr, QString targetH,
  */
 bool Global::execQuery(QString strQry)
 {
+
+    bool res;
+    // cehcking if db is open
+
+
     QSqlDatabase db=QSqlDatabase::database(mDbConnection);
     QSqlQuery qry(db);
 
 
-    if(!qry.exec(strQry))
-    {
+        if(!qry.exec(strQry))
+        {
 
-        qDebug()<<qry.lastError().text();
-        return false;
-    }
+            writeLog("Nie wprowadzono do bazy danych dla qry "+strQry+" raportowany błąd "+qry.lastError().text());
+            writeNIO(strQry);
+            //tutaj sprawdzamy połączenie
+            if(qry.lastError().text().contains("Błąd łącza komunikacyjnego"))
+            {
+                if(connectToDb())
+                {
+                    writeLog("Nawiązano ponownie połaczenie z DB");
 
-    return true;
+                }
+            }
+
+            res=false;
+        }else
+        {
+            writeLog("Wprowadzono dla dla strQry "+strQry);
+            res=true;
+        }
+
+
+
+    return res;
 
 
 }

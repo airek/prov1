@@ -149,19 +149,10 @@ function insertProtokol()
     +"values('"+vOrderID+"','"+line+"','"+partNumbr+"',"+persQty+",'"+loginDate+"',"+timeInSec
     +","+targetTact+","+shiftNr+",'"+team+"')"
 
-    console.log("--protokol sql Qry "+sqlQry)
-    if(backend.isDbConnected())
-        backendDbCon.execQry(sqlQry)
-    else
-    {
-        if(backend.connectToDB())
-        {
-            backendDbCon.execQry(sqlQry)
-        }else
-        {
-            backendDbCon.writeNID(sqlQry)
-        }
-    }
+    //console.log("--protokol sql Qry "+sqlQry)
+
+    backendDbCon.execQry(sqlQry)
+
 
 }
 
@@ -203,26 +194,13 @@ function updateProtokol()
     +",productionTime="+vProdTime+",breaks="+vBreakTime+","
     +"productivity="+productivity+" where id='"+vOrderID+"'"
 
-    console.log("strQry before update "+strQry)
+    //console.log("strQry before update "+strQry)
 
 
-    if(backend.isDbConnected())
-        backendDbCon.execQry(strQry)
-    else
-    {
-        if(backend.connectToDB())
-        {
-            backendDbCon.execQry(strQry)
-        }else
-        {
-            backendDbCon.writeNID(strQry)
-        }
-    }
 
-    /*if(!backendDbCon.execQry(strQry))
-    {
-        backendDbCon.writeNID(strQry)
-    }*/
+    backendDbCon.execQry(strQry)
+
+
 
 }
 // calculate real tact
@@ -252,9 +230,15 @@ function calculateProductivity(rTact)
     var targetT=data[0]
     console.log("targetT "+targetT)
 
-    var productivity=targetT/rTact
-    productivity=productivity.toFixed(2)
-    console.log("productivity "+productivity)
+    if(rTact>0)
+    {
+        var productivity=targetT/rTact
+        productivity=productivity.toFixed(2)
+        console.log("productivity "+productivity)
+    }else
+    {
+        productivity=0
+    }
 
     return productivity
 }

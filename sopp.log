@@ -22562,3 +22562,968 @@
 2021-06-21	19:14:56.1414	Obliczony interval target 1003
 2021-06-21	19:14:57.1414	Ip addr 127.0.0.1 portNr 6101
 2021-06-21	19:14:57.1414	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	17:16:55.1616	**** Start Aplikacji ****
+2021-07-03	17:16:55.1616	sopp.log
+2021-07-03	17:16:55.1616	Połączono z bazą danych 
+2021-07-03	17:16:56.1616	***** Ustawienia *****
+2021-07-03	17:16:56.1616	dbDriver QODBC
+2021-07-03	17:16:56.1616	dbConnection prov
+2021-07-03	17:16:56.1616	dbName sopp
+2021-07-03	17:16:56.1616	Line name 10032-13
+2021-07-03	17:16:56.1616	log name sopp.log
+2021-07-03	17:16:56.1616	magic nr 077528
+2021-07-03	17:16:56.1616	Part nr 10033
+2021-07-03	17:16:56.1616	target per H 66
+2021-07-03	17:16:56.1616	target per shift 1504
+2021-07-03	17:16:56.1616	Status AWARIA
+2021-07-03	17:16:56.1616	result per H 27
+2021-07-03	17:16:56.1616	result per shift 958
+2021-07-03	17:16:56.1616	backend is true
+2021-07-03	17:16:56.1616	shiftFactor 8
+2021-07-03	17:16:56.1616	minVal 80
+2021-07-03	17:16:56.1616	midVal 80
+2021-07-03	17:16:56.1616	maxVal 90
+2021-07-03	17:16:56.1616	firstShift 14
+2021-07-03	17:16:56.1616	second shift 22
+2021-07-03	17:16:56.1616	third shift 6
+2021-07-03	17:16:57.1616	backendtime jest true 
+2021-07-03	17:17:01.1717	Obliczony interval target 1003
+2021-07-03	17:17:01.1717	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	17:17:01.1717	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	17:56:13.5656	**** Start Aplikacji ****
+2021-07-03	17:56:13.5656	sopp.log
+2021-07-03	17:56:13.5656	Połączono z bazą danych 
+2021-07-03	17:56:13.5656	***** Ustawienia *****
+2021-07-03	17:56:13.5656	dbDriver QODBC
+2021-07-03	17:56:13.5656	dbConnection prov
+2021-07-03	17:56:13.5656	dbName sopp
+2021-07-03	17:56:13.5656	Line name 10032-13
+2021-07-03	17:56:13.5656	log name sopp.log
+2021-07-03	17:56:13.5656	magic nr 077528
+2021-07-03	17:56:13.5656	Part nr 10033
+2021-07-03	17:56:13.5656	target per H 66
+2021-07-03	17:56:13.5656	target per shift 1504
+2021-07-03	17:56:13.5656	Status AWARIA
+2021-07-03	17:56:13.5656	result per H 27
+2021-07-03	17:56:13.5656	result per shift 958
+2021-07-03	17:56:13.5656	backend is true
+2021-07-03	17:56:13.5656	shiftFactor 8
+2021-07-03	17:56:13.5656	minVal 80
+2021-07-03	17:56:13.5656	midVal 80
+2021-07-03	17:56:13.5656	maxVal 90
+2021-07-03	17:56:13.5656	firstShift 14
+2021-07-03	17:56:13.5656	second shift 22
+2021-07-03	17:56:13.5656	third shift 6
+2021-07-03	17:56:14.5656	backendtime jest true 
+2021-07-03	17:56:19.5656	Obliczony interval target 1003
+2021-07-03	17:56:19.5656	Baza danych połączona 
+2021-07-03	17:56:19.5656	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	17:56:19.5656	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	17:56:33.5656	Baza danych połączona 
+2021-07-03	18:00:36.000	**** Start Aplikacji ****
+2021-07-03	18:00:36.000	sopp.log
+2021-07-03	18:00:36.000	Połączono z bazą danych 
+2021-07-03	18:00:36.000	***** Ustawienia *****
+2021-07-03	18:00:36.000	dbDriver QODBC
+2021-07-03	18:00:36.000	dbConnection prov
+2021-07-03	18:00:36.000	dbName sopp
+2021-07-03	18:00:36.000	Line name 10032-13
+2021-07-03	18:00:36.000	log name sopp.log
+2021-07-03	18:00:36.000	magic nr 077528
+2021-07-03	18:00:36.000	Part nr 10033
+2021-07-03	18:00:36.000	target per H 66
+2021-07-03	18:00:36.000	target per shift 1504
+2021-07-03	18:00:36.000	Status AWARIA
+2021-07-03	18:00:36.000	result per H 27
+2021-07-03	18:00:36.000	result per shift 958
+2021-07-03	18:00:36.000	backend is true
+2021-07-03	18:00:36.000	shiftFactor 8
+2021-07-03	18:00:36.000	minVal 80
+2021-07-03	18:00:36.000	midVal 80
+2021-07-03	18:00:36.000	maxVal 90
+2021-07-03	18:00:36.000	firstShift 14
+2021-07-03	18:00:36.000	second shift 22
+2021-07-03	18:00:36.000	third shift 6
+2021-07-03	18:00:37.000	backendtime jest true 
+2021-07-03	18:00:41.000	Obliczony interval target 1003
+2021-07-03	18:00:41.000	Baza danych połączona 
+2021-07-03	18:00:41.000	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	18:00:41.000	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	18:00:53.000	Baza danych połączona 
+2021-07-03	18:45:06.4545	**** Start Aplikacji ****
+2021-07-03	18:45:06.4545	sopp.log
+2021-07-03	18:45:06.4545	Połączono z bazą danych 
+2021-07-03	18:45:06.4545	***** Ustawienia *****
+2021-07-03	18:45:06.4545	dbDriver QODBC
+2021-07-03	18:45:06.4545	dbConnection prov
+2021-07-03	18:45:06.4545	dbName sopp
+2021-07-03	18:45:06.4545	Line name 10032-13
+2021-07-03	18:45:06.4545	log name sopp.log
+2021-07-03	18:45:06.4545	magic nr 077528
+2021-07-03	18:45:06.4545	Part nr 10033
+2021-07-03	18:45:06.4545	target per H 66
+2021-07-03	18:45:06.4545	target per shift 1504
+2021-07-03	18:45:06.4545	Status AWARIA
+2021-07-03	18:45:06.4545	result per H 27
+2021-07-03	18:45:06.4545	result per shift 958
+2021-07-03	18:45:06.4545	backend is true
+2021-07-03	18:45:06.4545	shiftFactor 8
+2021-07-03	18:45:06.4545	minVal 80
+2021-07-03	18:45:06.4545	midVal 80
+2021-07-03	18:45:06.4545	maxVal 90
+2021-07-03	18:45:06.4545	firstShift 14
+2021-07-03	18:45:06.4545	second shift 22
+2021-07-03	18:45:06.4545	third shift 6
+2021-07-03	18:45:07.4545	backendtime jest true 
+2021-07-03	18:45:10.4545	Obliczony interval target 1003
+2021-07-03	18:45:10.4545	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:45:10','Start Aplikacji',27,958,66,1504,'10033','10032-13',67510,2,'S1 32-3')
+2021-07-03	18:45:11.4545	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	18:45:11.4545	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	18:48:12.4848	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:48:12','PRODUKCJA',28,959,66,1504,'10033','10032-13',67692,2,'S1 32-3')
+2021-07-03	18:49:10.4949	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:49:10','AWARIA',74,1005,123,1561,'10033','10032-13',67750,2,'S1 32-3')
+2021-07-03	18:50:10.5050	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:49:51','PRODUKCJA',75,1006,123,1561,'10033','10032-13',67791,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionRead (recv()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-03	18:51:28.5151	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:51:28','AWARIA',75,1006,200,1638,'10033','10032-13',67888,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	18:52:29.5252	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:52:29','PRODUKCJA',76,1007,200,1638,'10033','10032-13',67949,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	18:53:47.5353	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:53:47','AWARIA',94,1025,277,1715,'10033','10032-13',68027,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	18:56:59.5656	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:56:59','Koniec Aplikacji',94,1025,277,1715,'10033','10032-13',68219,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	18:57:11.5757	**** Start Aplikacji ****
+2021-07-03	18:57:11.5757	sopp.log
+2021-07-03	18:57:11.5757	Połączono z bazą danych 
+2021-07-03	18:57:11.5757	***** Ustawienia *****
+2021-07-03	18:57:11.5757	dbDriver QODBC
+2021-07-03	18:57:11.5757	dbConnection prov
+2021-07-03	18:57:11.5757	dbName sopp
+2021-07-03	18:57:11.5757	Line name 10032-13
+2021-07-03	18:57:11.5757	log name sopp.log
+2021-07-03	18:57:11.5757	magic nr 077528
+2021-07-03	18:57:11.5757	Part nr 10033
+2021-07-03	18:57:11.5757	target per H 277
+2021-07-03	18:57:11.5757	target per shift 1715
+2021-07-03	18:57:11.5757	Status AWARIA
+2021-07-03	18:57:11.5757	result per H 94
+2021-07-03	18:57:11.5757	result per shift 1025
+2021-07-03	18:57:11.5757	backend is true
+2021-07-03	18:57:11.5757	shiftFactor 8
+2021-07-03	18:57:11.5757	minVal 80
+2021-07-03	18:57:11.5757	midVal 80
+2021-07-03	18:57:11.5757	maxVal 90
+2021-07-03	18:57:11.5757	firstShift 14
+2021-07-03	18:57:11.5757	second shift 22
+2021-07-03	18:57:11.5757	third shift 6
+2021-07-03	18:57:12.5757	backendtime jest true 
+2021-07-03	18:57:16.5757	Obliczony interval target 1003
+2021-07-03	18:57:16.5757	DB jest połączone 
+2021-07-03	18:57:16.5757	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:57:16','Start Aplikacji',94,1025,277,1715,'10033','10032-13',68236,2,'S1 32-3')
+2021-07-03	18:57:16.5757	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	18:57:16.5757	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	18:57:32.5757	DB jest połączone 
+2021-07-03	18:57:32.5757	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:57:32','PRODUKCJA',95,1026,277,1715,'10033','10032-13',68252,2,'S1 32-3')
+2021-07-03	18:58:49.5858	DB jest połączone 
+2021-07-03	18:59:08.5959	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:58:49','AWARIA',127,1058,352,1790,'10033','10032-13',68329,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionRead (recv()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-03	19:00:00.000	DB jest połączone 
+2021-07-03	19:00:00.000	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:00:00','Zerowanie Liczników',127,1058,352,1790,'10033','10032-13',68400,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	19:00:00.000	Zerujemy liczniki na pełną godzinę 
+2021-07-03	19:00:00.000	Czas 190000
+2021-07-03	19:01:34.011	DB jest połączone 
+2021-07-03	19:01:34.011	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:01:34','Koniec Aplikacji',0,1058,0,1790,'10033','10032-13',68494,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	19:01:41.011	**** Start Aplikacji ****
+2021-07-03	19:01:41.011	sopp.log
+2021-07-03	19:02:28.022	nie połączono z bazdą danych błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Serwer SQL nie istnieje lub odmówiono do niego dostępu. [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionOpen (Connect()). QODBC3: Unable to connect
+2021-07-03	19:05:48.055	**** Start Aplikacji ****
+2021-07-03	19:05:48.055	sopp.log
+2021-07-03	19:05:48.055	Połączono z bazą danych 
+2021-07-03	19:05:48.055	***** Ustawienia *****
+2021-07-03	19:05:48.055	dbDriver QODBC
+2021-07-03	19:05:48.055	dbConnection prov
+2021-07-03	19:05:48.055	dbName sopp
+2021-07-03	19:05:48.055	Line name 10032-13
+2021-07-03	19:05:48.055	log name sopp.log
+2021-07-03	19:05:48.055	magic nr 077528
+2021-07-03	19:05:48.055	Part nr 10033
+2021-07-03	19:05:48.055	target per H 0
+2021-07-03	19:05:48.055	target per shift 1790
+2021-07-03	19:05:48.055	Status AWARIA
+2021-07-03	19:05:48.055	result per H 0
+2021-07-03	19:05:48.055	result per shift 1058
+2021-07-03	19:05:48.055	backend is true
+2021-07-03	19:05:48.055	shiftFactor 8
+2021-07-03	19:05:48.055	minVal 80
+2021-07-03	19:05:48.055	midVal 80
+2021-07-03	19:05:48.055	maxVal 90
+2021-07-03	19:05:48.055	firstShift 14
+2021-07-03	19:05:48.055	second shift 22
+2021-07-03	19:05:48.055	third shift 6
+2021-07-03	19:05:49.055	backendtime jest true 
+2021-07-03	19:05:53.055	Obliczony interval target 1003
+2021-07-03	19:05:53.055	Baza połączona  
+2021-07-03	19:05:53.055	DB jest połączone 
+2021-07-03	19:05:53.055	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:05:53','Start Aplikacji',0,1058,0,1790,'10033','10032-13',68753,2,'S1 32-3')
+2021-07-03	19:05:53.055	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	19:05:53.055	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	19:08:24.088	Baza połączona  
+2021-07-03	19:08:24.088	DB jest połączone 
+2021-07-03	19:08:24.088	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:08:24','PRODUKCJA',1,1059,0,1790,'10033','10032-13',68904,2,'S1 32-3')
+2021-07-03	19:09:59.099	Baza połączona  
+2021-07-03	19:09:59.099	DB jest połączone 
+2021-07-03	19:09:59.099	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:09:59','AWARIA',55,1113,93,1883,'10033','10032-13',68999,2,'S1 32-3')
+2021-07-03	19:10:56.1010	Baza połączona  
+2021-07-03	19:10:56.1010	DB jest połączone 
+2021-07-03	19:11:09.1111	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:10:56','PRODUKCJA',56,1114,93,1883,'10033','10032-13',69056,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionRead (recv()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-03	19:12:36.1212	Baza połączona  
+2021-07-03	19:12:36.1212	DB jest połączone 
+2021-07-03	19:12:36.1212	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:12:36','AWARIA',68,1126,179,1969,'10033','10032-13',69156,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	19:35:14.3535	Baza połączona  
+2021-07-03	19:35:15.3535	DB jest połączone 
+2021-07-03	19:35:15.3535	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:35:14','Koniec Aplikacji',68,1126,179,1969,'10033','10032-13',70514,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	19:39:01.3939	**** Start Aplikacji ****
+2021-07-03	19:39:01.3939	sopp.log
+2021-07-03	19:39:02.3939	Połączono z bazą danych 
+2021-07-03	19:39:02.3939	***** Ustawienia *****
+2021-07-03	19:39:02.3939	dbDriver QODBC
+2021-07-03	19:39:02.3939	dbConnection prov
+2021-07-03	19:39:02.3939	dbName sopp
+2021-07-03	19:39:02.3939	Line name 10032-13
+2021-07-03	19:39:02.3939	log name sopp.log
+2021-07-03	19:39:02.3939	magic nr 077528
+2021-07-03	19:39:02.3939	Part nr 10033
+2021-07-03	19:39:02.3939	target per H 179
+2021-07-03	19:39:02.3939	target per shift 1969
+2021-07-03	19:39:02.3939	Status AWARIA
+2021-07-03	19:39:02.3939	result per H 68
+2021-07-03	19:39:02.3939	result per shift 1126
+2021-07-03	19:39:02.3939	backend is true
+2021-07-03	19:39:02.3939	shiftFactor 8
+2021-07-03	19:39:02.3939	minVal 80
+2021-07-03	19:39:02.3939	midVal 80
+2021-07-03	19:39:02.3939	maxVal 90
+2021-07-03	19:39:02.3939	firstShift 14
+2021-07-03	19:39:02.3939	second shift 22
+2021-07-03	19:39:02.3939	third shift 6
+2021-07-03	19:39:03.3939	backendtime jest true 
+2021-07-03	19:39:06.3939	Obliczony interval target 1003
+2021-07-03	19:39:06.3939	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:39:06','Start Aplikacji',68,1126,179,1969,'10033','10032-13',70746,2,'S1 32-3')
+2021-07-03	19:39:07.3939	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	19:39:07.3939	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	19:40:20.4040	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:40:20','PRODUKCJA',69,1127,179,1969,'10033','10032-13',70820,2,'S1 32-3')
+2021-07-03	19:40:53.4040	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:40:52','AWARIA',94,1152,210,2000,'10033','10032-13',70852,2,'S1 32-3')
+2021-07-03	19:41:33.4141	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:41:19','PRODUKCJA',95,1153,210,2000,'10033','10032-13',70879,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionRead (recv()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-03	19:42:59.4242	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:42:59','AWARIA',101,1159,296,2086,'10033','10032-13',70979,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	19:42:59.4242	Nawiązano ponownie połaczenie z DB
+2021-07-03	19:43:38.4343	**** Start Aplikacji ****
+2021-07-03	19:43:38.4343	sopp.log
+2021-07-03	19:43:38.4343	Połączono z bazą danych 
+2021-07-03	19:43:38.4343	***** Ustawienia *****
+2021-07-03	19:43:38.4343	dbDriver QODBC
+2021-07-03	19:43:38.4343	dbConnection prov
+2021-07-03	19:43:38.4343	dbName sopp
+2021-07-03	19:43:38.4343	Line name 10032-13
+2021-07-03	19:43:38.4343	log name sopp.log
+2021-07-03	19:43:38.4343	magic nr 077528
+2021-07-03	19:43:38.4343	Part nr 10033
+2021-07-03	19:43:38.4343	target per H 179
+2021-07-03	19:43:38.4343	target per shift 1969
+2021-07-03	19:43:38.4343	Status AWARIA
+2021-07-03	19:43:38.4343	result per H 68
+2021-07-03	19:43:38.4343	result per shift 1126
+2021-07-03	19:43:38.4343	backend is true
+2021-07-03	19:43:38.4343	shiftFactor 8
+2021-07-03	19:43:38.4343	minVal 80
+2021-07-03	19:43:38.4343	midVal 80
+2021-07-03	19:43:38.4343	maxVal 90
+2021-07-03	19:43:38.4343	firstShift 14
+2021-07-03	19:43:38.4343	second shift 22
+2021-07-03	19:43:38.4343	third shift 6
+2021-07-03	19:43:39.4343	backendtime jest true 
+2021-07-03	19:43:43.4343	Obliczony interval target 1003
+2021-07-03	19:43:43.4343	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:43:43','Start Aplikacji',68,1126,179,1969,'10033','10032-13',71023,2,'S1 32-3')
+2021-07-03	19:43:43.4343	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	19:43:43.4343	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	19:47:46.4747	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:47:46','PRODUKCJA',69,1127,179,1969,'10033','10032-13',71266,2,'S1 32-3')
+2021-07-03	19:48:43.4848	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:48:43','PRZERWA',96,1154,234,2024,'10033','10032-13',71323,2,'S1 32-3')
+2021-07-03	19:49:58.4949	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:49:58','PRODUKCJA',97,1155,234,2024,'10033','10032-13',71398,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionWrite (send()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-03	19:51:08.5151	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:51:08','PRZERWA',106,1164,303,2093,'10033','10032-13',71468,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	19:51:09.5151	Nawiązano ponownie połaczenie z DB
+2021-07-03	19:52:00.5252	**** Start Aplikacji ****
+2021-07-03	19:52:00.5252	sopp.log
+2021-07-03	19:52:00.5252	Połączono z bazą danych 
+2021-07-03	19:52:00.5252	***** Ustawienia *****
+2021-07-03	19:52:00.5252	dbDriver QODBC
+2021-07-03	19:52:00.5252	dbConnection prov
+2021-07-03	19:52:00.5252	dbName sopp
+2021-07-03	19:52:00.5252	Line name 10032-13
+2021-07-03	19:52:00.5252	log name sopp.log
+2021-07-03	19:52:00.5252	magic nr 077528
+2021-07-03	19:52:00.5252	Part nr 10033
+2021-07-03	19:52:00.5252	target per H 179
+2021-07-03	19:52:00.5252	target per shift 1969
+2021-07-03	19:52:00.5252	Status AWARIA
+2021-07-03	19:52:00.5252	result per H 68
+2021-07-03	19:52:00.5252	result per shift 1126
+2021-07-03	19:52:00.5252	backend is true
+2021-07-03	19:52:00.5252	shiftFactor 8
+2021-07-03	19:52:00.5252	minVal 80
+2021-07-03	19:52:00.5252	midVal 80
+2021-07-03	19:52:00.5252	maxVal 90
+2021-07-03	19:52:00.5252	firstShift 14
+2021-07-03	19:52:00.5252	second shift 22
+2021-07-03	19:52:00.5252	third shift 6
+2021-07-03	19:52:01.5252	backendtime jest true 
+2021-07-03	19:52:05.5252	Obliczony interval target 1003
+2021-07-03	19:52:05.5252	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:52:05','Start Aplikacji',68,1126,179,1969,'10033','10032-13',71525,2,'S1 32-3')
+2021-07-03	19:52:05.5252	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	19:52:05.5252	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	19:52:30.5252	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:52:30','PRODUKCJA',69,1127,179,1969,'10033','10032-13',71550,2,'S1 32-3')
+2021-07-03	19:53:12.5353	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:53:12','AWARIA',98,1156,220,2010,'10033','10032-13',71592,2,'S1 32-3')
+2021-07-03	19:53:49.5353	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:53:30','PRODUKCJA',99,1157,220,2010,'10033','10032-13',71610,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionRead (recv()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-03	19:56:25.5656	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:56:25','AWARIA',105,1163,375,2165,'10033','10032-13',71785,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	19:56:25.5656	Nawiązano ponownie połaczenie z DB
+2021-07-03	19:59:10.5959	**** Start Aplikacji ****
+2021-07-03	19:59:10.5959	sopp.log
+2021-07-03	19:59:10.5959	Połączono z bazą danych 
+2021-07-03	19:59:10.5959	***** Ustawienia *****
+2021-07-03	19:59:10.5959	dbDriver QODBC
+2021-07-03	19:59:10.5959	dbConnection prov
+2021-07-03	19:59:10.5959	dbName sopp
+2021-07-03	19:59:10.5959	Line name 10032-13
+2021-07-03	19:59:10.5959	log name sopp.log
+2021-07-03	19:59:10.5959	magic nr 077528
+2021-07-03	19:59:10.5959	Part nr 10033
+2021-07-03	19:59:10.5959	target per H 179
+2021-07-03	19:59:10.5959	target per shift 1969
+2021-07-03	19:59:10.5959	Status AWARIA
+2021-07-03	19:59:10.5959	result per H 68
+2021-07-03	19:59:10.5959	result per shift 1126
+2021-07-03	19:59:10.5959	backend is true
+2021-07-03	19:59:10.5959	shiftFactor 8
+2021-07-03	19:59:10.5959	minVal 80
+2021-07-03	19:59:10.5959	midVal 80
+2021-07-03	19:59:10.5959	maxVal 90
+2021-07-03	19:59:10.5959	firstShift 14
+2021-07-03	19:59:10.5959	second shift 22
+2021-07-03	19:59:10.5959	third shift 6
+2021-07-03	19:59:11.5959	backendtime jest true 
+2021-07-03	19:59:14.5959	Obliczony interval target 1003
+2021-07-03	19:59:14.5959	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:59:14','Start Aplikacji',68,1126,179,1969,'10033','10032-13',71954,2,'S1 32-3')
+2021-07-03	19:59:15.5959	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	19:59:15.5959	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	19:59:33.5959	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:59:33','PRODUKCJA',69,1127,179,1969,'10033','10032-13',71973,2,'S1 32-3')
+2021-07-03	20:00:13.000	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:00:00','Zerowanie Liczników',77,1135,205,1995,'10033','10032-13',72000,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionRead (recv()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:00:13.000	Zerujemy liczniki na pełną godzinę 
+2021-07-03	20:00:13.000	Czas 200000
+2021-07-03	20:00:22.000	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:00:22','AWARIA',0,1135,9,2004,'10033','10032-13',72022,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	20:00:43.000	Nie nawiązano ponownie połączenia z DB
+2021-07-03	20:01:51.011	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:01:51','PRODUKCJA',1,1136,9,2004,'10033','10032-13',72111,2,'S1 32-3')
+2021-07-03	20:03:31.033	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:03:21','AWARIA',10,1145,98,2093,'10033','10032-13',72201,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionRead (recv()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:04:44.044	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:04:44','PRODUKCJA',11,1146,98,2093,'10033','10032-13',72284,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	20:04:44.044	Nawiązano ponownie połaczenie z DB
+2021-07-03	20:06:56.066	**** Start Aplikacji ****
+2021-07-03	20:06:56.066	sopp.log
+2021-07-03	20:06:56.066	Połączono z bazą danych 
+2021-07-03	20:06:56.066	***** Ustawienia *****
+2021-07-03	20:06:56.066	dbDriver QODBC
+2021-07-03	20:06:56.066	dbConnection prov
+2021-07-03	20:06:56.066	dbName sopp
+2021-07-03	20:06:56.066	Line name 10032-13
+2021-07-03	20:06:56.066	log name sopp.log
+2021-07-03	20:06:56.066	magic nr 077528
+2021-07-03	20:06:56.066	Part nr 10033
+2021-07-03	20:06:56.066	target per H 179
+2021-07-03	20:06:56.066	target per shift 1969
+2021-07-03	20:06:56.066	Status AWARIA
+2021-07-03	20:06:56.066	result per H 68
+2021-07-03	20:06:56.066	result per shift 1126
+2021-07-03	20:06:56.066	backend is true
+2021-07-03	20:06:56.066	shiftFactor 8
+2021-07-03	20:06:56.066	minVal 80
+2021-07-03	20:06:56.066	midVal 80
+2021-07-03	20:06:56.066	maxVal 90
+2021-07-03	20:06:56.066	firstShift 14
+2021-07-03	20:06:56.066	second shift 22
+2021-07-03	20:06:56.066	third shift 6
+2021-07-03	20:06:57.066	backendtime jest true 
+2021-07-03	20:07:01.077	Obliczony interval target 1003
+2021-07-03	20:07:01.077	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:07:01','Start Aplikacji',68,1126,179,1969,'10033','10032-13',72421,2,'S1 32-3')
+2021-07-03	20:07:01.077	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	20:07:01.077	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	20:07:17.077	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:07:17','PRODUKCJA',69,1127,179,1969,'10033','10032-13',72437,2,'S1 32-3')
+2021-07-03	20:07:35.077	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:07:35','AWARIA',83,1141,196,1986,'10033','10032-13',72455,2,'S1 32-3')
+2021-07-03	20:08:41.088	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:08:41','PRODUKCJA',84,1142,196,1986,'10033','10032-13',72521,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionWrite (send()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:09:31.099	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:09:31','AWARIA',84,1142,245,2035,'10033','10032-13',72571,2,'S1 32-3') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-03	20:09:31.099	Nawiązano ponownie połaczenie z DB
+2021-07-03	20:10:28.1010	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:10:28','PRODUKCJA',85,1143,245,2035,'10033','10032-13',72628,2,'S1 32-3')
+2021-07-03	20:10:58.1010	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:10:58','AWARIA',99,1157,274,2064,'10033','10032-13',72658,2,'S1 32-3')
+2021-07-03	20:21:12.2121	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:21:11','Koniec Aplikacji',99,1157,274,2064,'10033','10032-13',73271,2,'S1 32-3')
+2021-07-03	20:21:16.2121	**** Start Aplikacji ****
+2021-07-03	20:21:16.2121	sopp.log
+2021-07-03	20:21:16.2121	Połączono z bazą danych 
+2021-07-03	20:21:17.2121	***** Ustawienia *****
+2021-07-03	20:21:17.2121	dbDriver QODBC
+2021-07-03	20:21:17.2121	dbConnection prov
+2021-07-03	20:21:17.2121	dbName sopp
+2021-07-03	20:21:17.2121	Line name 10032-13
+2021-07-03	20:21:17.2121	log name sopp.log
+2021-07-03	20:21:17.2121	magic nr 077528
+2021-07-03	20:21:17.2121	Part nr 10033
+2021-07-03	20:21:17.2121	target per H 274
+2021-07-03	20:21:17.2121	target per shift 2064
+2021-07-03	20:21:17.2121	Status AWARIA
+2021-07-03	20:21:17.2121	result per H 99
+2021-07-03	20:21:17.2121	result per shift 1157
+2021-07-03	20:21:17.2121	backend is true
+2021-07-03	20:21:17.2121	shiftFactor 8
+2021-07-03	20:21:17.2121	minVal 80
+2021-07-03	20:21:17.2121	midVal 80
+2021-07-03	20:21:17.2121	maxVal 90
+2021-07-03	20:21:17.2121	firstShift 14
+2021-07-03	20:21:17.2121	second shift 22
+2021-07-03	20:21:17.2121	third shift 6
+2021-07-03	20:21:17.2121	backendtime jest true 
+2021-07-03	20:21:21.2121	Obliczony interval target 1003
+2021-07-03	20:21:21.2121	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:21:21','Start Aplikacji',99,1157,274,2064,'10033','10032-13',73281,2,'S1 32-3')
+2021-07-03	20:21:21.2121	Ip addr 127.0.0.1 portNr 6101
+2021-07-03	20:21:22.2121	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-03	20:23:23.2323	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:23:23','PRODUKCJA',100,1158,274,2064,'10033','10032-13',73403,2,'S1 32-3')
+2021-07-03	20:24:38.2424	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:24:38','AWARIA',147,1205,348,2138,'10033','10032-13',73478,2,'S1 32-3')
+2021-07-03	20:24:49.2424	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:24:49','PRODUKCJA',148,1206,348,2138,'10033','10032-13',73489,2,'S1 32-3')
+2021-07-03	20:25:04.2525	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:25:04','ZMIANA ZLECENIA',157,1215,362,2152,'10033','10032-13',73504,2,'S1 32-3')
+2021-07-03	20:25:28.2525	Nie wprowadzono do bazy danych dla qry update protokol set orderQty=320,realTact=335.58,logoffDate='2021-07-03',logOffTime=73528,productionTime=107385,breaks=98075,productivity=0.00 where id='10032-132021061940844' raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Arithmetic overflow error converting numeric to data type numeric. [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:28.2525	Obliczony interval target 4235
+2021-07-03	20:25:28.2525	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:25:28','71734',157,1215,362,2152,'71734','10032-13',73528,2,'S1 32-1')
+2021-07-03	20:25:28.2525	Wprowadzono dla dla strQry insert into protokol (id,line,partNr,persQty,loginDate,loginTime,targetTact,shiftNr,team)values('10032-132021070373528','10032-13','71734',16,'2021-07-03',73528,4.24,2,'S1 32-1')
+2021-07-03	20:25:31.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values('71734','10033','2021.07.03/2/10032-13','check Lista' ,0,0,1,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:31.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','1.Czy nie ma na linii materialów produktu i opakowan?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:31.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','2.Czy produkty (w tym zasobniki) z poprzedniego zlcenia zostaly usuniete z tasmy' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:31.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','3.Czy opakowania (w tym zasobniki) z poprzedniego zlecenia zostaly usuniete z tasmy?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:31.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','4.Czy odrzut z poprzedniego zlecenia zostal usuniety?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:31.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','5.Czy wyrób gotowy z poprzedniego zlecenia zostal usuniety?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:31.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','6.Czy wszystkie matrialy sa oznaczone etykieta paletowa?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:31.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','7.Czy obszar zostal uprzatniety?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:32.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','Opakowania, etykiety' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:32.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','Czekoladki' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:32.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','8.Czy przygotowane sa odpowiednie etykiety zgodnie z Ausstattungskarte?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:32.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','8a. Czy glowice kodujace sa ustawione zgodnie z Ausstattungskarte?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:32.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','9.Czy KJ sprawdzila pierwszy VE?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:32.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','10.Czy zdezynfekowano wszystkie elementy tasmy produkcyjnej,
+oraz powierzchnie dotykane przez pracowników?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:25:32.2525	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','11. Czy pracownicy uzywaja masek/przylbic? Czy umyli i zdezynfekowali rece?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2) raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Nie można wykonać polecenia
+2021-07-03	20:27:24.2727	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:27:24','PRODUKCJA',158,1216,362,2152,'71734','10032-13',73644,2,'S1 32-1')
+2021-07-03	20:27:55.2727	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:27:55','AWARIA',196,1254,369,2159,'71734','10032-13',73675,2,'S1 32-1')
+2021-07-03	20:28:34.2828	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:28:34','PRODUKCJA',197,1255,369,2159,'71734','10032-13',73714,2,'S1 32-1')
+2021-07-03	20:29:23.2929	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:29:23','AWARIA',204,1262,380,2170,'71734','10032-13',73763,2,'S1 32-1')
+2021-07-03	21:00:00.000	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','21:00:00','Zerowanie Liczników',204,1262,380,2170,'71734','10032-13',75600,2,'S1 32-1')
+2021-07-03	21:00:00.000	Zerujemy liczniki na pełną godzinę 
+2021-07-03	21:00:00.000	Czas 210000
+2021-07-03	21:01:00.011	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','21:01:00','PRODUKCJA',1,1263,0,2170,'71734','10032-13',75660,2,'S1 32-1')
+2021-07-03	21:21:24.2121	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','21:21:24','AWARIA',266,1528,288,2458,'71734','10032-13',76884,2,'S1 32-1')
+2021-07-03	21:26:24.2626	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','21:26:24','PRODUKCJA',267,1529,288,2458,'71734','10032-13',77184,2,'S1 32-1')
+2021-07-03	21:28:41.2828	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','21:28:41','AWARIA',280,1542,320,2490,'71734','10032-13',77321,2,'S1 32-1')
+2021-07-03	21:51:12.5151	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','21:51:12','PRODUKCJA',281,1543,320,2490,'71734','10032-13',78672,2,'S1 32-1')
+2021-07-03	22:00:00.000	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','22:00:00','Zerowanie Liczników',352,1614,444,2614,'71734','10032-13',79200,3,'S1 32-1')
+2021-07-03	22:00:00.000	Zerujemy liczniki na pełną godzinę 
+2021-07-03	22:00:00.000	Czas 220000
+2021-07-03	22:00:00.000	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','22:00:00','Zerowanie Liczników',0,1614,0,2614,'71734','10032-13',79200,3,'S1 32-1') raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Violation of PRIMARY KEY constraint 'pk_events1'. Cannot insert duplicate key in object 'dbo.events'. The duplicate key value is (2021-07-03, 22:00:00.0000000, 10032-13). [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. QODBC3: Nie można wykonać polecenia
+2021-07-03	22:00:00.000	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','22:00:00','KONIEC ZLECENIA',0,0,0,2614,'71734','10032-13',79200,3,'S1 32-1') raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Violation of PRIMARY KEY constraint 'pk_events1'. Cannot insert duplicate key in object 'dbo.events'. The duplicate key value is (2021-07-03, 22:00:00.0000000, 10032-13). [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. QODBC3: Nie można wykonać polecenia
+2021-07-03	22:00:00.000	Wprowadzono dla dla strQry update protokol set orderQty=399,realTact=3.61,logoffDate='2021-07-03',logOffTime=79200,productionTime=1441,breaks=3703,productivity=1.17 where id='10032-132021070373528'
+2021-07-03	22:00:00.000	Zerujemy liczniki na zmianę 2 
+2021-07-03	22:01:58.011	Wprowadzono dla dla strQry insert into protokol (id,line,partNr,persQty,loginDate,loginTime,targetTact,shiftNr,team)values('10032-132021070379318','10032-13','71734',16,'2021-07-03',79318,4.24,3,'S1 32-1')
+2021-07-03	22:01:58.011	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','22:01:58','PRODUKCJA',1,1,0,0,'71734','10032-13',79318,3,'S1 32-1')
+2021-07-03	22:02:16.022	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','22:02:16','AWARIA',6,6,4,4,'71734','10032-13',79336,3,'S1 32-1')
+2021-07-03	22:19:28.1919	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','22:19:21','Koniec Aplikacji',6,6,4,4,'71734','10032-13',80361,3,'S1 32-1') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionRead (recv()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-04	12:39:43.3939	**** Start Aplikacji ****
+2021-07-04	12:39:43.3939	sopp.log
+2021-07-04	12:39:44.3939	Połączono z bazą danych 
+2021-07-04	12:39:44.3939	***** Ustawienia *****
+2021-07-04	12:39:44.3939	dbDriver QODBC
+2021-07-04	12:39:44.3939	dbConnection prov
+2021-07-04	12:39:44.3939	dbName sopp
+2021-07-04	12:39:44.3939	Line name 10032-13
+2021-07-04	12:39:44.3939	log name sopp.log
+2021-07-04	12:39:44.3939	magic nr 077528
+2021-07-04	12:39:44.3939	Part nr 71734
+2021-07-04	12:39:44.3939	target per H 4
+2021-07-04	12:39:44.3939	target per shift 4
+2021-07-04	12:39:44.3939	Status AWARIA
+2021-07-04	12:39:44.3939	result per H 6
+2021-07-04	12:39:44.3939	result per shift 6
+2021-07-04	12:39:44.3939	backend is true
+2021-07-04	12:39:44.3939	shiftFactor 8
+2021-07-04	12:39:44.3939	minVal 80
+2021-07-04	12:39:44.3939	midVal 80
+2021-07-04	12:39:44.3939	maxVal 90
+2021-07-04	12:39:44.3939	firstShift 14
+2021-07-04	12:39:44.3939	second shift 22
+2021-07-04	12:39:44.3939	third shift 6
+2021-07-04	12:39:44.3939	Plik nio.log istnieje
+2021-07-04	12:39:45.3939	backendtime jest true 
+2021-07-04	12:39:49.3939	Obliczony interval target 4235
+2021-07-04	12:39:49.3939	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:39:49','Start Aplikacji',6,6,4,4,'71734','10032-13',45589,1,'S1 32-1')
+2021-07-04	12:39:49.3939	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	12:39:49.3939	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	12:49:12.4949	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:49:12','Koniec Aplikacji',6,6,4,4,'71734','10032-13',46152,1,'S1 32-1')
+2021-07-04	12:49:30.4949	**** Start Aplikacji ****
+2021-07-04	12:49:30.4949	sopp.log
+2021-07-04	12:49:30.4949	Połączono z bazą danych 
+2021-07-04	12:49:31.4949	***** Ustawienia *****
+2021-07-04	12:49:31.4949	dbDriver QODBC
+2021-07-04	12:49:31.4949	dbConnection prov
+2021-07-04	12:49:31.4949	dbName sopp
+2021-07-04	12:49:31.4949	Line name 10032-13
+2021-07-04	12:49:31.4949	log name sopp.log
+2021-07-04	12:49:31.4949	magic nr 077528
+2021-07-04	12:49:31.4949	Part nr 71734
+2021-07-04	12:49:31.4949	target per H 4
+2021-07-04	12:49:31.4949	target per shift 4
+2021-07-04	12:49:31.4949	Status AWARIA
+2021-07-04	12:49:31.4949	result per H 6
+2021-07-04	12:49:31.4949	result per shift 6
+2021-07-04	12:49:31.4949	backend is true
+2021-07-04	12:49:31.4949	shiftFactor 8
+2021-07-04	12:49:31.4949	minVal 80
+2021-07-04	12:49:31.4949	midVal 80
+2021-07-04	12:49:31.4949	maxVal 90
+2021-07-04	12:49:31.4949	firstShift 14
+2021-07-04	12:49:31.4949	second shift 22
+2021-07-04	12:49:31.4949	third shift 6
+2021-07-04	12:49:31.4949	Plik nio.log istnieje
+2021-07-04	12:49:31.4949	backendtime jest true 
+2021-07-04	12:49:35.4949	Obliczony interval target 4235
+2021-07-04	12:49:35.4949	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:49:35','Start Aplikacji',6,6,4,4,'71734','10032-13',46175,1,'S1 32-1')
+2021-07-04	12:49:35.4949	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	12:49:35.4949	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	12:50:26.5050	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:50:26','Koniec Aplikacji',6,6,4,4,'71734','10032-13',46226,1,'S1 32-1')
+2021-07-04	12:50:35.5050	**** Start Aplikacji ****
+2021-07-04	12:50:35.5050	sopp.log
+2021-07-04	12:50:35.5050	Połączono z bazą danych 
+2021-07-04	12:50:35.5050	***** Ustawienia *****
+2021-07-04	12:50:35.5050	dbDriver QODBC
+2021-07-04	12:50:35.5050	dbConnection prov
+2021-07-04	12:50:35.5050	dbName sopp
+2021-07-04	12:50:35.5050	Line name 10032-13
+2021-07-04	12:50:35.5050	log name sopp.log
+2021-07-04	12:50:35.5050	magic nr 077528
+2021-07-04	12:50:35.5050	Part nr 71734
+2021-07-04	12:50:35.5050	target per H 4
+2021-07-04	12:50:35.5050	target per shift 4
+2021-07-04	12:50:35.5050	Status AWARIA
+2021-07-04	12:50:35.5050	result per H 6
+2021-07-04	12:50:35.5050	result per shift 6
+2021-07-04	12:50:35.5050	backend is true
+2021-07-04	12:50:35.5050	shiftFactor 8
+2021-07-04	12:50:35.5050	minVal 80
+2021-07-04	12:50:35.5050	midVal 80
+2021-07-04	12:50:35.5050	maxVal 90
+2021-07-04	12:50:35.5050	firstShift 14
+2021-07-04	12:50:35.5050	second shift 22
+2021-07-04	12:50:35.5050	third shift 6
+2021-07-04	12:50:35.5050	Plik nio.log istnieje
+2021-07-04	12:50:36.5050	backendtime jest true 
+2021-07-04	12:50:40.5050	Obliczony interval target 4235
+2021-07-04	12:50:40.5050	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:50:40','Start Aplikacji',6,6,4,4,'71734','10032-13',46240,1,'S1 32-1')
+2021-07-04	12:50:40.5050	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	12:50:40.5050	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	12:52:09.5252	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:52:09','Koniec Aplikacji',6,6,4,4,'71734','10032-13',46329,1,'S1 32-1')
+2021-07-04	12:52:18.5252	**** Start Aplikacji ****
+2021-07-04	12:52:18.5252	sopp.log
+2021-07-04	12:52:18.5252	Połączono z bazą danych 
+2021-07-04	12:52:18.5252	***** Ustawienia *****
+2021-07-04	12:52:18.5252	dbDriver QODBC
+2021-07-04	12:52:18.5252	dbConnection prov
+2021-07-04	12:52:18.5252	dbName sopp
+2021-07-04	12:52:18.5252	Line name 10032-13
+2021-07-04	12:52:18.5252	log name sopp.log
+2021-07-04	12:52:18.5252	magic nr 077528
+2021-07-04	12:52:18.5252	Part nr 71734
+2021-07-04	12:52:18.5252	target per H 4
+2021-07-04	12:52:18.5252	target per shift 4
+2021-07-04	12:52:18.5252	Status AWARIA
+2021-07-04	12:52:18.5252	result per H 6
+2021-07-04	12:52:18.5252	result per shift 6
+2021-07-04	12:52:18.5252	backend is true
+2021-07-04	12:52:18.5252	shiftFactor 8
+2021-07-04	12:52:18.5252	minVal 80
+2021-07-04	12:52:18.5252	midVal 80
+2021-07-04	12:52:18.5252	maxVal 90
+2021-07-04	12:52:18.5252	firstShift 14
+2021-07-04	12:52:18.5252	second shift 22
+2021-07-04	12:52:18.5252	third shift 6
+2021-07-04	12:52:18.5252	Plik nio.log istnieje
+2021-07-04	12:52:19.5252	backendtime jest true 
+2021-07-04	12:52:23.5252	Obliczony interval target 4235
+2021-07-04	12:52:23.5252	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:52:23','Start Aplikacji',6,6,4,4,'71734','10032-13',46343,1,'S1 32-1')
+2021-07-04	12:52:23.5252	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	12:52:23.5252	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	12:53:57.5353	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:53:57','Koniec Aplikacji',6,6,4,4,'71734','10032-13',46437,1,'S1 32-1')
+2021-07-04	12:54:01.5454	**** Start Aplikacji ****
+2021-07-04	12:54:01.5454	sopp.log
+2021-07-04	12:54:01.5454	Połączono z bazą danych 
+2021-07-04	12:54:01.5454	***** Ustawienia *****
+2021-07-04	12:54:01.5454	dbDriver QODBC
+2021-07-04	12:54:01.5454	dbConnection prov
+2021-07-04	12:54:01.5454	dbName sopp
+2021-07-04	12:54:01.5454	Line name 10032-13
+2021-07-04	12:54:01.5454	log name sopp.log
+2021-07-04	12:54:01.5454	magic nr 077528
+2021-07-04	12:54:01.5454	Part nr 71734
+2021-07-04	12:54:01.5454	target per H 4
+2021-07-04	12:54:01.5454	target per shift 4
+2021-07-04	12:54:01.5454	Status AWARIA
+2021-07-04	12:54:01.5454	result per H 6
+2021-07-04	12:54:01.5454	result per shift 6
+2021-07-04	12:54:01.5454	backend is true
+2021-07-04	12:54:01.5454	shiftFactor 8
+2021-07-04	12:54:01.5454	minVal 80
+2021-07-04	12:54:01.5454	midVal 80
+2021-07-04	12:54:01.5454	maxVal 90
+2021-07-04	12:54:01.5454	firstShift 14
+2021-07-04	12:54:01.5454	second shift 22
+2021-07-04	12:54:01.5454	third shift 6
+2021-07-04	12:54:01.5454	Plik nio.log istnieje
+2021-07-04	12:54:02.5454	backendtime jest true 
+2021-07-04	12:54:05.5454	Obliczony interval target 4235
+2021-07-04	12:54:05.5454	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:54:05','Start Aplikacji',6,6,4,4,'71734','10032-13',46445,1,'S1 32-1')
+2021-07-04	12:54:06.5454	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	12:54:06.5454	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	12:55:51.5555	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:55:51','Koniec Aplikacji',6,6,4,4,'71734','10032-13',46551,1,'S1 32-1')
+2021-07-04	12:56:00.5656	**** Start Aplikacji ****
+2021-07-04	12:56:00.5656	sopp.log
+2021-07-04	12:56:00.5656	Połączono z bazą danych 
+2021-07-04	12:56:00.5656	***** Ustawienia *****
+2021-07-04	12:56:00.5656	dbDriver QODBC
+2021-07-04	12:56:00.5656	dbConnection prov
+2021-07-04	12:56:00.5656	dbName sopp
+2021-07-04	12:56:00.5656	Line name 10032-13
+2021-07-04	12:56:00.5656	log name sopp.log
+2021-07-04	12:56:00.5656	magic nr 077528
+2021-07-04	12:56:00.5656	Part nr 71734
+2021-07-04	12:56:00.5656	target per H 4
+2021-07-04	12:56:00.5656	target per shift 4
+2021-07-04	12:56:00.5656	Status AWARIA
+2021-07-04	12:56:00.5656	result per H 6
+2021-07-04	12:56:00.5656	result per shift 6
+2021-07-04	12:56:00.5656	backend is true
+2021-07-04	12:56:00.5656	shiftFactor 8
+2021-07-04	12:56:00.5656	minVal 80
+2021-07-04	12:56:00.5656	midVal 80
+2021-07-04	12:56:00.5656	maxVal 90
+2021-07-04	12:56:00.5656	firstShift 14
+2021-07-04	12:56:00.5656	second shift 22
+2021-07-04	12:56:00.5656	third shift 6
+2021-07-04	12:56:00.5656	Plik nio.log istnieje
+2021-07-04	12:56:01.5656	backendtime jest true 
+2021-07-04	12:56:05.5656	Obliczony interval target 4235
+2021-07-04	12:56:05.5656	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:56:05','Start Aplikacji',6,6,4,4,'71734','10032-13',46565,1,'S1 32-1')
+2021-07-04	12:56:05.5656	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	12:56:05.5656	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	12:57:01.5757	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:57:01','Koniec Aplikacji',6,6,4,4,'71734','10032-13',46621,1,'S1 32-1')
+2021-07-04	12:57:55.5757	**** Start Aplikacji ****
+2021-07-04	12:57:55.5757	sopp.log
+2021-07-04	12:57:55.5757	Połączono z bazą danych 
+2021-07-04	12:57:55.5757	***** Ustawienia *****
+2021-07-04	12:57:55.5757	dbDriver QODBC
+2021-07-04	12:57:55.5757	dbConnection prov
+2021-07-04	12:57:55.5757	dbName sopp
+2021-07-04	12:57:55.5757	Line name 10032-13
+2021-07-04	12:57:55.5757	log name sopp.log
+2021-07-04	12:57:55.5757	magic nr 077528
+2021-07-04	12:57:55.5757	Part nr 71734
+2021-07-04	12:57:55.5757	target per H 4
+2021-07-04	12:57:55.5757	target per shift 4
+2021-07-04	12:57:55.5757	Status AWARIA
+2021-07-04	12:57:55.5757	result per H 6
+2021-07-04	12:57:55.5757	result per shift 6
+2021-07-04	12:57:55.5757	backend is true
+2021-07-04	12:57:55.5757	shiftFactor 8
+2021-07-04	12:57:55.5757	minVal 80
+2021-07-04	12:57:55.5757	midVal 80
+2021-07-04	12:57:55.5757	maxVal 90
+2021-07-04	12:57:55.5757	firstShift 14
+2021-07-04	12:57:55.5757	second shift 22
+2021-07-04	12:57:55.5757	third shift 6
+2021-07-04	12:57:55.5757	Plik nio.log istnieje
+2021-07-04	12:57:56.5757	backendtime jest true 
+2021-07-04	12:58:00.5858	Obliczony interval target 4235
+2021-07-04	12:58:00.5858	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:58:00','Start Aplikacji',6,6,4,4,'71734','10032-13',46680,1,'S1 32-1')
+2021-07-04	12:58:00.5858	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	12:58:00.5858	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	12:58:44.5858	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','12:58:44','Koniec Aplikacji',6,6,4,4,'71734','10032-13',46724,1,'S1 32-1')
+2021-07-04	13:03:43.033	**** Start Aplikacji ****
+2021-07-04	13:03:43.033	sopp.log
+2021-07-04	13:03:44.033	Połączono z bazą danych 
+2021-07-04	13:03:44.033	***** Ustawienia *****
+2021-07-04	13:03:44.033	dbDriver QODBC
+2021-07-04	13:03:44.033	dbConnection prov
+2021-07-04	13:03:44.033	dbName sopp
+2021-07-04	13:03:44.033	Line name 10032-13
+2021-07-04	13:03:44.033	log name sopp.log
+2021-07-04	13:03:44.033	magic nr 077528
+2021-07-04	13:03:44.033	Part nr 71734
+2021-07-04	13:03:44.033	target per H 4
+2021-07-04	13:03:44.033	target per shift 4
+2021-07-04	13:03:44.033	Status AWARIA
+2021-07-04	13:03:44.033	result per H 6
+2021-07-04	13:03:44.033	result per shift 6
+2021-07-04	13:03:44.033	backend is true
+2021-07-04	13:03:44.033	shiftFactor 8
+2021-07-04	13:03:44.033	minVal 80
+2021-07-04	13:03:44.033	midVal 80
+2021-07-04	13:03:44.033	maxVal 90
+2021-07-04	13:03:44.033	firstShift 14
+2021-07-04	13:03:44.033	second shift 22
+2021-07-04	13:03:44.033	third shift 6
+2021-07-04	13:03:44.033	Plik nio.log istnieje
+2021-07-04	13:03:45.033	backendtime jest true 
+2021-07-04	13:03:48.033	Obliczony interval target 4235
+2021-07-04	13:03:48.033	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:03:48','Start Aplikacji',6,6,4,4,'71734','10032-13',47028,1,'S1 32-1')
+2021-07-04	13:03:49.033	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	13:03:49.033	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	13:20:28.2020	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:20:28','Koniec Aplikacji',6,6,4,4,'71734','10032-13',48028,1,'S1 32-1')
+2021-07-04	13:21:29.2121	**** Start Aplikacji ****
+2021-07-04	13:21:29.2121	sopp.log
+2021-07-04	13:21:30.2121	Połączono z bazą danych 
+2021-07-04	13:21:30.2121	***** Ustawienia *****
+2021-07-04	13:21:30.2121	dbDriver QODBC
+2021-07-04	13:21:30.2121	dbConnection prov
+2021-07-04	13:21:30.2121	dbName sopp
+2021-07-04	13:21:30.2121	Line name 10032-13
+2021-07-04	13:21:30.2121	log name sopp.log
+2021-07-04	13:21:30.2121	magic nr 077528
+2021-07-04	13:21:30.2121	Part nr 71734
+2021-07-04	13:21:30.2121	target per H 4
+2021-07-04	13:21:30.2121	target per shift 4
+2021-07-04	13:21:30.2121	Status AWARIA
+2021-07-04	13:21:30.2121	result per H 6
+2021-07-04	13:21:30.2121	result per shift 6
+2021-07-04	13:21:30.2121	backend is true
+2021-07-04	13:21:30.2121	shiftFactor 8
+2021-07-04	13:21:30.2121	minVal 80
+2021-07-04	13:21:30.2121	midVal 80
+2021-07-04	13:21:30.2121	maxVal 90
+2021-07-04	13:21:30.2121	firstShift 14
+2021-07-04	13:21:30.2121	second shift 22
+2021-07-04	13:21:30.2121	third shift 6
+2021-07-04	13:21:30.2121	Plik nio.log istnieje
+2021-07-04	13:21:30.2121	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:49:51','PRODUKCJA',75,1006,123,1561,'10033','10032-13',67791,2,'S1 32-3')
+
+2021-07-04	13:21:31.2121	backendtime jest true 
+2021-07-04	13:21:35.2121	Obliczony interval target 4235
+2021-07-04	13:21:35.2121	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:21:35','Start Aplikacji',6,6,4,4,'71734','10032-13',48095,1,'S1 32-1')
+2021-07-04	13:21:35.2121	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	13:21:35.2121	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	13:31:10.3131	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:31:10','Koniec Aplikacji',6,6,4,4,'71734','10032-13',48670,1,'S1 32-1')
+2021-07-04	13:32:23.3232	**** Start Aplikacji ****
+2021-07-04	13:32:23.3232	sopp.log
+2021-07-04	13:32:23.3232	Połączono z bazą danych 
+2021-07-04	13:32:23.3232	***** Ustawienia *****
+2021-07-04	13:32:23.3232	dbDriver QODBC
+2021-07-04	13:32:23.3232	dbConnection prov
+2021-07-04	13:32:23.3232	dbName sopp
+2021-07-04	13:32:23.3232	Line name 10032-13
+2021-07-04	13:32:23.3232	log name sopp.log
+2021-07-04	13:32:23.3232	magic nr 077528
+2021-07-04	13:32:23.3232	Part nr 71734
+2021-07-04	13:32:23.3232	target per H 4
+2021-07-04	13:32:23.3232	target per shift 4
+2021-07-04	13:32:23.3232	Status AWARIA
+2021-07-04	13:32:23.3232	result per H 6
+2021-07-04	13:32:23.3232	result per shift 6
+2021-07-04	13:32:23.3232	backend is true
+2021-07-04	13:32:23.3232	shiftFactor 8
+2021-07-04	13:32:23.3232	minVal 80
+2021-07-04	13:32:23.3232	midVal 80
+2021-07-04	13:32:23.3232	maxVal 90
+2021-07-04	13:32:23.3232	firstShift 14
+2021-07-04	13:32:23.3232	second shift 22
+2021-07-04	13:32:23.3232	third shift 6
+2021-07-04	13:32:23.3232	Plik nio.log istnieje
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:51:28','AWARIA',75,1006,200,1638,'10033','10032-13',67888,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:52:29','PRODUKCJA',76,1007,200,1638,'10033','10032-13',67949,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:53:47','AWARIA',94,1025,277,1715,'10033','10032-13',68027,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:56:59','Koniec Aplikacji',94,1025,277,1715,'10033','10032-13',68219,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','18:58:49','AWARIA',127,1058,352,1790,'10033','10032-13',68329,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:00:00','Zerowanie Liczników',127,1058,352,1790,'10033','10032-13',68400,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:01:34','Koniec Aplikacji',0,1058,0,1790,'10033','10032-13',68494,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:10:56','PRODUKCJA',56,1114,93,1883,'10033','10032-13',69056,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:12:36','AWARIA',68,1126,179,1969,'10033','10032-13',69156,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:35:14','Koniec Aplikacji',68,1126,179,1969,'10033','10032-13',70514,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:41:19','PRODUKCJA',95,1153,210,2000,'10033','10032-13',70879,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:49:58','PRODUKCJA',97,1155,234,2024,'10033','10032-13',71398,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','19:53:30','PRODUKCJA',99,1157,220,2010,'10033','10032-13',71610,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:00:00','Zerowanie Liczników',77,1135,205,1995,'10033','10032-13',72000,2,'S1 32-3')
+
+2021-07-04	13:32:23.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:00:22','AWARIA',0,1135,9,2004,'10033','10032-13',72022,2,'S1 32-3')
+
+2021-07-04	13:32:24.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:03:21','AWARIA',10,1145,98,2093,'10033','10032-13',72201,2,'S1 32-3')
+
+2021-07-04	13:32:24.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:08:41','PRODUKCJA',84,1142,196,1986,'10033','10032-13',72521,2,'S1 32-3')
+
+2021-07-04	13:32:24.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','20:09:31','AWARIA',84,1142,245,2035,'10033','10032-13',72571,2,'S1 32-3')
+
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry update protokol set orderQty=320,realTact=335.58,logoffDate='2021-07-03',logOffTime=73528,productionTime=107385,breaks=98075,productivity=0.00 where id='10032-132021061940844'
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Arithmetic overflow error converting numeric to data type numeric. [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values('71734','10033','2021.07.03/2/10032-13','check Lista' ,0,0,1,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','1.Czy nie ma na linii materialów produktu i opakowan?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','2.Czy produkty (w tym zasobniki) z poprzedniego zlcenia zostaly usuniete z tasmy' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','3.Czy opakowania (w tym zasobniki) z poprzedniego zlecenia zostaly usuniete z tasmy?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','4.Czy odrzut z poprzedniego zlecenia zostal usuniety?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','5.Czy wyrób gotowy z poprzedniego zlecenia zostal usuniety?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','6.Czy wszystkie matrialy sa oznaczone etykieta paletowa?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','7.Czy obszar zostal uprzatniety?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','Opakowania, etykiety' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','Czekoladki' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','8.Czy przygotowane sa odpowiednie etykiety zgodnie z Ausstattungskarte?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','8a. Czy glowice kodujace sa ustawione zgodnie z Ausstattungskarte?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','9.Czy KJ sprawdzila pierwszy VE?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','10.Czy zdezynfekowano wszystkie elementy tasmy produkcyjnej,
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Unclosed quotation mark after the character string '10.Czy zdezynfekowano wszystkie elementy tasmy produkcyjnej,
+'. [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near '10.Czy zdezynfekowano wszystkie elementy tasmy produkcyjnej,
+'. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry oraz powierzchnie dotykane przez pracowników?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver]Niewłaściwe pole COUNT lub błąd składniowy QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into checkListLog (partNr,prevPartNr,dtString,question,opt1,opt2,opt3,checkDate,checkTime,workerId,shiftNr) values ('71734','10033','2021.07.03/2/10032-13','11. Czy pracownicy uzywaja masek/przylbic? Czy umyli i zdezynfekowali rece?' ,1,0,0,'2021-07-03','20:25:31','S1 32-1',2)
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the varchar value 'S1 32-1' to data type int. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','22:00:00','Zerowanie Liczników',0,1614,0,2614,'71734','10032-13',79200,3,'S1 32-1')
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Violation of PRIMARY KEY constraint 'pk_events1'. Cannot insert duplicate key in object 'dbo.events'. The duplicate key value is (2021-07-03, 22:00:00.0000000, 10032-13). [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','22:00:00','KONIEC ZLECENIA',0,0,0,2614,'71734','10032-13',79200,3,'S1 32-1')
+ raportowany błąd [Microsoft][ODBC SQL Server Driver][SQL Server]Violation of PRIMARY KEY constraint 'pk_events1'. Cannot insert duplicate key in object 'dbo.events'. The duplicate key value is (2021-07-03, 22:00:00.0000000, 10032-13). [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. QODBC3: Unable to execute statement
+2021-07-04	13:32:24.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-3','22:19:21','Koniec Aplikacji',6,6,4,4,'71734','10032-13',80361,3,'S1 32-1')
+
+2021-07-04	13:32:25.3232	backendtime jest true 
+2021-07-04	13:32:28.3232	Obliczony interval target 4235
+2021-07-04	13:32:28.3232	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:32:28','Start Aplikacji',6,6,4,4,'71734','10032-13',48748,1,'S1 32-1')
+2021-07-04	13:32:29.3232	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	13:32:29.3232	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	13:34:06.3434	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:34:06','PRODUKCJA',7,7,4,4,'71734','10032-13',48846,1,'S1 32-1')
+2021-07-04	13:35:46.3535	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:35:46','AWARIA',77,77,27,27,'71734','10032-13',48946,1,'S1 32-1')
+2021-07-04	13:36:50.3636	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:36:31','PRODUKCJA',78,78,27,27,'71734','10032-13',48991,1,'S1 32-1') raportowany błąd [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]ConnectionRead (recv()). [Microsoft][ODBC SQL Server Driver][TCP/IP Sockets]Błąd ogólny sieci. Zajrzyj do dokumentacji sieci. QODBC3: Nie można wykonać polecenia
+2021-07-04	13:39:02.3939	Nie wprowadzono do bazy danych dla qry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:39:02','AWARIA',168,168,59,59,'71734','10032-13',49142,1,'S1 32-1') raportowany błąd [Microsoft][ODBC SQL Server Driver]Błąd łącza komunikacyjnego QODBC3: Nie można wykonać polecenia
+2021-07-04	13:39:02.3939	Nawiązano ponownie połaczenie z DB
+2021-07-04	13:39:51.3939	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:39:51','PRODUKCJA',169,169,59,59,'71734','10032-13',49191,1,'S1 32-1')
+2021-07-04	13:40:32.4040	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:40:32','ZMIANA ZLECENIA',184,184,68,68,'71734','10032-13',49232,1,'S1 32-1')
+2021-07-04	13:40:57.4040	Wprowadzono dla dla strQry update protokol set orderQty=583,realTact=3.00,logoffDate='2021-07-04',logOffTime=49257,productionTime=1751,breaks=60353,productivity=1.41 where id='10032-132021070379318'
+2021-07-04	13:40:57.4040	Obliczony interval target 3711
+2021-07-04	13:40:57.4040	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:40:57','71734',184,184,68,68,'71734','10032-13',49257,1,'S1 32-2')
+2021-07-04	13:40:57.4040	Wprowadzono dla dla strQry insert into protokol (id,line,partNr,persQty,loginDate,loginTime,targetTact,shiftNr,team)values('10032-132021070449257','10032-13','71734',18,'2021-07-04',49257,3.71,1,'S1 32-2')
+2021-07-04	13:43:10.4343	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:43:10','Koniec Aplikacji',184,184,68,68,'71734','10032-13',49390,1,'S1 32-2')
+2021-07-04	13:43:23.4343	**** Start Aplikacji ****
+2021-07-04	13:43:23.4343	sopp.log
+2021-07-04	13:43:23.4343	Połączono z bazą danych 
+2021-07-04	13:43:23.4343	***** Ustawienia *****
+2021-07-04	13:43:23.4343	dbDriver QODBC
+2021-07-04	13:43:23.4343	dbConnection prov
+2021-07-04	13:43:23.4343	dbName sopp
+2021-07-04	13:43:23.4343	Line name 10032-13
+2021-07-04	13:43:23.4343	log name sopp.log
+2021-07-04	13:43:23.4343	magic nr 077528
+2021-07-04	13:43:23.4343	Part nr 71734
+2021-07-04	13:43:23.4343	target per H 68
+2021-07-04	13:43:23.4343	target per shift 68
+2021-07-04	13:43:23.4343	Status ZMIANA ZLECENIA
+2021-07-04	13:43:23.4343	result per H 184
+2021-07-04	13:43:23.4343	result per shift 184
+2021-07-04	13:43:23.4343	backend is true
+2021-07-04	13:43:23.4343	shiftFactor 8
+2021-07-04	13:43:23.4343	minVal 80
+2021-07-04	13:43:23.4343	midVal 80
+2021-07-04	13:43:23.4343	maxVal 90
+2021-07-04	13:43:23.4343	firstShift 14
+2021-07-04	13:43:23.4343	second shift 22
+2021-07-04	13:43:23.4343	third shift 6
+2021-07-04	13:43:23.4343	Plik nio.log istnieje
+2021-07-04	13:43:23.4343	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:36:31','PRODUKCJA',78,78,27,27,'71734','10032-13',48991,1,'S1 32-1')
+
+2021-07-04	13:43:23.4343	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:39:02','AWARIA',168,168,59,59,'71734','10032-13',49142,1,'S1 32-1')
+
+2021-07-04	13:43:24.4343	backendtime jest true 
+2021-07-04	13:43:27.4343	Obliczony interval target 3711
+2021-07-04	13:43:28.4343	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:43:27','Start Aplikacji',184,184,68,68,'71734','10032-13',49407,1,'S1 32-2')
+2021-07-04	13:43:28.4343	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	13:43:28.4343	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	13:45:00.4545	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:45:00','Koniec Aplikacji',184,184,68,68,'71734','10032-13',49500,1,'S1 32-2')
+2021-07-04	13:52:46.5252	**** Start Aplikacji ****
+2021-07-04	13:52:46.5252	sopp.log
+2021-07-04	13:52:46.5252	Połączono z bazą danych 
+2021-07-04	13:52:47.5252	***** Ustawienia *****
+2021-07-04	13:52:47.5252	dbDriver QODBC
+2021-07-04	13:52:47.5252	dbConnection prov
+2021-07-04	13:52:47.5252	dbName sopp
+2021-07-04	13:52:47.5252	Line name 10032-13
+2021-07-04	13:52:47.5252	log name sopp.log
+2021-07-04	13:52:47.5252	magic nr 077528
+2021-07-04	13:52:47.5252	Part nr 71734
+2021-07-04	13:52:47.5252	target per H 68
+2021-07-04	13:52:47.5252	target per shift 68
+2021-07-04	13:52:47.5252	Status ZMIANA ZLECENIA
+2021-07-04	13:52:47.5252	result per H 184
+2021-07-04	13:52:47.5252	result per shift 184
+2021-07-04	13:52:47.5252	backend is true
+2021-07-04	13:52:47.5252	shiftFactor 8
+2021-07-04	13:52:47.5252	minVal 80
+2021-07-04	13:52:47.5252	midVal 80
+2021-07-04	13:52:47.5252	maxVal 90
+2021-07-04	13:52:47.5252	firstShift 14
+2021-07-04	13:52:47.5252	second shift 22
+2021-07-04	13:52:47.5252	third shift 6
+2021-07-04	13:52:47.5252	backendtime jest true 
+2021-07-04	13:52:51.5252	Obliczony interval target 3711
+2021-07-04	13:52:51.5252	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:52:51','Start Aplikacji',184,184,68,68,'71734','10032-13',49971,1,'S1 32-2')
+2021-07-04	13:52:51.5252	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	13:52:51.5252	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	13:55:31.5555	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:55:31','PRODUKCJA',185,185,68,68,'71734','10032-13',50131,1,'S1 32-2')
+2021-07-04	13:58:24.5858	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:58:24','AWARIA',195,195,114,114,'71734','10032-13',50304,1,'S1 32-2')
+2021-07-04	13:58:57.5858	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','13:58:57','Koniec Aplikacji',195,195,114,114,'71734','10032-13',50337,1,'S1 32-2')
+2021-07-04	14:22:10.2222	**** Start Aplikacji ****
+2021-07-04	14:22:10.2222	sopp.log
+2021-07-04	14:22:11.2222	Połączono z bazą danych 
+2021-07-04	14:22:11.2222	***** Ustawienia *****
+2021-07-04	14:22:11.2222	dbDriver QODBC
+2021-07-04	14:22:11.2222	dbConnection prov
+2021-07-04	14:22:11.2222	dbName sopp
+2021-07-04	14:22:11.2222	Line name 10032-13
+2021-07-04	14:22:11.2222	log name sopp.log
+2021-07-04	14:22:11.2222	magic nr 077528
+2021-07-04	14:22:11.2222	Part nr 71734
+2021-07-04	14:22:11.2222	target per H 114
+2021-07-04	14:22:11.2222	target per shift 114
+2021-07-04	14:22:11.2222	Status AWARIA
+2021-07-04	14:22:11.2222	result per H 195
+2021-07-04	14:22:11.2222	result per shift 195
+2021-07-04	14:22:11.2222	backend is true
+2021-07-04	14:22:11.2222	shiftFactor 8
+2021-07-04	14:22:11.2222	minVal 80
+2021-07-04	14:22:11.2222	midVal 80
+2021-07-04	14:22:11.2222	maxVal 90
+2021-07-04	14:22:11.2222	firstShift 14
+2021-07-04	14:22:11.2222	second shift 22
+2021-07-04	14:22:11.2222	third shift 6
+2021-07-04	14:22:12.2222	backendtime jest true 
+2021-07-04	14:22:15.2222	Obliczony interval target 3711
+2021-07-04	14:22:15.2222	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','14:22:15','Start Aplikacji',195,195,114,114,'71734','10032-13',51735,2,'S1 32-2')
+2021-07-04	14:22:15.2222	Ip addr 127.0.0.1 portNr 6101
+2021-07-04	14:22:16.2222	Nie wprowadzono danych dla kwerendy update lineCom set conStatus=1 where ipAddr='127.0.0.1' and line='10032-13'
+2021-07-04	14:22:26.2222	Wprowadzono dla dla strQry insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team)  values('2021-7-4','14:22:26','Koniec Aplikacji',195,195,114,114,'71734','10032-13',51746,2,'S1 32-2')

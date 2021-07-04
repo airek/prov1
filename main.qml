@@ -101,7 +101,7 @@ ApplicationWindow{
                 }
 
                 vBreakTime=vBreakTime+MyScripts.calculateTime(vAuxTime,vAuxDate)
-                console.log("Czas postojów "+vBreakTime)
+                //console.log("Czas postojów "+vBreakTime)
                 vAuxTime=MyScripts.getCurrentTimeInSeconds()
                 vAuxDate=MyScripts.getDate()
 
@@ -245,25 +245,17 @@ ApplicationWindow{
         var shiftN=MyScripts.getShift()
         var team=orderD.vTeam
 
-        console.log("shiftNr "+shiftN)
-        console.log("team "+team)
+        //console.log("shiftNr "+shiftN)
+        //console.log("team "+team)
         var currentDate=getDate()
         var qry="insert into events (eventDate,eventTime,event,hourCntr,shiftCntr,hourTarget,shiftTargte,partNr,line,tinSecs,shiftNr,team) "
         +" values('"+currentDate+"','"+getCurrentTime()+"'"
         +",'"+eventName+"',"+init.hourCntr+","+init.shiftCounter+","+init.hrTargetText+","
         +init.shTargetText+",'"+partNr.text+"','"+lineNr.text+"',"+MyScripts.getCurrentTimeInSeconds()+","+shiftN+",'"+team+"')";
 
-        console.log("qry before insert "+qry);
+        //console.log("qry before insert "+qry);
 
-        if(backend.isDbConnected())
-            backend.execQry(qry);
-        else
-        {
-            if(backend.connectToDB())
-                backend.execQry(qry)
-            else
-                backendDbCon.writeNID(qry)
-        }
+        backend.execQry(qry);
 
     }
 
